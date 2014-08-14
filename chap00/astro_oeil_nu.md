@@ -2,14 +2,14 @@
 % CEA Astronomie et astrophysique
 % 25 août 2014
 
-# Constellation
+## Constellation
 
 ensemble d’étoiles brillantes dont les projections sur la sphère céleste
 sont assez près les unes des autres pour qu’un observateur soit tenté de
 les regrouper
 
 
-# 88 constellations
+## 88 constellations
 
 Andromeda Antlia Apus Aquarius Aquila Ara Aries Auriga Boötes Caelum
 Camelopardalis Cancer Canes Venatici Canis Major Canis Minor Capricornus Carina
@@ -23,24 +23,24 @@ Scorpius Sculptor Scutum Serpens Sextans Taurus Telescopium Triangulum
 Triangulum Australe Tucana Ursa Major Ursa Minor Vela Virgo Volans Vulpecula
 
 
-# Ursa Major
+## Ursa Major
 
-![ursa major](UMA.svg "La Grande Ourse")
-
-
-# Ursa Minor
-
-![ursa minor](UMI.svg "La Petite Ourse")
+![](UMA.svg "La Grande Ourse")
 
 
-# Nom des étoiles
+## Ursa Minor
+
+![](UMI.svg "La Petite Ourse")
+
+
+## Nom des étoiles
 
 >- Noms anciens (Bételgeuse, Rigel)
 >- Lettre grecque + constellation ($\alpha$ du Centaure)
 >- Séries de lettres et chiffres (HR 2061 = Bételgeuse)
 
 
-# Brillance des étoiles
+## Brillance des étoiles
 
 - Échelle des **magnitudes** mise au point par Hipparque (2<sup>e</sup> siècle
 avant J.-C.)
@@ -53,13 +53,9 @@ avant J.-C.)
 
 ## Magnitude d'objets connus
 
-+--------------------------+-----------+
-| Objet                    | Magnitude |
-+==========================+===========+
-| Soleil                   | -27       |
-+--------------------------+-----------+
-| Lune                     | -12       |
-+--------------------------+-----------+
-| Étoiles les plus faibles | 20        |
-+--------------------------+-----------+
+Objet                      Magnitude
+------------------------- ----------
+Soleil                           -27       
+Lune                             -12       
+Étoiles les plus faibles          20        
 
