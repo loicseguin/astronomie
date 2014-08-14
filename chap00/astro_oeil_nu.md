@@ -49,7 +49,6 @@ avant J.-C.)
 
 - Aujourd'hui : de -27 à 25 environ
 
-
 -------
 
 ## Magnitude d'objets connus
