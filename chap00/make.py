@@ -31,7 +31,7 @@ def revealjs():
     call_str = "pandoc -t revealjs " \
                "-V revealjs-url=../reveal.js -s " \
                "-V transition=linear " \
-               "-V theme=simple " \
+               "-V theme=serif " \
                "--mathjax {infname} -o {outfname}".format(infname=infname,
                 outfname=outfname)
     run(call_str)
