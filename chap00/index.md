@@ -8,6 +8,7 @@ ensemble d’étoiles brillantes dont les projections sur la sphère céleste
 sont assez près les unes des autres pour qu’un observateur soit tenté de
 les regrouper
 
+---
 
 ## 88 constellations
 
@@ -22,16 +23,19 @@ Pictor Pisces Piscis Austrinus Puppis Pyxis Reticulum Sagitta Sagittarius
 Scorpius Sculptor Scutum Serpens Sextans Taurus Telescopium Triangulum
 Triangulum Australe Tucana Ursa Major Ursa Minor Vela Virgo Volans Vulpecula
 
+---
 
 ## Ursa Major
 
 ![](UMA.svg "La Grande Ourse")
 
+---
 
 ## Ursa Minor
 
 ![](UMI.svg "La Petite Ourse")
 
+---
 
 ## Nom des étoiles
 
@@ -39,6 +43,7 @@ Triangulum Australe Tucana Ursa Major Ursa Minor Vela Virgo Volans Vulpecula
 >- Lettre grecque + constellation ($\alpha$ du Centaure)
 >- Séries de lettres et chiffres (HR 2061 = Bételgeuse)
 
+---
 
 ## Brillance des étoiles
 
@@ -49,13 +54,32 @@ avant J.-C.)
 
 - Aujourd'hui : de -27 à 25 environ
 
--------
 
-## Magnitude d'objets connus
+*Magnitude élevé : brillance faible*
 
-Objet                      Magnitude
-------------------------- ----------
-Soleil                           -27       
-Lune                             -12       
-Étoiles les plus faibles          20        
+*Magnitude faible : brillance élevée*
+
+---
+
+## Magnitude d'étoiles connues
+
+Étoile                          Magnitude
+------------------------------ ----------
+Soleil                                -27       
+Lune                                  -12       
+Étoile Polaire                          2
+Sirius A                             -1,6
+Sirius B                              8,3
+Bételgeuse ($\alpha$ Orionis)         0,6
+
+---
+
+## Rotation de la sphère céleste
+
+<a title="By www.modernartphotograph.com Portland Photographer Robert Knapp
+(Own work) [CC-BY-SA-3.0 (http://creativecommons.org/licenses/by-sa/3.0) or
+GFDL (http://www.gnu.org/copyleft/fdl.html)], via Wikimedia Commons"
+href="http://commons.wikimedia.org/wiki/File%3ANight_Photography.jpg"><img
+width="600" alt="Night Photography"
+src="http://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Night_Photography.jpg/600px-Night_Photography.jpg"/></a>
 

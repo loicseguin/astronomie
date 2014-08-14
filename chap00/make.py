@@ -10,6 +10,9 @@ from os import listdir
 from os.path import basename, splitext
 from sys import argv, modules
 
+# Style de présentation par défaut.
+DEFAULT_STYLE = "revealjs"
+
 # Déterminer le nom du fichier source.
 for fname in listdir():
     if fname.endswith(".md"):
@@ -32,6 +35,7 @@ def revealjs():
                "-V revealjs-url=../reveal.js -s " \
                "-V transition=linear " \
                "-V theme=serif " \
+               "--slide-level=1 " \
                "--mathjax {infname} -o {outfname}".format(infname=infname,
                 outfname=outfname)
     run(call_str)
@@ -61,7 +65,9 @@ def slideous():
     run(call_str)
 
 if __name__ == '__main__':
-    if len(argv) > 1 and argv[1] in dir(modules[__name__]):
+    if len(argv) == 1:
+        exec("{}()".format(DEFAULT_STYLE))
+    elif argv[1] in dir(modules[__name__]):
         exec("{}()".format(argv[1]))
     else:
         print("usage: make.py OUTTYPE\n"
