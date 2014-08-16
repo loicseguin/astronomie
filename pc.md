@@ -24,6 +24,7 @@ D-1620 // 5768 // helene.st-jean@cegepmontpetit.ca
 
 
 Sandrine Laferrière (géologie)
+
 D-1401 // 2543 // sandrine.laferriere@cegepmontpetit.ca
 
 
@@ -127,16 +128,16 @@ soit les énoncés de compétence EC1 à EC4.
   <tr><th>Semaines</th><th>Contenu disciplinaire</th><th>Évaluations</th></tr>
   <tr>
     <td>1 à 4</td>
-    <td>**Le ciel à l'oeil nu**
+    <td><b>Le ciel à l'oeil nu</b>
 
--   Prologue : de l'infiniment petit à l'infiniment grand
-
--   Chapitre 0 : L'astronomie à l'œil nu : constellations, rotation de
-    la sphère céleste, mouvement du Soleil, temps et coordonnées
-    célestes, les astres errants, les phases et les éclipses de la Lune,
-    la précession des équinoxes, les autres astres visibles
-
--   Chapitre 1 : l'astrologie et les Mésopotamiens
+    <ul>
+      <li>Prologue : de l'infiniment petit à l'infiniment grand</li>
+      <li>Chapitre 0 : L'astronomie à l'œil nu : constellations, rotation de la
+      sphère céleste, mouvement du Soleil, temps et coordonnées célestes, les
+      astres errants, les phases et les éclipses de la Lune, la précession des
+      équinoxes, les autres astres visibles</li>
+      <li>Chapitre 1 : l'astrologie et les Mésopotamiens</li>
+    </ul>
 
     </td>
     <td>**TP 1** (4%)
@@ -348,7 +349,7 @@ Médiagraphie
 Séguin, Marc et Villeneuve, Benoît. *Astronomie et astrophysique*. 2e
 éd. Saint-Laurent: ERPI, 2002, 618 p.
 
-Morissette, Gaétan. *Astronomie. Premier contact*. 3${}^e$ éd.
+Morissette, Gaétan. *Astronomie. Premier contact*. 3e éd.
 Sainte-Foy: Les éditions Le Griffon d'argile, 2003, 370 p.
 
 Politiques et règles institutionnelles
