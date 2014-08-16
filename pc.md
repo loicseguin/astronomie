@@ -10,14 +10,14 @@ title: Plan de cours
 <tr><td>Pondération</td><td>Théorie: 3 Pratique: 0 Étude personnelle:3</td></tr>
 </table>
 
-## Professeur
+### Professeur
 
 Loïc Séguin-Charbonneau
 
 Bureau D-1626 // Poste 5848 // l.seguin-charbonneau@cegepmontpetit.ca
 
 
-## Coordonateur du département
+### Coordonateur du département
 Hélène St-Jean (physique)
 
 D-1620 // 5768 // helene.st-jean@cegepmontpetit.ca
@@ -28,11 +28,11 @@ Sandrine Laferrière (géologie)
 D-1401 // 2543 // sandrine.laferriere@cegepmontpetit.ca
 
 
-## Centre d'étude en physique (CEP)
+### Centre d'étude en physique (CEP)
 
 Local D-1621
 
-## Site web du département
+### Site web du département
 <http://blogues.college-em.qc.ca/physique/>
 
 Place du cours dans la formation de l'étudiant
@@ -178,6 +178,7 @@ soit les énoncés de compétence EC1 à EC4.
   <tr>
     <td>10 à 15</td>
     <td><b>Technologies et étoiles</b>
+      <ul>
 
       <li>Chapitre 4 : La lumière</li>
 
@@ -188,6 +189,7 @@ soit les énoncés de compétence EC1 à EC4.
 
       <li>Chapitre 6 et 7 : Les étoiles : de quoi elles sont faites, pourquoi
       éclairent-elles, leur vie</li>
+      </ul>
     </td>
     <td><p><b>TP 5</b> (4%)</p>
 
