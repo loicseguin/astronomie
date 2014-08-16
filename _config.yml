@@ -15,7 +15,7 @@ author:
   name:           'Loïc Séguin-Charbonneau'
   url:            http://loicseguin.com
 
-paginate:         0
+paginate:         5
 
 # Custom vars
 version:          1.0.0
