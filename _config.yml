@@ -1,0 +1,24 @@
+# Dependencies
+markdown:         redcarpet
+pygments:         true
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            Explorer et comprendre l'univers
+tagline:          "Un cours d'introduction à l'astronomie et l'astrophysique"
+description:      "Cours donné au cégep Édouard-Montpetit à l'automne 2014"
+url:              http://astro.loicseguin.com
+
+author:
+  name:           'Loïc Séguin-Charbonneau'
+  url:            http://loicseguin.com
+
+paginate:         5
+
+# Custom vars
+version:          1.0.0
+
+github:
+  repo:           https://github.com/loicseguin/astronomie
