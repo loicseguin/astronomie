@@ -140,60 +140,60 @@ soit les énoncés de compétence EC1 à EC4.
     </ul>
 
     </td>
-    <td>**TP 1** (4%)
+    <td><p><b>TP 1</b> (4%)</p>
 
-    **TP 2** (4%)
+    <p><b>TP 2</b> (4%)</p>
 
-    **Examen 1** (15%)
-    [semaine 4]
+    <p><b>Examen 1</b> (15%)
+    [semaine 4]</p>
     </td>
   </tr>
   <tr>
     <td>5 à 9</td>
-    <td>**La Terre et le Système solaire**
+    <td><b>La Terre et le Système solaire</b>
 
--   Chapitre 1 : L'univers géocentrique et le système de Ptolémée,
-    l'univers héliocentrique et le système de Copernic, les observations
-    de Galilée.
+    <ul>
+      <li>Chapitre 1 : L'univers géocentrique et le système de Ptolémée,
+      l'univers héliocentrique et le système de Copernic, les observations de
+      Galilée.</li>
 
--   Chapitre 2 : Mesure de la taille de la Terre, des distances
-    Terre-Soleil, Terre-Lune, Terre-planètes
+      <li>Chapitre 2 : Mesure de la taille de la Terre, des distances
+      Terre-Soleil, Terre-Lune, Terre-planètes</li>
 
--   Chapitre 3 : La gravitation
+      <li>Chapitre 3 : La gravitation</li>
 
--   Chapitre 11 : Système Terre-Lune
+      <li>Chapitre 11 : Système Terre-Lune</li>
 
--   Chapitres 12 et 13 : Une croisière interplanétaire
+      <li>Chapitres 12 et 13 : Une croisière interplanétaire</li>
+    </ul>
     </td>
-    <td>**TP 3** (4%)
+    <td><p><b>TP 3</b> (4%)</p>
 
-    **TP 4** (4%)
+    <p><b>TP 4</b> (4%)</p>
 
-    **Examen 2** (20%)
-    [semaine 9]
+    <b>Examen 2</b> (20%)
+    [semaine 9]</p>
     </td>
   </tr>
   <tr>
     <td>10 à 15</td>
-    <td>**Technologies et étoiles**
+    <td><b>Technologies et étoiles</b>
 
--   Chapitre 4 : La lumière
+      <li>Chapitre 4 : La lumière</li>
 
--   Chapitre 5 : Les télescopes
+      <li>Chapitre 5 : Les télescopes</li>
 
--   Chapitre 2 : Mesure des distances Terre-étoiles, taille de la Voie
-    lactée, grandeur de l'Univers
+      <li>Chapitre 2 : Mesure des distances Terre-étoiles, taille de la Voie
+      lactée, grandeur de l'Univers</li>
 
--   Chapitre 6 et 7 : Les étoiles : de quoi elles sont faites, pourquoi
-    éclairent-elles, leur vie
+      <li>Chapitre 6 et 7 : Les étoiles : de quoi elles sont faites, pourquoi
+      éclairent-elles, leur vie</li>
     </td>
-    <td>**TP 5** (4%)
+    <td><p><b>TP 5</b> (4%)</p>
 
-    **Production écrite** (20%)
-    [semaine 12]
+    <p><b>Production écrite</b> (20%) [semaine 12]</p>
 
-    **Examen 3** (25%)
-    [semaine 15]
+    <p><b>Examen 3</b> (25%) [semaine 15]</p>
     </td>
   </tr>
 </table>
