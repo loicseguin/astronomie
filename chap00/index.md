@@ -1,6 +1,10 @@
 % L'astronomie à l'œil nu
 % CEA Explorer et comprendre l'Univers
 % 25 août 2014
+---
+theme: serif
+transition: linear
+---
 
 ## Constellation
 

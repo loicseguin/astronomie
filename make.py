@@ -27,8 +27,6 @@ def revealjs():
     # Produit une présentation html avec la librairie javascript reveal.js.
     call_str = "pandoc -t revealjs " \
                "-V revealjs-url=../reveal.js -s " \
-               "-V transition=linear " \
-               "-V theme=serif " \
                "--slide-level=1 " \
                "--mathjax {infname} -o {outfname}".format(infname=infname,
                 outfname=outfname)

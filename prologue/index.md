@@ -1,6 +1,11 @@
 % Prologue
 % CEA Explorer et comprendre l'Univers
 % 25 août 2014
+---
+theme: night
+transition: linear
+---
+
 
 ## Le grand tour
 
