@@ -1,4 +1,4 @@
-% L'astronomie à l'oeil nu
+% L'astronomie à l'œil nu
 % CEA Explorer et comprendre l'Univers
 % 25 août 2014
 
