@@ -6,20 +6,14 @@
 # formats.
 
 import subprocess
-from os import listdir
-from os.path import basename, splitext
-from sys import argv, modules
+import os
+import sys
 
 # Style de présentation par défaut.
 DEFAULT_STYLE = "revealjs"
 
-# Déterminer le nom du fichier source.
-for fname in listdir():
-    if fname.endswith(".md"):
-        break
-
-infname = fname
-outfname = "{}.html".format(splitext(basename(fname))[0])
+# Dossiers de présentation
+DIRS = ['prologue'] + ['chap{:02d}'.format(i) for i in range(13)]
 
 def run(call_str):
     try:
@@ -65,10 +59,30 @@ def slideous():
     run(call_str)
 
 if __name__ == '__main__':
-    if len(argv) == 1:
-        exec("{}()".format(DEFAULT_STYLE))
-    elif argv[1] in dir(modules[__name__]):
-        exec("{}()".format(argv[1]))
+    if len(sys.argv) == 1:
+        style = DEFAULT_STYLE
+    elif sys.argv[1] in dir(sys.modules[__name__]):
+        style = sys.argv[1]
     else:
         print("usage: make.py OUTTYPE\n"
               "     where OUTTYPE is one of revealjs, slidy")
+        exit()
+    cwd = os.getcwd()
+    for folder in DIRS:
+        try:
+            os.chdir(folder)
+        except FileNotFoundError:
+            os.chdir(cwd)
+            continue
+        # Déterminer le nom du fichier source.
+        for fname in os.listdir():
+            if fname.endswith(".md"):
+                break
+        else:
+            os.chdir(cwd)
+            continue
+        infname = fname
+        outfname = "{}.html".format(os.path.splitext(os.path.basename(fname))[0])
+        print("{}: ".format(folder), end='')
+        exec("{}()".format(style))
+        os.chdir(cwd)

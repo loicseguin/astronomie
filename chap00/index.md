@@ -1,5 +1,5 @@
 % L'astronomie à l'oeil nu
-% CEA Astronomie et astrophysique
+% CEA Explorer et comprendre l'Univers
 % 25 août 2014
 
 ## Constellation
@@ -65,8 +65,8 @@ avant J.-C.)
 
 Étoile                          Magnitude
 ------------------------------ ----------
-Soleil                                -27       
-Lune                                  -12       
+Soleil                                -27
+Lune                                  -12
 Étoile Polaire                          2
 Sirius A                             -1,6
 Sirius B                              8,3
@@ -83,3 +83,46 @@ href="http://commons.wikimedia.org/wiki/File%3ANight_Photography.jpg"><img
 width="600" alt="Night Photography"
 src="http://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Night_Photography.jpg/600px-Night_Photography.jpg"/></a>
 
+---
+
+## Repérer les étoiles dans le ciel
+
+---
+
+## Mouvement annuel du soleil
+
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="550"
+height="280"><param name="movie" value="sunpaths.swf" /><!--[if !IE]>--><object
+type="application/x-shockwave-flash" data="sunpaths.swf" width="550"
+height="280"><!--<![endif]--><p>flash animation</p><!--[if
+!IE]>--></object><!--<![endif]--></object>
+
+---
+
+## Déclinaison et ascension droite
+
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="800"
+height="510"><param name="movie" value="radecdemo.swf" /><!--[if
+!IE]>--><object type="application/x-shockwave-flash" data="radecdemo.swf"
+width="800" height="510"><!--<![endif]--><p>flash animation</p><!--[if
+!IE]>--></object><!--<![endif]--></object>
+
+---
+
+## Le Zodiac et l'écliptique
+
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="800"
+height="650"><param name="movie" value="zodiac.swf" /><!--[if !IE]>--><object
+type="application/x-shockwave-flash" data="zodiac.swf" width="800"
+height="650"><!--<![endif]--><p>flash animation</p><!--[if
+!IE]>--></object><!--<![endif]--></object>
+
+---
+
+## Rotation diurne de la sphère céleste
+
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="900"
+height="710"><param name="movie" value="celhorcomp.swf" /><!--[if
+!IE]>--><object type="application/x-shockwave-flash" data="celhorcomp.swf"
+width="900" height="710"><!--<![endif]--><p>flash animation</p><!--[if
+!IE]>--></object><!--<![endif]--></object>
