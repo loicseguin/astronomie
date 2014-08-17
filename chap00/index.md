@@ -6,6 +6,10 @@ theme: serif
 transition: linear
 ---
 
+# Quels objets observe-t-on dans le ciel ?
+
+---
+
 ## Constellation
 
 ensemble d’étoiles brillantes dont les projections sur la sphère céleste
@@ -76,9 +80,12 @@ Sirius A                             -1,6
 Sirius B                              8,3
 Bételgeuse ($\alpha$ Orionis)         0,6
 
+
+# Quels phénomènes observe-t-on dans le ciel ?
+
 ---
 
-## Rotation de la sphère céleste
+## Rotation diurne de la sphère céleste
 
 <a title="By www.modernartphotograph.com Portland Photographer Robert Knapp
 (Own work) [CC-BY-SA-3.0 (http://creativecommons.org/licenses/by-sa/3.0) or
@@ -87,9 +94,76 @@ href="http://commons.wikimedia.org/wiki/File%3ANight_Photography.jpg"><img
 width="600" alt="Night Photography"
 src="http://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Night_Photography.jpg/600px-Night_Photography.jpg"/></a>
 
+<div class="notes">
+- Les étoiles semblent tourner autour de Polaris au cours d'une nuit
+- Polaris située au Pôle Nord Céleste
+- Sphère céleste : sphère creuse centrée sur la Terre
+- Équateur céleste : projection de l'équateur terrestre sur la sphère céleste
+</div>
+
 ---
 
-## Repérer les étoiles dans le ciel
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="900"
+height="710"><param name="movie" value="celhorcomp.swf" /><!--[if
+!IE]>--><object type="application/x-shockwave-flash" data="celhorcomp.swf"
+width="900" height="710"><!--<![endif]--><p>flash animation</p><!--[if
+!IE]>--></object><!--<![endif]--></object>
+
+<div class="notes">
+- Cégep Édouard-Montpetit : 45.5N, 73.5W
+- C'est la Terre qui tourne O vers E.
+- Obs terrestre: la sphère céleste tourne E vers O.
+- Montrer Ursa Major : Étoiles ne bougent pas les unes p/r aux autres
+- Montrer les 2 autres constellations : région circumpolaire, région de
+    lever-coucher, région invisible (effet de la latitude)
+- Montrer une étoile : déclinaison/ascension droite vs altitude/azimuth
+- Étoile qui culmine : intersection avec le méridien
+</div>
+
+---
+
+## Rotation diurne de la sphère céleste
+
+- La Terre tourne d'ouest en est
+- La sphère céleste tourne d'est en ouest
+- Les étoiles ne bougent pas les unes par rapport aux autres
+- **Région circumpolaire** : $\delta = 90° - L$ à $\delta = 90°$
+- **Région invisible** : $\delta = -(90° - L)$ à $\delta = -90°$
+
+---
+
+## Rotation diurne de la sphère céleste
+
+- L'**équateur céleste** est perpendiculaire à la droite qui joint le pôle Nord
+    céleste et le pôle Sud céleste
+- **Déclinaison** : angle par rapport à l'équateur céleste (analogue à la
+    latitude)
+- **Ascension droite** : angle par rapport à la ligne 0h (analogue à la
+    longitude)
+- **Zénith** : le point le plus haut de la sphère céleste
+- **Méridien** : le grand cercle qui passe par le zénith, le nord et le
+  sud de l'horizon
+- Une étoile **culmine** lorsqu'elle passe par le méridien
+
+---
+
+## Rotation diurne de la sphère céleste
+
+La différence entre l'ascension droite de deux étoiles donne le temps entre le
+moment où la première étoile culmine et celui où la deuxième étoile culmine.
+
+---
+
+## Questions
+
+Un observateur à Quito s'intéresse à Sirius A (ra: 6h45, dec: -16.7°) et à
+Alpha du Centaure (ra: 14h39, dec:-60.8°).
+
+Il constate que Alpha du Centaure culmine à 3h.
+
+- À quelle heure Sirius A culmine-t-elle?
+- Est-ce qu'un observateur à Montréal peut voir ces deux étoiles?
+- Est-ce qu'un observateur au pôle Sud peut voir ces deux étoiles?
 
 ---
 
@@ -103,30 +177,10 @@ height="280"><!--<![endif]--><p>flash animation</p><!--[if
 
 ---
 
-## Déclinaison et ascension droite
-
-<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="800"
-height="510"><param name="movie" value="radecdemo.swf" /><!--[if
-!IE]>--><object type="application/x-shockwave-flash" data="radecdemo.swf"
-width="800" height="510"><!--<![endif]--><p>flash animation</p><!--[if
-!IE]>--></object><!--<![endif]--></object>
-
----
-
 ## Le Zodiac et l'écliptique
 
 <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="800"
 height="650"><param name="movie" value="zodiac.swf" /><!--[if !IE]>--><object
 type="application/x-shockwave-flash" data="zodiac.swf" width="800"
 height="650"><!--<![endif]--><p>flash animation</p><!--[if
-!IE]>--></object><!--<![endif]--></object>
-
----
-
-## Rotation diurne de la sphère céleste
-
-<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="900"
-height="710"><param name="movie" value="celhorcomp.swf" /><!--[if
-!IE]>--><object type="application/x-shockwave-flash" data="celhorcomp.swf"
-width="900" height="710"><!--<![endif]--><p>flash animation</p><!--[if
 !IE]>--></object><!--<![endif]--></object>
