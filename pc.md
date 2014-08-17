@@ -67,8 +67,8 @@ L'objectif et le standard sont établis par le ministère de l'éducation.
 Dans un cours complémentaire de culture scientifique et technologie de
 l'ensemble 1, l'objectif visé est de rendre l'étudiant capable de :
 
-> 000X *Expliquer la nature générale et quelques-uns des enjeux actuels
-> de la science et de la technologie. *
+> 000X Expliquer la nature générale et quelques-uns des enjeux actuels
+> de la science et de la technologie. 
 
 L'atteinte de cette compétence comporte quatre éléments de compétence
 (EC):
