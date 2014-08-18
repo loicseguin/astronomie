@@ -157,9 +157,12 @@ moment où la première étoile culmine et celui où la deuxième étoile culmin
 ## Questions
 
 Un observateur à Quito s'intéresse à Sirius A (ra: 6h45, dec: -16.7°) et à
-Alpha du Centaure (ra: 14h39, dec:-60.8°).
-
+Alpha du Centaure (ra: 14h39, dec: -60.8°).
+<br />
+<br />
 Il constate que Alpha du Centaure culmine à 3h.
+<br />
+<br />
 
 - À quelle heure Sirius A culmine-t-elle?
 - Est-ce qu'un observateur à Montréal peut voir ces deux étoiles?
@@ -177,10 +180,72 @@ height="280"><!--<![endif]--><p>flash animation</p><!--[if
 
 ---
 
-## Le Zodiac et l'écliptique
+## Le zodiaque et l'écliptique
 
 <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="800"
 height="650"><param name="movie" value="zodiac.swf" /><!--[if !IE]>--><object
 type="application/x-shockwave-flash" data="zodiac.swf" width="800"
 height="650"><!--<![endif]--><p>flash animation</p><!--[if
 !IE]>--></object><!--<![endif]--></object>
+
+---
+
+## Les saisons
+
+Qu'est-ce qui cause les saisons?
+
+---
+
+## Les saisons
+
+#### Été
+
+- Le Soleil est plus haut dans le ciel (23° de déclinaison au solstice)
+- L'angle d'incidence des rayons du Soleil est plus près de 90°
+- Le jour est plus long
+<br />
+<br />
+**Le Soleil transmet plus d'énergie au sol**
+
+---
+
+## Les saisons
+
+#### Hiver
+
+- Le Soleil est plus bas dans le ciel (-23° de déclinaison au solstice)
+- L'angle d'incidence des rayons du Soleil est plus éloigné de 90°
+- Le jour est plus court
+<br />
+<br />
+**Le Soleil transmet moins d'énergie au sol**
+
+---
+
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="970" height="710">
+<param name="movie" value="http://astro.unl.edu/naap/motion1/animations/seasons_ecliptic.swf" />
+ <!--[if !IE]>-->
+ <object type="application/x-shockwave-flash" data="http://astro.unl.edu/naap/motion1/animations/seasons_ecliptic.swf" width="970" height="710">
+ <!--<![endif]-->
+<p>NAAP Astronomy Labs - Basic Coordinates and Seasons - Seasons and Ecliptic Simulator</p>
+ <!--[if !IE]>-->
+ </object>
+ <!--<![endif]-->
+</object>
+
+---
+
+## Phases de la lune
+
+<a title="Moon phases - Courtesy of NASA"
+href="http://spaceplace.nasa.gov/dr-marc-earth/en/#/review/dr-marc-earth/moon-phases.html"><img
+width="600" alt="Phases de la lune"
+src="http://spaceplace.nasa.gov/dr-marc-earth/en/Moon_phases_drawing.gif"/></a>
+
+---
+
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="840"
+height="600"><param name="movie" value="lunarphasequizzer.swf" /><!--[if
+!IE]>--><object type="application/x-shockwave-flash"
+data="lunarphasequizzer.swf" width="840" height="600"><!--<![endif]--><p>flash
+animation</p><!--[if !IE]>--></object><!--<![endif]--></object>
