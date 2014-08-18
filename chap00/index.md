@@ -80,6 +80,56 @@ Sirius A                             -1,6
 Sirius B                              8,3
 Bételgeuse ($\alpha$ Orionis)         0,6
 
+---
+
+## La Voie lactée
+
+![](voielactee.png "La Voie lactée (Copyright © 2014. Loïc Séguin-Charbonneau.)")
+
+---
+
+## Nébuleuses
+
+<a title="By Skatebiker at en.wikipedia [Public domain], from Wikimedia
+Commons"
+href="https://commons.wikimedia.org/wiki/File%3AOrion_composite1.jpg"><img
+width="256" alt="Orion composite1"
+src="//upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Orion_composite1.jpg/256px-Orion_composite1.jpg"/></a>
+
+---
+    
+### La nébuleuse d'Orion
+
+
+<img src="http://imgsrc.hubblesite.org/hu/db/images/hs-2006-01-a-large_web.jpg" alt="Hubble's Sharpest View of the Orion Nebula" />
+<br />
+<span style='font-size:10px;color:#686868;font-style: italic;'>Source: <a style='color:#686868;font-style: italic;' href='http://hubblesite.org'>Hubblesite.org</a></span>
+
+---
+
+## Comètes
+
+<a title="By Soerfm (Own work) [CC-BY-SA-3.0
+(http://creativecommons.org/licenses/by-sa/3.0)], via Wikimedia Commons"
+href="http://commons.wikimedia.org/wiki/File%3AComet_P1_McNaught02_-_23-01-07-edited.jpg"><img
+width="512" alt="Comet P1 McNaught02 - 23-01-07-edited"
+src="//upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Comet_P1_McNaught02_-_23-01-07-edited.jpg/512px-Comet_P1_McNaught02_-_23-01-07-edited.jpg"/></a>
+
+<small>Comet C/2006 P1 (McNaught) taken from Victoria, Australia 2007</small>
+
+---
+
+## Astres errants
+
+En plus du Soleil et de la Lune, cinq planètes visibles à l'œil nu :
+
+- Mercure
+- Vénus
+- Mars
+- Jupiter
+- Saturne
+
+---
 
 # Quels phénomènes observe-t-on dans le ciel ?
 
@@ -252,10 +302,71 @@ animation</p><!--[if !IE]>--></object><!--<![endif]--></object>
 
 ---
 
-## Les éclipses
+## Éclipse de Soleil
+
+<a href="http://commons.wikimedia.org/wiki/File:2008-08-01_Solar_eclipse_progression_with_timestamps.jpg#mediaviewer/File:2008-08-01_Solar_eclipse_progression_with_timestamps.jpg"
+title="User:Kalan - Based on 38 own photos. Licensed under CC BY 3.0 via Wikimedia
+Commons">
+<img src="http://upload.wikimedia.org/wikipedia/commons/5/58/2008-08-01_Solar_eclipse_progression_with_timestamps.jpg"
+alt="2008-08-01 Solar eclipse progression with timestamps.jpg" height="683"
+width="1200"></a>
+
+---
+
+## Éclipse de Lune
+
+<a href="http://commons.wikimedia.org/wiki/File:Eclipse_lune.jpg#mediaviewer/File:Eclipse_lune.jpg"
+title="Eclipse lune by Luc Viatour - own work www.lucnix.be
+Nikon case FE2 Otical refractor Vixen 1000mm F/D10
+Licensed under CC BY-SA 3.0 via Wikimedia Commons">
+<img src="http://upload.wikimedia.org/wikipedia/commons/7/7d/Eclipse_lune.jpg" alt="Eclipse lune.jpg"></a>
+
+---
 
 <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="900"
 height="500"><param name="movie" value="shadowsim.swf" /><!--[if
 !IE]>--><object type="application/x-shockwave-flash" data="shadowsim.swf"
 width="900" height="500"><!--<![endif]--><p>flash animation</p><!--[if
 !IE]>--></object><!--<![endif]--></object>
+
+---
+
+## Éclipse de Lune à chaque pleine Lune?
+
+>- Non! Orbite de la Lune inclinée d'environ 5° par rapport à celle de la Terre
+
+---
+
+## Visibilité des éclipses
+
+Est-ce qu'une éclipse de Lune est visible partout où la Lune est visible?
+
+>- Oui! L'ombre de la Terre cache la Lune entièrement.
+
+<br />
+
+Est-ce qu'une éclipse de Soleil est visible partout où le Soleil est visible?
+
+>- Non! L'ombre de la Lune ne cache le Soleil que dans une petite région.
+
+---
+
+## Précession des équinoxes
+
+<a title="By Tfr000 (talk) 14:59, 14 May 2012 (UTC) (Own work) [CC-BY-SA-3.0
+(http://creativecommons.org/licenses/by-sa/3.0) or GFDL
+(http://www.gnu.org/copyleft/fdl.html)], via Wikimedia Commons"
+href="http://commons.wikimedia.org/wiki/File%3APrecession_animation_small_new.gif"><img
+width="256" alt="Precession animation small new"
+src="//upload.wikimedia.org/wikipedia/commons/7/7c/Precession_animation_small_new.gif"/></a>
+
+<br />
+Période de **26000 ans**
+
+---
+
+## Précession des équinoxes
+
+- Le pôle Nord céleste ne coïncide pas toujours avec Polaris
+- Signe astrologique pas toujours le même que le signe « astronomique »
+
