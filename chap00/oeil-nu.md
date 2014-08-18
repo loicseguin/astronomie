@@ -1,10 +1,6 @@
 % L'astronomie à l'œil nu
 % CEA Explorer et comprendre l'Univers
 % 25 août 2014
----
-theme: serif
-transition: linear
----
 
 # Quels objets observe-t-on dans le ciel ?
 
@@ -35,13 +31,13 @@ Triangulum Australe Tucana Ursa Major Ursa Minor Vela Virgo Volans Vulpecula
 
 ## Ursa Major
 
-![](UMA.svg "La Grande Ourse")
+![](UMA.pdf "La Grande Ourse")
 
 ---
 
 ## Ursa Minor
 
-![](UMI.svg "La Petite Ourse")
+![](UMI.pdf "La Petite Ourse")
 
 ---
 
