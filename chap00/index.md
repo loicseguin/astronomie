@@ -249,3 +249,13 @@ height="600"><param name="movie" value="lunarphasequizzer.swf" /><!--[if
 !IE]>--><object type="application/x-shockwave-flash"
 data="lunarphasequizzer.swf" width="840" height="600"><!--<![endif]--><p>flash
 animation</p><!--[if !IE]>--></object><!--<![endif]--></object>
+
+---
+
+## Les éclipses
+
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="900"
+height="500"><param name="movie" value="shadowsim.swf" /><!--[if
+!IE]>--><object type="application/x-shockwave-flash" data="shadowsim.swf"
+width="900" height="500"><!--<![endif]--><p>flash animation</p><!--[if
+!IE]>--></object><!--<![endif]--></object>
