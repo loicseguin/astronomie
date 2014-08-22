@@ -5,7 +5,7 @@ title: Plan de cours
 
 <table>
 <tr><td>Cours</td><td>203-CEA-03</td></tr>
-<tr><td>Programme</td><td>Formation complémentaire</td></tr>
+<tr><td>Programme</td><td>Formation générale complémentaire</td></tr>
 <tr><td>Discipline</td><td>Physique</td></tr>
 <tr><td>Pondération</td><td>Théorie: 3 Pratique: 0 Étude personnelle:3</td></tr>
 </table>
@@ -56,7 +56,7 @@ précise que
 > d'outils méthodologiques ainsi que l'étude de l'évolution, des défis
 > et des répercussions des découvertes scientifiques et technologiques.
 > En formation générale complémentaire, il y a deux ensembles. Le
-> premier ensemble, dont le cours Explorer et comprendre l'univers fait
+> premier ensemble, dont le cours Explorer et comprendre l'Univers fait
 > partie, met l'accent sur la nature générale et la portée de la science
 > et de la technologie.
 
@@ -96,7 +96,7 @@ Stratégies d'enseignement et d'apprentissage
 Le cours *Explorer et comprendre l'Univers* permet d'atteindre les
 quatre EC par l'entremise de l'étude de l'univers (astronomie et
 sciences connexes). L'approche générale du cours consiste donc à
-identifier un thème clair (l'étude de l'univers) et à progresser en
+identifier un thème clair (l'étude de l'Univers) et à progresser en
 fonction de la logique interne du thème tout en intégrant les différents
 EC au fil de la présentation.
 
