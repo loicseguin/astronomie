@@ -237,6 +237,39 @@ pondération de 90% de la note accordée à ce travail. Une pondération de
 détaillées vous seront données vers la 8${}^e$ semaine au sujet de cette
 évaluation.
 
+#### Carte étudiante
+
+Lors des examens, l’étudiant(e) devra déposer sa carte étudiante sur son
+pupitre pour fin d’identification.
+
+#### Sortie durant un examen
+
+Pendant l’examen, les sorties ne sont autorisées que pour des cas de
+force majeure et sont surveillées.
+
+#### Présence aux évaluations sommatives
+
+La présence aux activités d’évaluation sommative est obligatoire. En cas
+d’absence à une activité d’évaluation, dans les plus brefs délais,
+l’étudiant ou l’étudiante informe son professeur et rencontre le
+responsable de la coordination départementale (RCD) avec une pièce
+justificative originale indiquant son incapacité à être présent(e) au
+moment de l’évaluation. Après vérification, le RCD et le professeur
+pourront autoriser un examen différé durant la semaine de mise à jour ou
+à la fin de la session. Dans le cas d’une absence non justifiée à une
+évaluation, l’étudiant ou l’étudiante se verra attribuer la note zéro
+pour ce laboratoire ou cet examen. Un professeur n’est pas tenu d’offrir
+un examen différé si la réussite à 100% du différé ne permet pas
+d’assurer la réussite du cours.
+
+#### Retard à un examen
+
+Un(e) étudiant(e) arrivant en retard n’est pas admis(e) à l’examen
+lorsque le tiers de la durée de l’examen est déjà écoulé. Un(e)
+étudiant(e) peut quitter l’examen seulement lorsque le tiers de la durée
+de l’examen s’est écoulé.
+
+
 Conditions de réussite du cours
 ===============================
 
@@ -244,18 +277,6 @@ Conditions de réussite du cours
 
 La note de passage d'un cours est de 60%.
 
-#### Présence aux évaluations sommatives
-
-La présence aux activités d'évaluation sommative est obligatoire. En cas
-d'absence à une activité d'évaluation, dans les plus brefs délais,
-l'étudiant ou l'étudiante informe son professeur et rencontre le
-responsable de la coordination départementale (RCD) avec une pièce
-justificative originale indiquant son incapacité à être présent(e) au
-moment de l'évaluation. Après vérification, le RCD et le professeur
-pourront autoriser un examen différé durant la semaine de mise à jour ou
-à la fin de la session. Dans le cas d'une absence non justifiée à une
-évaluation, l'étudiant ou l'étudiante se verra attribuer la note zéro
-pour ce laboratoire ou cet examen.
 
 #### Remise des travaux
 
@@ -280,14 +301,14 @@ aussi respecter les normes identifiées par le professeur.
 
 #### Qualité de la langue française
 
-Lorsqu'un travail est jugé déficient sur le plan du français, le
-professeur peut appliquer une pénalité égale ou inférieure à 10%. Le
-professeur pourrait remettre les points perdus à l'étudiant ou
-l'étudiante qui corrigera ses fautes dans un délai déterminé.
+Le département de géologie et physique accorde de l’importance à la
+qualité du français dans les travaux.
 
-Cette règle s'applique seulement si aucune pondération n'est
-spécifiquement accordée à la qualité de la langue française dans un
-travail.
+Le professeur avisera les étudiant(e)s de la pondération allouée au
+français. Par défaut, lorsqu’un travail est jugé déficient sur le plan
+du français, le professeur peut appliquer une pénalité égale ou
+inférieure à 10%. Le professeur remettra les points perdus à
+l’étudiant(e) qui corrigera ses fautes dans un délai déterminé.
 
 #### Plagiat et manquement à l'honnêteté intellectuelle
 
