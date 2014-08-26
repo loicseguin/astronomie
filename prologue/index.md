@@ -28,6 +28,15 @@ href="http://get.adobe.com/flashplayer/">Adobe Flash Player</a>.
 </object>
 
 ---
+
+## Taille de différentes étoiles
+
+<iframe width="640" height="360"
+src="http://www.youtube.com/embed/XE0aAZE0kp4?rel=0" frameborder="0"
+allowfullscreen></iframe>
+
+---
+
 ## La chose la plus extraordinaire
 
 <iframe width="640" height="360"
