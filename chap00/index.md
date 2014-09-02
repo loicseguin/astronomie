@@ -50,6 +50,7 @@ Triangulum Australe Tucana Ursa Major Ursa Minor Vela Virgo Volans Vulpecula
 >- Noms anciens (Bételgeuse, Rigel)
 >- Lettre grecque + constellation ($\alpha$ du Centaure)
 >- Séries de lettres et chiffres (HR 2061 = Bételgeuse)
+>- [Base de données astronomique SIMBAD](http://simbad.u-strasbg.fr/simbad/)
 
 ---
 
