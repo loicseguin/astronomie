@@ -6,6 +6,26 @@ title: Ressources utiles
 Les sites suivants sont très utiles pour l'apprentissage de l'astronomie ou
 pour s'émerveiller devant la beauté de l'Univers.
 
+### Base de données astronomiques SIMBAD
+
+[http://simbad.u-strasbg.fr/simbad/](http://simbad.u-strasbg.fr/simbad/)
+
+
+### Planétarium virtuel
+
+#### Winstars
+[http://www.winstars.net/](http://www.winstars.net/)
+
+C'est le planétarium utilisé pour les travaux pratiques. Le logiciel est
+gratuit mais ne fonctionne que pour les systèmes d'exploitation Windows.
+
+#### stellarium
+[http://www.stellarium.org/fr/](http://www.stellarium.org/fr/)
+
+Ceux qui veulent une alternative à Winstars ou qui utilise un système
+d'exploitation autre que Windows peuvent utiliser stellarium.  C'est un
+planétarium gratuit et en source libre qui fonctionne sur Windows, OS X et
+Linux.
 
 ### Astronomy Education at the University of Nebraska-Lincoln
 
@@ -30,5 +50,4 @@ lorsqu'on écrit le nom des astres et des planètes :
 
 - [Astres et planètes](http://bdl.oqlf.gouv.qc.ca/bdl/gabarit_bdl.asp?id=1302)
 - [Genre des noms d'astres et de planètes](http://bdl.oqlf.gouv.qc.ca/bdl/gabarit_bdl.asp?id=4541)
-
 
