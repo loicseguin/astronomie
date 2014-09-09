@@ -1,0 +1,92 @@
+<!DOCTYPE HTML>
+
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+    <title>Simulation des phases de la Lune</title>
+
+    <link rel="stylesheet" href="phaseslune.css">
+    
+</head>
+
+<body>
+    <h1>Simulation des phases de la Lune</h1>
+
+    <div id="images">
+        <div id="drawingarea">
+            <canvas id="earthcanvas" width="600" height="500">
+                L'élément <code>canvas</code> n'est pas supporté.
+                S'il-vous-plaît, utiliser un navigateur Internet moderne et à
+                jour.
+            </canvas>
+            <canvas id="maincanvas" width="600" height="500">
+                L'élément <code>canvas</code> n'est pas supporté.
+                S'il-vous-plaît, utiliser un navigateur Internet moderne et à
+                jour.
+            </canvas>
+            <canvas id="mooncanvas" width="600" height="500">
+                L'élément <code>canvas</code> n'est pas supporté.
+                S'il-vous-plaît, utiliser un navigateur Internet moderne et à
+                jour.
+            </canvas>
+        </div>
+
+        <div id="moonphasecontainer">
+            <div id="moonphase">
+                <canvas id="moonphasecanvas" width="200px" height="200px">
+                    L'élément <code>canvas</code> n'est pas supporté.
+                    S'il-vous-plaît, utiliser un navigateur Internet moderne et
+                    à jour.
+                </canvas>
+            </div>
+        </div>
+
+        <div id="numinfo">
+            <div id="phasename">
+                <h4>Phase de la Lune</h4>
+
+                <p><span id="phasenamep">Nouvelle Lune</span></p>
+            </div>
+            <div id="obstime">
+                <h4>Heure pour l'observateur</h4>
+
+                <p><span id="hour">12</span>:<span id="minute">00</span></p>
+            </div>
+            <div id="moonpos">
+                <h4>Position de la Lune dans le ciel de l'observateur</h4>
+
+                <p><span id="moonposp">Au zénith</span></p>
+            </div>
+        </div>
+    </div>
+
+    <p>
+        <a class="customButton" href="javascript:void(0)" 
+            onclick="launchAnimation();" ontouchstart="">Animer</a>
+        <a class="customButton" href="javascript:void(0)" 
+            onclick="pause();" ontouchstart="">Arrêter</a>
+
+        <span id="speedInfo">
+            Vitesse de l'animation
+            <input id="speedSlider" type="range"
+            min="0" max="8000" step="100" value="4000" />
+        </span>
+
+        <input type="checkbox" name="Terre/Lune" checked="true"
+        onclick="togglePageElementVisibility(drawingarea)">Terre/Lune</input>
+
+        <input type="checkbox" name="ImagePhase" checked="true"
+        onclick="togglePageElementVisibility(moonphasecontainer)">Image phase</input>
+
+        <input type="checkbox" name="Informations" checked="true"
+        onclick="togglePageElementVisibility(numinfo)">Informations</input>
+
+    </p>
+
+    <div id="debug"></div>
+
+    <script src="phaseslune.js"></script>
+    
+</body>
+</html>
