@@ -50,29 +50,36 @@ var moonphase = new Image();
 moonphase.src = "assets/Full_Moon_Luc_Viatour.jpg";
 window.addEventListener("load", initFigure); 
 
-// Some variables to figure out where the canvas is on the page.
-var boundingRect = moonCanvas.getBoundingClientRect();
-var topMargin = boundingRect.top;
-var leftMargin = boundingRect.left;
-
 // Used for manually rotating Earth
 var savedEarthTheta;
+
+function getPosition(canvas, evt)
+{
+    var rect = canvas.getBoundingClientRect();
+    return {
+        x: (evt.clientX-rect.left)/(rect.right-rect.left)*canvas.width,
+        y: (evt.clientY-rect.top)/(rect.bottom-rect.top)*canvas.height
+    };
+}
 
 function mouseDown(e) {
     e.preventDefault();
     mouseIsDown = true;
-    //debug.innerHTML += "mouse down on " + e.pageX + ", " + e.pageY + "<br />";
-    if ((e.pageX - leftMargin - moonx) * (e.pageX - leftMargin - moonx) +
-        (e.pageY - topMargin - moony) * (e.pageY - topMargin - moony) < 2 * moonRadius * moonRadius) {
+    var pos = getPosition(moonCanvas, e);
+    var x = pos.x;
+    var y = pos.y;
+    //debug.innerHTML = "mouse down on " + x + ", " + y + "<br />";
+    if ((x - moonx) * (x - moonx) + (y - moony) * (y - moony) <
+            2 * moonRadius * moonRadius) {
             selectedObject = "moon";
-            //debug.innerHTML += "mouse down on Moon" + "<br />";
+            //debug.innerHTML = "mouse down on Moon" + "<br />";
     }
-    else if ((e.pageX - leftMargin - centerx) * (e.pageX - leftMargin - centerx) +
-             (e.pageY - topMargin - centery) * (e.pageY - topMargin - centery) < 3*earthRadius * earthRadius) {
+    else if ((x - centerx) * (x - centerx) +
+             (y- centery) * (y - centery) < 3*earthRadius * earthRadius) {
             selectedObject = "earth";
-            savedEarthTheta = earthTheta + Math.atan2(e.pageY - topMargin - centery,
-                                                      e.pageX - leftMargin - centerx);
-            //debug.innerHTML += "mouse down on Earth" + "<br />";
+            savedEarthTheta = earthTheta + Math.atan2(y - centery,
+                                                      x - centerx);
+            //debug.innerHTML = "mouse down on Earth" + "<br />";
     }
     else {
         selectedObject = "";
@@ -83,16 +90,19 @@ function mouseDown(e) {
 
 function mouseMove(e) {
     e.preventDefault();
+    var pos = getPosition(moonCanvas, e);
+    var x = pos.x;
+    var y = pos.y;
     if (mouseIsDown) {
         if (selectedObject == "earth") {
             // Rotate Earth
-            earthTheta = savedEarthTheta - Math.atan2(e.pageY - topMargin - centery,
-                                    e.pageX - leftMargin - centerx);
+            earthTheta = savedEarthTheta - Math.atan2(y - centery,
+                                    x - centerx);
             drawEarth();
         }
         else if (selectedObject == "moon") {
-            moonx = e.pageX - leftMargin - centerx;
-            moony = e.pageY - topMargin - centery;
+            moonx = x - centerx;
+            moony = y - centery;
             var r = Math.sqrt(moonx * moonx + moony * moony);
             moonx *= moonOrbitRadius / r;
             moony *= moonOrbitRadius / r;
@@ -430,6 +440,5 @@ function togglePageElementVisibility(what)
         obj.style.display = 'none';  
     return false;  
 }  
-  
 
 initFigure();
