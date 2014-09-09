@@ -63,7 +63,7 @@ function mouseDown(e) {
     mouseIsDown = true;
     //debug.innerHTML += "mouse down on " + e.pageX + ", " + e.pageY + "<br />";
     if ((e.pageX - leftMargin - moonx) * (e.pageX - leftMargin - moonx) +
-        (e.pageY - topMargin - moony) * (e.pageY - topMargin - moony) < moonRadius * moonRadius) {
+        (e.pageY - topMargin - moony) * (e.pageY - topMargin - moony) < 2 * moonRadius * moonRadius) {
             selectedObject = "moon";
             //debug.innerHTML += "mouse down on Moon" + "<br />";
     }
