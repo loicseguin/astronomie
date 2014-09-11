@@ -6,6 +6,19 @@ title: Ressources utiles
 Les sites suivants sont très utiles pour l'apprentissage de l'astronomie ou
 pour s'émerveiller devant la beauté de l'Univers.
 
+### Laniakea
+
+Des astronomes suggèrent que notre galaxie fait partie d'un superamas qu'ils
+nomment **Laniakea**.
+
+[http://www.nature.com/news/earth-s-new-address-solar-system-milky-way-laniakea-1.15819](http://www.nature.com/news/earth-s-new-address-solar-system-milky-way-laniakea-1.15819)
+
+
+### Photos du NASA Goddard Space Flight Center
+
+[https://www.flickr.com/photos/gsfc](https://www.flickr.com/photos/gsfc)
+
+
 ### Base de données astronomiques SIMBAD
 
 [http://simbad.u-strasbg.fr/simbad/](http://simbad.u-strasbg.fr/simbad/)
