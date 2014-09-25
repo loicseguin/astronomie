@@ -62,14 +62,42 @@ src="//upload.wikimedia.org/wikipedia/commons/thumb/3/35/Aristotle_Bust_White_Ba
 
 ## Aristote
 
-- Le cercle est la figure parfaite!
+- Le cercle est la figure parfaite! (*Platonique*)
 - Sphères en mouvement **circulaire uniforme**
+
+>- Centre : **Terre**, **Eau**
+>- Ciel : **Air**, **Feu**
+>- Éther : **Étoiles**
 
 ---
 
 ## Aristote
 
 ![](aristotle.png)
+
+---
+
+## Hipparque
+
+*150 av. J.-C.*
+
+<img
+    src="https://upload.wikimedia.org/wikipedia/en/7/7e/Hipparchus_by_Raphael.jpg"
+/>
+
+---
+
+## Hipparque
+
+- Propose une explication du mouvement rétrograde des planètes supérieures
+- Planète se déplace sur un **épicycle** qui lui-même se déplace sur un
+    **déférent**
+
+---
+
+## Hipparque
+
+![](hipparque.png)
 
 ---
 
@@ -86,8 +114,14 @@ src="//upload.wikimedia.org/wikipedia/commons/3/36/Ptolemaeus.jpg"/></a>
 
 ## Ptolémée
 
-- Mouvement circulaire uniforme pas centré sur la Terre
-- Épicycles des astres errants
+- Reprend l'idée des épicycles
+- Ajoute : **équant**, Terre décentrée
+
+---
+
+## Ptolémée
+
+![](ptolemee.png)
 
 ---
 
@@ -100,6 +134,9 @@ src="//upload.wikimedia.org/wikipedia/commons/3/36/Ptolemaeus.jpg"/></a>
 
 - N'explique pas
     * les contraintes bizarres sur le segment *centre de l'épicycle - planète*
+    * centre de l'épicycle des planètes inférieures sur l'axe Terre-Soleil
+    * axe centre de l'épicycle-planète supérieure parallèle à l'axe
+        Terre-Soleil
 
 ---
 
@@ -120,6 +157,17 @@ src="//upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Nikolaus_Kopernikus.jpg
 
 - Introduit un **modèle héliocentrique**
 - Basé sur des arguments d'*élégance* et de *simplicité*
+
+---
+
+## Copernic
+
+<a title="By Nicolai Copernici Created in vector format by Scewing ([1])
+[Public domain], via Wikimedia Commons"
+href="http://commons.wikimedia.org/wiki/File%3ACopernican_heliocentrism_theory_diagram.svg"><img
+width="512" alt="Copernican heliocentrism theory diagram"
+src="//upload.wikimedia.org/wikipedia/commons/thumb/9/95/Copernican_heliocentrism_theory_diagram.svg/512px-Copernican_heliocentrism_theory_diagram.svg.png"/></a>
+
 
 ---
 
@@ -193,12 +241,22 @@ src="//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Galileo-sustermans.jpg/
 
 ---
 
+## Lunette de Galilée
+
+<a title="Giuseppe Bertini [Public domain], via Wikimedia Commons"
+href="http://commons.wikimedia.org/wiki/File%3ABertini_fresco_of_Galileo_Galilei_and_Doge_of_Venice.jpg"><img
+width="512" alt="Bertini fresco of Galileo Galilei and Doge of Venice"
+src="//upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Bertini_fresco_of_Galileo_Galilei_and_Doge_of_Venice.jpg/512px-Bertini_fresco_of_Galileo_Galilei_and_Doge_of_Venice.jpg"/></a>
+
+---
+
 ## Observation de Galilée
 
-- Lunes de Jupiter
-- Cycles de Vénus
-- Tâches solaires
+- Phases de Vénus
+- Taches solaires
 - Montagnes sur la Lune
+- Lunes de Jupiter
+- Anneaux de Jupiter
 
 ---
 
