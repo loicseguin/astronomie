@@ -24,6 +24,7 @@
     <!--[if lt IE 9]>
     <script src="../reveal.js/lib/js/html5shiv.js"></script>
     <![endif]-->
+    <script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 </head>
 <body>
   <div class="reveal">
@@ -32,11 +33,110 @@
 <section>
     <h1 class="title">La profondeur du ciel</h1>
     <h2 class="author">CEA Explorer et comprendre l'Univers</h2>
-    <h3 class="date">3 septembre 2014</h3>
+    <h3 class="date">1 octobre 2014</h3>
 </section>
 
 <section class="slide level1">
 
+<h2 id="comment-fait-on-pour-déterminer-la-taille-des-astres-et-les-distances-entre-la-terre-et-les-astres">Comment fait-on pour déterminer la taille des astres et les distances entre la Terre et les astres?</h2>
+</section>
+<section class="slide level1">
+
+<h2 id="rappels-de-géométrie">Rappels de géométrie</h2>
+</section>
+<section class="slide level1">
+
+<figure>
+<img src="triangle-rec.png" />
+</figure>
+</section>
+<section class="slide level1">
+
+<h2 id="le-soleil-est-plus-loin-que-la-lune">Le Soleil est plus loin que la Lune</h2>
+<p><strong>Méthode d'Aristarque</strong></p>
+<figure>
+<img src="https://upload.wikimedia.org/wikipedia/commons/2/2b/Aristarchus_working.jpg" />
+</figure>
+</section>
+<section class="slide level1">
+
+<figure>
+<img src="soleil-loin.png" />
+</figure>
+<ul>
+<li class="fragment"><span class="math">\(\theta = 89.85°\)</span></li>
+<li class="fragment">Le Soleil est 382 fois plus loin que la Lune</li>
+</ul>
+</section>
+<section class="slide level1">
+
+<h2 id="le-rayon-de-la-terre">Le rayon de la Terre</h2>
+<p><strong>Méthode d'Ératosthène</strong></p>
+</section>
+<section class="slide level1">
+
+<figure>
+<img src="eratosthene.png" />
+</figure>
+<ul>
+<li class="fragment">Le rayon de la Terre est d'environ 6700 km</li>
+<li class="fragment">Valeur moderne : 6380 km</li>
+</ul>
+</section>
+<section class="slide level1">
+
+<h2 id="distance-terre-lune">Distance Terre-Lune</h2>
+<p><strong>Méthode moderne</strong></p>
+</section>
+<section class="slide level1">
+
+<iframe width="560" height="315" src="//www.youtube.com/embed/_v52LFgUq-8" frameborder="0" allowfullscreen>
+</iframe>
+</section>
+<section class="slide level1">
+
+<p><a title="Par NASA [Public domain], via Wikimedia Commons"
+href="https://commons.wikimedia.org/wiki/File%3AApollo_11_Lunar_Laser_Ranging_Experiment.jpg"><img
+width="512" alt="Apollo 11 Lunar Laser Ranging Experiment"
+src="//upload.wikimedia.org/wikipedia/commons/thumb/0/08/Apollo_11_Lunar_Laser_Ranging_Experiment.jpg/512px-Apollo_11_Lunar_Laser_Ranging_Experiment.jpg"/></a></p>
+<p><strong>384 400 km</strong></p>
+</section>
+<section class="slide level1">
+
+<h2 id="distance-terre-soleil">Distance Terre-Soleil</h2>
+<p><strong>Méthode parallaxe</strong></p>
+<p>La distance entre la Terre et le Soleil est appelée une <strong>unité astronomique (UA)</strong></p>
+</section>
+<section class="slide level1">
+
+<figure>
+<img src="parallaxe.png" />
+</figure>
+<ul>
+<li class="fragment"><strong>1 UA = 1.50 <span class="math">\(\times\)</span> 10<sup>11</sup> m = 150 000 000 km</strong></li>
+</ul>
+</section>
+<section class="slide level1">
+
+<h2 id="distance-des-planètes-inférieures">Distance des planètes inférieures</h2>
+<p><strong>Méthode de l'élongation maximale</strong></p>
+</section>
+<section class="slide level1">
+
+<figure>
+<img src="planetes-inf.png" />
+</figure>
+</section>
+<section class="slide level1">
+
+<h2 id="distance-des-planètes-supérieures">Distance des planètes supérieures</h2>
+<p><strong>Méthode de Kepler</strong></p>
+</section>
+<section class="slide level1">
+
+<figure>
+<img src="planetes-sup.png" />
+</figure>
 </section>
     </div>
   </div>
@@ -54,7 +154,7 @@
         progress: true,
         history: true,
         center: true,
-        theme: 'beige', // available themes are in /css/theme
+        theme: 'serif', // available themes are in /css/theme
         transition: 'linear', // default/cube/page/concave/zoom/linear/fade/none
 
         // Optional libraries used to extend on reveal.js
