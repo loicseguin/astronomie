@@ -197,8 +197,8 @@ src="//upload.wikimedia.org/wikipedia/commons/3/39/GodfreyKneller-IsaacNewton-16
 
 ## Isaac Newton
 
-- Récupère un résultat de Robert Hooke : la force est proportionnelle à la
-  distance au carré ($1/r^2$)
+- Récupère un résultat de Robert Hooke : la force est inversement
+  proportionnelle à la distance au carré ($1/r^2$)
 - Parvient à décrire la forme de la loi
 - Réalise une chose fondamentale!
 
