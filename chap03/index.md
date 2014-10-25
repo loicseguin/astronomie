@@ -83,8 +83,8 @@ $$e = \frac{c}{a}$$
 
 ## L'ellipse
 
-- Aphélie : point le plus près du Soleil
-- Périhélie : point le plus loin du Soleil
+- Aphélie : point le plus loin du Soleil
+- Périhélie : point le plus près du Soleil
 
 ---
 
