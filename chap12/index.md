@@ -261,5 +261,256 @@ src="//upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Venus--Magellan_Composi
 
 ## Mars
 
+<a href="http://commons.wikimedia.org/wiki/File:Mars.jpg#mediaviewer/File:Mars.jpg">
+<img src="http://upload.wikimedia.org/wikipedia/commons/1/1b/Mars.jpg"
+alt="Mars.jpg" height="900"></a><br>"<a
+href="http://commons.wikimedia.org/wiki/File:Mars.jpg#mediaviewer/File:Mars.jpg">Mars</a>".
+Licensed under Public domain via <a
+href="//commons.wikimedia.org/wiki/">Wikimedia Commons</a>
 
+---
 
+## Mars
+
+<a title="By NASA/JPL/MSSS & User:DrLee (NASA/JPL/MSSS based on the these
+sources.) [Public domain], via Wikimedia Commons"
+href="http://commons.wikimedia.org/wiki/File%3AMars_Earth_Comparison_2.jpg"><img
+width="1024" alt="Mars Earth Comparison 2"
+src="//upload.wikimedia.org/wikipedia/commons/thumb/9/93/Mars_Earth_Comparison_2.jpg/1024px-Mars_Earth_Comparison_2.jpg"/></a>
+
+---
+
+## Mars
+
+---------------------- -----------------------------------
+Distance au Soleil                                1,524 UA
+Excentricité                                         0,093
+Période de révolution                           1,88 année
+Période de rotation                          24h 37min 23s
+Diamètre                                           6794 km
+Masse                      6,42$\times$ 10<sup>23</sup> kg
+Champ gravitationnel                             3,72 N/kg
+Densité                                               3,94
+Albédo                                                0,16
+Température                            20°C, -140°C, -40°C
+---------------------- -----------------------------------
+
+---
+
+## Mission d'exploration de Mars
+
+---
+
+### Mars Global Surveyor
+
+**Cartographie** (*1997*)
+
+<a
+href="http://commons.wikimedia.org/wiki/File:Mars_gullies.800px.jpg#mediaviewer/File:Mars_gullies.800px.jpg"><img
+src="http://upload.wikimedia.org/wikipedia/commons/2/25/Mars_gullies.800px.jpg"
+alt="Mars gullies.800px.jpg"></a><br>"<a
+href="http://commons.wikimedia.org/wiki/File:Mars_gullies.800px.jpg#mediaviewer/File:Mars_gullies.800px.jpg">Mars
+gullies.800px</a>". Licensed under Public domain via <a
+href="//commons.wikimedia.org/wiki/">Wikimedia Commons</a>
+
+---
+
+### Mars Odyssey
+
+**Composition du sol** (*2001*)
+
+<a title="By NASA/JPL/Corby Waste [Public domain], via Wikimedia Commons"
+href="http://commons.wikimedia.org/wiki/File%3AMars_Odyssey_over_Valles_Marineris_illustration.jpg"><img
+width="512" alt="Mars Odyssey over Valles Marineris illustration"
+src="//upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Mars_Odyssey_over_Valles_Marineris_illustration.jpg/512px-Mars_Odyssey_over_Valles_Marineris_illustration.jpg"/></a>
+
+---
+
+### Spirit
+
+**Preuve qu'il y a eu de l'eau sur Mars** (*2004*)
+
+<img alt="Panorama de McMurdo" height="450px"
+src="http://www.nasa.gov/images/content/706048main_pia16440-43_946-710.jpg" \>
+
+<small>NASA/JPL-Caltech/Cornell Univ./Arizona State Univ.</small>
+
+---
+
+### Spirit
+
+- Coincé dans le sable depuis 2009
+- Fin de la mission en 2011
+
+---
+
+### Opportunity
+
+**Preuve qu'il y a eu de l'eau sur Mars** (*2004*)
+
+<img alt="Opportunity tracks" height="450px" src="http://www.nasa.gov/sites/default/files/pia18604-main_pcam-sol3754b_l257atc_2.jpg" />
+
+<small>NASA/JPL-Caltech/Cornell Univ./Arizona State Univ.</small>
+
+---
+
+### Mars Reconnaissance Orbiter
+
+**Images détaillées de la surface** (*2006*)
+
+<img alt="Formation de Murray" height="450px" src="http://mars.nasa.gov/mro/images/NASA-MSL-MRO-Curiosity-Rover-HIRISE-Murray-Ridge-Transition-pia18785-br2.jpg" />
+
+<small>NASA/JPL-Caltech/Univ. of Arizona</small>
+
+---
+
+### Pheonix
+
+**Étude du climat et de la présence d'eau** (*2008*)
+
+<img alt="Pheonix" height="450px"
+src="http://www.nasa.gov/sites/default/files/images/457711main_phoenix20100524-full-b.jpg" />
+
+<small>NASA/JPL-Caltech/University Arizona/Texas A&M University</small>
+
+---
+
+### Curiosity
+
+<img alt="Autoportrait de Curiosity" height="450px"
+src="http://mars.nasa.gov/msl/images/pia16239_c-br2.jpg" />
+
+<small>NASA/JPL-Caltech/Malin Space Science Systems</small>
+
+---
+
+### Curiosity
+
+**À la recherche de molécules organiques** (*2012*)
+
+<img alt="Échantillonage de sol" height="450px"
+src="http://mars.nasa.gov/msl/images/mars-curiosity-rover-drill-hole-mahli-sol759-pia18609-br2.jpg" />
+
+<small>NASA/JPL-Caltech/MSSS</small>
+
+---
+
+### MAVEN
+
+**Pourquoi Mars a perdu son atmosphère** (*2014*)
+
+<img alt="MAVEN spin test" height="450px"
+src="http://www.nasa.gov/sites/default/files/styles/1024x768_autoletterbox/public/2013-3701-m.jpg?itok=tE5JuzPf" />
+
+<small>NASA/Kim Shiflett</small>
+
+---
+
+### MOM
+
+<img alt="MOM sees Mars" src="http://www.isro.gov.in/pslv-c25/Imagegallery/satellitesimages/img-4.jpg" />
+
+---
+
+## Mars
+
+- Atmosphère ténue (0,01 bar)
+    - Composée principalement de CO<sub>2</sub> (95%)
+- Glace sèche (CO<sub>2</sub>) et eau glacée
+- Couleur orangée : rouille (oxyde de fer)
+- Orbite incliné de 25°
+
+---
+
+## Mars
+
+- Composition semblable à la Terre
+- Croûte
+    - Hautes terres criblées de cratères
+    - Plaines volcaniques plus récentes
+- Manteau
+- Noyau métallique
+
+---
+
+## Mars
+
+- Pas d'activité tectonique
+- Pas de chaînes de montagne
+- Points chauds crachent toujours leur lave au même endroit
+- Volcans gigantesques
+
+---
+
+## Mont Olympus
+
+- Plus haut volcan du système solaire
+- Hauteur de 23 km (3 fois l'Éverest)
+- Large de 600 km
+
+---
+
+## Mont Olympus
+
+<img alt="Olympus Mons" src="http://mars.nasa.gov/gallery/atlas/images/oly-az.jpg" />
+
+<small>NASA/JPL</small>
+
+---
+
+## Présence d'eau sur Mars
+
+![](mars-eau.png)
+
+---
+
+## Présence d'eau sur Mars
+
+Causé par un écoulement d'eau liquide ou solide
+
+---
+
+## Sol martien
+
+![](sol-pathfinder.png)
+
+<small>Robot Pathfinder || NASA/JPL/Caltech</small>
+
+---
+
+## Satellites de Mars
+
+- Phobos (27 km)
+
+<a title="By NASA/JPL-Caltech/University of Arizona (NASA) [Public domain], via
+Wikimedia Commons"
+href="http://commons.wikimedia.org/wiki/File%3A221831main_PIA10368.png"><img
+width="1024" alt="221831main PIA10368"
+src="//upload.wikimedia.org/wikipedia/commons/thumb/4/40/221831main_PIA10368.png/1024px-221831main_PIA10368.png"/></a>
+
+<small>MRO || NASA/JPL-Caltech/University of Arizona</small>
+
+---
+
+## Satellites de Mars
+
+- Deimos (15 km)
+
+<img alt="Deimos vu par MRO"
+src="http://photojournal.jpl.nasa.gov/jpegMod/PIA11826_modest.jpg" />
+
+<small>MRO || NASA/JPL-Caltech/University of Arizona</small>
+
+---
+
+## Comète 67P/Churyumov-Gerasimenko
+
+<img alt="67P/C-G"
+src="http://www.esa.int/var/esa/storage/images/esa_multimedia/images/2014/08/comet_on_3_august_2014/14707891-1-eng-GB/Comet_on_3_August_2014_node_full_image_2.png" />
+
+<small>ESA/Rosetta/MPS for OSIRIS Team MPS/UPD/LAM/IAA/SSO/INTA/UPM/DASP/IDA</small>
+
+---
+
+<img alt="Rosetta path"
+src="http://www.esa.int/var/esa/storage/images/esa_multimedia/images/2014/10/rosetta_s_journey/14978124-1-eng-GB/Rosetta_s_journey_node_full_image_2.jpg" />
