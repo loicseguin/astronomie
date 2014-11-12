@@ -13,7 +13,7 @@ import sys
 DEFAULT_STYLE = "revealjs"
 
 # Dossiers de présentation
-DIRS = ['prologue', 'chap00', 'chap01a', 'chap01b'] + ['chap{:02d}'.format(i) for i in range(2, 14)]
+DIRS = ['prologue', 'chap00', 'chap01a', 'chap01b', 'chap02b'] + ['chap{:02d}'.format(i) for i in range(2, 14)]
 
 def run(call_str):
     try:
