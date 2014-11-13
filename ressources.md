@@ -8,6 +8,12 @@ pour s'émerveiller devant la beauté de l'Univers.
 
 ### Rosetta/Philae
 
+En résumé, l'atterisseur a rebondi sur la comète à deux reprises avant de
+réussir à se fixer. Il est présentement stable et opérationnel même si
+l'endroit où il s'est fixé n'est pas un emplacement idéal. En particulier, la
+quantité de lumière solaire reçue est beaucoup plus faible que ce qui était
+prévu au site d'atterrissage principal.
+
 Dernière heure (13 novembre 2014, 11h30) : [Conférence de presse de
 l'ASE](http://www.esa.int/Our_Activities/Space_Science/Rosetta/Rosetta_media_briefing_replay)
 
@@ -18,6 +24,16 @@ Galerie photos :
 [http://www.esa.int/spaceinimages/Missions/Rosetta/(class)/image](http://www.esa.int/spaceinimages/Missions/Rosetta/(class)/image)
 
 Visualisation interactive de la trajectoire de Rosetta depuis son lancement : [http://sci.esa.int/where_is_rosetta/](http://sci.esa.int/where_is_rosetta/)
+
+
+### Helioviewer
+
+Ce site permet de voir des images en temps réel de notre Soleil. Ces images
+sont prises par différents instruments et il est possible de les composer pour
+obtenir des images très intéressantes.
+
+[http://helioviewer.org](http://helioviewer.org)
+
 
 ### Laniakea
 
