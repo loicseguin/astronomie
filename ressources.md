@@ -6,6 +6,19 @@ title: Ressources utiles
 Les sites suivants sont très utiles pour l'apprentissage de l'astronomie ou
 pour s'émerveiller devant la beauté de l'Univers.
 
+### Rosetta/Philae
+
+Dernière heure (13 novembre 2014, 11h30) : [Conférence de presse de
+l'ASE](http://www.esa.int/Our_Activities/Space_Science/Rosetta/Rosetta_media_briefing_replay)
+
+Site principal de la mission Rosetta :
+[http://www.esa.int/Our_Activities/Space_Science/Rosetta](http://www.esa.int/Our_Activities/Space_Science/Rosetta)
+
+Galerie photos :
+[http://www.esa.int/spaceinimages/Missions/Rosetta/(class)/image](http://www.esa.int/spaceinimages/Missions/Rosetta/(class)/image)
+
+Visualisation interactive de la trajectoire de Rosetta depuis son lancement : [http://sci.esa.int/where_is_rosetta/](http://sci.esa.int/where_is_rosetta/)
+
 ### Laniakea
 
 Des astronomes suggèrent que notre galaxie fait partie d'un superamas qu'ils
