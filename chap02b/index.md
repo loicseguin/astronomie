@@ -115,7 +115,7 @@ Année-lumière            9 454 254 955 488 km
 
 Distance                             \*-lumières
 ------------------------  ----------------------
-Terre-Soleil               8,32 secondes-lumière
+Terre-Soleil                8,32 minutes-lumière
 Pluton-Soleil                 5,5 heures-lumière
 Soleil-Proxima Centauri      4,22 années-lumière
 
