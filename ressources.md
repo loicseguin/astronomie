@@ -15,7 +15,7 @@ réellement dans le système solaire.
 
 [http://www.erikwernquist.com/wanderers/](http://www.erikwernquist.com/wanderers/)
 
-Après avoir regarder le film, cliquez sur l'onglet *Gallery* pour voir des
+Après avoir regardé le film, cliquez sur l'onglet *Gallery* pour voir des
 images fixes tirées du film de même que des explications sur le lieu illustré.
 
 
