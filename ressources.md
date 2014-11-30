@@ -6,6 +6,19 @@ title: Ressources utiles
 Les sites suivants sont très utiles pour l'apprentissage de l'astronomie ou
 pour s'émerveiller devant la beauté de l'Univers.
 
+### Wanderers
+
+Ce court-métrage de science-fiction s'inspire d'images et de données
+scientifiques réelles pour produire une croisière interplanétaire ahurissante.
+La presque totalité des scènes ont lieu dans des endroits qui existent
+réellement dans le système solaire.
+
+[http://www.erikwernquist.com/wanderers/](http://www.erikwernquist.com/wanderers/)
+
+Après avoir regarder le film, cliquez sur l'onglet *Gallery* pour voir des
+images fixes tirées du film de même que des explications sur le lieu illustré.
+
+
 ### Rosetta/Philae
 
 En résumé, l'atterisseur a rebondi sur la comète à deux reprises avant de
