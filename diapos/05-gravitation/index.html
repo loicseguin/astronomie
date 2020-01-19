@@ -3,37 +3,42 @@
 <head>
   <meta charset="utf-8">
   <meta name="generator" content="pandoc">
-  <meta name="author" content="CEA Explorer et comprendre l'Univers" />
+  <meta name="author" content="CEA Explorer et comprendre l’Univers">
   <title>La gravitation</title>
-  <meta name="apple-mobile-web-app-capable" content="yes" />
-  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <link rel="stylesheet" href="../reveal.js/css/reveal.min.css"/>
-    <style type="text/css">code{white-space: pre;}</style>
-    <link rel="stylesheet" href="../reveal.js/css/theme/simple.css" id="theme">
-    <!-- If the query includes 'print-pdf', include the PDF print sheet -->
-    <script>
-      if( window.location.search.match( /print-pdf/gi ) ) {
-        var link = document.createElement( 'link' );
-        link.rel = 'stylesheet';
-        link.type = 'text/css';
-        link.href = '../reveal.js/css/print/pdf.css';
-        document.getElementsByTagName( 'head' )[0].appendChild( link );
-      }
-    </script>
-    <!--[if lt IE 9]>
-    <script src="../reveal.js/lib/js/html5shiv.js"></script>
-    <![endif]-->
-    <script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="../reveal.js/css/reset.css">
+  <link rel="stylesheet" href="../reveal.js/css/reveal.css">
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+  </style>
+  <link rel="stylesheet" href="../reveal.js/css/theme/default.css" id="theme">
+  <!-- Printing and PDF exports -->
+  <script>
+    var link = document.createElement( 'link' );
+    link.rel = 'stylesheet';
+    link.type = 'text/css';
+    link.href = window.location.search.match( /print-pdf/gi ) ? '../reveal.js/css/print/pdf.css' : '../reveal.js/css/print/paper.css';
+    document.getElementsByTagName( 'head' )[0].appendChild( link );
+  </script>
+  <!--[if lt IE 9]>
+  <script src="../reveal.js/lib/js/html5shiv.js"></script>
+  <![endif]-->
 </head>
 <body>
   <div class="reveal">
     <div class="slides">
 
-<section>
-    <h1 class="title">La gravitation</h1>
-    <h2 class="author">CEA Explorer et comprendre l'Univers</h2>
-    <h3 class="date">8 octobre 2014</h3>
+<section id="title-slide">
+  <h1 class="title">La gravitation</h1>
+  <p class="author">CEA Explorer et comprendre l’Univers</p>
+  <p class="date">8 octobre 2014</p>
 </section>
 
 <section class="slide level1">
@@ -51,8 +56,8 @@ src="//upload.wikimedia.org/wikipedia/commons/2/2b/Tycho_Brahe.JPG"/></a></p>
 
 <h2 id="tycho-brahé-1">Tycho Brahé</h2>
 <ul>
-<li>Château-observatoire, Uraniborg, sur l'île de Hveen</li>
-<li>Observations à l'<strong>œil nu</strong></li>
+<li>Château-observatoire, Uraniborg, sur l’île de Hveen</li>
+<li>Observations à l’<strong>œil nu</strong></li>
 <li>Position des planètes à 1/60 de degré</li>
 </ul>
 </section>
@@ -90,7 +95,7 @@ src="//upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Johannes_Kepler_1610.jp
 <section class="slide level1">
 
 <h2 id="première-loi-de-kepler">Première loi de Kepler</h2>
-<p><em>Les planètes décrivent des orbites en forme d'ellipse autour du Soleil. Ce dernier se trouve sur un des foyers de l'ellipse.</em></p>
+<p><em>Les planètes décrivent des orbites en forme d’ellipse autour du Soleil. Ce dernier se trouve sur un des foyers de l’ellipse.</em></p>
 </section>
 <section class="slide level1">
 
@@ -103,16 +108,16 @@ src="//upload.wikimedia.org/wikipedia/commons/thumb/7/72/EllipseVal.svg/512px-El
 </section>
 <section class="slide level1">
 
-<h2 id="lellipse">L'ellipse</h2>
+<h2 id="lellipse">L’ellipse</h2>
 <ul>
 <li>Possède deux <strong>foyers</strong></li>
 <li>Caractérisée par son <strong>excentricité</strong></li>
 </ul>
-<p><span class="math">\[e = \frac{c}{a}\]</span></p>
+<p><span class="math display">\[e = \frac{c}{a}\]</span></p>
 </section>
 <section class="slide level1">
 
-<h2 id="lellipse-1">L'ellipse</h2>
+<h2 id="lellipse-1">L’ellipse</h2>
 <ul>
 <li>Aphélie : point le plus loin du Soleil</li>
 <li>Périhélie : point le plus près du Soleil</li>
@@ -124,46 +129,46 @@ src="//upload.wikimedia.org/wikipedia/commons/thumb/7/72/EllipseVal.svg/512px-El
 <table>
 <thead>
 <tr class="header">
-<th style="text-align: left;">Planète</th>
-<th style="text-align: left;">Excentricité</th>
+<th>Planète</th>
+<th>Excentricité</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">Mercure</td>
-<td style="text-align: left;">0,206</td>
+<td>Mercure</td>
+<td>0,206</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">Vénus</td>
-<td style="text-align: left;">0,007</td>
+<td>Vénus</td>
+<td>0,007</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">Terre</td>
-<td style="text-align: left;">0,017</td>
+<td>Terre</td>
+<td>0,017</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">Mars</td>
-<td style="text-align: left;">0,093</td>
+<td>Mars</td>
+<td>0,093</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">Jupiter</td>
-<td style="text-align: left;">0,048</td>
+<td>Jupiter</td>
+<td>0,048</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">Saturne</td>
-<td style="text-align: left;">0,056</td>
+<td>Saturne</td>
+<td>0,056</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">Uranus</td>
-<td style="text-align: left;">0,047</td>
+<td>Uranus</td>
+<td>0,047</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">Neptune</td>
-<td style="text-align: left;">0,009</td>
+<td>Neptune</td>
+<td>0,009</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">Pluton</td>
-<td style="text-align: left;">0,248</td>
+<td>Pluton</td>
+<td>0,248</td>
 </tr>
 </tbody>
 </table>
@@ -186,30 +191,30 @@ src="//upload.wikimedia.org/wikipedia/commons/thumb/9/98/Kepler_laws_diagram.svg
 
 <h2 id="deuxième-loi-de-kepler-1">Deuxième loi de Kepler</h2>
 <ul>
-<li>Vitesse varie le long de l'orbite</li>
+<li>Vitesse varie le long de l’orbite</li>
 <li>Près du Soleil : plus vite</li>
 <li>Loin du Soleil : plus lentement</li>
 </ul>
 <ul>
-<li class="fragment">C'est la préférence zodiacale</li>
+<li class="fragment">C’est la préférence zodiacale</li>
 </ul>
 </section>
 <section class="slide level1">
 
 <h2 id="troisième-loi-de-kepler">Troisième loi de Kepler</h2>
-<p><span class="math">\[T^2 = a^3\]</span></p>
+<p><span class="math display">\[T^2 = a^3\]</span></p>
 <ul>
-<li><span class="math">\(T\)</span> : <strong>période sidérale</strong> en années</li>
-<li><span class="math">\(a\)</span> : <strong>demi-grand axe</strong> en unités astronomiques</li>
+<li><span class="math inline">\(T\)</span> : <strong>période sidérale</strong> en années</li>
+<li><span class="math inline">\(a\)</span> : <strong>demi-grand axe</strong> en unités astronomiques</li>
 </ul>
 </section>
 <section class="slide level1">
 
 <h2 id="galilée-encore">Galilée (encore)</h2>
 <p><em>(1564 — 1642)</em></p>
-<p>Le <strong>principe d'inertie</strong> (v. 1.0)</p>
-<p><em>En l'absence de toute contrainte et de toute force, un objet en mouvement continuera sur sa lancée pour toujours.</em></p>
-<p>C'est-à-dire que les planètes continuent a parcourir leur orbite pour toujours.</p>
+<p>Le <strong>principe d’inertie</strong> (v. 1.0)</p>
+<p><em>En l’absence de toute contrainte et de toute force, un objet en mouvement continuera sur sa lancée pour toujours.</em></p>
+<p>C’est-à-dire que les planètes continuent a parcourir leur orbite pour toujours.</p>
 </section>
 <section class="slide level1">
 
@@ -224,8 +229,8 @@ src="//upload.wikimedia.org/wikipedia/commons/thumb/7/73/Frans_Hals_-_Portret_va
 <section class="slide level1">
 
 <h2 id="rené-descartes-1">René Descartes</h2>
-<p>Le <strong>principe d'inertie</strong> (v. 2.0)</p>
-<p><em>Les objets se déplacent en ligne droite à vitesse constante tant et aussi longtemps qu'aucune force n'agit sur eux.</em></p>
+<p>Le <strong>principe d’inertie</strong> (v. 2.0)</p>
+<p><em>Les objets se déplacent en ligne droite à vitesse constante tant et aussi longtemps qu’aucune force n’agit sur eux.</em></p>
 </section>
 <section class="slide level1">
 
@@ -249,7 +254,7 @@ src="//upload.wikimedia.org/wikipedia/commons/3/39/GodfreyKneller-IsaacNewton-16
 
 <h2 id="isaac-newton-2">Isaac Newton</h2>
 <ul>
-<li>Récupère un résultat de Robert Hooke : la force est inversement proportionnelle à la distance au carré (<span class="math">\(1/r^2\)</span>)</li>
+<li>Récupère un résultat de Robert Hooke : la force est inversement proportionnelle à la distance au carré (<span class="math inline">\(1/r^2\)</span>)</li>
 <li>Parvient à décrire la forme de la loi</li>
 <li>Réalise une chose fondamentale!</li>
 </ul>
@@ -261,12 +266,12 @@ src="//upload.wikimedia.org/wikipedia/commons/3/39/GodfreyKneller-IsaacNewton-16
 <section class="slide level1">
 
 <h2 id="interlude-newton-et-la-pomme">Interlude : Newton et la pomme</h2>
-<p>Il était une fois...</p>
+<p>Il était une fois…</p>
 </section>
 <section class="slide level1">
 
 <h2 id="la-loi-de-la-gravitation-universelle-de-newton">La loi de la gravitation universelle de Newton</h2>
-<p><span class="math">\[F = \frac{G m_1 m_2}{r^2}\]</span></p>
+<p><span class="math display">\[F = \frac{G m_1 m_2}{r^2}\]</span></p>
 </section>
 <section class="slide level1">
 
@@ -284,13 +289,13 @@ src="//upload.wikimedia.org/wikipedia/commons/3/39/GodfreyKneller-IsaacNewton-16
 
 <h2 id="succès-de-la-théorie-newtonienne">Succès de la théorie newtonienne</h2>
 <ul>
-<li>Permet d'expliquer tous les phénomènes célestes observés</li>
+<li>Permet d’expliquer tous les phénomènes célestes observés</li>
 <li>Prédit de nouveaux phénomènes</li>
 </ul>
 <ul>
-<li class="fragment">Découverte d'Uranus en 1781 par William Herschel</li>
-<li class="fragment">L'orbite d'Uranus est bizarre...</li>
-<li class="fragment">J. C. Adams et Urbain Le Verrier prédisent l'existence d'une autre planète : Neptune</li>
+<li class="fragment">Découverte d’Uranus en 1781 par William Herschel</li>
+<li class="fragment">L’orbite d’Uranus est bizarre…</li>
+<li class="fragment">J. C. Adams et Urbain Le Verrier prédisent l’existence d’une autre planète : Neptune</li>
 <li class="fragment">Neptune est découverte en 1846 par J. G. Galle</li>
 </ul>
 </section>
@@ -298,7 +303,7 @@ src="//upload.wikimedia.org/wikipedia/commons/3/39/GodfreyKneller-IsaacNewton-16
 
 <h2 id="succès-de-la-théorie-newtonienne-1">Succès de la théorie newtonienne</h2>
 <ul>
-<li>Prédiction de la trajectoire d'une comète par Edmund Halley</li>
+<li>Prédiction de la trajectoire d’une comète par Edmund Halley</li>
 </ul>
 <p><a title="By NASA/W. Liller [Public domain], via Wikimedia Commons"
 href="https://commons.wikimedia.org/wiki/File%3ALspn_comet_halley.jpg"><img
@@ -309,7 +314,7 @@ src="//upload.wikimedia.org/wikipedia/commons/2/2a/Lspn_comet_halley.jpg"/></a><
 
 <h2 id="succès-de-la-théorie-newtonienne-2">Succès de la théorie newtonienne</h2>
 <ul>
-<li>Caroline et William Herschel montrent des systèmes d'étoiles binaires qui se comportent comme le prévoit la théorie newtonienne (<em>circa</em> 1800)</li>
+<li>Caroline et William Herschel montrent des systèmes d’étoiles binaires qui se comportent comme le prévoit la théorie newtonienne (<em>circa</em> 1800)</li>
 </ul>
 </section>
 <section class="slide level1">
@@ -328,7 +333,7 @@ src="//upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Globular_Cluster_M10.jp
 <section class="slide level1">
 
 <h2 id="problème-avec-la-théorie-newtonienne">Problème avec la théorie newtonienne</h2>
-<p>Perturbation dans l'orbite de Mercure qui ne s'explique d'aucune façon...</p>
+<p>Perturbation dans l’orbite de Mercure qui ne s’explique d’aucune façon…</p>
 </section>
 <section class="slide level1">
 
@@ -345,12 +350,12 @@ src="//upload.wikimedia.org/wikipedia/commons/0/00/Albert_Einstein_ETH-Bib_Portr
 
 <h2 id="albert-einstein-1">Albert Einstein</h2>
 <ul>
-<li>Essaie de réconcilier le principe de relativité galiléenne et l'électrodynamisme</li>
-<li>Essaie d'expliquer pourquoi toutes les mesures de la vitesse de la lumière donnent la même valeur</li>
+<li>Essaie de réconcilier le principe de relativité galiléenne et l’électrodynamisme</li>
+<li>Essaie d’expliquer pourquoi toutes les mesures de la vitesse de la lumière donnent la même valeur</li>
 </ul>
 <p><br /></p>
 <ul>
-<li class="fragment">Il ne tente pas d'expliquer l'orbite de Mercure</li>
+<li class="fragment">Il ne tente pas d’expliquer l’orbite de Mercure</li>
 </ul>
 </section>
 <section class="slide level1">
@@ -369,14 +374,14 @@ src="//upload.wikimedia.org/wikipedia/commons/0/00/Albert_Einstein_ETH-Bib_Portr
 <ul>
 <li>Espace et temps ne sont plus absolus</li>
 <li>Dilatation du temps et contraction des longueurs</li>
-<li>Facteur de ralentissement du temps <span class="math">\[\gamma = \frac{1}{\sqrt{1 - \frac{v^2}{c^2}}}\]</span></li>
+<li>Facteur de ralentissement du temps <span class="math display">\[\gamma = \frac{1}{\sqrt{1 - \frac{v^2}{c^2}}}\]</span></li>
 </ul>
 </section>
 <section class="slide level1">
 
 <h2 id="relativité-restreinte-2">Relativité restreinte</h2>
 <ul>
-<li>Dilatation du temps et contraction des longueurs deviennent plus importante lorsqu'on s'approche de la vitesse de la lumière</li>
+<li>Dilatation du temps et contraction des longueurs deviennent plus importante lorsqu’on s’approche de la vitesse de la lumière</li>
 <li>Les objets massifs ne peuvent jamais atteindre la vitesse de la lumière</li>
 </ul>
 </section>
@@ -384,20 +389,20 @@ src="//upload.wikimedia.org/wikipedia/commons/0/00/Albert_Einstein_ETH-Bib_Portr
 
 <h2 id="relativité-restreinte-3">Relativité restreinte</h2>
 <p>Équivalence masse-énergie</p>
-<p><span class="math">\[E = \gamma m c^2\]</span></p>
+<p><span class="math display">\[E = \gamma m c^2\]</span></p>
 </section>
 <section class="slide level1">
 
 <h2 id="albert-einstein-2">Albert Einstein</h2>
 <p>La même année (1905), il publie 4 découvertes fondamentales :</p>
 <ul>
-<li>L'effet photoélectrique</li>
+<li>L’effet photoélectrique</li>
 <li>Le mouvement brownien</li>
 <li>La relativité restreinte</li>
-<li>L'équivalence masse-énergie</li>
+<li>L’équivalence masse-énergie</li>
 </ul>
 <p><br /></p>
-<p>C'est l'<em>Annus Mirabilis</em>.</p>
+<p>C’est l’<em>Annus Mirabilis</em>.</p>
 </section>
 <section class="slide level1">
 
@@ -405,15 +410,15 @@ src="//upload.wikimedia.org/wikipedia/commons/0/00/Albert_Einstein_ETH-Bib_Portr
 <p><em>(1916)</em></p>
 <ul>
 <li>Extension de la relativité restreinte à des référentiels accélérés</li>
-<li>En plus des deux postulats de la relativité restreinte, Einstein ajoute le <strong>principe d'équivalence</strong></li>
+<li>En plus des deux postulats de la relativité restreinte, Einstein ajoute le <strong>principe d’équivalence</strong></li>
 </ul>
-<p><em>Il n'y a pas de différence entre la gravité et un référentiel accéléré.</em></p>
+<p><em>Il n’y a pas de différence entre la gravité et un référentiel accéléré.</em></p>
 </section>
 <section class="slide level1">
 
 <h2 id="relativité-générale-1">Relativité générale</h2>
 <ul>
-<li>La masse déforme l'<strong>espace-temps</strong></li>
+<li>La masse déforme l’<strong>espace-temps</strong></li>
 <li>Ces déformations sont la cause de la gravitation</li>
 </ul>
 </section>
@@ -421,9 +426,9 @@ src="//upload.wikimedia.org/wikipedia/commons/0/00/Albert_Einstein_ETH-Bib_Portr
 
 <h2 id="relativité-générale-2">Relativité générale</h2>
 <ul>
-<li>Près du Soleil, la courbure de l'espace est très importante</li>
+<li>Près du Soleil, la courbure de l’espace est très importante</li>
 <li>Mercure est près du Soleil!</li>
-<li>Einstein prédit les perturbations de l'orbite de Mercure</li>
+<li>Einstein prédit les perturbations de l’orbite de Mercure</li>
 </ul>
 </section>
 <section class="slide level1">
@@ -478,45 +483,57 @@ src="//upload.wikimedia.org/wikipedia/commons/thumb/0/06/Active_Black_Hole_Squas
 </section>
 <section class="slide level1">
 
-<h2 id="le-futur...">Le futur...</h2>
+<h2 id="le-futur">Le futur…</h2>
 <ul>
-<li class="fragment">Pour expliquer la vitesse de rotation des galaxies, il manque de la masse! C'est la <strong>matière sombre</strong> qui compose environ 25% de la masse dans l'Univers.</li>
-<li class="fragment">L'expansion de l'Univers est trop rapide! Il faut de l'<strong>énergie sombre</strong> pour l'expliquer. L'énergie sombre représente 70% de la masse dans l'Univers.</li>
+<li class="fragment">Pour expliquer la vitesse de rotation des galaxies, il manque de la masse! C’est la <strong>matière sombre</strong> qui compose environ 25% de la masse dans l’Univers.</li>
+<li class="fragment">L’expansion de l’Univers est trop rapide! Il faut de l’<strong>énergie sombre</strong> pour l’expliquer. L’énergie sombre représente 70% de la masse dans l’Univers.</li>
 </ul>
 </section>
 <section class="slide level1">
 
-<h2 id="le-futur...-1">Le futur...</h2>
-<p>On ne sait pas de quoi est composé 95% de l'Univers...</p>
+<h2 id="le-futur-1">Le futur…</h2>
+<p>On ne sait pas de quoi est composé 95% de l’Univers…</p>
 <p>Il reste beaucoup à faire!</p>
 </section>
     </div>
   </div>
 
-
-  <script src="../reveal.js/lib/js/head.min.js"></script>
-  <script src="../reveal.js/js/reveal.min.js"></script>
+  <script src="../reveal.js/js/reveal.js"></script>
 
   <script>
 
-      // Full list of configuration options available here:
+      // Full list of configuration options available at:
       // https://github.com/hakimel/reveal.js#configuration
       Reveal.initialize({
-        controls: true,
-        progress: true,
+        // Push each slide change to the browser history
         history: true,
-        center: true,
-        theme: 'default', // available themes are in /css/theme
-        transition: 'linear', // default/cube/page/concave/zoom/linear/fade/none
+        // Transition style
+        transition: 'linear', // none/fade/slide/convex/concave/zoom
+        math: {
+          mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js',
+          config: 'TeX-AMS_HTML-full',
+          tex2jax: {
+            inlineMath: [['\\(','\\)']],
+            displayMath: [['\\[','\\]']],
+            balanceBraces: true,
+            processEscapes: false,
+            processRefs: true,
+            processEnvironments: true,
+            preview: 'TeX',
+            skipTags: ['script','noscript','style','textarea','pre','code'],
+            ignoreClass: 'tex2jax_ignore',
+            processClass: 'tex2jax_process'
+          },
+        },
 
-        // Optional libraries used to extend on reveal.js
+        // Optional reveal.js plugins
         dependencies: [
           { src: '../reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
-          { src: '../reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
-          { src: '../reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } },
-//          { src: '../reveal.js/plugin/search/search.js', async: true, condition: function() { return !!document.body.classList; }, }
-//          { src: '../reveal.js/plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
-]});
+          { src: '../reveal.js/plugin/zoom-js/zoom.js', async: true },
+          { src: '../reveal.js/plugin/math/math.js', async: true },
+          { src: '../reveal.js/plugin/notes/notes.js', async: true }
+        ]
+      });
     </script>
     </body>
 </html>

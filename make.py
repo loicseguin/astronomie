@@ -1,72 +1,45 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
+"""Construit le site Explorer et comprendre l'Univers, incluant les diapositives
+et le livre.  Le logiciel Pandoc est utilisé pour obtenir des présentations
+dans différents formats.
 
-# Construit une présentation à partir d'un fichier source écrit en Markdown.
-# Le logiciel Pandoc est utilisé pour obtenir des présentations dans différents
-# formats.
+On peut construire tous les fichiers html avec la commande
+
+    $ python make.py
+
+"""
 
 import subprocess
 import os
 import sys
 
-# Style de présentation par défaut.
-DEFAULT_STYLE = "revealjs"
-
 # Dossiers de présentation
-DIRS = ['prologue', 'chap00', 'chap01a', 'chap01b', 'chap02b'] + ['chap{:02d}'.format(i) for i in range(2, 14)]
+DIAPOS_DIRS = [os.path.join('diapos', d) for d in os.listdir('diapos')
+               if d != 'reveal.js']
+
 
 def run(call_str):
+    """Exécute la chaîne de caractère sur la ligne de commande."""
     try:
         subprocess.check_call(call_str.split())
-        print("done!")
+        print("complet!")
     except subprocess.CalledProcessError as e:
         print(call_str, end='... ')
-        print("there was an error, build failed")
+        print("erreur, la compilation a échoué")
 
-def revealjs():
-    # Produit une présentation html avec la librairie javascript reveal.js.
+
+def revealjs(in_fname, out_fname):
+    """Crée une présentation avec la librairie javascript Reveal.js."""
     call_str = "pandoc -t revealjs " \
                "-V revealjs-url=../reveal.js -s " \
                "--slide-level=1 " \
-               "--mathjax {infname} -o {outfname}".format(infname=infname,
-                outfname=outfname)
+               "--mathjax {} -o {}".format(in_fname, out_fname)
     run(call_str)
 
-def slidy():
-    call_str = "pandoc -t slidy --mathjax -s " \
-               "{infname} -o {outfname}".format(infname=infname,
-                       outfname=outfname)
-    run(call_str)
 
-def dzslides():
-    call_str = "pandoc -t dzslides --mathjax -s " \
-               "{infname} -o {outfname}".format(infname=infname,
-                       outfname=outfname)
-    run(call_str)
-
-def s5():
-    call_str = "pandoc -t s5 --mathjax -s " \
-               "{infname} -o {outfname}".format(infname=infname,
-                       outfname=outfname)
-    run(call_str)
-
-def slideous():
-    call_str = "pandoc -t slideous --mathjax -s " \
-               "{infname} -o {outfname}".format(infname=infname,
-                       outfname=outfname)
-    run(call_str)
-
-if __name__ == '__main__':
-    if len(sys.argv) == 1:
-        style = DEFAULT_STYLE
-    elif sys.argv[1] in dir(sys.modules[__name__]):
-        style = sys.argv[1]
-    else:
-        print("usage: make.py OUTTYPE\n"
-              "     where OUTTYPE is one of revealjs, slidy")
-        exit()
+def diapos():
+    """Construits les fichiers HTML des diapositives."""
     cwd = os.getcwd()
-    for folder in DIRS:
+    for folder in DIAPOS_DIRS:
         try:
             os.chdir(folder)
         except FileNotFoundError:
@@ -79,8 +52,32 @@ if __name__ == '__main__':
         else:
             os.chdir(cwd)
             continue
-        infname = fname
-        outfname = "{}.html".format(os.path.splitext(os.path.basename(fname))[0])
+        in_fname = fname
+        out_fname = "{}.html".format(os.path.splitext(os.path.basename(fname))[0])
         print("{}: ".format(folder), end='')
-        exec("{}()".format(style))
+        revealjs(in_fname, out_fname)
         os.chdir(cwd)
+
+
+def livre():
+    """Constuit les fichiers HTML du livre."""
+    for fname in os.listdir('livre'):
+        if not fname.endswith('.md'):
+            continue
+        in_fname = os.path.join('livre', fname)
+        out_fname = os.path.join(
+            'livre',
+            '{}.html'.format(os.path.splitext(os.path.basename(fname))[0]))
+        call_str = 'pandoc -s -c ../www/style.css ' \
+                   '--template www/book-template.html ' \
+                   '{} -o {}'.format(in_fname, out_fname)
+        print("{}: ".format(in_fname), end='')
+        run(call_str)
+
+
+if __name__ == '__main__':
+    if len(sys.argv) != 1:
+        print("usage: python make.py\n")
+        exit()
+    diapos()
+    livre()
