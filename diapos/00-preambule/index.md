@@ -1,4 +1,4 @@
-% Prologue
+% Préambule
 % CEA Explorer et comprendre l'Univers
 % 23 janvier 2020
 ---
@@ -17,6 +17,9 @@ frameborder="0" allowfullscreen></iframe>
 
 ## L'échelle de l'Univers
 
+<a href="https://www.nikon.com/about/sp/universcale">
+  <img src="../../images/nikon_universcale.png" width=100% alt="Nikon Universcale">
+</a>
 
 ---
 

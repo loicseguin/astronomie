@@ -1,3 +1,8 @@
+/*
+ * Le style de ce site est en grande partie le même que le style par défaut de
+ * [bookdown](https://bookdown.org/)
+ *
+ * */
 body {
     color: #333;
     padding: 0 0 60px 0;
@@ -82,4 +87,35 @@ figcaption > a {
 
 h1.title {
     border-bottom: 1px solid;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    overflow: auto;
+    page-break-inside: avoid;
+    margin: 0 auto 0.85em;
+}
+
+table caption {
+    font-style: italic;
+}
+
+table th {
+    font-weight: 700;
+    padding: 6px 13px;
+    border-top: 2px solid #777;
+    border-bottom: 1px solid #888;
+}
+
+table td {
+    padding: 6px 13px;
+}
+
+table tr.odd {
+    background-color: #f8f8f8;
+}
+
+table tbody {
+    border-bottom: 1px solid #888;
 }

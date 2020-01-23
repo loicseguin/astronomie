@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 640 640" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd">
+    <style>
+    path {
+        fill: #4183c4;
+    }
+    path:hover {
+        fill: #41c4c4;
+    }
+    </style>
+    <path d="M150.144 61.938H640v352.847h-48.792V110.742H150.144V61.938zm-76.95 78.827H563.05v352.847h-43.536V191.435H73.194v-50.67zM0 225.216h489.868v352.847H0V225.215z"/>
+</svg>
