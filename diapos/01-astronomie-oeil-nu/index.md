@@ -1,6 +1,6 @@
 % L'astronomie à l'œil nu
 % CEA Explorer et comprendre l'Univers
-% 25 août 2014
+% 30 janvier 2020
 ---
 theme: serif
 transition: linear
@@ -35,13 +35,15 @@ Triangulum Australe Tucana Ursa Major Ursa Minor Vela Virgo Volans Vulpecula
 
 ## Ursa Major
 
-![](UMA.svg "La Grande Ourse")
+<figure>
+<img src="UMA.png" alt="La Grande Ourse" style="max-height: 500px;">
+</figure>
 
 ---
 
 ## Ursa Minor
 
-![](UMI.svg "La Petite Ourse")
+<img src="UMI.png" alt="La Petite Ourse" style="max-height: 500px;">
 
 ---
 

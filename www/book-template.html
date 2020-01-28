@@ -34,7 +34,8 @@ $endfor$
 $for(include-before)$
 $include-before$
 $endfor$
-<div class="container">
+<div class="page">
+  <div class="page-content">
 $if(title)$
 <header id="title-block-header">
 <h1 class="title">$title$</h1>
@@ -58,6 +59,7 @@ $table-of-contents$
 </nav>
 $endif$
 $body$
+  </div>
 </div>
 $for(include-after)$
 $include-after$
