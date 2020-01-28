@@ -1,16 +1,32 @@
-% L'astronomie à l'œil nu
+% Astronomie à l'œil nu
 % CEA Explorer et comprendre l'Univers
 % 30 janvier 2020
 ---
-theme: serif
+theme: night
 transition: linear
 ---
 
-# Quels objets observe-t-on dans le ciel ?
+<figure>
+  <a href="https://www.eso.org/public/images/uhd_img4255pc_bt_cc/">
+    <img src="../../images/uhd_img4255pc_bt_cc.jpg"
+    alt="Un ciel rempli d'étoiles et une vue de la Voie Lactée"
+    style="max-height: 600px">
+  </a>
+  <figcaption>
+    <small>
+    Un ciel rempli d'étoiles et une vue de la Voie Lactée
+    (ESO/B. Tafreshi (twanight.org))
+    </small>
+  </figcaption>
+</figure>
 
 ---
 
-## Constellation
+## Quels objets observe-t-on dans le ciel ?
+
+---
+
+### Constellation
 
 ensemble d’étoiles brillantes dont les projections sur la sphère céleste
 sont assez près les unes des autres pour qu’un observateur soit tenté de
@@ -18,8 +34,9 @@ les regrouper
 
 ---
 
-## 88 constellations
+### 88 constellations
 
+<small>
 Andromeda Antlia Apus Aquarius Aquila Ara Aries Auriga Boötes Caelum
 Camelopardalis Cancer Canes Venatici Canis Major Canis Minor Capricornus Carina
 Cassiopeia Centaurus Cepheus Cetus Chamaeleon Circinus Columba Coma Berenices
@@ -30,10 +47,11 @@ Monoceros Musca Norma Octans Ophiuchus Orion Pavo Pegasus Perseus Phoenix
 Pictor Pisces Piscis Austrinus Puppis Pyxis Reticulum Sagitta Sagittarius
 Scorpius Sculptor Scutum Serpens Sextans Taurus Telescopium Triangulum
 Triangulum Australe Tucana Ursa Major Ursa Minor Vela Virgo Volans Vulpecula
+</small>
 
 ---
 
-## Ursa Major
+### Ursa Major
 
 <figure>
 <img src="UMA.png" alt="La Grande Ourse" style="max-height: 500px;">
@@ -41,13 +59,13 @@ Triangulum Australe Tucana Ursa Major Ursa Minor Vela Virgo Volans Vulpecula
 
 ---
 
-## Ursa Minor
+### Ursa Minor
 
 <img src="UMI.png" alt="La Petite Ourse" style="max-height: 500px;">
 
 ---
 
-## Nom des étoiles
+### Nom des étoiles
 
 >- Noms anciens (Bételgeuse, Rigel)
 >- Lettre grecque + constellation ($\alpha$ du Centaure)
@@ -56,7 +74,7 @@ Triangulum Australe Tucana Ursa Major Ursa Minor Vela Virgo Volans Vulpecula
 
 ---
 
-## Brillance des étoiles
+### Brillance des étoiles
 
 - Échelle des **magnitudes** mise au point par Hipparque (2<sup>e</sup> siècle
 avant J.-C.)
@@ -72,7 +90,7 @@ avant J.-C.)
 
 ---
 
-## Magnitude d'étoiles connues
+### Magnitude d'étoiles connues
 
 Étoile                          Magnitude
 ------------------------------ ----------
@@ -80,39 +98,38 @@ Soleil                                -27
 Lune                                  -12
 Étoile Polaire                          2
 Sirius A                             -1,6
-Sirius B                              8,3
 Bételgeuse ($\alpha$ Orionis)         0,6
 
 ---
 
-## La Voie lactée
+### La Voie lactée
 
 ![](voielactee.png "La Voie lactée (Copyright © 2014. Loïc Séguin-Charbonneau.)")
 
 ---
 
-## Nébuleuses
+### Nébuleuses
 
 <a title="By Skatebiker at en.wikipedia [Public domain], from Wikimedia
 Commons"
 href="https://commons.wikimedia.org/wiki/File%3AOrion_composite1.jpg"><img
-width="256" alt="Orion composite1"
+width="200" alt="Orion composite1"
 src="265px-Orion_composite1.jpg"/></a>
 
 ---
     
-### La nébuleuse d'Orion
+La nébuleuse d'Orion
 
 
 <img src="hs-2006-01-a-large_web.jpg"
-alt="Hubble's Sharpest View of the Orion Nebula" /> <br /> <span
-style='font-size:10px;color:#686868;font-style: italic;'>Source: <a
+alt="Hubble's Sharpest View of the Orion Nebula" style="max-height: 55%; max-width: 55%"/>
+<span style='font-size:10px;color:#686868;font-style: italic;'>Source: <a
 style='color:#686868;font-style: italic;'
 href='http://hubblesite.org'>Hubblesite.org</a></span>
 
 ---
 
-## Comètes
+### Comètes
 
 <a title="By Soerfm (Own work) [CC-BY-SA-3.0
 (http://creativecommons.org/licenses/by-sa/3.0)], via Wikimedia Commons"
@@ -124,7 +141,7 @@ src="1024px-Comet_P1_McNaught02_-_23-01-07-edited.jpg"/></a>
 
 ---
 
-## Astres errants
+### Astres errants
 
 En plus du Soleil et de la Lune, cinq planètes visibles à l'œil nu :
 
@@ -136,11 +153,11 @@ En plus du Soleil et de la Lune, cinq planètes visibles à l'œil nu :
 
 ---
 
-# Quels phénomènes observe-t-on dans le ciel ?
+## Quels phénomènes observe-t-on dans le ciel ?
 
 ---
 
-## Rotation diurne de la sphère céleste
+### Rotation diurne de la sphère céleste
 
 <a title="By www.modernartphotograph.com Portland Photographer Robert Knapp
 (Own work) [CC-BY-SA-3.0 (http://creativecommons.org/licenses/by-sa/3.0) or
@@ -161,7 +178,8 @@ src="http://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Night_Photography.
 <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="900"
 height="710"><param name="movie" value="celhorcomp.swf" /><!--[if
 !IE]>--><object type="application/x-shockwave-flash" data="celhorcomp.swf"
-width="900" height="710"><!--<![endif]--><p>flash animation</p><!--[if
+width="900" height="710"><!--<![endif]-->
+<p>Application Flash - Rotation diurne de la sphère céleste</p><!--[if
 !IE]>--></object><!--<![endif]--></object>
 
 <div class="notes">
@@ -177,17 +195,17 @@ width="900" height="710"><!--<![endif]--><p>flash animation</p><!--[if
 
 ---
 
-## Rotation diurne de la sphère céleste
+### Rotation diurne de la sphère céleste
 
 - La Terre tourne d'ouest en est
 - La sphère céleste tourne d'est en ouest
 - Les étoiles ne bougent pas les unes par rapport aux autres
-- **Région circumpolaire** : $\delta = 90° - L$ à $\delta = 90°$
-- **Région invisible** : $\delta = -(90° - L)$ à $\delta = -90°$
+- **Région circumpolaire**
+- **Région invisible**
 
 ---
 
-## Rotation diurne de la sphère céleste
+### Rotation diurne de la sphère céleste
 
 - L'**équateur céleste** est perpendiculaire à la droite qui joint le pôle Nord
     céleste et le pôle Sud céleste
@@ -199,29 +217,6 @@ width="900" height="710"><!--<![endif]--><p>flash animation</p><!--[if
 - **Méridien** : le grand cercle qui passe par le zénith, le nord et le
   sud de l'horizon
 - Une étoile **culmine** lorsqu'elle passe par le méridien
-
----
-
-## Rotation diurne de la sphère céleste
-
-La différence entre l'ascension droite de deux étoiles donne le temps entre le
-moment où la première étoile culmine et celui où la deuxième étoile culmine.
-
----
-
-## Questions
-
-Un observateur à Quito s'intéresse à Sirius A (ra: 6h45, dec: -16.7°) et à
-Alpha du Centaure (ra: 14h39, dec: -60.8°).
-<br />
-<br />
-Il constate que Alpha du Centaure culmine à 3h.
-<br />
-<br />
-
-- À quelle heure Sirius A culmine-t-elle?
-- Est-ce qu'un observateur à Montréal peut voir ces deux étoiles?
-- Est-ce qu'un observateur au pôle Sud peut voir ces deux étoiles?
 
 ---
 
@@ -290,20 +285,29 @@ Qu'est-ce qui cause les saisons?
 
 ---
 
-## Phases de la lune
+### Phases de la lune
 
-<a title="Moon phases - Courtesy of NASA"
-href="http://spaceplace.nasa.gov/dr-marc-earth/en/#/review/dr-marc-earth/moon-phases.html"><img
-width="600" alt="Phases de la lune"
-src="http://spaceplace.nasa.gov/dr-marc-earth/en/Moon_phases_drawing.gif"/></a>
+<figure>
+  <a href="https://fr.wikipedia.org/wiki/Fichier:TerreOrbiteLuneEtPhases.png">
+    <img src="../../images/TerreOrbiteLuneEtPhases.png"
+      alt="Phases de la Lune" style="max-height:70%;max-width:70%;height:70%">
+  </a>
+  <figcaption>
+  <small>
+    Phases de la Lune (Eric GABA, Looxix)
+  </small>
+  </figcaption>
+</figure>
+
 
 ---
 
-<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="840"
-height="600"><param name="movie" value="lunarphasequizzer.swf" /><!--[if
-!IE]>--><object type="application/x-shockwave-flash"
-data="lunarphasequizzer.swf" width="840" height="600"><!--<![endif]--><p>flash
-animation</p><!--[if !IE]>--></object><!--<![endif]--></object>
+<figure>
+  <a href="https://astro.unl.edu/WGBH/asset3/">
+    <img src="../../images/phase-lune-html5-app.png"
+      alt="Phases de la Lune" style="max-height:80%;max-width:80%;height:80%">
+  </a>
+</figure>
 
 ---
 

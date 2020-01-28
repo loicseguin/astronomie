@@ -256,7 +256,7 @@ la durée de la semaine et du mois dans notre calendrier moderne.
 
 <figure>
   <img src="../images/lune.jpg" alt="La Lune" width="100%">
-  <figcaption>La Lune</figcaption>
+  <figcaption>La Lune (LSC)</figcaption>
 </figure>
 
 Les phases de la Lune sont dues au fait que nous ne voyons pas toujours la
