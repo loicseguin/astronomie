@@ -12,11 +12,9 @@ transition: linear
     alt="Un ciel rempli d'étoiles et une vue de la Voie Lactée"
     style="max-height: 600px">
   </a>
-  <figcaption>
-    <small>
+  <figcaption style="font-size: 0.4em; color: #666;">
     Un ciel rempli d'étoiles et une vue de la Voie Lactée
     (ESO/B. Tafreshi (twanight.org))
-    </small>
   </figcaption>
 </figure>
 
@@ -102,42 +100,44 @@ Bételgeuse ($\alpha$ Orionis)         0,6
 
 ---
 
-### La Voie lactée
-
-![](voielactee.png "La Voie lactée (Copyright © 2014. Loïc Séguin-Charbonneau.)")
-
----
-
 ### Nébuleuses
 
-<a title="By Skatebiker at en.wikipedia [Public domain], from Wikimedia
-Commons"
-href="https://commons.wikimedia.org/wiki/File%3AOrion_composite1.jpg"><img
-width="200" alt="Orion composite1"
-src="265px-Orion_composite1.jpg"/></a>
+<figure>
+  <a href="https://www.flickr.com/photos/kharak/46689068132/">
+    <img style="max-width: 800px; max-height: 500px;" alt="Constellation d'Orion en hiver"
+    src="../../images/orion_uros-novina.jpg">
+  </a>
+</figure>
+<figcaption style="font-size: 0.4em; color: #666;">
+  Uroš Novina [CC BY 2.0]
+</figcaption>
 
 ---
     
-La nébuleuse d'Orion
+Nébuleuse d'Orion
 
-
-<img src="hs-2006-01-a-large_web.jpg"
-alt="Hubble's Sharpest View of the Orion Nebula" style="max-height: 55%; max-width: 55%"/>
-<span style='font-size:10px;color:#686868;font-style: italic;'>Source: <a
-style='color:#686868;font-style: italic;'
-href='http://hubblesite.org'>Hubblesite.org</a></span>
+<figure>
+  <a href="https://hubblesite.org/image/3866">
+    <img src="hs-2006-01-a-large_web.jpg"
+    alt="Nébuleuse d'Orion vue par Hubble" style="max-height: 55%; max-width: 55%"/>
+  </a>
+</figure>
+<figcaption style="font-size: 0.4em; color: #666;">
+  NASA, ESA, M. Robberto (STScI/ESA) and the Hubble Space Telescope Orion
+  Treasury Project Team
+</figcaption>
 
 ---
 
 ### Comètes
 
-<a title="By Soerfm (Own work) [CC-BY-SA-3.0
-(http://creativecommons.org/licenses/by-sa/3.0)], via Wikimedia Commons"
-href="http://commons.wikimedia.org/wiki/File%3AComet_P1_McNaught02_-_23-01-07-edited.jpg"><img
-width="512" alt="Comet P1 McNaught02 - 23-01-07-edited"
-src="1024px-Comet_P1_McNaught02_-_23-01-07-edited.jpg"/></a>
-
-<small>Comet C/2006 P1 (McNaught) taken from Victoria, Australia 2007</small>
+<a href="http://commons.wikimedia.org/wiki/File%3AComet_P1_McNaught02_-_23-01-07-edited.jpg">
+  <img width="512" alt="Comet P1 McNaught02 - 23-01-07-edited"
+  src="1024px-Comet_P1_McNaught02_-_23-01-07-edited.jpg"/>
+</a>
+<figcaption style="font-size: 0.4em; color: #666;">
+  Comète C/2006 P1 (McNaught) photographiée de Victoria, Australie en 2007 (Soerfm [CC-BY-SA-3.0])
+</figcaption>
 
 ---
 
@@ -157,14 +157,15 @@ En plus du Soleil et de la Lune, cinq planètes visibles à l'œil nu :
 
 ---
 
-### Rotation diurne de la sphère céleste
+#### Rotation diurne de la sphère céleste
 
-<a title="By www.modernartphotograph.com Portland Photographer Robert Knapp
-(Own work) [CC-BY-SA-3.0 (http://creativecommons.org/licenses/by-sa/3.0) or
-GFDL (http://www.gnu.org/copyleft/fdl.html)], via Wikimedia Commons"
-href="http://commons.wikimedia.org/wiki/File%3ANight_Photography.jpg"><img
-width="600" alt="Night Photography"
-src="http://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Night_Photography.jpg/600px-Night_Photography.jpg"/></a>
+<a href="http://commons.wikimedia.org/wiki/File%3ANight_Photography.jpg">
+  <img width="540" alt="Rotation diurne de la sphère céleste"
+  src="http://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Night_Photography.jpg/600px-Night_Photography.jpg"/>
+</a>
+<figcaption style="font-size: 0.4em; color: #666;">
+Robert Knapp (www.modernartphotograph.com, CC-BY-SA-3.0)
+</figcaption>
 
 <div class="notes">
 - Les étoiles semblent tourner autour de Polaris au cours d'une nuit
@@ -175,12 +176,20 @@ src="http://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Night_Photography.
 
 ---
 
-<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="900"
-height="710"><param name="movie" value="celhorcomp.swf" /><!--[if
-!IE]>--><object type="application/x-shockwave-flash" data="celhorcomp.swf"
-width="900" height="710"><!--<![endif]-->
-<p>Application Flash - Rotation diurne de la sphère céleste</p><!--[if
-!IE]>--></object><!--<![endif]--></object>
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="800"
+height="650"><param name="movie" value="celhorcomp.swf" />
+<!--[if !IE]>-->
+<object type="application/x-shockwave-flash" data="celhorcomp.swf"
+width="800" height="650">
+<!--<![endif]-->
+<p>Application Flash - Rotation diurne de la sphère céleste</p>
+<!--[if !IE]>--></object><!--<![endif]-->
+</object>
+<figcaption style="font-size: 0.4em; color: #666;">
+  Astronomy Education at the University of Nebraska-Lincoln Web Site
+  ([http://astro.unl.edu](http://astro.unl.edu))
+</figcaption>
+
 
 <div class="notes">
 - Cégep Édouard-Montpetit : 45.5N, 73.5W
@@ -220,23 +229,42 @@ width="900" height="710"><!--<![endif]-->
 
 ---
 
-## Mouvement annuel du soleil
+### Mouvement annuel du soleil
 
 <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="550"
-height="280"><param name="movie" value="sunpaths.swf" /><!--[if !IE]>--><object
-type="application/x-shockwave-flash" data="sunpaths.swf" width="550"
-height="280"><!--<![endif]--><p>flash animation</p><!--[if
-!IE]>--></object><!--<![endif]--></object>
+height="280">
+<param name="movie" value="sunpaths.swf" />
+<!--[if !IE]>-->
+<object type="application/x-shockwave-flash" data="sunpaths.swf" width="550"
+height="280">
+<!--<![endif]-->
+<p>Application Flash - Mouvement annuel du Soleil</p>
+<!--[if !IE]>--></object><!--<![endif]-->
+</object>
+<figcaption style="font-size: 0.4em; color: #666;">
+  Astronomy Education at the University of Nebraska-Lincoln Web Site
+  ([http://astro.unl.edu](http://astro.unl.edu))
+</figcaption>
 
 ---
 
-## Le zodiaque et l'écliptique
+### Le zodiaque et l'écliptique
 
-<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="800"
-height="650"><param name="movie" value="zodiac.swf" /><!--[if !IE]>--><object
-type="application/x-shockwave-flash" data="zodiac.swf" width="800"
-height="650"><!--<![endif]--><p>flash animation</p><!--[if
-!IE]>--></object><!--<![endif]--></object>
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="700"
+height="560">
+<param name="movie" value="zodiac.swf" />
+<!--[if !IE]>-->
+<object type="application/x-shockwave-flash" data="zodiac.swf" width="700"
+height="560">
+<!--<![endif]-->
+<p>Application Flash - Zodique et écliptique</p>
+<!--[if !IE]>--></object><!--<![endif]-->
+</object>
+
+<figcaption style="font-size: 0.4em; color: #666;">
+  Astronomy Education at the University of Nebraska-Lincoln Web Site
+  ([http://astro.unl.edu](http://astro.unl.edu))
+</figcaption>
 
 ---
 
@@ -272,16 +300,23 @@ Qu'est-ce qui cause les saisons?
 
 ---
 
-<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="970" height="710">
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="820" height="630">
 <param name="movie" value="http://astro.unl.edu/naap/motion1/animations/seasons_ecliptic.swf" />
  <!--[if !IE]>-->
- <object type="application/x-shockwave-flash" data="http://astro.unl.edu/naap/motion1/animations/seasons_ecliptic.swf" width="970" height="710">
+ <object type="application/x-shockwave-flash"
+ data="http://astro.unl.edu/naap/motion1/animations/seasons_ecliptic.swf"
+ width="820" height="630">
  <!--<![endif]-->
-<p>NAAP Astronomy Labs - Basic Coordinates and Seasons - Seasons and Ecliptic Simulator</p>
+<p>Application Flash - Saisons</p>
  <!--[if !IE]>-->
  </object>
  <!--<![endif]-->
 </object>
+<figcaption style="font-size: 0.4em; color: #666;">
+  Astronomy Education at the University of Nebraska-Lincoln Web Site
+  ([http://astro.unl.edu](http://astro.unl.edu))
+</figcaption>
+
 
 ---
 
@@ -292,10 +327,8 @@ Qu'est-ce qui cause les saisons?
     <img src="../../images/TerreOrbiteLuneEtPhases.png"
       alt="Phases de la Lune" style="max-height:70%;max-width:70%;height:70%">
   </a>
-  <figcaption>
-  <small>
+  <figcaption style="font-size: 0.4em; color: #666;">
     Phases de la Lune (Eric GABA, Looxix)
-  </small>
   </figcaption>
 </figure>
 
@@ -307,36 +340,49 @@ Qu'est-ce qui cause les saisons?
     <img src="../../images/phase-lune-html5-app.png"
       alt="Phases de la Lune" style="max-height:80%;max-width:80%;height:80%">
   </a>
+  <figcaption style="font-size: 0.4em; color: #666;">
+    Astronomy Education at the University of Nebraska-Lincoln Web Site
+    ([http://astro.unl.edu](http://astro.unl.edu))
+  </figcaption>
 </figure>
 
 ---
 
-## Éclipse de Soleil
+### Éclipse de Soleil
 
-<a href="http://commons.wikimedia.org/wiki/File:2008-08-01_Solar_eclipse_progression_with_timestamps.jpg#mediaviewer/File:2008-08-01_Solar_eclipse_progression_with_timestamps.jpg"
-title="User:Kalan - Based on 38 own photos. Licensed under CC BY 3.0 via Wikimedia
-Commons">
-<img src="http://upload.wikimedia.org/wikipedia/commons/5/58/2008-08-01_Solar_eclipse_progression_with_timestamps.jpg"
-alt="2008-08-01 Solar eclipse progression with timestamps.jpg" height="683"
-width="1200"></a>
+<a href="https://www.nasa.gov/image-feature/2017-total-solar-eclipse-composite">
+<img src="../../images/solareclipse.jpg"
+alt="Éclipse solaire" height="auto" width="900">
+</a>
+<figcaption style="font-size: 0.4em; color: #666;">
+NASA/Aubrey Gemignani
+</figcaption>
 
 ---
 
-## Éclipse de Lune
+### Éclipse de Lune
 
-<a href="http://commons.wikimedia.org/wiki/File:Eclipse_lune.jpg#mediaviewer/File:Eclipse_lune.jpg"
-title="Eclipse lune by Luc Viatour - own work www.lucnix.be
-Nikon case FE2 Otical refractor Vixen 1000mm F/D10
-Licensed under CC BY-SA 3.0 via Wikimedia Commons">
-<img src="http://upload.wikimedia.org/wikipedia/commons/7/7d/Eclipse_lune.jpg" alt="Eclipse lune.jpg"></a>
+<a href="https://www.jpl.nasa.gov/edu/news/2018/1/18/how-to-watch-a-total-lunar-eclipse-and-get-students-observing-the-moon/">
+<img src="../../images/lunareclipse.gif" alt="Eclipse de Lune"></a>
+<figcaption style="font-size: 0.4em; color: #666;">
+NASA Goddard Media Studios
+</figcaption>
 
 ---
 
 <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="900"
-height="500"><param name="movie" value="shadowsim.swf" /><!--[if
-!IE]>--><object type="application/x-shockwave-flash" data="shadowsim.swf"
-width="900" height="500"><!--<![endif]--><p>flash animation</p><!--[if
-!IE]>--></object><!--<![endif]--></object>
+height="500"><param name="movie" value="shadowsim.swf" />
+<!--[if !IE]>-->
+<object type="application/x-shockwave-flash" data="shadowsim.swf"
+width="900" height="500">
+<!--<![endif]-->
+<p>Application Flash - Éclipses</p>
+<!--[if !IE]>--></object><!--<![endif]-->
+</object>
+<figcaption style="font-size: 0.4em; color: #666;">
+  Astronomy Education at the University of Nebraska-Lincoln Web Site
+  ([http://astro.unl.edu](http://astro.unl.edu))
+</figcaption>
 
 ---
 
@@ -360,7 +406,16 @@ Est-ce qu'une éclipse de Soleil est visible partout où le Soleil est visible?
 
 ---
 
-## Précession des équinoxes
+### Précession des équinoxes
+
+<iframe width="560" height="315"
+src="https://www.youtube.com/embed/uf-UFu-lACY?start=9" frameborder="0"
+allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen></iframe>
+
+---
+
+### Précession des équinoxes
 
 <a title="By Tfr000 (talk) 14:59, 14 May 2012 (UTC) (Own work) [CC-BY-SA-3.0
 (http://creativecommons.org/licenses/by-sa/3.0) or GFDL
@@ -374,7 +429,7 @@ Période de **26000 ans**
 
 ---
 
-## Précession des équinoxes
+### Précession des équinoxes
 
 - Le pôle Nord céleste ne coïncide pas toujours avec Polaris
 - Signe astrologique pas toujours le même que le signe « astronomique »

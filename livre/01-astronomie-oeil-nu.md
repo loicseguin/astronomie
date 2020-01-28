@@ -293,7 +293,7 @@ non seulement parce qu'on voit uniquement sa face sombre, mais aussi parce
 qu'on est en plein jour.
 
 Si vous observez attentivement la Lune, vous remarquerez que la partie visible
-de la Terre est toujours la même. Un des côté de la Lune ne nous fait jamais
+de la Terre est toujours la même. Un des côtés de la Lune ne nous fait jamais
 face, c'est la face cachée de la Lune. Ceci est causé par le fait que la
 période de révolution de la Lune est égale à sa période de rotation. Cette
 synchronisation, appelée **verouillage gravitationnel**, est une conséquence de
