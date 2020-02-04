@@ -42,7 +42,7 @@ def diapos():
     for folder in DIAPOS_DIRS:
         try:
             os.chdir(folder)
-        except FileNotFoundError:
+        except (FileNotFoundError, NotADirectoryError):
             os.chdir(cwd)
             continue
         # Déterminer le nom du fichier source.
@@ -70,7 +70,6 @@ def livre():
             '{}.html'.format(os.path.splitext(os.path.basename(fname))[0]))
         call_str = 'pandoc -s -c ../www/style.css ' \
                    '--template www/book-template.html ' \
-                   '--include-before-body www/sidebar.html ' \
                    '{} -o {}'.format(in_fname, out_fname)
         print("{}: ".format(in_fname), end='')
         run(call_str)
