@@ -216,7 +216,7 @@ style="max-height: 600px; max-width: 600px; padding: 10px;">
   <a href="https://commons.wikimedia.org/wiki/File:Horizon,_Valencia_(Spain).JPG">
   <img alt="Les objets à l'horizon disparaissent par le bas"
   src="../../images/Horizon_Valencia_Spain.jpg"
-  style="max-height: 600px; max-width: 1000px;">
+  style="max-height: 600px; max-width: 1000px;"></a>
   <figcaption style="font-size: 0.4em; color: #666;">
     Santifc [CC BY-SA](https://creativecommons.org/licenses/by-sa/4.0)
   </figcaption>
@@ -297,7 +297,7 @@ style="max-height: 500px; max-width: 1000px;">
 
 ## Hipparque
 
-- Propose une explication du mouvement rétrograde des planètes supérieures
+- Propose une explication du mouvement rétrograde des planètes
 - Planète se déplace sur un **épicycle** qui lui-même se déplace sur un
     **déférent**
 
@@ -313,6 +313,24 @@ style="
     max-height: 500px;
     max-width: 1000px;
 ">
+
+---
+
+
+<figure>
+  <img src="../../images/modele_hipparque.png"
+       alt="Modèle d'Hipparque"
+       style="background-color:#eee; padding: 10px;"
+       width="45%">
+  <a href="http://old.nationalcurvebank.org/cycloidmaple/cycloid.htm">
+    <img src="../../images/epitroa.gif" alt="Épitrochoïde qui montre comment la
+    combinaison d'un déférent et d'un épicycle peut donner lieu à un mouvement
+    rétrograde" width="45%" loop="infinite">
+  </a>
+  <figcaption style="font-size: 0.4em; color: #666;">
+    Image de droite : Paul Chabot
+  </figcaption>
+</figure>
 
 ---
 
