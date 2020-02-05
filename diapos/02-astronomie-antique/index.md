@@ -6,7 +6,7 @@ theme: night
 transition: none
 ---
 
-## Les mésopotamiens
+## Les Mésopotamiens
 
 <figure>
   <a title="By Goran tek-en [CC-BY-SA-3.0](http://creativecommons.org/licenses/by-sa/3.0), via Wikimedia Commons"
@@ -153,7 +153,7 @@ style="max-height: 600px; max-width: 600px; padding: 10px;">
 ---
 
 
-## Les grecs
+## Les Grecs
 
 <figure>
   <a href="https://commons.wikimedia.org/wiki/File:NAMA_Machine_d%27Anticyth%C3%A8re_1.jpg">
@@ -209,6 +209,40 @@ style="max-height: 600px; max-width: 600px; padding: 10px;">
     * Changement de l'apparence du ciel selon la latitude
 
 **Tout cela est correct**
+
+---
+
+<figure>
+  <a href="https://commons.wikimedia.org/wiki/File:Horizon,_Valencia_(Spain).JPG">
+  <img alt="Les objets à l'horizon disparaissent par le bas"
+  src="../../images/Horizon_Valencia_Spain.jpg"
+  style="max-height: 600px; max-width: 1000px;">
+  <figcaption style="font-size: 0.4em; color: #666;">
+    Santifc [CC BY-SA](https://creativecommons.org/licenses/by-sa/4.0)
+  </figcaption>
+</figure>
+
+---
+
+<a href="https://www.jpl.nasa.gov/edu/news/2018/1/18/how-to-watch-a-total-lunar-eclipse-and-get-students-observing-the-moon/">
+<img src="../../images/lunareclipse.gif" alt="Eclipse de Lune"></a>
+<figcaption style="font-size: 0.4em; color: #666;">
+NASA Goddard Media Studios
+</figcaption>
+
+---
+
+<figure>
+  <img alt="Ciel vu de Longueuil"
+  src="../../images/ciel_longueuil.png"
+  style="max-height: 600px; max-width: 450px;">
+  <img alt="Ciel vu du Vénézuela"
+  src="../../images/ciel_venezuela.png"
+  style="max-height: 600px; max-width: 450px;">
+  <figcaption style="font-size: 0.4em; color: #666;">
+    Stellarium
+  </figcaption>
+</figure>
 
 ---
 
