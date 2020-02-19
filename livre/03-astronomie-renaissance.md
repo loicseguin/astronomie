@@ -241,10 +241,10 @@ bouger.
 </figure>
 
 
-### Tâches solaires
+### Taches solaires
 
-Des tâches plus sombres apparaissent et disparaissent de la surface du Soleil.
-Ces tâches bougent à la surface. L'observation de ces tâches par Galilée
+Des taches plus sombres apparaissent et disparaissent de la surface du Soleil.
+Ces taches bougent à la surface. L'observation de ces taches par Galilée
 montrait que le Soleil n'était pas un objet éternel et immuable : il changeait,
 tout comme les choses sur Terre. Cela remettait en question l'hypothèse selon
 laquelle tout ce qui se trouvait dans les cieux était figé à tout jamais.
@@ -254,11 +254,11 @@ Galilée.
 <figure>
   <a href="https://www.nasa.gov/content/goddard/largest-sunspot-of-solar-cycle">
   <img src="../images/sunspots.jpg"
-    alt="Photo de tâches solaires prise par le Solar Dynamic Observatory"
+    alt="Photo de taches solaires prise par le Solar Dynamic Observatory"
     width=60%>
   </a>
   <figcaption>
-    Photo de tâches solaires prise par le Solar Dynamic Observatory (NASA/SDO)
+    Photo de taches solaires prise par le Solar Dynamic Observatory (NASA/SDO)
   </figcaption>
 </figure>
 
