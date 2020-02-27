@@ -1,8 +1,8 @@
-% La profondeur du ciel
+% Distances dans le système solaire
 % CEA Explorer et comprendre l'Univers
-% 1 octobre 2014
+% 27 février 2020
 ---
-theme: serif
+theme: beige
 transition: linear
 ---
 
@@ -10,11 +10,29 @@ transition: linear
 
 ---
 
-## Rappels de géométrie
+<figure>
+  <a href="https://solarsystem.nasa.gov/solar-system/our-solar-system/galleries/?page=0&per_page=25&order=created_at+desc&search=&fancybox=true&href_query_params=category%3Dsolar-system_our-solar-system&button_class=big_more_button&tags=our+solar+system&condition_1=1%3Ais_in_resource_list&category=51">
+    <img src="../../images/solar_system.jpg"
+      alt="Système solaire, pas à l'échelle"
+      width="100%"
+      style="
+          max-height: 500px;
+          max-width: 1000px;
+      ">
+  </a>
+  <figcaption style="font-size: 0.4em; color: #666;">
+  (NASA)
+  </figcaption>
+</figure>
 
 ---
 
-![](triangle-rec.png)
+## Rappels de géométrie
+
+
+<img src="../../images/triangle-rec.png"
+    alt="Trigonométrie"
+    style="padding: 15px">
 
 ---
 
@@ -26,7 +44,8 @@ transition: linear
 
 ---
 
-![](soleil-loin.png)
+<img src="../../images/soleil-loin.png"
+  style="max-height: 500px; max-width: 800px; padding: 15px;">
 
 >- $\theta = 89.85°$
 >- Le Soleil est 382 fois plus loin que la Lune
@@ -40,7 +59,14 @@ transition: linear
 
 ---
 
-![](eratosthene.png)
+<a href="https://fr.wikipedia.org/wiki/Fichier:Eratosthene_mesure_terre.png">
+  <img src="../../images/Eratosthene_mesure_terre.png"
+    style="max-height: 500px; max-width: 800px; padding: 5px;">
+</a>
+<figcaption style="font-size: 0.4em; color: #666;">
+  Raphael Javaux [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/deed.fr)
+</figcaption>
+
 
 >- Le rayon de la Terre est d'environ 6700 km
 >- Valeur moderne : 6380 km
@@ -75,7 +101,8 @@ La distance entre la Terre et le Soleil est appelée une **unité astronomique
 
 ---
 
-![](parallaxe.png)
+<img src="parallaxe.png"
+  style="max-height: 400px; max-width: 600px; padding: 15px;">
 
 >- **1 UA = 1.50 $\times$ 10<sup>11</sup> m = 150 000 000 km**
 
@@ -87,7 +114,8 @@ La distance entre la Terre et le Soleil est appelée une **unité astronomique
 
 ---
 
-![](planetes-inf.png)
+<img src="../../images/planetes-inf.png"
+  style="max-height: 500px; max-width: 800px; padding: 15px;">
 
 ---
 
@@ -97,6 +125,7 @@ La distance entre la Terre et le Soleil est appelée une **unité astronomique
 
 ---
 
-![](planetes-sup.png)
+<img src="../../images/kepler-distance-mars.png"
+  style="max-height: 500px; max-width: 800px; padding: 15px;">
 
 

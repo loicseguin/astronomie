@@ -8,7 +8,7 @@ title-prefix: Explorer et comprendre l'Univers
   <img src="../images/Bertini_fresco_of_Galileo_Galilei_and_Doge_of_Venice.jpg"
     alt="Détail d'une peinture de Giuseppe Bertini qui montre Galilei Galileo
     expliquant le fonctionnement de son télescope au doge de Venise"
-    width=100%>
+    width="100%">
   <figcaption>
     Détail d'une peinture de Giuseppe Bertini qui montre Galilei Galileo
     expliquant le fonctionnement de son télescope au doge de Venise
