@@ -1,173 +1,89 @@
-% La gravitation
+% Gravitation
 % CEA Explorer et comprendre l'Univers
-% 8 octobre 2014
+% 5 mars 2020
 ---
-theme: default
+theme: beige
 transition: linear
 ---
 
-## Tycho Brahé
-
-*(1546 — 1601)*
-
-<a title="By Eduard Ender († 1883)
-(http://cache.eb.com/eb/image?id=83677&rendTypeId=4) [Public domain], via
-Wikimedia Commons"
-href="http://commons.wikimedia.org/wiki/File%3ATycho_Brahe.JPG"><img
-width="256" alt="Tycho Brahe"
-src="//upload.wikimedia.org/wikipedia/commons/2/2b/Tycho_Brahe.JPG"/></a>
+## Pourquoi les planètes du système solaire bougent-elles sur des orbites elliptiques?
 
 ---
 
-## Tycho Brahé
-- Château-observatoire, Uraniborg, sur l'île de Hveen
-- Observations à l'**œil nu**
-- Position des planètes à 1/60 de degré
-
----
-
-<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d4513487.101112015!2d12.486592059157093!3d56.4703257817558!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465235606b16f931%3A0x7c2b7a040a52432d!2sUranienbourg!5e0!3m2!1sfr!2sca!4v1412805951948" width="600" height="450" frameborder="0" style="border:0"></iframe>
-
----
-
-## Tycho Brahé
-
-- Élabore un modèle complexe et incorrect à partir de ses observations
-- Lègue ses données à Johannes Kepler
-
----
-
-## Johannes Kepler
-
-*(1571 — 1630)*
-
-<a title="See page for author [Public domain], via Wikimedia Commons"
-href="https://commons.wikimedia.org/wiki/File%3AJohannes_Kepler_1610.jpg"><img
-width="256" alt="Johannes Kepler 1610"
-src="//upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Johannes_Kepler_1610.jpg/256px-Johannes_Kepler_1610.jpg"/></a>
-
----
-
-## Johannes Kepler
-
-- Féru de mathématiques
-- Élabore un modèle mathématique du mouvement des planètes
-- Découvre **trois** lois qui régissent leur mouvement
-
----
-
-## Première loi de Kepler
-
-*Les planètes décrivent des orbites en forme d'ellipse autour du Soleil. Ce
-dernier se trouve sur un des foyers de l'ellipse.*
-
----
-
-<a title="By HB (Own work) [GFDL (http://www.gnu.org/copyleft/fdl.html) or
-CC-BY-SA-3.0-2.5-2.0-1.0 (http://creativecommons.org/licenses/by-sa/3.0)], via
-Wikimedia Commons"
-href="http://commons.wikimedia.org/wiki/File%3AEllipseVal.svg"><img width="512"
-alt="EllipseVal" style="background-color: white;"
-src="//upload.wikimedia.org/wikipedia/commons/thumb/7/72/EllipseVal.svg/512px-EllipseVal.svg.png"/></a>
-
----
-
-## L'ellipse
-
-- Possède deux **foyers**
-- Caractérisée par son **excentricité**
-
-$$e = \frac{c}{a}$$
-
----
-
-## L'ellipse
-
-- Aphélie : point le plus loin du Soleil
-- Périhélie : point le plus près du Soleil
-
----
-
-## Excentricité des orbites des planètes
-
-Planète   Excentricité
--------   ------------
-Mercure   0,206
-Vénus     0,007
-Terre     0,017
-Mars      0,093
-Jupiter   0,048
-Saturne   0,056
-Uranus    0,047
-Neptune   0,009
-Pluton    0,248
-
----
-
-## Deuxième loi de Kepler
-
-*La ligne qui relie la planète au Soleil balaie des aires égales en des temps
-égaux.*
-
----
-
-<a title="By Hankwang (Own work) [GFDL (http://www.gnu.org/copyleft/fdl.html),
-CC-BY-SA-3.0 (http://creativecommons.org/licenses/by-sa/3.0/) or CC-BY-2.5
-(http://creativecommons.org/licenses/by/2.5)], via Wikimedia Commons"
-href="https://commons.wikimedia.org/wiki/File%3AKepler_laws_diagram.svg"><img
-width="512" alt="Kepler laws diagram" style="background-color: white;"
-src="//upload.wikimedia.org/wikipedia/commons/thumb/9/98/Kepler_laws_diagram.svg/512px-Kepler_laws_diagram.svg.png"/></a>
-
----
-
-## Deuxième loi de Kepler
-
-- Vitesse varie le long de l'orbite
-- Près du Soleil : plus vite
-- Loin du Soleil : plus lentement
-
->- C'est la préférence zodiacale
-
----
-
-## Troisième loi de Kepler
-
-$$T^2 = a^3$$
-
-- $T$ : **période sidérale** en années
-- $a$ : **demi-grand axe** en unités astronomiques
-
----
-
-## Galilée (encore)
-
+### Galilée
 *(1564 — 1642)*
 
-Le **principe d'inertie** (v. 1.0)
-
-*En l'absence de toute contrainte et de toute force, un objet en mouvement
-continuera sur sa lancée pour toujours.*
-
-C'est-à-dire que les planètes continuent a parcourir leur orbite pour toujours.
+La gravité agit de la même façon sur tous les corps à la surface de la Terre.
 
 ---
 
-## René Descartes
+<figure>
+  <a href="https://commons.wikimedia.org/wiki/File:Piazza_dei_Miracoli_-_The_Cathedral_and_the_Leaning_Tower_in_Pisa_(2).jpg">
+  <img src="../../images/tower_pisa.jpg"
+       alt="Tour de Pise d'où Galilée aurait soi disant-laissé tomber deux boulets de masses différentes."
+      style="
+          max-height: 500px;
+          max-width: 1000px;
+      ">
+  </a>
+  <figcaption style="font-size: 0.4em; color: #666;">
+    (Dudva [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/deed.en))
+  </figcaption>
+</figure>
+
+---
+
+<iframe
+  src="//commons.wikimedia.org/wiki/File:Apollo_15_feather_and_hammer_drop.ogv?embedplayer=yes"
+  width="654" height="480" frameborder="0" webkitAllowFullScreen
+  mozallowfullscreen allowFullScreen>
+</iframe>
+<figcaption style="font-size: 0.4em; color: #666;">
+  Dave Scott, Apollo 15 (NASA)
+</figcaption>
+
+---
+
+<iframe width="560" height="315"
+    src="https://www.youtube.com/embed/E43-CfukEgs" frameborder="0"
+    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen>
+</iframe>
+
+---
+
+### Galilée (encore)
+
+**Principe d'inertie** (v. 1.0)
+
+*En l'absence de toute contrainte et de toute force, un objet en mouvement
+continuera sur sa lancée horizontale pour toujours.*
+
+Les planètes continuent a parcourir leur orbite pour toujours.
+
+---
+
+### René Descartes
 
 *(1596 — 1650)*
 
-
-<a title="After Frans Hals (1582/1583–1666) [Public domain], via Wikimedia
-Commons"
-href="https://commons.wikimedia.org/wiki/File%3AFrans_Hals_-_Portret_van_Ren%C3%A9_Descartes.jpg"><img
-width="256" alt="Frans Hals - Portret van René Descartes"
-src="//upload.wikimedia.org/wikipedia/commons/thumb/7/73/Frans_Hals_-_Portret_van_Ren%C3%A9_Descartes.jpg/256px-Frans_Hals_-_Portret_van_Ren%C3%A9_Descartes.jpg"/></a>
+<figure>
+<a title="After Frans Hals (1582/1583–1666) [Public domain], via Wikimedia Commons"
+   href="https://commons.wikimedia.org/wiki/File%3AFrans_Hals_-_Portret_van_Ren%C3%A9_Descartes.jpg">
+  <img src="../../images/descartes.jpg"
+    alt="Portrait de René Descartes par Frans Hals."
+    style="
+        max-height: 450px;
+        max-width: 1000px;
+    ">
+</a>
+</figure>
 
 ---
 
-## René Descartes
+### René Descartes
 
-Le **principe d'inertie** (v. 2.0)
+**Principe d'inertie** (v. 2.0)
 
 *Les objets se déplacent en ligne droite à vitesse constante tant et aussi
 longtemps qu'aucune force n'agit sur eux.*
@@ -178,65 +94,131 @@ longtemps qu'aucune force n'agit sur eux.*
 
 ---
 
-## Isaac Newton
+### Isaac Newton
 
 *(1642 — 1727)*
 
+<figure>
 <a title="Sir Godfrey Kneller [Public domain], via Wikimedia Commons"
-href="https://commons.wikimedia.org/wiki/File%3AGodfreyKneller-IsaacNewton-1689.jpg"><img
-width="256" alt="GodfreyKneller-IsaacNewton-1689"
-src="//upload.wikimedia.org/wikipedia/commons/3/39/GodfreyKneller-IsaacNewton-1689.jpg"/></a>
+href="https://commons.wikimedia.org/wiki/File%3AGodfreyKneller-IsaacNewton-1689.jpg">
+  <img src="../../images/newton.jpg"
+    alt="Portrait d'Isaac Newton par Godfrey Kneller."
+    style="
+        max-height: 450px;
+        max-width: 1000px;
+    ">
+</a>
+</figure>
 
 ---
 
-## Isaac Newton
+### Isaac Newton
 
 #### Quelle est la force qui tire continuellement les planètes vers le Soleil et les maintient sur leur orbite?
 
 ---
 
-## Isaac Newton
+### Première loi de la mécanique
 
-- Récupère un résultat de Robert Hooke : la force est inversement
-  proportionnelle à la distance au carré ($1/r^2$)
-- Parvient à décrire la forme de la loi
-- Réalise une chose fondamentale!
+**Principe d'inertie** (v. 2.0)
 
----
-
-## La force qui maintient les planètes en orbite autour du Soleil est la même qui fait tomber les objets à la surface de la Terre
+*Les objets se déplacent en ligne droite à vitesse constante tant et aussi
+longtemps qu'aucune force n'agit sur eux.*
 
 ---
 
-## Interlude : Newton et la pomme
+### Deuxième loi de la mécanique
 
-Il était une fois...
+L'accélération subit par un corps est proportionnelle à la force nette
+appliquée à ce corps et inversement proportionnelle à la masse du corps.
 
 ---
 
-## La loi de la gravitation universelle de Newton
+### Troisième loi de la mécanique
+
+Toute force exercée par un objet A sur un objet B est accompagnée d'une force
+exercée par l'objet B sur l'objet A qui a la même grandeur et est dans la
+direction opposée.
+
+---
+
+### La force qui maintient les planètes en orbite autour du Soleil est la même qui fait tomber les objets à la surface de la Terre
+
+---
+
+### Interlude : Newton et la pomme
+
+<figure>
+  <a href="https://fr.wikipedia.org/wiki/Fichier:Newton%27s-apple.jpg">
+  <img src="../../images/Newton-apple.jpg"
+       alt="Newton et la pomme"
+      style="
+          max-height: 500px;
+          max-width: 1000px;
+      ">
+  </a>
+  <figcaption style="font-size: 0.4em; color: #666;">
+    (Alexander Borek [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.fr))
+  </figcaption>
+</figure>
+
+---
+
+### Loi de la gravitation universelle de Newton
 
 $$F = \frac{G m_1 m_2}{r^2}$$
 
+---
+
+<iframe width="800px" height="600px"
+src="https://lab.loicseguin.com/schroeder/index.html"></iframe>
 
 ---
 
-<iframe width="800px" height="1000px"
-src="../newtonscannon/newtonscannon.html"></iframe>
+### Isaac Newton
+
+Publication de ses résultats dans les *Philosophiae Naturalis Principia
+Mathematica*
 
 ---
 
-## Isaac Newton
+### Succès de la théorie newtonienne
 
-- Publication de ses résultats dans les *Philosophiae Naturalis Principia
-  Mathematica*
+Permet d'expliquer tous les phénomènes célestes observés
+
+Prédit de nouveaux phénomènes
 
 ---
 
-## Succès de la théorie newtonienne
+### Prédiction de la trajectoire d'une comète par Edmund Halley
 
-- Permet d'expliquer tous les phénomènes célestes observés
-- Prédit de nouveaux phénomènes
+<a title="By NASA/W. Liller [Public domain], via Wikimedia Commons"
+href="https://commons.wikimedia.org/wiki/File%3ALspn_comet_halley.jpg"><img
+width="512" alt="Lspn comet halley"
+src="//upload.wikimedia.org/wikipedia/commons/2/2a/Lspn_comet_halley.jpg"/></a>
+
+---
+
+### Étude des systèmes binaires par Caroline et William Herschel
+
+<figure>
+  <a href="https://wellcomecollection.org/works/dmbmc538">
+  <img src="../../images/herschels.jpg"
+    alt="Caroline et William Herschel polissant un miroir"
+    style="
+        max-height: 450px;
+        max-width: 1000px;
+    ">
+  </a>
+  <figcaption style="font-size: 0.4em; color: #666;">
+    Wellcome Collection ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/))
+  </figcaption>
+</figure>
+
+
+---
+
+### Découverte de nouvelles planètes
 
 >- Découverte d'Uranus en 1781 par William Herschel
 >- L'orbite d'Uranus est bizarre...
@@ -246,44 +228,13 @@ src="../newtonscannon/newtonscannon.html"></iframe>
 
 ---
 
-## Succès de la théorie newtonienne
-
-- Prédiction de la trajectoire d'une comète par Edmund Halley
-
-<a title="By NASA/W. Liller [Public domain], via Wikimedia Commons"
-href="https://commons.wikimedia.org/wiki/File%3ALspn_comet_halley.jpg"><img
-width="512" alt="Lspn comet halley"
-src="//upload.wikimedia.org/wikipedia/commons/2/2a/Lspn_comet_halley.jpg"/></a>
-
----
-
-## Succès de la théorie newtonienne
-
-- Caroline et William Herschel montrent des systèmes d'étoiles binaires qui se
-  comportent comme le prévoit la théorie newtonienne (*circa* 1800)
-
----
-
-## Succès de la théorie newtonienne
-
-- Mouvement des étoiles dans les amas globulaires
-
-<a title="By ESA/Hubble & NASA
-(http://www.spacetelescope.org/images/potw1225a/) [CC-BY-3.0
-(http://creativecommons.org/licenses/by/3.0)], via Wikimedia Commons"
-href="http://commons.wikimedia.org/wiki/File%3AGlobular_Cluster_M10.jpg"><img
-width="512" alt="Globular Cluster M10"
-src="//upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Globular_Cluster_M10.jpg/512px-Globular_Cluster_M10.jpg"/></a>
-
----
-
 ## Problème avec la théorie newtonienne
 
 Perturbation dans l'orbite de Mercure qui ne s'explique d'aucune façon...
 
 ---
 
-## Albert Einstein
+### Albert Einstein
 
 *(1879 — 1955)*
 
@@ -292,11 +243,11 @@ Perturbation dans l'orbite de Mercure qui ne s'explique d'aucune façon...
 Commons"
 href="http://commons.wikimedia.org/wiki/File%3AAlbert_Einstein_ETH-Bib_Portr_05937.jpg"><img
 width="256" alt="Albert Einstein ETH-Bib Portr 05937"
-src="//upload.wikimedia.org/wikipedia/commons/0/00/Albert_Einstein_ETH-Bib_Portr_05937.jpg"/></a>
+src="../../images/Albert_Einstein.jpg"/></a>
 
 ---
 
-## Albert Einstein
+### Albert Einstein
 
 - Essaie de réconcilier le principe de relativité galiléenne et
   l'électrodynamisme
@@ -309,7 +260,7 @@ src="//upload.wikimedia.org/wikipedia/commons/0/00/Albert_Einstein_ETH-Bib_Portr
 
 ---
 
-## Relativité restreinte
+### Relativité restreinte
 
 *(1905)*
 
@@ -320,7 +271,7 @@ Deux postulats
 
 ---
 
-## Relativité restreinte
+### Relativité restreinte
 
 - Espace et temps ne sont plus absolus
 - Dilatation du temps et contraction des longueurs
@@ -329,7 +280,7 @@ $$\gamma = \frac{1}{\sqrt{1 - \frac{v^2}{c^2}}}$$
 
 ---
 
-## Relativité restreinte
+### Relativité restreinte
 
 - Dilatation du temps et contraction des longueurs deviennent plus importante
   lorsqu'on s'approche de la vitesse de la lumière
@@ -337,7 +288,7 @@ $$\gamma = \frac{1}{\sqrt{1 - \frac{v^2}{c^2}}}$$
 
 ---
 
-## Relativité restreinte
+### Relativité restreinte
 
 Équivalence masse-énergie
 
@@ -345,7 +296,7 @@ $$E = \gamma m c^2$$
 
 ---
 
-## Albert Einstein
+### Albert Einstein
 
 La même année (1905), il publie 4 découvertes fondamentales :
 
@@ -360,7 +311,7 @@ C'est l'*Annus Mirabilis*.
 
 ---
 
-## Relativité générale
+### Relativité générale
 
 *(1916)*
 
@@ -372,14 +323,28 @@ C'est l'*Annus Mirabilis*.
 
 ---
 
-## Relativité générale
+### Principe d'équivalence
+
+<figure>
+  <img src="../../images/principe_equivalence.png"
+       alt="Principe d'équivalence"
+      style="
+        padding: 10px;
+        max-height: 500px;
+        max-width: 1000px;
+      ">
+</figure>
+
+---
+
+### Relativité générale
 
 - La masse déforme l'**espace-temps**
 - Ces déformations sont la cause de la gravitation
 
 ---
 
-## Relativité générale
+### Relativité générale
 
 - Près du Soleil, la courbure de l'espace est très importante
 - Mercure est près du Soleil!
@@ -389,53 +354,115 @@ C'est l'*Annus Mirabilis*.
 
 ## Autres succès de la relativité générale
 
-- Les lentilles gravitationnelles
+---
 
-<a title="By NASA, ESA, and STScI [Public domain], via Wikimedia Commons"
-href="http://commons.wikimedia.org/wiki/File%3AEinstein_cross.jpg"><img
-width="512" alt="Einstein cross"
-src="//upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Einstein_cross.jpg/512px-Einstein_cross.jpg"/></a>
+### Lentilles gravitationnelles
+
+<a href="https://hubblesite.org/contents/media/images/1990/20/22-Image.html?news=true">
+<img alt="Croix d'Einstein G2237+0305"
+  src="../../images/g2237+0305.jpg"
+  style="
+    max-height: 500px;
+    max-width: 1000px;
+    "
+/>
+</a>
 
 ---
 
-<a title="By Urbane Legend (optimised for web use by Alain r)
-(en:Image:BlackHole_Lensing_2.gif) [GFDL (http://www.gnu.org/copyleft/fdl.html)
-or CC-BY-SA-3.0 (http://creativecommons.org/licenses/by-sa/3.0/)], via
-Wikimedia Commons"
-href="http://commons.wikimedia.org/wiki/File%3ABlack_hole_lensing_web.gif"><img
-width="128" alt="Black hole lensing web"
-src="//upload.wikimedia.org/wikipedia/commons/0/03/Black_hole_lensing_web.gif"/></a>
+<figure>
+  <a href="https://apod.nasa.gov/apod/ap111221.html">
+  <img src="../../images/lensshoe_hubble_3235.jpg"
+    alt="Lentille gravitationnelle LRG 3-757 photographiée par Hubble"
+    style="
+        max-height: 600px;
+        max-width: 1000px;
+    ">
+  </a>
+  <figcaption style="font-size: 0.4em; color: #666;">
+    LRG 3-757 photographiée par Hubble. (ESA/Hubble & NASA)
+  </figcaption>
+</figure>
 
 ---
 
-<a title="By ESA/Hubble & NASA [Public domain], via Wikimedia Commons"
-href="http://commons.wikimedia.org/wiki/File%3ALensshoe_hubble.jpg"><img
-width="512" alt="Lensshoe hubble"
-src="//upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Lensshoe_hubble.jpg/512px-Lensshoe_hubble.jpg"/></a>
+<figure>
+  <a href="https://www.spacetelescope.org/images/potw1506a/">
+    <img src="../../images/potw1506a.jpg"
+      alt="Amas de galaxies causant un effet de lentille gravitationnelle"
+    style="
+        max-height: 600px;
+        max-width: 1000px;
+    ">
+  </a>
+  <figcaption style="font-size: 0.4em; color: #666;">
+    (NASA/ESA).
+  </figcaption>
+</figure>
 
 ---
 
-## Trous noirs
+### Trous noirs
 
 - La relativité générale ajoute un ralentissement du temps dû à la gravité.
 - Ce ralentissement dépend de la vitesse de libération
 - Si la vitesse de libération est celle de la lumière, ralentissement infini
 
-<br />
+---
+
+### Trous noirs
 
 Les objets pour lesquels la vitesse de libération est celle de la lumière sont
 appelés des **trous noirs**.
 
 ---
 
-## Trous noirs
+### Trous noirs supermassifs
 
-- Il semble y avoir des trous noirs supermassifs au centre de chaque galaxie
+<a href="https://www.nasa.gov/multimedia/imagegallery/image_feature_2247.html">
+  <img alt="Active Black Hole Squashes Star Formation"
+    src="../../images/PIA15625.jpg"
+    style="
+        max-height: 500px;
+        max-width: 1000px;
+    ">
+</a>
+<figcaption style="font-size: 0.4em; color: #666;">
+  NASA/JPL-Caltech
+</figcaption>
 
-<a title="By NASA [Public domain], via Wikimedia Commons"
-href="http://commons.wikimedia.org/wiki/File%3AActive_Black_Hole_Squashes_Star_Formation.jpg"><img
-width="512" alt="Active Black Hole Squashes Star Formation"
-src="//upload.wikimedia.org/wikipedia/commons/thumb/0/06/Active_Black_Hole_Squashes_Star_Formation.jpg/512px-Active_Black_Hole_Squashes_Star_Formation.jpg"/></a>
+---
+
+<figure>
+  <a href="https://www.eso.org/public/images/eso1907a/">
+  <img src="../../images/bh_accretiondisk_sim_stationary_websize.gif"
+    alt="Simulation d'un trou noir avec disque d'acrétion"
+    style="
+        max-height: 500px;
+        max-width: 1000px;
+    ">
+  </a>
+  <figcaption style="font-size: 0.4em; color: #666;">
+    NASA’s Goddard Space Flight Center/Jeremy Schnittman
+  </figcaption>
+</figure>
+
+---
+
+<figure>
+  <a href="https://www.eso.org/public/images/eso1907a/">
+  <img src="../../images/eso1907a.jpg"
+    alt="Trou noir M87* au centre de la galaxie M87"
+    style="
+        max-height: 500px;
+        max-width: 1000px;
+    ">
+  </a>
+  <figcaption style="font-size: 0.4em; color: #666;">
+    EHT Collaboration
+  </figcaption>
+</figure>
+
 
 ---
 

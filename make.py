@@ -68,7 +68,7 @@ def livre():
         out_fname = os.path.join(
             'livre',
             '{}.html'.format(os.path.splitext(os.path.basename(fname))[0]))
-        call_str = 'pandoc -s -c ../www/style.css ' \
+        call_str = 'pandoc -s -c ../www/style.css --mathjax ' \
                    '--template www/book-template.html ' \
                    '{} -o {}'.format(in_fname, out_fname)
         print("{}: ".format(in_fname), end='')
