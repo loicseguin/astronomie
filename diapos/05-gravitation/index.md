@@ -434,7 +434,7 @@ appelés des **trous noirs**.
 ---
 
 <figure>
-  <a href="https://www.eso.org/public/images/eso1907a/">
+  <a href="https://www.nasa.gov/feature/goddard/2019/nasa-visualization-shows-a-black-hole-s-warped-world">
   <img src="../../images/bh_accretiondisk_sim_stationary_websize.gif"
     alt="Simulation d'un trou noir avec disque d'acrétion"
     style="
