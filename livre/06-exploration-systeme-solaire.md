@@ -48,9 +48,11 @@ objet
 </figure>
 
 Les quatre planètes les plus près du Soleil ont des structures similaires à
-celle de la Terre et ont les appelle donc les **planètes telluriques**. Les
-quatres planètes les plus éloignées du Soleil sont beaucoup plus grosse et sont
-gazeuses. En raison de leur ressemblance à Jupiter, on les appelle les
+celle de la Terre et ont les appelle donc les **planètes telluriques**. Elles
+sont principalement composée de roches et ont des densités d'environ 5\
+g/cm<sup>3</sup>.Les quatres planètes les plus éloignées du Soleil sont
+beaucoup plus grosse et sont gazeuses. Elles ont des densités entre 1 et 2\
+g/<sup>3</sup>. En raison de leur ressemblance à Jupiter, on les appelle les
 **planètes joviennes**.
 
 Une **planète naine** est un objet sphérique en orbite autour du Soleil, mais
@@ -248,6 +250,15 @@ comprendre le champ magnétique solaire.
 
 ## Mercure
 
+<figure>
+  <a href="https://messenger.jhuapl.edu/Explore/Science-Images-Database/gallery-image-911.html">
+  <img alt="Mercure" src="../images/Mercure.png" width="100%">
+  </a>
+  <figcaption>
+  NASA/Johns Hopkins University Applied Physics Laboratory/Carnegie Institution of Washington
+  </figcaption>
+</figure>
+
 À 3,6 minutes-lumière du Soleil, on retrouve Mercure. Puisque c'est la planète
 la plus proche du Soleil, c'est aussi celle qui tourne le plus rapidement, à
 48\ km/s. Cette planète tourne autour du Soleil en 88 jours terrestres et elle
@@ -256,7 +267,10 @@ mouvements, la durée d'une période jour-nuit complète est de 176 jours. C'est
 la plus petite planète et elle ne possède presque aucune atmosphère parce que
 sa gravité n'est pas suffisamment forte pour retenir le gaz.
 
-Mercure fut visitée en 1974 et en 1975 par la sonde spatiale Mariner 10.
+Mercure fut visitée en 1974 et en 1975 par la sonde spatiale Mariner 10, puis
+entre 2008 et 2015 par MESSENGER. MESSENGER nous a fourni des images haute
+résolution de la surface de Mercure puis s'est écrasée à la surface le 30
+avril 2015 après avoir épuisé son carburant.
 
 <figure>
   <a href="https://www.nasa.gov/multimedia/imagegallery/image_feature_1483.html">
@@ -270,25 +284,75 @@ Mercure fut visitée en 1974 et en 1975 par la sonde spatiale Mariner 10.
 </figure>
 
 
-
-
-
-
 ## Vénus
+
+<figure>
+  <a href="https://solarsystem.nasa.gov/resources/688/computer-simulated-global-view-of-venus/?category=planets_venus">
+  <img alt="Mercure" src="../images/Venus.jpg" width="100%">
+  </a>
+  <figcaption>
+  Vénus vue par le radar de Magellan (NASA/Jet Propulsion Laboratory-Caltech)
+  </figcaption>
+</figure>
+
+À 6 minutes-lumière du Soleil se trouve Vénus, un monde chaud et acide, balayé
+par des tempêtes constantes. Sur Vénus, le jour est plus long que l'année et la
+direction de la rotation est opposée à la direction de révolution ce qui fait
+qu'un cycle jour-nuit dure 117 jours terrestres. La température moyenne est de
+477°C en raison de l'intense effet de serre. Cet effet de serre est dû à une
+atmosphère composée principalement de dioxyde de carbone et de nuages d'acide
+sulfurique. La pression atmosphérique sur Vénus est près de 100 fois plus
+grande que celle sur Terre.
+
+C'est une planète rocheuse avec une structure interne similaire à celle de la
+Terre. Un noyau de fer est surmonté d'un manteau de roche chaude qui bouge
+lentement, créant un mouvement de plaques tectoniques et des volcans.
+
+La planète a été visitée à de nombreuses reprises (notamment par les sondes
+Pioneer et Mariner). C'est la sonde spatiale Magellan qui a cartographié la
+totalité de la surface de Vénus au début des années 1990. Les soviétiques ont
+été les seuls à tenter de se poser sur Vénus. Les sondes Venera-13 et
+Venera-14, de même que leurs successeurs Vega-1 et Vega-2 ont réussi à se poser
+et à transmettre quelques données. En raison des conditions extrêmes à la
+surface de la planètes, ces sondes ont eu une durée de vie très courte. Par
+exemple, Venera-13 a été fonctionnelle environ 2 heures.
+
+<figure>
+  <img alt="Surface de Vénus photographiée par Venera-13" src="../images/venera13.gif"
+    width="100%">
+  <figcaption>
+  Surface de Vénus photographiée par Venera-13 (URSS)
+  </figcaption>
+</figure>
 
 
 ## Terre
 
+La Terre est la planète la plus accessible pour faire des mesures
+scientifiques. Ce n'est pas pour rien que nous en connaissons plus à son sujet
+que n'importe quelle autre planète. La densité moyenne de la Terre est de
+5,5\ g/cm<sup>3</sup>, ce qu'on peut déterminer facilement une fois qu'on
+connait le rayon de la Terre et sa masse. Cependant, on observe que la majorité
+des matériaux accessible à la surface de la Terre on une densité de l'ordre de 
+3\ g/cm<sup>3</sup>, cela signifie donc que la matière au centre de la Terre
+doit être beaucoup plus dense. Cette information, combinée avec l'étude des
+ondes sismiques a permis de déduire que le cœur terrestre est probablement
+composé de fer et de nickel.
 
 ## Mars
 
+
 ## Jupiter
+
 
 ## Saturne
 
+
 ## Uranus
 
+
 ## Neptune
+
 
 ## Autres objets
 
