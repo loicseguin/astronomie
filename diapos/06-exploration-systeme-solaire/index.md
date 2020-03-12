@@ -757,7 +757,7 @@ Température                                         -110°C
 ## Jupiter
 
 - Rotation différentielle
-    - Période de rotation équatorial plus courte que la période de rotation des
+    - Période de rotation équatoriale plus courte que la période de rotation des
       pôles
     - Période de rotation de la surface plus courte que la période de rotation
       interne
