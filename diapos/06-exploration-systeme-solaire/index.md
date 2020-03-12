@@ -491,7 +491,7 @@ Gaz carbonique ($C\mathrm{O}_2$)      0,037%
 
 <figure>
   <a href="https://hubblesite.org/contents/media/images/2001/24/1090-Image.html?news=true">
-  <img alt="Mercure" src="../../images/Mars.jpg"
+  <img alt="Mars" src="../../images/Mars.jpg"
     style="max-width: 500px;">
   </a>
   <figcaption style="font-size: 0.4em; color: #666;">
