@@ -1,8 +1,8 @@
-% La profondeur du ciel (Partie II)
+% Distances au-delà du système solaire
 % CEA Explorer et comprendre l'Univers
-% 12 novembre 2014
+% 23 avril 2020
 ---
-theme: serif
+theme: black
 transition: linear
 ---
 
@@ -44,80 +44,6 @@ alt="ParallaxeV2.png"></a>
 - On peut calculer la distance minimale à laquelle une étoile doit être pour
   qu'on ne puisse pas déterminer sa distance par parallaxe
 - Avec des instruments sur Terre : quelques dizaines d'années-lumière
-
----
-
-## Intermède : les années-lumière
-
----
-
-## Année-lumière
-
-- La lumière se déplace à vitesse constante
-
-<br />
-
-### 299 792 458 m/s
-
-### 1 079 252 850 km/h
-
----
-
-## C'est vite?
-
->- Voiture la plus rapide (Hennessey Venom GT) : 435 km/h
-![](Hennessey-Venom-GT-front-side-view-in-yellow-480.jpg)
->- Vitesse du son : 1 236 km/h
-
----
-
-## C'est vite?
-
->- Jet le plus rapide (SR-71 Blackbird) : 3 530 km/h
-![](Lockheed_SR-71_Blackbird.jpg)
->- Navette spatiale à l'entrée de l'atmosphère : 28 000 km/h
-<a title="By NASA/Chuck Luzier [Public domain], via Wikimedia Commons"
-href="http://commons.wikimedia.org/wiki/File%3ASpace_Shuttle_Atlantis_landing_at_KSC_following_STS-122.jpg"><img
-width="256" alt="Space Shuttle Atlantis landing at KSC following STS-122"
-src="http://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Space_Shuttle_Atlantis_landing_at_KSC_following_STS-122.jpg/256px-Space_Shuttle_Atlantis_landing_at_KSC_following_STS-122.jpg"/></a>
-
----
-
-## C'est vite?
-
-### 40 000 fois plus vite que la navette spatiale
-
-
----
-
-## Année-lumière
-
-- Dans un intervalle de temps donné, la lumière parcourt une certaine distance
-- Exemple :
-    - Une voiture se déplace à 60 km/h
-    - Quelle distance parcourt-elle en 30 minutes ?
-    - Quelle distance parcourt-elle en 3 heures ?
-
----
-
-## Année-lumière
-
------------------------ ---------------------
-Seconde-lumière                299 792,458 km
-Minute-lumière               17 987 547,48 km
-Semaine-lumière            181 314 478 598 km
-Année-lumière            9 454 254 955 488 km
------------------------ ---------------------
-
----
-
-## Année-lumière
-
-Distance                             \*-lumières
-------------------------  ----------------------
-Terre-Soleil                8,32 minutes-lumière
-Pluton-Soleil                 5,5 heures-lumière
-Soleil-Proxima Centauri      4,22 années-lumière
 
 ---
 
