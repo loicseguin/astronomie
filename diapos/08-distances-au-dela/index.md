@@ -247,7 +247,7 @@ $$I = \frac{L}{4\pi d^2}$$
 
 On observe une ampoule de 100 W. Un capteur permet de déterminer que
 l'intensité de la lumière qui provient de l'ampoule est de
-0,08\ /m<sup>2</sup>. À quelle distance est l'ampoule?
+0,08\ W/m<sup>2</sup>. À quelle distance est l'ampoule?
 
 . . .
 
