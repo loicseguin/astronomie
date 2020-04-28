@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
+   width="986.88251"
+   height="636.76202"
+   sodipodi:docname="Evolution_of_a_Sun-like_star.svg"
+   inkscape:export-filename="/home/lsc/teach/203-cea-astro/astronomie/images/Evolution_of_a_Sun-like_star.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96">
+  <metadata
+     id="metadata8">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs6">
+    <linearGradient
+       id="linearGradient4415">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop4417" />
+      <stop
+         id="stop5869"
+         offset="0.5"
+         style="stop-color:#ffff00;stop-opacity:1;" />
+      <stop
+         style="stop-color:#ff0000;stop-opacity:1;"
+         offset="1"
+         id="stop4419" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4415"
+       id="linearGradient5867"
+       x1="133.5"
+       y1="340.1232"
+       x2="726.36407"
+       y2="340.1232"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-31.497227,-84.144004)" />
+  </defs>
+  <sodipodi:namedview
+     pagecolor="#000000"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="1"
+     inkscape:pageshadow="2"
+     inkscape:window-width="843"
+     inkscape:window-height="1044"
+     id="namedview4"
+     showgrid="false"
+     inkscape:zoom="1.0146982"
+     inkscape:cx="87.560428"
+     inkscape:cy="397.26076"
+     inkscape:window-x="3389"
+     inkscape:window-y="4"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg2"
+     inkscape:object-paths="true"
+     inkscape:snap-intersection-paths="false"
+     fit-margin-top="14"
+     fit-margin-bottom="14"
+     fit-margin-right="13.5"
+     fit-margin-left="13.5"
+     units="in" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+     x="370.50278"
+     y="618.85602"
+     id="text3603"><tspan
+       sodipodi:role="line"
+       id="tspan3605"
+       x="370.50278"
+       y="618.85602"
+       style="font-size:18px;line-height:1.25;fill:#e6e6e6">Température [K]</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+     x="-258.3428"
+     y="26.91"
+     id="text3607"
+     transform="rotate(-90)"><tspan
+       sodipodi:role="line"
+       id="tspan3609"
+       x="-258.3428"
+       y="26.91"
+       style="font-size:18px;line-height:1.25;fill:#e6e6e6">Luminosité [L<tspan
+   style="font-size:65.00091553%;baseline-shift:sub;fill:#e6e6e6"
+   id="tspan3611">⊙</tspan>]</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none"
+     x="63.025867"
+     y="43.855995"
+     id="text3619"><tspan
+       sodipodi:role="line"
+       id="tspan3621"
+       x="63.025867"
+       y="43.855995"
+       style="font-size:14px;line-height:750%;text-align:end;text-anchor:end;fill:#e6e6e6">10,000</tspan><tspan
+       sodipodi:role="line"
+       x="63.025867"
+       y="148.856"
+       style="font-size:14px;line-height:750%;text-align:end;text-anchor:end;fill:#e6e6e6"
+       id="tspan3623">1,000</tspan><tspan
+       sodipodi:role="line"
+       x="63.025867"
+       y="253.856"
+       style="font-size:14px;line-height:750%;text-align:end;text-anchor:end;fill:#e6e6e6"
+       id="tspan3625">100</tspan><tspan
+       sodipodi:role="line"
+       x="63.025867"
+       y="358.85599"
+       style="font-size:14px;line-height:750%;text-align:end;text-anchor:end;fill:#e6e6e6"
+       id="tspan3627">10</tspan><tspan
+       sodipodi:role="line"
+       x="63.025867"
+       y="463.85599"
+       style="font-size:14px;line-height:750%;text-align:end;text-anchor:end;fill:#e6e6e6"
+       id="tspan3629">1</tspan><tspan
+       sodipodi:role="line"
+       x="63.025867"
+       y="568.85602"
+       style="font-size:14px;line-height:750%;text-align:end;text-anchor:end;fill:#e6e6e6"
+       id="tspan3631">0.1</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+     x="116.52036"
+     y="588.85602"
+     id="text3633"><tspan
+       sodipodi:role="line"
+       id="tspan3635"
+       x="116.52036"
+       y="588.85602"
+       style="font-size:14px;line-height:1.25;text-align:start;text-anchor:start;fill:#e6e6e6">8,000                     7,000                     6,000                     5,000                     4,000                     3,000</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+     x="469.1123"
+     y="384.02365"
+     id="text3639"
+     transform="rotate(15)"><tspan
+       sodipodi:role="line"
+       id="tspan3641"
+       x="469.1123"
+       y="384.02365"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:21.33333397px;line-height:1.25;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans Bold';fill:#f2f2f2">Séquence principale</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+     x="537.94183"
+     y="436.7619"
+     id="text5871"><tspan
+       sodipodi:role="line"
+       id="tspan5873"
+       x="537.94183"
+       y="436.7619"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans';fill:#f2f2f2">Fusion d'hydrogène dans le noyau</tspan><tspan
+       sodipodi:role="line"
+       x="537.94183"
+       y="452.7619"
+       id="tspan5875"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans';fill:#f2f2f2">(10 milliards d'années)</tspan></text>
+  <text
+     id="text5877"
+     y="312.00232"
+     x="746.9975"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+     xml:space="preserve"><tspan
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans';fill:#f2f2f2"
+       y="312.00232"
+       x="746.9975"
+       id="tspan5879"
+       sodipodi:role="line">Fusion de l'hydrogène autour du noyau</tspan><tspan
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans';fill:#f2f2f2"
+       y="328.00232"
+       x="746.9975"
+       sodipodi:role="line"
+       id="tspan5883">Géante rouge</tspan><tspan
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans';fill:#f2f2f2"
+       id="tspan5881"
+       y="344.00232"
+       x="746.9975"
+       sodipodi:role="line">(1 milliard d'années)</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+     x="735.21356"
+     y="185.49362"
+     id="text5885"><tspan
+       sodipodi:role="line"
+       x="735.21356"
+       y="185.49362"
+       id="tspan5891"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans';fill:#f2f2f2">Flash de l'hélium dans le noyau</tspan></text>
+  <text
+     id="text5899"
+     y="267.03717"
+     x="292.05679"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+     xml:space="preserve"><tspan
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans';fill:#f2f2f2"
+       y="267.03717"
+       x="292.05679"
+       sodipodi:role="line"
+       id="tspan5901">Fusion de l'hélium dans le noyau</tspan><tspan
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans';fill:#f2f2f2"
+       y="283.03717"
+       x="292.05679"
+       sodipodi:role="line"
+       id="tspan5905">Branche horizontale</tspan><tspan
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans';fill:#f2f2f2"
+       id="tspan5903"
+       y="299.03717"
+       x="292.05679"
+       sodipodi:role="line">(100 millions d'années)</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+     x="811.65369"
+     y="96.248627"
+     id="text5915"><tspan
+       sodipodi:role="line"
+       id="tspan5917"
+       x="811.65369"
+       y="96.248627"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans';fill:#f2f2f2">Fusion de l'hélium autour du noyau</tspan><tspan
+       id="tspan5919"
+       sodipodi:role="line"
+       x="811.65369"
+       y="112.24863"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans';fill:#f2f2f2">Branche asymptotique</tspan><tspan
+       sodipodi:role="line"
+       x="811.65369"
+       y="128.24863"
+       id="tspan5921"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans';fill:#f2f2f2">(&lt; 1 million d'années)</tspan></text>
+  <text
+     id="text5923"
+     y="82.187004"
+     x="198.98709"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI';text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+     xml:space="preserve"><tspan
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans';fill:#f2f2f2"
+       y="82.187004"
+       x="198.98709"
+       id="tspan5925"
+       sodipodi:role="line">Fin de la fusion nucléaire</tspan><tspan
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans';fill:#f2f2f2"
+       id="tspan5929"
+       y="98.187004"
+       x="198.98709"
+       sodipodi:role="line">Nébuleuse planétaire</tspan><tspan
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans';fill:#f2f2f2"
+       y="114.187"
+       x="198.98709"
+       sodipodi:role="line"
+       id="tspan5938">Vers le stade naine blanche</tspan></text>
+  <g
+     id="g3837"
+     transform="translate(0.25277359,-43.004334)">
+    <path
+       style="fill:none;stroke:#5a5a5a;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 66.019265,397.58333 H 701.25"
+       id="path5948"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path5950"
+       d="M 66.019265,503.583 H 701.25"
+       style="fill:none;stroke:#5a5a5a;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       style="fill:none;stroke:#5a5a5a;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 66.019265,185.58333 H 701.25"
+       id="path5944"
+       inkscape:connector-curvature="0" />
+    <path
+       sodipodi:nodetypes="cc"
+       inkscape:connector-curvature="0"
+       id="path5940"
+       d="M 76.75,79.583 V 609.58333"
+       style="fill:none;stroke:#5a5a5a;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path5942"
+       d="M 66.019265,79.583 H 701.25"
+       style="fill:none;stroke:#5a5a5a;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path5946"
+       d="M 66.019265,291.58333 H 701.25"
+       style="fill:none;stroke:#5a5a5a;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       style="fill:none;stroke:#5a5a5a;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 66.019265,609.58333 H 701.25"
+       id="path5952"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path5954"
+       d="m 133.25,617.36033 v -7.777"
+       style="fill:none;stroke:#5a5a5a;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       style="fill:none;stroke:#5a5a5a;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 246.75,617.36033 v -7.777"
+       id="path5956"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path5958"
+       d="m 360.25,617.36033 v -7.777"
+       style="fill:none;stroke:#5a5a5a;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       style="fill:none;stroke:#5a5a5a;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 473.75,617.36033 v -7.777"
+       id="path5960"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path5962"
+       d="m 587.25,617.36033 v -7.777"
+       style="fill:none;stroke:#5a5a5a;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       style="fill:none;stroke:#5a5a5a;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 700.75,617.36033 v -7.777"
+       id="path5964"
+       inkscape:connector-curvature="0" />
+  </g>
+  <flowRoot
+     xml:space="preserve"
+     id="flowRoot205"
+     style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+     transform="translate(0,19.999996)"><flowRegion
+       id="flowRegion207"><rect
+         id="rect209"
+         width="206.96864"
+         height="65.381958"
+         x="243.20558"
+         y="440.57867" /></flowRegion><flowPara
+       id="flowPara211" /></flowRoot>  <path
+     style="fill:none;stroke:url(#linearGradient5867);stroke-width:5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     d="m 368.55264,462.22765 c 0,0 34.43583,-60.46485 108.86804,-96.91094 60.69063,-29.71745 115.91591,-61.99322 159.74876,-118.12738 43.83285,-56.13416 12.6259,-57.97085 -52.37767,-48.14449 -37.44838,11.91492 -92.95611,93.53122 -149.56322,93.12971 -10.57275,-0.075 -13.20604,-9.37102 -9.68145,-14.23316 9.68319,-13.35785 47.73921,-48.62864 73.62234,-77.41872 27.36096,-24.84919 86.04245,-71.02492 97.44827,-75.50739 70.21659,-27.594984 66.87081,-35.396774 94.55173,-71.681456 7.43803,-9.74991 -21.62599,3.514897 -36.19376,2.25944 -60.36924,-5.20266 -179.24956,0.788347 -261.63958,3.429412 -69.8186,3.21246 -288.83333,0.16666 -288.83333,0.16666"
+     id="path4413"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="cszcsscssscc" />
+  <path
+     style="fill:none;stroke:#f2f2f2;stroke-width:6.0999999;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     d="m 79.169443,355.18933 c 102.646607,63.61429 238.035697,97.74622 346.333327,119 123.98163,27.21527 212.12938,57.11808 265,89.66667"
+     id="path3637"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="ccc" />
+</svg>
