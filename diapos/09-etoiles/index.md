@@ -1,122 +1,230 @@
 % Les Étoiles
 % CEA Explorer et comprendre l'Univers
-% 19 novembre 2014
+% 30 avril 2020
 ---
-theme: default
+theme: night
 transition: fade
 ---
 
+<figure>
+  <a href="https://apod.nasa.gov/apod/ap170408.html">
+    <img src="../../images/ZetaOph_spitzer_960.jpg"
+      alt="Zeta Ophiuchi"
+      style="max-width: 700px;">
+  </a>
+  <figcaption style="font-size: 0.4em; color: #666;">
+    (NASA, JPL-Caltech, Spitzer Space Telescope)
+  </figcaption>
+</figure>
 
 ---
 
-## Qu'est-ce qu'une étoile?
+1. Âge du Soleil
+2. Structure interne des étoiles
+3. Diagrammes de Hertzsprung-Russell
+4. Évolution stellaire
 
 ---
 
-## Définition d'une étoile
+# {data-background-image="../../images/STSCI-H-p2016a-m-2000x1374.jpg"}
 
-*Objet massif qui a déjà été en mesure de produire de l'énergie par des
-réactions nucléaires.*
+<h2 style="background-color: rgba(100, 100, 100, 0.5); padding: 20px;">
+Âge du Soleil
+</h2>
 
----
-
-## Définition d'une étoile
-
-- Objet d'une masse supérieure à 75 fois la masse de Jupiter (0,072 fois la
-  masse du Soleil)
-- **Naine brune** : objet dont la masse est comprise entre 13 et 75 fois la
-  masse de Jupiter
+<br><br><br><br><br>
+<figcaption style="font-size: 0.4em; color: #666;">
+   NASA, ESA, STScI
+</figcaption>
 
 ---
 
-## Définition d'une étoile
+### Soleil
 
-- Les étoiles ne sont pas toutes le siège de réactions nucléaires
-- Les naines brunes n'émettent pas toutes de la lumière visible
-
----
-
-## Définition d'une étoile
-
-- Toutes les étoiles sont sphériques
-- Dans toutes les étoiles, il y a un équilibre entre l'attraction
-  gravitationnelle et une source de *pression* interne
+- Masse\ : 1,99 $\times$ 10<sup>30</sup> kg
+- Luminosité\ : 3,83 $\times$ 10<sup>26</sup> J/s
 
 ---
 
-## Le Soleil
-
->- Le Soleil est une étoile
->- Le Soleil est une *étoile moyenne*
->- Pour étudier les étoiles, le plus simple est d'étudier la plus proche : le
-   Soleil
-
----
-
-## Âge du Soleil
-
-- La masse du Soleil est de 1,99 $\times$ 10<sup>30</sup> kg
-- Le Soleil a une luminosité de 3,83 $\times$ 10<sup>26</sup> J/s
-
----
-
-## Un des plus gros burger du monde
+### Un des plus gros burger du monde
 
 Beer Barrel Belly Buster (Denny's Beer Barrel Pub)
 
-<img src="beer_barrel_belly_buster.jpg" title="Beer Barrel Belly Buster" />
+<figure>
+  <img src="beer_barrel_belly_buster.jpg"
+       title="Beer Barrel Belly Buster" />
+</figure>
 
-100 000 J (10<sup>5</sup> J)
+156 000 000 J (1,56\ &times;\ 10<sup>8</sup> J)
 
 ---
 
-## Little Boy et Fat Man
+### Little Boy et Fat Man
 
-<a title="By Nagasakibomb.jpg: The picture was taken by Charles Levy from one
-of the B-29 Superfortresses used in the attack.
-Atomic_cloud_over_Hiroshima.jpg: Personel aboard Necessary Evil derivative
-work: Binksternet (Nagasakibomb.jpg Atomic_cloud_over_Hiroshima.jpg)
-[CC-BY-SA-3.0 (http://creativecommons.org/licenses/by-sa/3.0)], via Wikimedia
-Commons"
-href="http://commons.wikimedia.org/wiki/File%3AAtomic_bombing_of_Japan.jpg"><img
-width="1024" alt="Atomic bombing of Japan"
-src="http://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Atomic_bombing_of_Japan.jpg/1024px-Atomic_bombing_of_Japan.jpg"/></a>
+<figure>
+  <a title="By Nagasakibomb.jpg: The picture was taken by Charles Levy from one
+            of the B-29 Superfortresses used in the attack.
+            Atomic_cloud_over_Hiroshima.jpg: Personel aboard Necessary Evil
+            derivative work: Binksternet (Nagasakibomb.jpg
+            Atomic_cloud_over_Hiroshima.jpg) [CC-BY-SA-3.0
+            (http://creativecommons.org/licenses/by-sa/3.0)], via Wikimedia
+            Commons"
+     href="http://commons.wikimedia.org/wiki/File%3AAtomic_bombing_of_Japan.jpg">
+    <img width="700" alt="Atomic bombing of Japan"
+         src="http://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Atomic_bombing_of_Japan.jpg/1024px-Atomic_bombing_of_Japan.jpg"/>
+  </a>
+</figure>
 
 67 TJ et 100 TJ (10<sup>14</sup> J)
 
 ---
 
-## Âge du Soleil
+### Impact du Chicxulub
 
-*Kelvin et von Helmholtz (1860)*
+<figure>
+  <a href="https://commons.wikimedia.org/wiki/File:Chicxulub-Anomaly.jpg">
+    <img width="300" alt="Cratère du Chicxulub"
+         src="../../images/Chicxulub-Anomaly.jpg"/>
+  </a>
+</figure>
 
-- Si le Soleil était en charbon : durée de vie de 5000 ans
-- Contraction de Kelvin-von Helmholtz : 100 millions d'années
+10<sup>25</sup> J
 
 ---
 
-## Âge du Soleil
+Combien de temps le Soleil pourra-t-il générer autant d'énergie?
+
+---
+
+### Isaac Newton
+
+*(1642 — 1727)*
+
+<figure>
+<a title="Sir Godfrey Kneller [Public domain], via Wikimedia Commons"
+href="https://commons.wikimedia.org/wiki/File%3AGodfreyKneller-IsaacNewton-1689.jpg">
+  <img src="../../images/newton.jpg"
+    alt="Portrait d'Isaac Newton par Godfrey Kneller."
+    style="
+        max-height: 300px;
+        max-width: 1000px;
+    ">
+</a>
+</figure>
+
+. . .
+
+4000 ans, selon la Bible
+
+---
+
+### Lord Kelvin et von Helmholtz
+
+*1860*
+
+<figure>
+  <img src="../../images/kelvin.jpg"
+    alt="William Thomson, Lord Kelvin"
+    style="
+        max-height: 250px;
+        max-width: 1000px;
+    ">
+  <img src="../../images/Hermann_von_Helmholtz.jpg"
+    alt="Hermann_von_Helmholtz"
+    style="
+        max-height: 250px;
+        max-width: 1000px;
+    ">
+</figure>
+
+. . .
+
+Soleil en charbon : 5000 ans
+
+. . .
+
+Contraction gravitationnelle : 100 millions d'années
+
+---
+
+### Arthur Stanley Eddington
+
+*(1882 - 1944)*
+
+<figure>
+  <img src="../../images/eddington.jpg"
+    alt="Arthur Stanley Eddington"
+    style="
+        max-height: 250px;
+        max-width: 1000px;
+    ">
+</figure>
+
+. . .
 
 - E = mc<sup>2</sup>
-- Transformation de 4 Mt chaque seconde (4 $\times$ 10<sup>6</sup> Mt)
+- 4 Mt chaque seconde (4 $\times$ 10<sup>6</sup> t)
 - Le Soleil pourrait briller environ 10 Ga
 
 ---
 
-## Énergie nucléaire
+# {data-background-image="../../images/STSCI-H-p2016a-m-2000x1374.jpg"}
 
-- Dans le Soleil : **fusion** grâce à la pression et la température très élevées
+<h2 style="background-color: rgba(100, 100, 100, 0.5); padding: 20px;">
+Structure interne des étoiles
+</h2>
 
-<a title="Borb [GFDL (http://www.gnu.org/copyleft/fdl.html) or
-CC-BY-SA-3.0-2.5-2.0-1.0 (http://creativecommons.org/licenses/by-sa/3.0)], via
-Wikimedia Commons"
-href="http://commons.wikimedia.org/wiki/File%3AFusionintheSun.svg"><img
-style="background-color: white;" alt="FusionintheSun"
-src="http://upload.wikimedia.org/wikipedia/commons/thumb/7/78/FusionintheSun.svg/512px-FusionintheSun.svg.png"/></a>
+<br><br><br><br><br>
+<figcaption style="font-size: 0.4em; color: #666;">
+   NASA, ESA, STScI
+</figcaption>
 
 ---
 
-## Énergie nucléaire
+### Composition
+
+- Sphère de gaz
+- Surtout hydrogène et hélium
+- Jusqu'à des millions de fois plus massive que la Terre
+
+---
+
+### Équilibre hydrostatique
+
+- Équilibre entre l'attraction gravitationnelle et une source de *pression*
+  interne
+
+<figure>
+  <img src="../../images/equilibre_hydrostatique.jpg"
+    alt="Équilibre hydrostatique"
+    style="
+        max-height: 250px;
+        max-width: 1000px;
+    ">
+</figure>
+
+
+---
+
+### Énergie nucléaire
+
+**Fusion** grâce à la pression et la température très élevées
+
+<figure>
+  <a href="http://commons.wikimedia.org/wiki/File%3AFusionintheSun.svg">
+    <img style="background-color: white;
+                max-height: 400px;"
+         alt="Fusion de l'hydrogène"
+         src="http://upload.wikimedia.org/wikipedia/commons/thumb/7/78/FusionintheSun.svg/512px-FusionintheSun.svg.png"/>
+  </a>
+  <figcaption style="font-size: 0.4em; color: #666;">
+    Borb [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/deed.en)
+  </figcaption>
+</figure>
+
+---
+
+### Fusion nucléaire
 
 4 H $\rightarrow$ He + énergie
 
@@ -124,7 +232,7 @@ src="http://upload.wikimedia.org/wikipedia/commons/thumb/7/78/FusionintheSun.svg
 
 ---
 
-## Énergie nucléaire
+### Fusion nucléaire
 
 - 2 $\times$ 10<sup>30</sup> kg d'hydrogène dans le bébé Soleil
 - 10% (soit 2 $\times$ 10<sup>29</sup> kg) peuvent être utilisé
@@ -137,34 +245,6 @@ src="http://upload.wikimedia.org/wikipedia/commons/thumb/7/78/FusionintheSun.svg
 - H, He, O, C, Ne, N, Mg, Si, Fe
 - Les éléments qui nous composent ont été formés dans le coeur des étoiles
 - Éléments plus massifs : produits lors de supernova
-
----
-
-## Nucléosynthèse stellaire
-
-- Chaîne proton-proton (10 millions de degrés)
-
-<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="550"
-height="550"><param name="movie" value="fusion01.swf" /><!--[if !IE]>--><object
-type="application/x-shockwave-flash" data="fusion01.swf" width="550"
-height="550"><!--<![endif]--><p>flash animation</p><!--[if
-!IE]>--></object><!--<![endif]--></object>
-
----
-
-## Nucléosynthèse stellaire
-
-- Cycle CNO (15 millions de degrés)
-- Processus triple alpha (100 millions de degrés)
-- ...
-
----
-
-## Équilibre stellaire
-
-- Compétition entre la pression et la gravité
-
-![](hydrostatic-equilibrium.png)
 
 ---
 
@@ -184,28 +264,22 @@ $\rightarrow$ contraction gravitationnelle
 
 ---
 
-## Structure stellaire
+### Structure interne
 
-<a href="https://www.flickr.com/photos/gsfc/15169756094" title="Snaking
-Filament Eruption by NASA Goddard Space Flight Center, on Flickr"><img
-src="https://farm6.staticflickr.com/5603/15169756094_2de70240dc_c.jpg"
-height="800" alt="Snaking Filament Eruption"></a>
-
-<small>NASA/Solar Dynamics Observatory</small>
-
----
-
-## Structure stellaire
-
-<a title="By Kelvinsong (Own work) [CC-BY-SA-3.0
-(http://creativecommons.org/licenses/by-sa/3.0)], via Wikimedia Commons"
-href="http://commons.wikimedia.org/wiki/File%3AAffiche_du_soleil.svg"><img
-alt="Affiche du soleil"
-src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Affiche_du_soleil.svg/1024px-Affiche_du_soleil.svg.png"/></a>
+<figure>
+  <a href="https://commons.wikimedia.org/wiki/File:Affiche_du_soleil.svg">
+    <img src="../../images/structure_soleil.png"
+      alt="Structure interne du Soleil"
+      style="max-height: 500px">
+  </a>
+  <figcaption style="font-size: 0.4em; color: #666;">
+    (Adapté de Kelvinsong [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/deed.en))
+  </figcaption>
+</figure>
 
 ---
 
-## Zone radiative
+### Zone radiative
 
 - Énergie produite dans le noyau
 - Noyau à une température de 15 millions K
@@ -214,99 +288,43 @@ src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Affiche_du_soleil.
 
 ---
 
-## Zone convective
+### Zone convective
 
 - 28% du rayon
 - Mouvements macroscopique de matière
 
 ---
 
-## Structure stellaire
+# {data-background-image="../../images/STSCI-H-p2016a-m-2000x1374.jpg"}
 
-- Les étoiles sont très simples
-- Quatre équations seulement pour décrire la structure
+<h2 style="background-color: rgba(100, 100, 100, 0.5); padding: 20px;">
+Diagramme de Hertzsprung-Russell
+</h2>
 
----
-
-## Héliosismologie
-
-- Étude de la propagation des ondes sismiques sur le Soleil
-- Étude des modes de vibration
-- Permet de connaître la structure interne
+<br><br><br><br><br>
+<figcaption style="font-size: 0.4em; color: #666;">
+   NASA, ESA, STScI
+</figcaption>
 
 ---
 
-## Étude des neutrinos solaires
+### Le corps noir
 
-- Produit par les réactions nucléaires dans le noyau
-- Permettent de comprendre le genre de réactions qui s'y produise
-
----
-
-## Les neutrinos manquants
-
-- Jusqu'en 1998, il manquait des neutrinos
-- Oscillations des neutrinos entre différentes saveurs
-- Contribution importante à la physique des particules
-
----
-
-## Photosphère
-
-- Endroit où les photons peuvent se déplacer librement
-- Région qu'on voit à l'oeil nu
-- Température de 5 800 K
-- Aspect granuleux
-- Taches
-    - Cycle de 11 ans
-    - Activité magnétique intense
+<figure>
+  <a title="By , via Wikimedia Commons"
+     href="http://commons.wikimedia.org/wiki/File%3ABlacksmith_working.jpg">
+    <img alt="Du fer chauffé suffisamment émet de la lumière visible"
+         src="http://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Blacksmith_working.jpg/1024px-Blacksmith_working.jpg"
+         style="max-height: 500px;">
+  </a>
+  <figcaption style="font-size: 0.4em; color: #666;">
+    Jeff Kubina [CC-BY-SA-2.0](http://creativecommons.org/licenses/by-sa/2.0)
+  </figcaption>
+</figure>
 
 ---
 
-## Photosphère
-
-<a title="By NASA / JAXA [Public domain], via Wikimedia Commons"
-href="http://commons.wikimedia.org/wiki/File%3A172197main_NASA_Flare_Gband_lg-withouttext.jpg"><img
-alt="172197main NASA Flare Gband lg-withouttext"
-src="http://upload.wikimedia.org/wikipedia/commons/thumb/4/44/172197main_NASA_Flare_Gband_lg-withouttext.jpg/1024px-172197main_NASA_Flare_Gband_lg-withouttext.jpg"/></a> 
-
----
-
-## Chromosphère
-
-- Température d'environ 10 000 K
-
-![](http://www.nasa.gov/images/content/171885main_NASA_Flare11Nov_516.jpg)
-
-<small>Hinode JAXA/NASA</small>
-
----
-
-## Couronne
-
-- Température d'environ 1 000 000 K
-
-<a title="I, Luc Viatour [GFDL (http://www.gnu.org/copyleft/fdl.html),
-CC-BY-SA-3.0 (http://creativecommons.org/licenses/by-sa/3.0/) or
-CC-BY-SA-2.5-2.0-1.0 (http://creativecommons.org/licenses/by-sa/2.5-2.0-1.0)],
-via Wikimedia Commons"
-href="http://commons.wikimedia.org/wiki/File%3ASolar_eclipse_1999_4_NR.jpg"><img
-alt="Solar eclipse 1999 4 NR"
-src="http://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Solar_eclipse_1999_4_NR.jpg/1024px-Solar_eclipse_1999_4_NR.jpg"/></a>
-
----
-
-## Intermède : le corps noir
-
-<a title="By Jeff Kubina from Columbia, Maryland ([1]) [CC-BY-SA-2.0
-(http://creativecommons.org/licenses/by-sa/2.0)], via Wikimedia Commons"
-href="http://commons.wikimedia.org/wiki/File%3ABlacksmith_working.jpg"><img
-alt="Blacksmith working"
-src="http://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Blacksmith_working.jpg/1024px-Blacksmith_working.jpg"/></a>
-
----
-
-## Corps noir
+### Corps noir
 
 - Sorte de céramique qui était utilisée autrefois pour faire des pots de
   cuisson
@@ -316,22 +334,17 @@ src="http://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Blacksmith_working
 
 ---
 
-## Radiation du corps noir
+### Spectre du corps noir
 
-<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="950" height="550">
-<param name="movie" value="bbexplorer.swf" />
-<!--[if !IE]>-->
-    <object type="application/x-shockwave-flash" data="bbexplorer.swf" width="950" height="550">
-<!--<![endif]-->
-<p>flash animation</p>
-<!--[if !IE]>-->
-</object>
-<!--<![endif]-->
-</object>
+<a href="https://phet.colorado.edu/sims/html/blackbody-spectrum/latest/blackbody-spectrum_fr.html"
+   style="text-decoration: none;">
+  <img src="https://phet.colorado.edu/sims/html/blackbody-spectrum/latest/blackbody-spectrum-600.png"
+       alt="Spectre du corps noir" style="border: none;" />
+</a>
 
 ---
 
-## Radiation du corps noir
+### Spectre du corps noir
 
 - Plus un objet est chaud, plus il est bleu
 - Plus un objet est froid, plus il est rouge
@@ -340,18 +353,13 @@ src="http://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Blacksmith_working
 
 ---
 
-## Radiation du corps noir
+### Luminosité du corps noir
 
-<br />
 $L = 4 \pi R^2 \sigma T^4_\mathrm{eff}$
-
-<br />
-<small>où $\,\sigma = 5,67\times10^{-8}$ W/m${}^2$ K${}^4$ est la constante
-de Stefan-Boltzmann</small>
 
 ---
 
-## Les étoiles comme des corps noirs
+### Les étoiles comme des corps noirs
 
 >- Les étoiles ne sont pas des corps noirs...
 >- ... mais presque
@@ -360,7 +368,7 @@ de Stefan-Boltzmann</small>
 
 ---
 
-## Classification des étoiles
+### Classification des étoiles
 
 - On classe les étoiles dans un diagramme de la luminosité en fonction de la
   température effective
@@ -368,80 +376,20 @@ de Stefan-Boltzmann</small>
 
 ---
 
-## Diagramme de Hertzsprung-Russell
-
-<a title="By ESO (Hertzsprung-Russell Diagram) [CC-BY-4.0
-(http://creativecommons.org/licenses/by/4.0)], via Wikimedia Commons"
-href="http://commons.wikimedia.org/wiki/File%3AESO_-_Hertzsprung-Russell_Diagram_(by).jpg"><img
-alt="ESO - Hertzsprung-Russell Diagram (by)"
-src="http://upload.wikimedia.org/wikipedia/commons/thumb/8/86/ESO_-_Hertzsprung-Russell_Diagram_%28by%29.jpg/1024px-ESO_-_Hertzsprung-Russell_Diagram_%28by%29.jpg"/></a>
-
----
-
-## Diagramme de Hertzsprung-Russel
-
-<iframe src="http://astro.unl.edu/mobile/HRdiagram/HRdiagramStable.html"
-height="600" width="900">
-Désolé, vous devez utiliser un navigateur qui supporte les iframes.
-Vous pouvez consulter le diagramme HR interactif à l'adresse
-http://astro.unl.edu/mobile/HRdiagram/HRdiagramStable.html
-</iframe>
+<figure>
+  <a href="https://fr.wikipedia.org/wiki/Fichier:HRDiagram-Fr.png">
+  <img src="../../images/HRDiagram.png"
+    alt="Diagramme de Hertzsprung-Russell"
+    style="max-height: 620px;">
+  </a>
+  <figcaption style="font-size: 0.4em; color: #666;">
+    (Richard Powell [CC BY-SA 2.5](https://creativecommons.org/licenses/by-sa/2.5/deed.fr))
+  </figcaption>
+</figure>
 
 ---
 
-## Diagramme de Hertzsprung-Russel
-
-- 80% des étoiles sur la séquence principale
-- Étoiles au-dessus de la séquence principale : géante et supergéantes
-- Étoiles en-dessous de la séquence principale : naines
-
----
-
-## Diagramme de Hertzsprung-Russel
-
-<br />
-
-$L = 4 \pi R^2 \sigma T^4_\mathrm{eff}$
-
-<br />
-
-$R = \sqrt{\frac{L}{4\pi T^4_\mathrm{eff}}}$
-
----
-
-## Types spectraux
-
-![](Hydrogen-helium-lithium-oxygen.jpg)
-
----
-
-## Types spectraux
-
-![](spectrum_figure.png)
-
----
-
-## Types spectraux
-
->- OBAFGKMLT
->- Oh, Be A Fine Girl Kiss Me Like This
->- Oh, Be A Fine Guy Kiss Me Like This
-
----
-
-## Types spectraux
-
-<a title="By Robert Nemiroff (MTU) & Jerry Bonnell (USRA) (NASA) [Public
-domain], via Wikimedia Commons"
-href="http://commons.wikimedia.org/wiki/File%3AObafgkm_noao_big.jpg"><img
-alt="Obafgkm noao big"
-src="http://upload.wikimedia.org/wikipedia/commons/4/43/Obafgkm_noao_big.jpg"/></a>
-
----
-
-## Lien entre le type spectral et la masse
-
-Pour les étoiles de la séquence principale
+**Lien entre le type spectral et la masse sur la séquence principale**
 
 Type spectral   Masse (en masses solaires)
 -------------- ---------------------------
@@ -452,3 +400,189 @@ F                                      1,5
 G                                      1
 K                                      0,8
 M                                      0,4
+
+---
+
+# {data-background-image="../../images/STSCI-H-p2016a-m-2000x1374.jpg"}
+
+<h2 style="background-color: rgba(100, 100, 100, 0.5); padding: 20px;">
+Évolution stellaire
+</h2>
+
+<br><br><br><br><br>
+<figcaption style="font-size: 0.4em; color: #666;">
+   NASA, ESA, STScI
+</figcaption>
+
+---
+
+### Matière interstellaire
+
+- Nuages de gaz et poussière : **nébuleuses**
+- Nébuleuses denses avec molécules : **nuage moléculaire**
+
+---
+
+<figure>
+  <a href="http://wise.ssl.berkeley.edu/gallery_rho_ophiuchi.html">
+  <img src="../../images/700975main_RhoOph_WISE.jpg"
+    alt="Nébuleuses du complexe Rho Ophiuchi"
+    style="max-height: 600px;">
+  </a>
+  <figcaption style="font-size: 0.4em; color: #666;">
+    (NASA/JPL-Caltech/WISE Team)
+  </figcaption>
+</figure>
+
+---
+
+### Naissance
+
+- Effondrement des nuages moléculaire
+- Causé par supernova, radiation, etc?
+- Effondrement gravitationnel génère beaucoup d'énergie
+- La température au centre de l'étoile augment et la **fusion** nucléaire
+  s'amorce
+
+---
+
+<figure>
+  <img src="../../images/hh24_schmidt_1505.jpg"
+       alt="Objet de Herbig-Haro"
+       style="max-height: 600px;">
+  <figcaption style="font-size: 0.4em; color: #666;">
+    Hubble Legacy Archive, NASA, ESA - Traitement : Judy Schmidt
+  </figcaption>
+</figure>
+
+---
+
+### Vie adulte
+
+- Séquence principale (9 Ga)
+    - Fusion d'hydrogène dans le cœur (9 Ga)
+    - Augmentation d'He dans le cœur
+    - Contraction du cœur
+
+---
+
+<figure>
+  <img src="../../images/Evolution_of_a_Sun-like_star.png"
+    alt="Évolution d'une étoile de masse solaire"
+    width="100%">
+  <figcaption style="font-size: 0.4em; color: #666;">
+    (Adapté de
+    [Szczureq](https://commons.wikimedia.org/wiki/File:Evolution_of_a_Sun-like_star.svg)
+    [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en))
+  </figcaption>
+</figure>
+
+---
+
+### Vieillesse
+
+- Phase **géante rouge** (1 Ga)
+    - Fusion d'hydrogène en périphérie du cœur
+    - Hélium inerte dans le cœur
+    - Cœur se contracte
+    - Luminosité augmente d'un facteur ~100
+
+---
+
+### Vieillesse
+
+- Phase **sous-géante** (100 Ma)
+    - Fusion de l'hélium dans le cœur
+    - Fusion de l'hydrogène en périphérie
+    - Accumulation de carbone dans le cœur
+
+---
+
+### Vieillesse
+
+- Phase **supergéante rouge** (1 Ma)
+    - Luminosité 10 000 fois plus grande que le Soleil
+    - Fusion de l'hélium en périphérie du cœur
+    - Fusion de l'hydrogène en périphérie de la zone de fusion d'hélium
+    - Accumulation de carbone dans le cœur
+
+---
+
+### Mort
+
+- Nébuleuse planétaire
+    - Fin de la fusion dans le cœur
+    - Cœur se contracte
+    - Couches externes de l'étoile expulsées par les zones de fusion périphériques
+
+---
+
+### Naine blanche
+
+- Cadavre d'une étoile dont la masse initiale est inférieure à 8 $M_\odot$
+- Grosse comme la Terre
+- Masse : entre 0.5 et 1.4 masse solaire
+- Gravité de surface : 350 000 fois plus élevée que sur Terre
+
+---
+
+NGC 2818
+
+<figure>
+  <img src="../../images/ngc2818_hheritage.jpg"
+       alt="Nébuleuse NGC2818">
+  <figcaption style="font-size: 0.4em; color: #666;">
+    NASA, ESA, Hubble Heritage Team (STScI / AURA)
+  </figcaption>
+</figure>
+
+---
+
+NGC 2440
+
+<figure>
+  <a href="https://apod.nasa.gov/apod/ap150517.html">
+  <img src="../../images/ngc2440_hst3_big.jpg"
+    alt="La nébuleuse planétaire NGC 2440 avec, en son centre, une naine
+    blanche (H. Bond (STScI), R. Ciardullo (PSU), WFPC2, HST, NASA; Traitement:
+    Forrest Hamilton)"
+    style="max-height: 500px;">
+  </a>
+  <figcaption style="font-size: 0.4em; color: #666;">
+    (H.  Bond (STScI), R. Ciardullo (PSU), WFPC2, HST, NASA; Traitement: Forrest
+    Hamilton)
+  </figcaption>
+</figure>
+
+---
+
+Nébuleuse de l'Œil de chat
+
+<figure>
+  <img src="../../images/catseye_665x518.jpg"
+       alt="Nébuleuse de l'oeil de chat"
+       style="max-height: 600px;">
+  <figcaption style="font-size: 0.4em; color: #666;">
+    NASA, J. P. Harrington (U. Maryland) and K. J. Borkowski (NCSU)
+  </figcaption>
+</figure>
+
+---
+
+Nébuleuse du Sablier
+
+<figure>
+  <img src="../../images/mycn18_hst_1280.jpg"
+       style="max-height: 500px;">
+  <figcaption style="font-size: 0.4em; color: #666;">
+    R. Sahai and J. Trauger (JPL), WFPC2, HST, NASA
+  </figcaption>
+</figure>
+
+---
+
+## [Résumé](../../www/HRdiagramStable.html)
+
+<figcaption style="font-size: 0.4em; color: #666;">
+(Adapté du site [Astronomy Education at the University of Nebraska-Lincoln](http://astro.unl.edu))
+</figcaption>

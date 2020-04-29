@@ -1,0 +1,73 @@
+body{
+margin:0px;
+/*background-image:url("starField.jpg");*/
+background-color: #111111;
+background-position:center;
+-moz-user-select: none; /* mozilla browsers */
+-khtml-user-select: none; /* webkit browsers */
+}
+
+span{
+position:absolute;
+font-family:verdana;
+font-size:15px;
+}
+
+#lumOutput, #tempOutput, #radiusOutput, span.MSLabels{
+font-size:20px;
+}
+
+div span{
+position:static;
+}
+
+span span{
+position:static;
+font-size:20px;
+}
+
+#background, #exercises{
+padding:10px;
+position:absolute;
+top:10px;
+bottom:10px;
+left:10px;
+right:10px;
+background-color:white;
+display:none;
+border:2px solid green;
+}
+
+#menuContainer{
+position:absolute;
+top:0px;
+right:0px;
+z-index:2;
+}
+
+#plotMenuButton, #infoMenuButton, #background span, #exercises span{
+float:right;
+background-color:transparent !important;
+}
+
+.dijitButtonNode, .dijitDropDownButton, .dijitReset{
+background-color:inherit !important;
+color:inherit !important;
+border-color:inherit !important;
+font-size:inherit !important;
+}
+
+.dijitPopup{
+background-color:transparent !important;
+}
+
+canvas{
+position:absolute;
+top:0px;
+left:0px;
+z-index:-1;
+}
+
+#tempOutput{
+bottom:2px;
+}

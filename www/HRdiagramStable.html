@@ -1,0 +1,80 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta names="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+		<meta name="format-detection" content="telephone=no" />
+		
+        <title>HR Diagram</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/dojo/1.13.0/dojo/dojo.js"></script>
+        <script type="text/javascript" src="HRdiagramStable.js"></script>
+        <link rel="stylesheet" type="text/css" href="https://ajax.googleapis.com/ajax/libs/dojo/1.13.0/dijit/themes/claro/claro.css" />
+        <link rel="stylesheet" type="text/css" href="HRdiagramStable.css" />
+    </head>
+    
+    <body class="claro" id="body">
+        <canvas id="myCanvas"></canvas>
+		
+		<span id="lScale0">10<sup>6</sup></span>
+		<span id="lScale1">10<sup>5</sup></span>
+		<span id="lScale2">10<sup>4</sup></span>
+		<span id="lScale3">10<sup>3</sup></span>
+		<span id="lScale4">10<sup>2</sup></span>
+		<span id="lScale5">10<sup>1</sup></span>
+		<span id="lScale6">10<sup>0</sup></span>
+		<span id="lScale7">10<sup>-1</sup></span>
+		<span id="lScale8">10<sup>-2</sup></span>
+		<span id="lScale9">10<sup>-3</sup></span>
+		<span id="lScale10">10<sup>-4</sup></span>
+		
+		<span id="tScale0">40000</span>
+		<span id="tScale1">20000</span>
+		<span id="tScale2">10000</span>
+		<span id="tScale3">5000</span>
+		<span id="tScale4">2300</span>
+		
+		<span id="rScale0">.001</span>
+		<span id="rScale1">.01</span>
+		<span id="rScale2">.1</span>
+		<span id="rScale3">1</span>
+		<span id="rScale4">10</span>
+		<span id="rScale5">100</span>
+		<span id="rScale6">1000</span>
+		
+		<span id="sunLabel">Sun</span>
+		
+		<span id="MSLabel0" class="MSLabels">M</span>
+		<span id="MSLabel1" class="MSLabels">a</span>
+		<span id="MSLabel2" class="MSLabels">i</span>
+		<span id="MSLabel3" class="MSLabels">n</span>
+		<span id="MSLabel4" class="MSLabels">S</span>
+		<span id="MSLabel5" class="MSLabels">e</span>
+		<span id="MSLabel6" class="MSLabels">q</span>
+		<span id="MSLabel7" class="MSLabels">u</span>
+		<span id="MSLabel8" class="MSLabels">e</span>
+		<span id="MSLabel9" class="MSLabels">n</span>
+		<span id="MSLabel10" class="MSLabels">c</span>
+		<span id="MSLabel11" class="MSLabels">e</span>
+		
+		<span id="lumOutput">Luminosity <span id="currentLum">X.X</span> (L<sub><img src="heliocentricGreen.gif" width="10px" height="10px" /></sub>)</span>
+		<span id="radiusOutput">Radius <span id="currentRadius">X.X</span> (R<sub><img src="heliocentricGreen.gif" width="10px" height="10px" /></sub>)</span>
+		<span id="tempOutput">Temperature <span id="currentTemp">X.X</span> (K)</span>
+		
+        <div id="background">
+			<br /><br />
+            <p>Background info and whatnot and so forth</p>
+            <div id="closeBackground"></div>
+        </div>
+        <div id="exercises">
+			<br /><br />
+            <p>Exercises, questions, problems, whatever</p>
+            <div id="closeExercises"></div>
+        </div>
+		
+		<div id="menuContainer">
+			<div id="plotMenuButton"></div>
+			<div id="infoMenuButton" ></div>
+		</div>
+    </body>
+</html>
