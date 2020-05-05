@@ -384,8 +384,8 @@ d'étoiles qui nous ont précédé.
 
 9. L'étoile A est une étoile de type spectral B située sur la séquence
    principale. L'étoile B est une étoile de même luminosité que l'étoile A,
-   mais elle a un type spectral K. Quel est le type spectral de l'étoile B?
-   Quelle est sa température effective?
+   mais elle a un type spectral K. Quel est le type de l'étoile B (séquence
+   principale, géante ou naine)? Quelle est sa température effective?
 
 10. Classez les stades suivants de l'évolution stellaire en ordre
     chronologique\ : géante rouge, séquence principale, protoétoile, naine
