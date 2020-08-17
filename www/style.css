@@ -57,9 +57,18 @@ p {
     margin: 0 0 0 0;
 }
 
-.page-content {
+.page-content, footer {
     margin: 0 auto;
     max-width: 800px;
+}
+
+footer {
+    border-top: 1px solid #ddd;
+    color: #666;
+    font-size: 0.90em;
+    line-height: 1.2;
+    margin-top: 60px;
+    padding-top: 15px;
 }
 
 .author, .date {
