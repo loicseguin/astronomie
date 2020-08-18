@@ -53,23 +53,24 @@ p {
     margin: 0 auto;
 }
 
-.page {
+.page, footer {
     margin: 0 0 0 300px;
 }
 
-.page-content, footer {
+.page-content {
     margin: 0 auto;
     padding: 0 20px;
     max-width: 800px;
 }
 
-footer {
+.footer-content {
     border-top: 1px solid #ddd;
     color: #666;
     font-size: 0.90em;
     line-height: 1.2;
-    margin: 60px auto 10px auto;
-    padding: 15px 0 0 300px;
+    margin: 60px auto 0;
+    padding: 15px 20px;
+    max-width: 800px;
 }
 
 .author, .date {
@@ -176,4 +177,19 @@ table tbody {
 
 .sidebar .divider {
     border-bottom: 1px solid #d9d9d9;
+}
+
+@media only screen and (max-width: 700px) {
+    .sidebar {
+        display: none;
+    }
+
+    .page {
+        margin: 0;
+    }
+
+    footer {
+        margin: 60px auto 10px auto;
+        padding: 10px;
+    }
 }
