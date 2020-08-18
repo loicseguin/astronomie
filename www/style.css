@@ -94,6 +94,8 @@ figcaption > a {
 figure {
     display: block;
     text-align: center;
+    margin: 10px 0;
+    padding: 0;
 }
 
 .toc {
