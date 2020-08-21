@@ -1,6 +1,6 @@
 % Préambule
 % CEA Explorer et comprendre l'Univers
-% 23 janvier 2020
+% 24 août 2020
 ---
 theme: black
 transition: linear
@@ -9,30 +9,37 @@ transition: linear
 
 ## Le grand tour
 
-<iframe width="640" height="360"
-src="https://www.youtube.com/embed/0fKBhvDjuy0?feature=player_detailpage"
-frameborder="0" allowfullscreen></iframe>
+<iframe width="720" height="405"
+  src="https://www.youtube-nocookie.com/embed/8Are9dDbW24" frameborder="0"
+  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen>
+</iframe>
 
 ---
 
 ## L'échelle de l'Univers
 
-<a href="https://www.nikon.com/about/sp/universcale">
-  <img src="../../images/nikon_universcale.png" width=100% alt="Nikon Universcale">
+<a href="https://quantumtocosmos.ca/#/scale">
+  <img src="../../images/quantumcosmos.png" style="max-height: 500px"
+  alt="Quantum Cosmos">
 </a>
 
 ---
 
 ## Taille de différentes étoiles
 
-<iframe width="640" height="360"
-src="https://www.youtube.com/embed/XE0aAZE0kp4?rel=0" frameborder="0"
-allowfullscreen></iframe>
+<iframe width="720" height="405"
+  src="https://www.youtube-nocookie.com/embed/7gDicJ02OZ4" frameborder="0"
+  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen>
+</iframe>
 
 ---
 
 ## La chose la plus extraordinaire
 
-<iframe width="640" height="360"
-src="https://www.youtube.com/embed/9D05ej8u-gU?feature=player_embedded"
-frameborder="0" allowfullscreen></iframe>
+<iframe width="720" height="405"
+  src="https://www.youtube-nocookie.com/embed/9D05ej8u-gU" frameborder="0"
+  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen>
+</iframe>
