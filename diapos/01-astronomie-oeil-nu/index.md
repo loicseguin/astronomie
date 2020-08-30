@@ -1,6 +1,6 @@
 % Astronomie à l'œil nu
 % CEA Explorer et comprendre l'Univers
-% 30 janvier 2020
+% 31 août 2020
 ---
 theme: night
 transition: linear
@@ -52,14 +52,29 @@ Triangulum Australe Tucana Ursa Major Ursa Minor Vela Virgo Volans Vulpecula
 ### Ursa Major
 
 <figure>
-<img src="UMA.png" alt="La Grande Ourse" style="max-height: 500px;">
+<img src="../../images/UMA.png" alt="La Grande Ourse" style="max-height: 500px;">
 </figure>
 
 ---
 
 ### Ursa Minor
 
-<img src="UMI.png" alt="La Petite Ourse" style="max-height: 500px;">
+<img src="../../images/UMI.png" alt="La Petite Ourse" style="max-height: 500px;">
+
+---
+
+Quels énoncés à propos des constellations sont vrais?
+
+[https://b.socrative.com/login/student/](https://b.socrative.com/login/student/) \ \ DCRDEWY
+
+<ol style="list-style-type: upper-alpha">
+  <li>Elles sont formées d'étoiles qui paraissent proches dans le ciel.</li>
+  <li>Elles forment des dessins imaginaires qui aident à se repérer sur la sphère
+      céleste.</li>
+  <li>Elles sont formées d'étoiles qui sont physiquement proches les unes des
+      autres.</li>
+  <li>Un grand nombre d'entre elles ont été définies par les grec anciens.</li>
+</ol>
 
 ---
 
@@ -74,7 +89,7 @@ Triangulum Australe Tucana Ursa Major Ursa Minor Vela Virgo Volans Vulpecula
 
 ### Brillance des étoiles
 
-- Échelle des **magnitudes** mise au point par Hipparque (2<sup>e</sup> siècle
+- Échelle des **magnitudes** mise au point par Hipparque (II<sup>e</sup> siècle
 avant J.-C.)
 
 - Multiples modifications au fil des siècles
@@ -100,6 +115,16 @@ Bételgeuse ($\alpha$ Orionis)         0,6
 
 ---
 
+Certaines étoiles naines blanches ont des magnitudes d'environ 20.
+
+Ceci signifie que ces étoiles sont très brillantes.
+
+Vrai ou faux?
+
+[https://b.socrative.com/login/student/](https://b.socrative.com/login/student/) \ \ DCRDEWY
+
+---
+
 ### Nébuleuses
 
 <figure>
@@ -118,7 +143,7 @@ Nébuleuse d'Orion
 
 <figure>
   <a href="https://hubblesite.org/image/3866">
-    <img src="hs-2006-01-a-large_web.jpg"
+    <img src="../../images/hs-2006-01-a-large_web.jpg"
     alt="Nébuleuse d'Orion vue par Hubble" style="max-height: 55%; max-width: 55%"/>
   </a>
 </figure>
@@ -132,11 +157,22 @@ Nébuleuse d'Orion
 ### Comètes
 
 <a href="http://commons.wikimedia.org/wiki/File%3AComet_P1_McNaught02_-_23-01-07-edited.jpg">
-  <img width="512" alt="Comet P1 McNaught02 - 23-01-07-edited"
-  src="1024px-Comet_P1_McNaught02_-_23-01-07-edited.jpg"/>
+  <img width="512" alt="Comet P1 McNaught"
+    src="../../images/Comet_P1_McNaught.jpg"/>
 </a>
 <figcaption style="font-size: 0.4em; color: #666;">
   Comète C/2006 P1 (McNaught) photographiée de Victoria, Australie en 2007 (Soerfm [CC-BY-SA-3.0])
+</figcaption>
+
+---
+
+#### Comètes
+
+<img alt="Comète C/2020 F3 (NEOWISE)"
+  src="../../images/c2020f3_neowise_langevin.jpg"
+  style="max-height: 530px;" />
+<figcaption style="font-size: 0.4em; color: #666;">
+  Comète C/2020 F3 (NEOWISE) photographiée de Saint-Raymond-de-Portneuf, le 14 juillet 2020 (Olivier Langevin)
 </figcaption>
 
 ---
@@ -160,8 +196,9 @@ En plus du Soleil et de la Lune, cinq planètes visibles à l'œil nu :
 #### Rotation diurne de la sphère céleste
 
 <a href="http://commons.wikimedia.org/wiki/File%3ANight_Photography.jpg">
-  <img width="540" alt="Rotation diurne de la sphère céleste"
-  src="http://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Night_Photography.jpg/600px-Night_Photography.jpg"/>
+  <img alt="Rotation diurne de la sphère céleste"
+    src="../../images/traces_etoiles_circumpolaires_knapp.jpg"
+    style="max-height: 530px;"/>
 </a>
 <figcaption style="font-size: 0.4em; color: #666;">
 Robert Knapp (www.modernartphotograph.com, CC-BY-SA-3.0)
@@ -176,22 +213,18 @@ Robert Knapp (www.modernartphotograph.com, CC-BY-SA-3.0)
 
 ---
 
-<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="800"
-height="650"><param name="movie" value="celhorcomp.swf" />
-<!--[if !IE]>-->
-<object type="application/x-shockwave-flash" data="celhorcomp.swf"
-width="800" height="650">
-<!--<![endif]-->
-<p>Application Flash - Rotation diurne de la sphère céleste</p>
-<!--[if !IE]>--></object><!--<![endif]-->
-</object>
+#### Rotation diurne de la sphère céleste
+
+<img alt="Rotation diurne de la sphère céleste"
+  src="../../images/ClassAction_CoordinateSystemsComparison.png"
+  style="max-height: 450px;"/>
 <figcaption style="font-size: 0.4em; color: #666;">
   Astronomy Education at the University of Nebraska-Lincoln Web Site
   ([http://astro.unl.edu](http://astro.unl.edu))
 </figcaption>
 
-
 <div class="notes">
+- ClassAction -> Animations -> Coordinate Systems Comparison
 - Cégep Édouard-Montpetit : 45.5N, 73.5W
 - C'est la Terre qui tourne O vers E.
 - Obs terrestre: la sphère céleste tourne E vers O.
@@ -199,7 +232,6 @@ width="800" height="650">
 - Montrer les 2 autres constellations : région circumpolaire, région de
     lever-coucher, région invisible (effet de la latitude)
 - Montrer une étoile : déclinaison/ascension droite vs altitude/azimuth
-- Étoile qui culmine : intersection avec le méridien
 </div>
 
 ---
@@ -222,49 +254,81 @@ width="800" height="650">
     latitude)
 - **Ascension droite** : angle par rapport à la ligne 0h (analogue à la
     longitude)
-- **Zénith** : le point le plus haut de la sphère céleste
-- **Méridien** : le grand cercle qui passe par le zénith, le nord et le
-  sud de l'horizon
-- Une étoile **culmine** lorsqu'elle passe par le méridien
 
 ---
 
-### Mouvement annuel du soleil
+Si vous voulez trouver une étoile rapidement dans le ciel, vous préférez avoir
 
-<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="550"
-height="280">
-<param name="movie" value="sunpaths.swf" />
-<!--[if !IE]>-->
-<object type="application/x-shockwave-flash" data="sunpaths.swf" width="550"
-height="280">
-<!--<![endif]-->
-<p>Application Flash - Mouvement annuel du Soleil</p>
-<!--[if !IE]>--></object><!--<![endif]-->
-</object>
+<ol style="list-style-type: upper-alpha">
+  <li>Constellation</li>
+  <li>Coordonnées altitude-azimuth</li>
+  <li>Coordonnées équatoriales</li>
+</ol>
+
+---
+
+Si vous voulez dire à votre amie qui se trouve en France où trouver une étoile
+vous lui donnez
+
+<ol style="list-style-type: upper-alpha">
+  <li>Constellation</li>
+  <li>Coordonnées altitude-azimuth</li>
+  <li>Coordonnées équatoriales</li>
+</ol>
+
+---
+
+Ce soir, Jupiter sera plein sud à environ 21° d'altitude à 21h30. À 20h30 elle
+sera
+
+<ol style="list-style-type: upper-alpha">
+  <li>Plein sud</li>
+  <li>Plus à l'est</li>
+  <li>Plus à l'ouest</li>
+</ol>
+
+---
+
+Ce soir, Jupiter sera plein sud à environ 21° d'altitude à 21h30. À 20h30 elle
+sera
+
+<ol style="list-style-type: upper-alpha">
+  <li>À une altitude de 21°</li>
+  <li>À une altitude inférieure à 21°</li>
+  <li>À une altitude supérieure à 21°</li>
+</ol>
+
+---
+
+### Mouvement annuel du Soleil
+
+<img alt="Mouvement annuel du Soleil"
+  src="../../images/ClassAction_SunPaths.png"
+  style="max-height: 450px;"/>
 <figcaption style="font-size: 0.4em; color: #666;">
   Astronomy Education at the University of Nebraska-Lincoln Web Site
   ([http://astro.unl.edu](http://astro.unl.edu))
 </figcaption>
+
+<div class="notes">
+- ClassAction -> Animations -> Paths of the Sun
+</div>
 
 ---
 
 ### Le zodiaque et l'écliptique
 
-<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="700"
-height="560">
-<param name="movie" value="zodiac.swf" />
-<!--[if !IE]>-->
-<object type="application/x-shockwave-flash" data="zodiac.swf" width="700"
-height="560">
-<!--<![endif]-->
-<p>Application Flash - Zodique et écliptique</p>
-<!--[if !IE]>--></object><!--<![endif]-->
-</object>
-
+<img alt="Zodiaque et écliptique"
+  src="../../images/ClassAction_Zodiac.png"
+  style="max-height: 450px;"/>
 <figcaption style="font-size: 0.4em; color: #666;">
   Astronomy Education at the University of Nebraska-Lincoln Web Site
   ([http://astro.unl.edu](http://astro.unl.edu))
 </figcaption>
+
+<div class="notes">
+- ClassAction -> Animations -> Ecliptic (Zodiac) Simulator
+</div>
 
 ---
 
@@ -300,23 +364,17 @@ Qu'est-ce qui cause les saisons?
 
 ---
 
-<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="820" height="630">
-<param name="movie" value="http://astro.unl.edu/naap/motion1/animations/seasons_ecliptic.swf" />
- <!--[if !IE]>-->
- <object type="application/x-shockwave-flash"
- data="http://astro.unl.edu/naap/motion1/animations/seasons_ecliptic.swf"
- width="820" height="630">
- <!--<![endif]-->
-<p>Application Flash - Saisons</p>
- <!--[if !IE]>-->
- </object>
- <!--<![endif]-->
-</object>
+<img alt="Saisons"
+  src="../../images/ClassAction_Seasons.png"
+  style="max-height: 450px;"/>
 <figcaption style="font-size: 0.4em; color: #666;">
   Astronomy Education at the University of Nebraska-Lincoln Web Site
   ([http://astro.unl.edu](http://astro.unl.edu))
 </figcaption>
 
+<div class="notes">
+- ClassAction -> Animations -> Seasons Simulator (NAAP)
+</div>
 
 ---
 
@@ -336,7 +394,7 @@ Qu'est-ce qui cause les saisons?
 ---
 
 <figure>
-  <a href="https://astro.unl.edu/WGBH/asset3/">
+  <a href="https://astro.unl.edu/smartphone/asset3/">
     <img src="../../images/phase-lune-html5-app.png"
       alt="Phases de la Lune" style="max-height:80%;max-width:80%;height:80%">
   </a>
@@ -370,19 +428,18 @@ NASA Goddard Media Studios
 
 ---
 
-<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="900"
-height="500"><param name="movie" value="shadowsim.swf" />
-<!--[if !IE]>-->
-<object type="application/x-shockwave-flash" data="shadowsim.swf"
-width="900" height="500">
-<!--<![endif]-->
-<p>Application Flash - Éclipses</p>
-<!--[if !IE]>--></object><!--<![endif]-->
-</object>
+<img alt="Éclipses"
+  src="../../images/ClassAction_Eclipse.png"
+  style="max-height: 450px;"/>
 <figcaption style="font-size: 0.4em; color: #666;">
   Astronomy Education at the University of Nebraska-Lincoln Web Site
   ([http://astro.unl.edu](http://astro.unl.edu))
 </figcaption>
+
+<div class="notes">
+- ClassAction -> Animations -> Lunar Cycles -> Eclipse Shadow Simulator
+</div>
+
 
 ---
 
@@ -422,7 +479,11 @@ allowfullscreen></iframe>
 (http://www.gnu.org/copyleft/fdl.html)], via Wikimedia Commons"
 href="http://commons.wikimedia.org/wiki/File%3APrecession_animation_small_new.gif"><img
 width="256" alt="Precession animation small new"
-src="//upload.wikimedia.org/wikipedia/commons/7/7c/Precession_animation_small_new.gif"/></a>
+src="../../images/Precession_animation_small.gif"/></a>
+
+<figcaption style="font-size: 0.4em; color: #666;">
+  Tfr000 (CC BY-SA 3.0)
+</figcaption>
 
 <br />
 Période de **26000 ans**

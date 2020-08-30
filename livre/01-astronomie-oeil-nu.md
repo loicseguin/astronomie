@@ -21,7 +21,7 @@ Les humains regardent et étudient le ciel depuis la nuit des temps. Dans toutes
 les cultures antiques, nous avons retrouvé des traces de l'étude des phénomènes
 célestes. Que ce soit pour la navigation, la confection de calendriers ou pour
 des raisons mythologiques ou mystiques, comprendre ces phénomènes a toujours
-fasciné les humains. Nos ancêtres on pu faire un grand nombre d'observations à
+fasciné les humains. Nos ancêtres ont pu faire un grand nombre d'observations à
 l'œil nu, sans avoir besoin d'un télescope, ni même de jumelles. Dans ce
 chapitre, nous nous attarderons principalement aux étoiles, au Soleil, à la
 Lune, aux planètes de même qu'à leur mouvement dans le ciel.
@@ -50,7 +50,7 @@ distinguer la Voie Lactée, notre galaxie.
 Si on regarde le ciel nuit après nuit pendant quelques mois, voire quelques
 années, on s'aperçoit que les étoiles ne bougent pas les unes par rapport aux
 autres. Des cartes du ciel qui ont été dessinées il y a plusieurs siècles
-montrent les mêmes configurations d'étoile que celles que nous observons
+montrent les mêmes configurations d'étoiles que celles que nous observons
 aujourd'hui. Les étoiles ne sont donc pas des points lumineux disposés de
 façon aléatoire dans le ciel chaque soir : elles sont organisées, on peut
 les nommer et les cartographier.
@@ -68,7 +68,7 @@ A** qu'on arrive à voir sans difficulté, même en ville. Les astronomes
 utilisent un système de mesure de la brillance qui assigne à chaque étoile une
 **magnitude** comprise entre environ -27 et 20. Les objets les plus brillants
 ont la magnitude la plus petite. Par exemple, le Soleil a une magnitude de -27,
-alors que les étoiles tout juste visibles à l'œil nu on une magnitude de 6.
+alors que les étoiles tout juste visibles à l'œil nu ont une magnitude de 6.
 Grâce aux télescopes puissants d'aujourd'hui, nous pouvons observer des étoiles
 de magnitude allant jusqu'à 20. Ce système de classification basé sur la
 brillance a été inventé au II<sup>e</sup> siècle avant J.-C. par l'astronome
@@ -101,7 +101,7 @@ bout de la queue de la Petite Ourse. Aujourd'hui, il n'est pas rare que des
 étoiles portent plusieurs noms parce qu'elles ont été nommées ou observées par
 plusieurs personnes qui les ont cataloguées différemment. Les astronomes
 utilisent maintenant des bases de données qui permettent de trouver tous les
-noms associés à une étoiles. [Simbad](http://simbad.u-strasbg.fr/simbad/) est
+noms associés à une étoile. [Simbad](http://simbad.u-strasbg.fr/simbad/) est
 une des bases de données les plus utilisées. Si on y cherche Véga, on découvre
 qu'il s'agit d'une étoile variable de type &delta; Scuti dans la constellation de
 la Lyre qui porte également les noms &alpha; Lyrae, HIP 91262 et 2MASS
@@ -126,7 +126,7 @@ et l'**équateur céleste**, respectivement.  Tout comme nous utilisons la
 latitude et la longitude pour identifier des endroits sur Terre, nous pouvons
 utiliser des coordonnées semblables pour repérer les étoiles dans le ciel.
 L'analogue de la latitude, est la **déclinaison** : l'angle mesuré à partir de
-l'équateur céleste vers les pôles.  L'hémisphère Nord céleste a des valeur de
+l'équateur céleste vers les pôles.  L'hémisphère Nord céleste a des valeurs de
 déclinaison positive allant de 0° à l'équateur jusqu'à 90° au pôle Nord
 céleste. La déclinaison dans l'hémisphère Sud est négative allant de 0° à
 l'équateur jusqu'à -90° au pôle Sud céleste.  L'analogue de la longitude est
@@ -173,11 +173,12 @@ le **système altitude-azimut**. L'altitude est l'angle au-dessus de l'horizon
 et l'azimut est l'angle par rapport au nord. Ce système est plus simple à
 utiliser tant qu'on possède un compas et un rapporteur d'angle (ou un sextant).
 Malheureusement, les coordonnées d'altitude-azimut sont différentes à
-différents endroit sur Terre. Par exemple, l'altitude de l'étoile Polaire est
-d'environ 46° à Montréal alors qu'elle est de 90° au pôle Nord terrestre et de
-0° pour quelqu'un qui demeure à Quito. Il est possible de convertir les
-coordonnées équatoriales en coordonnées altitude-azimut et c'est souvent ce que
-les astronomes font pour repérer les objets dans le ciel.
+différents endroits sur Terre et à différents moments. Par exemple, l'altitude
+de l'étoile Polaire est d'environ 46° à Montréal alors qu'elle est de 90° au
+pôle Nord terrestre et de 0° pour quelqu'un qui demeure à Quito. Il est
+possible de convertir les coordonnées équatoriales en coordonnées
+altitude-azimut et c'est souvent ce que les astronomes font pour repérer les
+objets dans le ciel.
 
 Chaque soir, la sphère céleste tourne d'est en ouest, c'est-à-dire que les
 étoiles se lèvent à l'est et se couchent à l'ouest. Cela est dû au fait que la
@@ -186,10 +187,10 @@ semble immobile durant une nuit et que toutes les autres étoiles semblent
 tourner autour d'elle. La raison de ce phénomène est simple, c'est que l'étoile
 Polaire est parfaitement alignée avec le pôle Nord et donc avec l'axe de
 rotation de la Terre.  On remarque que certaines étoiles proches de Polaris
-sont toujours visible dans le ciel, elles ne se couchent jamais. La région du
+sont toujours visibles dans le ciel, elles ne se couchent jamais. La région du
 ciel où se trouvent ces étoiles est la **région circumpolaire**. Cette région
-est plus où moins grande selon l'endroit où on se trouve sur Terre. Pour un
-observateur à l'équateur, la il n'y a pas de région circumpolaire : toutes les
+est plus ou moins grande selon l'endroit où on se trouve sur Terre. Pour un
+observateur à l'équateur, il n'y a pas de région circumpolaire : toutes les
 étoiles se lèvent et se couchent. Il y a également une région de la sphère
 céleste qui est invisible de l'hémisphère Nord. Cette région est proche du pôle
 Sud céleste et elle est invisible parce qu'elle se trouve de l'autre côté de la
@@ -213,7 +214,7 @@ annuel du Soleil sur la sphère céleste est appelé l'**écliptique**.
 Lorsque le Soleil est visible, on ne peut pas voir les autres étoiles parce que
 sa lumière illumine l'atmosphère et cache la sphère céleste. Il n'en demeure
 pas moins que les étoiles sont toujours présentes. Si on pouvait voir les
-étoiles qui sont situées proche du Soleil, on constaterais qu'au cours de
+étoiles qui sont situées proche du Soleil, on constaterait qu'au cours de
 l'année, le Soleil passe en face de 13 constellations. Douze de ces
 constellations sont celles du Zodiaque. La 13, le Serpentaire, n'en fait pas
 partie pour des raisons historiques.
@@ -223,7 +224,7 @@ Terre est penchée de 23°. Par conséquent, l'angle que font les rayons du Sole
 avec le sol varie au cours de l'année. Plus les rayons du Soleil arrivent
 perpendiculairement au sol, plus une grande quantité d'énergie est déposée par
 unité de surface et le sol se réchauffe. À cela s'ajoute le fait que lorsque
-les rayons arrivent plus perpendiculairement, la période ensoleillé de la
+les rayons arrivent plus perpendiculairement, la période ensoleillée de la
 journée est plus longue. Ceci est l'été. L'hiver, le contraire se produit.
 
 À deux moments dans l'année le jour est aussi long que la nuit. On appelle ces
@@ -246,13 +247,14 @@ C'est pourquoi, chaque quatre ans, nous ajoutons une journée au calendrier, le
 
 ## Lune et phases de la Lune
 
-La Lune apparaît aussi grosse que le Soleil de notre point vue, mais en réalité
-elle est beaucoup plus petite que la Terre. Nous verrons plus tard dans le
-cours comment les tailles de la Lune et du Soleil sont évaluées. De la Terre,
-on peut voir que la partie illuminé de la Lune varie sur une période d'environ
-28 jours. Cette variation est appelé le cycle des **phases de la Lune**. Ce
-cycle a longtemps été utilisé comme marqueur de temps et est étroitement lié à
-la durée de la semaine et du mois dans notre calendrier moderne.
+La Lune apparaît aussi grosse que le Soleil de notre point de vue, mais en
+réalité elle est beaucoup plus petite que la Terre. Nous verrons plus tard dans
+le cours comment les tailles de la Lune et du Soleil sont évaluées. De la
+Terre, on peut voir que la partie illuminée de la Lune varie sur une période
+d'environ 28 jours. Cette variation est appelée le cycle des **phases de la
+Lune**. Ce cycle a longtemps été utilisé comme marqueur de temps et est
+étroitement lié à la durée de la semaine et du mois dans notre calendrier
+moderne.
 
 <figure>
   <img src="../images/lune.jpg" alt="La Lune" width="100%">
@@ -284,19 +286,19 @@ Lune.
 </figure>
 
 À ses différentes phases, la Lune n'est pas visible dans le ciel au même moment
-de la journée. Par exemple, lors de la pleine Lune, elle se trouve physique à
-180° du Soleil, donc on peut la voir à son point le plus haut proche de minuit.
-Lorsqu'elle est au premier quartier, elle est à 90° du Soleil, donc on la voit
-culminer à environ 18h. Au dernier quartier, elle culmine vers 6h. Enfin, à la
-nouvelle Lune, elle culmine vers 12h, donc elle est plus difficilement visible
-non seulement parce qu'on voit uniquement sa face sombre, mais aussi parce
-qu'on est en plein jour.
+de la journée. Par exemple, lors de la pleine Lune, elle se trouve physiquement
+à 180° du Soleil, donc on peut la voir à son point le plus haut proche de
+minuit.  Lorsqu'elle est au premier quartier, elle est à 90° du Soleil, donc on
+la voit culminer à environ 18h. Au dernier quartier, elle culmine vers 6h.
+Enfin, à la nouvelle Lune, elle culmine vers 12h, donc elle est plus
+difficilement visible non seulement parce qu'on voit uniquement sa face sombre,
+mais aussi parce qu'on est en plein jour.
 
 Si vous observez attentivement la Lune, vous remarquerez que la partie visible
 de la Terre est toujours la même. Un des côtés de la Lune ne nous fait jamais
 face, c'est la face cachée de la Lune. Ceci est causé par le fait que la
 période de révolution de la Lune est égale à sa période de rotation. Cette
-synchronisation, appelée **verouillage gravitationnel**, est une conséquence de
+synchronisation, appelée **verrouillage gravitationnel**, est une conséquence de
 l'action de la force de gravité et du fait que la Lune n'est pas un objet
 parfaitement solide.
 
@@ -310,7 +312,7 @@ Terre-Lune-Soleil, seule une petite partie de la Terre peut voir une éclipse
 totale de Soleil. Puisque les éclipses de Soleil se produisent lorsque la Lune
 est entre la Terre et le Soleil, elles n'ont lieu que lors de la nouvelle Lune.
 Il n'y a pas d'éclipse de Soleil à chaque mois parce que l'orbite de la Lune
-n'est pas parfaitement aligné avec l'orbite de la Terre, elle fait un angle de
+n'est pas parfaitement alignée avec l'orbite de la Terre, elle fait un angle de
 5°. Une éclipse totale de Soleil est donc un phénomène assez rare.
 
 Lorsque la Terre passe entre la Lune et le Soleil et que l'alignement est bon,
@@ -324,9 +326,9 @@ En observant attentivement le ciel, on aperçoit des objets qui semblent être
 des étoiles, mais dont la position change par rapport aux autres étoiles. Ces
 astres errants sont des **planètes** de notre système solaire. Cinq planètes
 sont visibles à l'œil nu : Mercure, Vénus, Mars, Jupiter et Saturne. Elles sont
-très brillantes et ont les distingue assez facilement avec un peu de pratique.
+très brillantes et on les distingue assez facilement avec un peu de pratique.
 Nos ancêtres avaient compris que ces objets étaient fondamentalement différents
-des étoiles et leur étude permis de jeter les bases de notre compréhension
+des étoiles et leur étude a permis de jeter les bases de notre compréhension
 actuelle du système solaire. Nous en parlerons en détail au chapitre 2.
 
 
@@ -341,8 +343,9 @@ La conséquence la plus frappante de ce phénomène est que personne n'est du
 signe astrologique attendu. Depuis l'invention de l'astrologie, il y un peu
 plus de 2000 ans, le mouvement de précession a décalé d'environ 1/12 la
 position apparente du Soleil par rapport aux constellations. C'est l'équivalent
-d'un décalage d'un signe astrologique! Ceux qui sont nés entre le 20 janvier et
-le 19 février pensent être Verseau alors que le Soleil est en Capricorne.
+d'un décalage d'un signe astrologique! Par exemple, ceux qui sont nés entre le
+20 janvier et le 19 février pensent être Verseau alors que le Soleil est en
+Capricorne.
 
 
 ## Exercices
