@@ -316,6 +316,20 @@ sera
 
 ---
 
+<img alt="Saisons"
+  src="../../images/ClassAction_Seasons.png"
+  style="max-height: 450px;"/>
+<figcaption style="font-size: 0.4em; color: #666;">
+  Astronomy Education at the University of Nebraska-Lincoln Web Site
+  ([http://astro.unl.edu](http://astro.unl.edu))
+</figcaption>
+
+<div class="notes">
+- ClassAction -> Animations -> Seasons Simulator (NAAP)
+</div>
+
+---
+
 ### Le zodiaque et l'écliptique
 
 <img alt="Zodiaque et écliptique"
@@ -328,52 +342,6 @@ sera
 
 <div class="notes">
 - ClassAction -> Animations -> Ecliptic (Zodiac) Simulator
-</div>
-
----
-
-## Les saisons
-
-Qu'est-ce qui cause les saisons?
-
----
-
-## Les saisons
-
-#### Été
-
-- Le Soleil est plus haut dans le ciel (23° de déclinaison au solstice)
-- L'angle d'incidence des rayons du Soleil est plus près de 90°
-- Le jour est plus long
-<br />
-<br />
-**Le Soleil transmet plus d'énergie au sol**
-
----
-
-## Les saisons
-
-#### Hiver
-
-- Le Soleil est plus bas dans le ciel (-23° de déclinaison au solstice)
-- L'angle d'incidence des rayons du Soleil est plus éloigné de 90°
-- Le jour est plus court
-<br />
-<br />
-**Le Soleil transmet moins d'énergie au sol**
-
----
-
-<img alt="Saisons"
-  src="../../images/ClassAction_Seasons.png"
-  style="max-height: 450px;"/>
-<figcaption style="font-size: 0.4em; color: #666;">
-  Astronomy Education at the University of Nebraska-Lincoln Web Site
-  ([http://astro.unl.edu](http://astro.unl.edu))
-</figcaption>
-
-<div class="notes">
-- ClassAction -> Animations -> Seasons Simulator (NAAP)
 </div>
 
 ---

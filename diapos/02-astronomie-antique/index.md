@@ -1,6 +1,6 @@
 % Astronomie antique
 % CEA Explorer et comprendre l'Univers
-% 6 février 2020
+% 8 septembre 2020
 ---
 theme: night
 transition: none
@@ -135,7 +135,7 @@ style="max-height: 600px; max-width: 600px; padding: 10px;">
 ------------------------------------------------------
  Astre errant    Période zodiacale
 --------------  --------------------------------------
- Lune            27,3 jours
+ Lune            27 jours
 
  Mercure         1 an
 

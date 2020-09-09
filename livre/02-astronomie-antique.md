@@ -48,12 +48,12 @@ destinée des êtres humains. S'ils avaient connu la méthode scientifique, les
 prêtres-astrologues mésopotamiens auraient pu mettre à l'épreuve ces croyances
 et s'apercevoir qu'elles ne résistaient pas à la moindre investigation.
 
-Leurs observations du ciel leur a néanmoins permis de reconnaître que les
+Leurs observations du ciel leur ont néanmoins permis de reconnaître que les
 étoiles, immobiles les unes par rapport aux autres, étaient fondamentalement
 différentes des **astres errants**, la Lune, le Soleil, Mercure, Vénus, Mars,
 Jupiter et Saturne. Ces astres errants se déplacent par rapport aux étoiles
 selon des mouvements qui se répètent à intervalle régulier. Les observations
-qui ont permis de découvrir ces cycles marquent le début de l'**astronomie**
+qui ont permis de découvrir ces cycles marquent le début de l'**astronomie**,
 une science qui se base sur les observations pour comprendre et prédire ce qui
 se produit dans le ciel. Les observations mésopotamiennes étaient très
 détaillées (pour l'époque) et leur connaissance des mathématiques
