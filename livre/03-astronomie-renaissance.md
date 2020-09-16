@@ -29,7 +29,7 @@ de ses contemporains, ne se limita pas à l'étude d'une seule discipline. Il
 étudia les mathématiques et l'astronomie, mais aussi l'économie et la médecine.
 Il occupa plusieurs positions administratives et politiques. Il fit des
 observations astronomiques détaillées et précises, mesurant entre autres les
-positions des planètes avec des erreurs de moins d'un demi degré.
+positions des planètes avec des erreurs de moins d'un demi-degré.
 
 <figure>
   <img src="../images/Jan_Matejko-Astronomer_Copernicus-Conversation_with_God.jpg"
@@ -59,7 +59,7 @@ plus de temps devaient être plus loin. À partir du Soleil, les planètes sont
 Mercure, Vénus, la Terre, Mars, Jupiter et Saturne. Toujours influencé par la
 tradition grecque, les orbites des planètes dans son modèles sont circulaires.
 Copernic reconnait que les étoiles sont beaucoup plus loin de la Terre que ne
-l'est le Soleil et les places sur une sphère immobile. Ainsi, le mouvement
+l'est le Soleil et les place sur une sphère immobile. Ainsi, le mouvement
 apparent de la sphère céleste n'est pas dû à un mouvement réel de la sphère,
 mais plutôt à un mouvement de la Terre elle-même. Copernic reconnait même que
 la Terre a deux mouvements distincts, sa rotation sur elle-même et sa révolution
@@ -139,7 +139,7 @@ de la mécanique. Il était également doué pour l'ingénierie et il développa
 plusieurs appareils qui eurent un certain succès commercial (notamment des
 compas et des télescopes). Il fut pendant une bonne partie de sa vie en bons
 termes avec les autorités religieuses. Cependant son engouement public pour le
-modèle héliocentrique de Copernic lui valu éventuellement un procès et une
+modèle héliocentrique de Copernic lui valut éventuellement un procès et une
 condamnation à la prison à vie pour «suspicion d'hérésie». Il purgea sa peine
 en étant assigné à sa résidence pour le reste de sa vie. Son ouvrage *Dialogo
 sopra i due massimi sistemi del mondo* fut mis à l'index. En 1992, le pape
@@ -172,7 +172,7 @@ l'espace. Comme la Terre était immobile au centre, la Lune pouvait tourner
 autour de la Terre sans problème.  Avec son télescope, Galilée découvrit que
 Jupiter avait également des lunes. Les quatre plus grosses lunes de Jupiter,
 Io, Europe, Ganymède et Callisto sont aujourd'hui nommées les lunes galiléennes
-et l'honneur de cette découvertes. Il put observer le mouvement de ces lunes
+et l'honneur de cette découverte. Il put observer le mouvement de ces lunes
 autour de leur planète. L'image ci-dessous, prise avec un télescope moderne,
 montre les quatre lunes galiléennes.
 
@@ -191,7 +191,7 @@ Dans le modèle de Copernic, les lunes sont simplement sur des orbites autour de
 leur planètes qui sont elles-mêmes en orbite autour du Soleil. L'idée selon
 laquelle une planète ne pouvait garder ses lunes si elle était en orbite était
 contredite par l'existence des lunes de Jupiter. La place particulière de la
-Terre était également ébranler : d'autres planètes pouvaient aussi avoir des
+Terre était également ébranlée : d'autres planètes pouvaient aussi avoir des
 lunes.
 
 
@@ -269,12 +269,12 @@ Galilée.
 Tycho Brahe (1546-1601) était un contemporain de Galilée. C'était un Danois
 fort habile pour prendre des mesures astronomiques précises. Le roi danois
 Frédérick II a donné a Tycho Brahe un observatoire astronomique sur l'île de
-Hven : Uraniborg. En utilisant des instruments somme toute rudimentaire (il
+Hven : Uraniborg. En utilisants des instruments somme toute rudimentaire (il
 n'avait pas de télescope contrairement à Galilée) il mesura la position des
 astres avec une précision exemplaire (de l'ordre du soixantième de degré). En
-utilisant la technique du parallaxe, dont nous parlerons dans un chapitre
+utilisant la technique de la parallaxe, dont nous parlerons dans un chapitre
 ultérieur, il était capable de déterminer quels objets célestes étaient les
-plus éloignés. Il observa qu'il était incapable de mesurer le parallaxe des
+plus éloignés. Il observa qu'il était incapable de mesurer la parallaxe des
 étoiles ce qui pouvait signifier deux choses : soit les étoiles étaient
 beaucoup plus loin que ce que les gens de l'époque imaginait, soit la Terre
 était immobile. Tycho Brahe opta pour la deuxième hypothèse et développa un
@@ -372,7 +372,7 @@ valide.
 Cette loi permet d'expliquer la préférence zodiacale. Quand la planète est plus
 loin du Soleil (à sa position qu'on appelle **aphélie**) elle va plus lentement
 donc elle reste plus longtemps face aux constellations correspondantes. À sa
-position la plus proche du Soleil, la **périhélie**, la planète va plus vite et
+position la plus proche du Soleil, le **périhélie**, la planète va plus vite et
 reste donc moins longtemps vis-à-vis des constellations de cette région du
 ciel.
 
@@ -406,7 +406,7 @@ quelques dizaines d'années.
 3. Quelle idée chère aux Grecs anciens Copernic conserva-t-il dans son modèle?
 
 4. Tracez les lignes de visées qui vont de la Terre à une planète supérieure à
-   différents moment pour illustrer comme le mouvement rétrograde est expliqué
+   différents moments pour illustrer comme le mouvement rétrograde est expliqué
    dans le modèle de Copernic.
 
 5. Vrai ou faux? Le modèle de Copernic permettait de faire des prédictions de
