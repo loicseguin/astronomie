@@ -1,9 +1,18 @@
 % Astronomie à la Renaissance
 % CEA Explorer et comprendre l'Univers
-% 20 février 2020
+% 17 septembre 2020
 ---
 theme: beige
 transition: linear
+---
+
+## Signe astrologique
+
+Est-ce que votre signe astrologique correspondait bien à la position du Soleil
+le jour de votre naissance?
+
+[https://b.socrative.com/login/student/](https://b.socrative.com/login/student/) \ \ DCRDEWY
+
 ---
 
 ## Rappels
@@ -107,6 +116,21 @@ Explique
 
 ---
 
+Dans le modèle de Copernic, pourquoi est-ce que les planètes inférieures
+apparaissent toujours proches du Soleil dans le ciel?
+
+<ol style="list-style-type: upper-alpha">
+  <li>Elles sont plus petites que les autres planètes</li>
+  <li>Elles sont plus grandes que les autres planètes</li>
+  <li>Elles sont sur des orbites autour du Soleil plus petite que
+  celle de la Terre</li>
+  <li>Elles sont sur des orbites autour du Soleil plus grande que
+  celle de la Terre</li>
+  <li>Elles sont sur un épicycle qui est toujours centré sur l'axe Terre-Soleil</li>
+</ol>
+
+---
+
 ## Période de révolution des planètes
 
 Planète     Période sidérale (année)
@@ -137,7 +161,16 @@ l'ordre de 5°
 
 ---
 
-## Exercice sur le mouvement rétrograde
+Quels éléments parmi les suivants sont communs aux modèle de Ptolémée et de
+Copernic?
+
+<ol style="list-style-type: upper-alpha">
+  <li>Orbites circulaires</li>
+  <li>Équants</li>
+  <li>Terre au centre</li>
+  <li>Soleil au centre</li>
+  <li>Épicycles</li>
+</ol>
 
 ---
 
