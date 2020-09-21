@@ -16,7 +16,7 @@ title-prefix: Explorer et comprendre l'Univers
   </figcaption>
 </figure>
 
-Beaucoup d'éléments du dernier chapitre devrait vous avoir laissés un peu
+Plusieurs éléments du dernier chapitre devraient vous avoir laissé un peu
 perplexe. Dans le modèle de Copernic, le Soleil est beaucoup plus loin de la
 Terre que ne l'est la Lune. Mais alors, pourquoi la Lune apparaît-elle aussi
 grosse que le Soleil dans le ciel? Kepler, pour énoncer sa troisième loi,
@@ -155,7 +155,7 @@ reposait sur l'étude des éclipses de Lune. En supposant que le Soleil est
 beaucoup plus loin que la Lune, ce qui était connu depuis Aristarque, il savait
 que la forme de l'ombre projetée par la Terre était conique. Plus la Lune était
 proche de la Terre, plus elle aurait à traverser une ombre importante lors
-d'une éclipse de Lune. Par conséquent, l'éclipse durerait plus long. Au
+d'une éclipse de Lune. Par conséquent, l'éclipse durerait plus longtemps. Au
 contraire, si la Lune était loin de la Terre, l'ombre à traverser serait plus
 petite et alors l'éclipse durerait moins longtemps. Un peu de géométrie permit
 à Hipparque de calculer que la distance entre la Terre et la Lune devait être
@@ -287,7 +287,7 @@ laquelle l'objet se trouve.
 7. Expliquez la méthode utilisée pour déterminer la distance des planètes
    inférieures en vous appuyant d'un schéma.
 
-8. Est-ce que la méthode que vous avez décrit à la question précédent aurait pu
+8. Est-ce que la méthode que vous avez décrit à la question précédente aurait pu
    être utilisée avec le modèle de Ptolémée?
 
 9. Définissez l'effet parallaxe.
