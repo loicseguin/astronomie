@@ -16,7 +16,7 @@ title-prefix: Explorer et comprendre l'Univers
   </figcaption>
 </figure>
 
-À la Renaissance, beaucoup de progrès ont été réalisés dans la compréhension de
+À la Renaissance, beaucoup de progrès ont été faits dans la compréhension de
 la structure du système solaire. Copernic, Galilée et Kepler ont jeté les bases
 d'une meilleure compréhension de l'Univers. Leurs découvertes permettaient de
 bien comprendre le mouvement des astres et de prédire leur position, mais elles
@@ -35,8 +35,8 @@ Terre tombent tous vers le sol à la même vitesse, si on peut négliger toute
 forme de frottement, incluant la résistance de l'air. La légende veut qu'il ait
 laissé tomber deux boulets de masses différentes du haut de la tour de Pise
 pour montrer que les deux atteignaient le sol exactement au même moment. Cette
-réalisation importante montrait que la gravité agit de la même façon sur tous
-les objets à la surface de la Terre.
+réalisation importante montrait que tous les objets à la surface de la Terre
+étaient attirés vers le centre de la Terre de la même façon.
 
 <figure>
   <a href="https://commons.wikimedia.org/wiki/File:Piazza_dei_Miracoli_-_The_Cathedral_and_the_Leaning_Tower_in_Pisa_(2).jpg">
@@ -134,7 +134,7 @@ Newton est la suivante\ :
 Enfin, Newton réalisa qu'une force sur un objet ne pouvait qu'être exercée par
 un autre objet qui devait lui aussi subir une conséquence de cette interaction.
 Les forces viennent donc nécessairement en paires\ : la force exercée sur la
-rondelle par le bâton de hockey et accompagnée de la force exercée sur le bâton
+rondelle par le bâton de hockey est accompagnée de la force exercée sur le bâton
 de hockey par la rondelle. La troisième loi de Newton, souvent appelée le
 **principe d'action-réaction**, affirme que 
 
@@ -270,8 +270,8 @@ qu'une autre planète devait se trouver entre le Soleil et Mercure et que cette
 autre planète était responsable de la perturbation observée de l'orbite de
 Mercure. Il nomma cette planète Vulcain. Pendant des décennies, les astronomes
 tentèrent en vain d'observer Vulcain pour confirmer l'hypothèse de Le Verrier.
-Une première véritable faille dans la théorie de gravitation universelle venait
-d'être découverte.
+Vulcain n'existait pas. Une première véritable faille dans la théorie de
+gravitation universelle venait d'être découverte.
 
 
 ## Albert Einstein et la relativité
@@ -304,13 +304,13 @@ contredisait directement ce qui était attendu de la relativité galiléenne.
 
 Einstein, pour résoudre le problème, énonça deux postulats\ :
 
-1. La vitesse de la lumière est la même pour tous les observateurs, peut
+1. La vitesse de la lumière est la même pour tous les observateurs, peu
    importe leur état de mouvement.
-2. Le principe de relativité galiléen est correct, c'est à dire que les lois de
+2. Le principe de relativité galiléen est correct, c'est-à-dire que les lois de
    la physique sont les mêmes pour tous les observateurs, peu importe leur
    état de mouvement, pour autant qu'ils ne soient pas accélérés.
 
-À partir de ces postulats, il développa ce qui est aujourd'hui connue sous le
+À partir de ces postulats, il développa ce qui est aujourd'hui connu sous le
 nom de la **théorie de la relativité restreinte** (nous verrons plus tard en
 quoi cette théorie est *restreinte*). Il publia son idée en 1905 à peu près en
 même temps que trois autres idées originales dans d'autres domaines de la
@@ -357,13 +357,13 @@ apparaissait dans son deuxième postulat\ : pourquoi l'observateur ne devait-il
 pas être accéléré? Pour enlever cette restriction, il dû travailler pendant
 onze ans! Il réalisa qu'il est impossible pour un observateur de faire la
 distinction entre une accélération et la gravité. Un observateur dans une fusée
-spatiale qui accélère à 9,8\ m/s ressentirait exactement la même chose qu'un
-observateur sur Terre. Les expériences qu'il ferait donnerait toutes exactement
-les mêmes résultats que l'observateur sur Terre. Par conséquent, s'il était
-enfermé dans une pièce sans fenêtre ni porte, il serait incapable de déterminer
-s'il se trouvait dans une fusée spatiale qui accélère ou à proximité d'un objet
-comme la Terre qui exerce une force de gravité. C'est ce qu'on appelle le
-**principe d'équivalence**.
+spatiale qui accélère à 9,8\ m/s<sup>2</sup> ressentirait exactement la même
+chose qu'un observateur sur Terre. Les expériences qu'il ferait donnerait
+toutes exactement les mêmes résultats que l'observateur sur Terre. Par
+conséquent, s'il était enfermé dans une pièce sans fenêtre ni porte, il serait
+incapable de déterminer s'il se trouvait dans une fusée spatiale qui accélère
+ou à proximité d'un objet comme la Terre qui exerce une force de gravité. C'est
+ce qu'on appelle le **principe d'équivalence**.
 
 <figure>
   <img src="../images/principe_equivalence.png"
@@ -371,11 +371,11 @@ comme la Terre qui exerce une force de gravité. C'est ce qu'on appelle le
     width="60%">
   <figcaption>
   À gauche, un observateur dans une fusée spatiale lancée vers le haut avec une
-  accélération de 9,8\ m/s. À droite, un observateur sur Terre, avec une
-  accélération gravitationnelle de 9,8\ m/s vers le bas.  Selon le principe
-  d'équivalence, les deux situations sont indistinguables. Les expériences
-  physiques qui peuvent être faites dans les deux situations donneront
-  exactement les mêmes résultats.
+  accélération de 9,8\ m/s<sup>2</sup>. À droite, un observateur sur Terre,
+  avec une accélération gravitationnelle de 9,8\ m/s<sup>2</sup> vers le bas.
+  Selon le principe d'équivalence, les deux situations sont indistinguables.
+  Les expériences physiques qui peuvent être faites dans les deux situations
+  donneront exactement les mêmes résultats.
   </figcaption>
 </figure>
 
@@ -416,24 +416,25 @@ l'espace-temps devient suffisamment importante pour qu'on doive absolument en
 tenir compte.
 
 
-## Lentilles gravitationnelles et trous noirs
+### Succès de la relativité générale
 
 La théorie de la relativité générale prédit l'existence de plusieurs phénomènes
-exotiques. Les lentilles gravitationnelles sont celles qui ont été observées
-d'abord. Puisque la présence de très grandes masses courbe l'espace-temps, tout
-ce qui voyage dans l'espace-temps, incluant la lumière, sera affecté par cette
-courbure. Par conséquent, si un objet très massif, comme une galaxie, se trouve
-entre une source lumineuse et nous, la courbure causée par cet objet changera
-la trajectoire des rayons lumineux qui nous proviennent de la source. Ce
-changement de trajectoire fait en sorte que l'objet lumineux nous apparait à
-un autre endroit du ciel que celui où il se trouve réellement. Ce phénomène est
-analogue au changement de trajectoire que fait subir une lentille à la lumière,
-d'où le nom. Les lentilles gravitationnelles ont été observées pour la première
-fois en 1919. Depuis, plusieurs observations spectaculaires ont été faites
-comme l'image ci-dessous qui montre une galaxie rouge entre la Terre et une
-autre galaxie qui apparait comme un anneau bleu. En réalité, la galaxie bleue
-n'est pas en forme d'anneau, mais l'image qu'on en voit est déformée par effet
-de lentille gravitationnelle dû à la présence de la galaxie rouge.
+exotiques. Les **lentilles gravitationnelles** sont celles qui ont été
+observées d'abord. Puisque la présence de très grandes masses courbe
+l'espace-temps, tout ce qui voyage dans l'espace-temps, incluant la lumière,
+sera affecté par cette courbure. Par conséquent, si un objet très massif, comme
+une galaxie, se trouve entre une source lumineuse et nous, la courbure causée
+par cet objet changera la trajectoire des rayons lumineux qui nous proviennent
+de la source. Ce changement de trajectoire fait en sorte que l'objet lumineux
+nous apparait à un autre endroit du ciel que celui où il se trouve réellement.
+Ce phénomène est analogue au changement de trajectoire que fait subir une
+lentille à la lumière, d'où le nom. Les lentilles gravitationnelles ont été
+observées pour la première fois en 1919 par Arthur Stanley Eddington. Depuis,
+plusieurs observations spectaculaires ont été faites comme l'image ci-dessous
+qui montre une galaxie rouge entre la Terre et une autre galaxie qui apparait
+comme un anneau bleu. En réalité, la galaxie bleue n'est pas en forme d'anneau,
+mais l'image qu'on en voit est déformée par effet de lentille gravitationnelle
+dû à la présence de la galaxie rouge.
 
 <figure>
   <a href="https://apod.nasa.gov/apod/ap111221.html">
@@ -452,7 +453,7 @@ décrit la vitesse que doit avoir un objet pour réussir à échapper à
 l'attraction gravitationnelle du corps céleste. Pour la Terre, cette vitesse de
 libération est de 11,2\ km/s. Si on se trouvait à la surface du Soleil, la
 vitesse de libération serait de 618\ km/s. À la surface d'une étoile naine
-blanche comme Sirius B est d'environ 6700\ km/s. Il est concevable que si un
+blanche comme Sirius B, elle est d'environ 6700\ km/s. Il est concevable que si un
 astre est suffisamment massif et suffisamment dense, la vitesse de libération
 puisse être supérieure à la vitesse de la lumière. Or, une des conséquences de
 la théorie de la relativité restreinte est que rien ne peut aller plus vite que
@@ -463,13 +464,13 @@ n'est pas parce qu'on est à proximité d'un trou noir qu'on est aspiré à
 l'intérieur. Il est tout à fait possible de rester en orbite.
 
 Les premières observations qui suggéraient fortement l'existence d'un trou noir
-remontent à 1995. En observant comment les étoiles à proximité du centre de la
-Voie Lactée se déplaçaient, des scientifiques ont pu conclure qu'un objet
-extrêmement massif devait se trouver au centre d'une région relativement
-petite, conditions qui étaient difficiles à satisfaire sans la présence d'un
-trou noir. Depuis, plusieurs observations ont confirmé l'existence de ces
-objets étranges, dont plusieurs observations d'ondes gravitationnelles par
-l'observatoire LIGO depuis 2016.  Récemment, en avril 2019, l'équipe
+remontent aux années 1990. En observant comment les étoiles à proximité du
+centre de la Voie Lactée se déplaçaient, des scientifiques ont pu conclure
+qu'un objet extrêmement massif devait se trouver au centre d'une région
+relativement petite, conditions qui étaient difficiles à satisfaire sans la
+présence d'un trou noir. Les chercheurs Reinhard Genzel et Andrea Ghez qui
+dirigeaient deux équipes ayant fait ces observations indépendamment ont reçu le
+prix Nobel de physique en 2020. Récemment, en avril 2019, l'équipe
 internationale du *Event Horizon Telescope* a publié la première image d'un
 trou noir. Le trou noir en question se trouve au centre de la galaxie voisine
 de M87 dans la constellation de la Vierge.  Cette image incroyable a été
@@ -480,12 +481,32 @@ sur la planète.
   <a href="https://www.eso.org/public/images/eso1907a/">
   <img src="../images/eso1907a.jpg"
     alt="Trou noir M87* au centre de la galaxie M87"
-    width="100%">
+    style="width: 100%">
   </a>
   <figcaption>
     Trou noir M87* au centre de la galaxie M87. Ce trou noir, d'une taille
     comparable au système solaire, a une masse d'environ 7 milliards de fois la
     masse du Soleil. (EHT Collaboration)
+  </figcaption>
+</figure>
+
+La théorie de la relativité générale prédit aussi l'existence d'**ondes
+gravitationnelles**, des vibrations dans le tissu même de l'espace-temps. Ce
+type d'onde est produit en grandes quantités lors d'événements extrêmes comme
+la collision de trous noirs ou d'étoiles à neutrons. Les ondes
+gravitationnalles ont été observées pour la première fois en 2016 par
+l'observatoire LIGO. Depuis, des dizaines d'observations ont été faites.
+Certains des chercheurs principaux ayant travaillé sur LIGO ont reçu le prix
+Nobel de physique en 2016.
+
+<figure>
+  <a href="https://www.ligo.org/multimedia/gallery/lho.php">
+  <img src="../images/ligo-hanford.jpg"
+    alt="Observatoire LIGO Hanford">
+  </a>
+  <figcaption>
+    Observatoire LIGO Hanford avec ses bras de 4 km chacun (LIGO Science
+    Collaboration).
   </figcaption>
 </figure>
 
