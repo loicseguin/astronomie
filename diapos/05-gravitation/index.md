@@ -1,6 +1,6 @@
 % Gravitation
 % CEA Explorer et comprendre l'Univers
-% 5 mars 2020
+% 12 octobre 2020
 ---
 theme: beige
 transition: linear
@@ -171,7 +171,8 @@ $$F = \frac{G m_1 m_2}{r^2}$$
 ---
 
 <iframe width="800px" height="600px"
-src="https://lab.loicseguin.com/schroeder/index.html"></iframe>
+  src="https://lab.loicseguin.com/schroeder/index.html">
+</iframe>
 
 ---
 
@@ -222,9 +223,8 @@ src="//upload.wikimedia.org/wikipedia/commons/2/2a/Lspn_comet_halley.jpg"/></a>
 
 >- Découverte d'Uranus en 1781 par William Herschel
 >- L'orbite d'Uranus est bizarre...
->- J. C. Adams et Urbain Le Verrier prédisent l'existence d'une autre planète :
-   Neptune
->- Neptune est découverte en 1846 par J. G. Galle
+>- J. C. Adams et Urbain Le Verrier prédisent l'existence d'une autre planète
+>- Neptune découverte en 1846 par J. G. Galle à l'endroit prédit par Adams et Le Verrier
 
 ---
 
@@ -469,10 +469,10 @@ appelés des **trous noirs**.
 ## Le futur...
 
 >- Pour expliquer la vitesse de rotation des galaxies, il manque de la masse!
-   C'est la **matière sombre** qui compose environ 25% de la masse dans
+   C'est la **matière sombre** qui compose environ 27% de la masse dans
    l'Univers.
 >- L'expansion de l'Univers est trop rapide! Il faut de l'**énergie sombre**
-   pour l'expliquer. L'énergie sombre représente 70% de la masse dans
+   pour l'expliquer. L'énergie sombre représente 68% de la masse dans
    l'Univers.
 
 ---
