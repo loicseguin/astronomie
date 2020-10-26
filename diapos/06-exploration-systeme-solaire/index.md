@@ -1,6 +1,6 @@
 % Exploration du système solaire
 % CEA Explorer et comprendre l'Univers
-% 12 mars 2020
+% 26 octobre 2020
 ---
 theme: beige
 transition: none
@@ -573,6 +573,18 @@ Température                            20°C, -140°C, -40°C
 <img alt="Opportunity tracks" height="450px" src="http://www.nasa.gov/sites/default/files/pia18604-main_pcam-sol3754b_l257atc_2.jpg" />
 
 <small>NASA/JPL-Caltech/Cornell Univ./Arizona State Univ.</small>
+
+---
+
+<figure>
+  <a href="https://mars.nasa.gov/resources/spirit-and-opportunity-by-the-numbers/">
+  <img alt="Curiosity" src="../../images/8249_MER_ByTheNumbers_infographic_Feb2019.jpg"
+    style="max-height: 500px;">
+  </a>
+  <figcaption style="font-size: 0.4em; color: #666;">
+    NASA/JPL-Caltech
+  </figcaption>
+</figure>
 
 ---
 
