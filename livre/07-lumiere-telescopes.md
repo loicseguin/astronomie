@@ -63,7 +63,7 @@ semble brisée alors qu'elle ne l'est pas.
 </figure>
 
 À la Renaissance, René Descartes, Robert Hooke, Isaac Newton et Christiaan
-Huygens ont cherché à comprendre la nature de la lumière et plus de décrire de
+Huygens ont cherché à comprendre la nature de la lumière et à décrire de
 nouveaux phénomènes. Descartes et Newton pensaient que la lumière était
 composée de plusieurs petites particules qui voyageaient en ligne droite et qui
 rebondissait sur les surfaces comme des balles de billard. Cette **théorie
@@ -219,7 +219,7 @@ Depuis le développement de la théorie de la relativité restreinte d'Einstein,
 nous savons que la vitesse de la lumière est la même pour tous les
 observateurs, peu importe comment ils se déplacent par rapport à la source
 lumineuse. Cette vitesse a été mesurée précisément a de nombreuses reprises et
-aujourd'hui, on la prend comme une constante donc la valeur est fixée à
+aujourd'hui, on la définit comme une constante dont la valeur est
 
 <center>
 *c* = 299\ 792,458\ km/s
@@ -439,7 +439,7 @@ ils sont d'excellents sujets pour votre production écrite.
 
 3. Définissez le phénomène de la diffraction.
 
-4. D'après vous, les arcs-en-ciel sont causé par quel phénomène : la
+4. D'après vous, les arcs-en-ciel sont causés par quel phénomène : la
    réflexion, la réfraction, la dispersion ou la diffraction? Expliquez votre
    raisonnement.
 
