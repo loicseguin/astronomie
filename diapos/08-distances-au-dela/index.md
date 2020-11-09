@@ -281,16 +281,16 @@ DCRDEWY
 Deneb a une magnitude apparente d'environ 1.25. Le Soleil a une magnitude
 apparente d'environ -26. Sélectionnez les énoncés vrais.
 
-A) Si on les mettait côte-à-côte, Deneb paraîtrait moins brillante que le
-Soleil.
-
-B) Deneb paraît moins brillante que le Soleil dans le ciel.
-
-C) Sachant que Deneb est à 1400 années-lumière, il est raisonnable de croire
-qu'elle est en fait plus brillante que le Soleil.
-
-D) Le Soleil parait beaucoup plus brillant que Deneb parce qu'il est beaucoup
-plus proche.
+<small>
+<ol style="list-style-type: upper-alpha">
+<li>Si on les mettait côte-à-côte, Deneb paraîtrait moins brillante que le Soleil.</li>
+<li>Deneb paraît moins brillante que le Soleil dans le ciel.</li>
+<li>Sachant que Deneb est à 1400 années-lumière, il est raisonnable de croire
+qu'elle est en fait plus brillante que le Soleil.</li>
+<li>Le Soleil parait beaucoup plus brillant que Deneb parce qu'il est beaucoup
+plus proche.</li>
+</ol>
+</small>
 
 ---
 
@@ -324,17 +324,27 @@ Les étoiles Malm et Vikhammer sont jumelles. On sait que Vikhammer est à une
 distance de 1000 années-lumière. Malm parait 25 fois plus brillante que
 Vikhammer dans le ciel. À quelle distance se trouve Malm?
 
+<ol style="list-style-type: upper-alpha">
+<li>40 al</li>
+<li>200 al</li>
+<li>1000 al</li>
+<li>5000 al</li>
+<li>25 000 al</li>
+</ol>
+
 ---
 
 Trysil et Nesna sont des étoiles jumelles. Trysil a une magnitude apparente
 de 4. On sait qu'elle est au moins deux fois plus loin que Mesna. Laquelle des
 valeurs suivantes est une magnitude apparente possible pour Mesna?
 
-A) -20
-B) 3
-C) 6
-D) 16
-E) 25
+<ol style="list-style-type: upper-alpha">
+<li>-20</li>
+<li>3</li>
+<li>6</li>
+<li>16</li>
+<li>25</li>
+</ol>
 
 ---
 
@@ -489,6 +499,20 @@ ESA/Hubble & NASA, J. Greene
 
 - Lien entre la période de pulsation et la luminosité
 - Permet de mesurer des distances jusqu'à des millions d'années-lumière
+
+---
+
+L'étoile céphéide Bob a une période de 3 jours et elle est distante de 100 000
+al. L'étoile céphéide Alice a une période de 12 jours et elle parait aussi
+brillante dans le ciel. À quelle distance est-elle située?
+
+<ol style="list-style-type: upper-alpha">
+<li>25 000 al</li>
+<li>50 000 al</li>
+<li>100 000 al</li>
+<li>200 000 al</li>
+<li>400 000 al</li>
+</ol>
 
 ---
 
