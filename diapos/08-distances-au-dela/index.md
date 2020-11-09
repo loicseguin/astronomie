@@ -1,6 +1,6 @@
 % Distances au-delà du système solaire
 % CEA Explorer et comprendre l'Univers
-% 23 avril 2020
+% 9 novembre 2020
 ---
 theme: black
 transition: linear
@@ -33,10 +33,14 @@ déterminer des distances :
 
 ### Radar
 
-<object width="720" height="540" data="../../images/Pulse.swf"
-        type="application/x-shockwave-flash">
-  <param name="movie" value="../../images/Pulse.swf" />
-</object>
+<figure>
+  <img src="../../images/naap_labs_radar.png"
+    alt="Méthode de la parallaxe"
+    style="
+        max-height: 500px;
+        max-width: 1000px;
+    ">
+</figure>
 <figcaption style="font-size: 0.4em; color: #666;">
   Astronomy Education at the University of Nebraska-Lincoln Web Site
   ([http://astro.unl.edu](http://astro.unl.edu))
@@ -263,6 +267,33 @@ Luminosité : reliée à la **magnitude absolue**
 
 ---
 
+La galaxie M87 a une magnitude absolue d'environ -22. On voit donc cette
+galaxie briller très clairement dans le ciel nocturne.
+
+Vrai ou faux?
+
+https://b.socrative.com/login/student/
+
+DCRDEWY
+
+---
+
+Deneb a une magnitude apparente d'environ 1.25. Le Soleil a une magnitude
+apparente d'environ -26. Sélectionnez les énoncés vrais.
+
+A) Si on les mettait côte-à-côte, Deneb paraîtrait moins brillante que le
+Soleil.
+
+B) Deneb paraît moins brillante que le Soleil dans le ciel.
+
+C) Sachant que Deneb est à 1400 années-lumière, il est raisonnable de croire
+qu'elle est en fait plus brillante que le Soleil.
+
+D) Le Soleil parait beaucoup plus brillant que Deneb parce qu'il est beaucoup
+plus proche.
+
+---
+
 ## Méthode des étoiles jumelles
 
 On veut mesurer la distance de l'étoile A
@@ -286,6 +317,24 @@ On veut mesurer la distance de l'étoile A
 >- Smurf est donc 4 fois plus loin que Spectl
 
 >- Smurf est à 400 al
+
+---
+
+Les étoiles Malm et Vikhammer sont jumelles. On sait que Vikhammer est à une
+distance de 1000 années-lumière. Malm parait 25 fois plus brillante que
+Vikhammer dans le ciel. À quelle distance se trouve Malm?
+
+---
+
+Trysil et Nesna sont des étoiles jumelles. Trysil a une magnitude apparente
+de 4. On sait qu'elle est au moins deux fois plus loin que Mesna. Laquelle des
+valeurs suivantes est une magnitude apparente possible pour Mesna?
+
+A) -20
+B) 3
+C) 6
+D) 16
+E) 25
 
 ---
 
@@ -368,10 +417,12 @@ Deux étoiles avec le même spectre et la même taille ont la même luminosité
 
 ## Type spectral
 
-<object width="600" height="300" data="../../images/starColorSlider.swf"
-        type="application/x-shockwave-flash">
-  <param name="movie" value="../../images/starColorSlider.swf" />
-</object>
+<figure>
+  <img src="../../images/naap_labs_spectral_classification.png"
+    alt="Spectres stellaires"
+    style="max-width: 400px;
+           max-height: 600px;"
+>
 <figcaption style="font-size: 0.4em; color: #666;">
   Astronomy Education at the University of Nebraska-Lincoln Web Site
   ([http://astro.unl.edu](http://astro.unl.edu))
