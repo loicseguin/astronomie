@@ -1,6 +1,6 @@
 % Les Étoiles
 % CEA Explorer et comprendre l'Univers
-% 30 avril 2020
+% 19 novembre 2020
 ---
 theme: night
 transition: fade
@@ -51,7 +51,7 @@ transition: fade
 Beer Barrel Belly Buster (Denny's Beer Barrel Pub)
 
 <figure>
-  <img src="beer_barrel_belly_buster.jpg"
+  <img src="../../beer_barrel_belly_buster.jpg"
        title="Beer Barrel Belly Buster" />
 </figure>
 
@@ -191,8 +191,7 @@ Structure interne des étoiles
 
 ### Équilibre hydrostatique
 
-- Équilibre entre l'attraction gravitationnelle et une source de *pression*
-  interne
+- Équilibre entre l'attraction gravitationnelle et gradient de pression interne
 
 <figure>
   <img src="../../images/equilibre_hydrostatique.jpg"
@@ -441,7 +440,7 @@ M                                      0,4
 - Effondrement des nuages moléculaire
 - Causé par supernova, radiation, etc?
 - Effondrement gravitationnel génère beaucoup d'énergie
-- La température au centre de l'étoile augment et la **fusion** nucléaire
+- La température au centre de l'étoile augmente et la **fusion** nucléaire
   s'amorce
 
 ---
@@ -459,10 +458,20 @@ M                                      0,4
 
 ### Vie adulte
 
-- Séquence principale (9 Ga)
-    - Fusion d'hydrogène dans le cœur (9 Ga)
+- Séquence principale (10 Ga)
+    - Fusion d'hydrogène dans le cœur
     - Augmentation d'He dans le cœur
-    - Contraction du cœur
+
+---
+
+### Vieillesse
+
+- Phase **géante rouge** (1 Ga)
+    - Accumulation d'He dans le cœur cause contraction
+    - Augmentation de la température du cœur
+    - Étoile gonfle
+    - Fusion d'hydrogène en périphérie du cœur
+    - Luminosité augmente d'un facteur ~100
 
 ---
 
@@ -476,16 +485,6 @@ M                                      0,4
     [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en))
   </figcaption>
 </figure>
-
----
-
-### Vieillesse
-
-- Phase **géante rouge** (1 Ga)
-    - Fusion d'hydrogène en périphérie du cœur
-    - Hélium inerte dans le cœur
-    - Cœur se contracte
-    - Luminosité augmente d'un facteur ~100
 
 ---
 

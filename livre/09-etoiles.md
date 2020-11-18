@@ -17,12 +17,12 @@ title-prefix: Explorer et comprendre l'Univers
   </figcaption>
 </figure>
 
-Depuis le debut du cours, nous avons beaucoup parlé des étoiles. Cependant,
+Depuis le début du cours, nous avons beaucoup parlé des étoiles. Cependant,
 nous n'avons jamais vraiment étudié les étoiles en détail : de quoi sont-elles
 faites? comment changent-t-elles? C'est ce que nous survolerons dans ce
 chapitre. L'astrophysique stellaire est un domaine vaste et nous ne ferons
 qu'effleurer sa surface. Nous nous limiterons à une description des étoiles
-sembables à notre Soleil. La première question à laquelle nous tenterons de
+semblables à notre Soleil. La première question à laquelle nous tenterons de
 répondre, c'est d'expliquer comment le Soleil peut briller depuis aussi
 longtemps.
 
@@ -37,29 +37,29 @@ siècles, des scientifiques commencèrent à remettre en cause cette valeur de
 l'âge de l'Univers. Georges-Louis Leclerc, Compte de Buffon, en se basant sur
 des observations géologiques et des résultats expérimentaux, estima que l'âge
 de la Terre devait être de quelques centaines de milliers d'années. Buffon
-s'intéressa aussi à la biologie et jetta les bases de ce qui devint plus tard
+s'intéressa aussi à la biologie et jeta les bases de ce qui devint plus tard
 une théorie de l'évolution. Jean-Baptiste de Lamarck et, plus tard, Charles
-Darwin menèrent au développement de la théorie de l'évolution. Selon Darwin,
-l'évolution par sélection naturelle nécessitait des centaines de millions
-d'années. Les géologues de l'époque, en étudiant les structures rocheuses,
-estimèrent également l'âge de la Terre à plusieurs centaines de millions
-d'années. Puisqu'il était difficile d'imaginer une Terre sans Soleil, le
-consensus était que l'âge du Soleil devait être sensiblement le même que l'âge
-de la Terre.
+Darwin développèrent la théorie de l'évolution acceptée aujourd'hui. Selon
+Darwin, l'évolution par sélection naturelle nécessitait des centaines de
+millions d'années. Les géologues de l'époque, en étudiant les structures
+rocheuses, estimèrent également l'âge de la Terre à plusieurs centaines de
+millions d'années. Puisqu'il était difficile d'imaginer une Terre sans Soleil,
+le consensus était que l'âge du Soleil devait être sensiblement le même que
+l'âge de la Terre.
 
-En admettant que les scientifiques de l'époque avait raison, comment pouvait-on
-expliquer que le Soleil brille depuis quelques centaines de millions d'années?
-Au XIX<sup>e</sup> siècle, la meilleure source d'énergie connue était la
-combustion du charbon, un processus chimique. William Thomson, Lord Kelvin, et
-Hermann von Helmholtz estimèrent que le Soleil, s'il tirait son énergie de la
-combustion du charbon, pourrait briller pendant quelques milliers d'années.
-Ce temps était beaucoup trop court et contredisait les estimations des
-biologistes et des géologues. Thomson et von Helmholtz développèrent un autre
-modèle basée sur la force gravitationnelle. Lorsqu'un laisse tomber une roche,
-de l'énergie gravitationnelle est libérée et transformée en énergie de
-mouvement (qu'on peut détecter si on place sa main sous la roche). Si le
-Soleil était autrefois plus gros qu'il ne l'est actuellement et que la
-matière le composant soit en train de tomber vers son centre, de l'énergie
+En admettant que les scientifiques de l'époque avaient raison, comment
+pouvait-on expliquer que le Soleil brille depuis quelques centaines de millions
+d'années?  Au XIX<sup>e</sup> siècle, la meilleure source d'énergie connue
+était la combustion du charbon, un processus chimique. William Thomson, Lord
+Kelvin, et Hermann von Helmholtz estimèrent que le Soleil, s'il tirait son
+énergie de la combustion du charbon, pourrait briller pendant quelques milliers
+d'années.  Ce temps était beaucoup trop court et contredisait les estimations
+des biologistes et des géologues. Thomson et von Helmholtz développèrent un
+autre modèle basée sur la force gravitationnelle. Lorsqu'on laisse tomber une
+roche, de l'énergie gravitationnelle est libérée et transformée en énergie de
+mouvement (qu'on peut détecter si on place sa main sous la roche). Si le Soleil
+était autrefois plus gros qu'il ne l'est actuellement et que la matière le
+composant soit en train de tomber vers son centre, de l'énergie
 gravitationnelle pourrait être libérée sous forme de chaleur et de lumière.
 Avec ce modèle, Thomson et von Helmholtz arrivèrent à un âge de l'ordre de 10
 millions d'années. Ce résultat était beaucoup mieux que celui de quelques
@@ -75,7 +75,7 @@ la physique nucléaire menèrent à la réalisation que l'énergie du Soleil
 provenait principalement des réactions nucléaires. En 1920, Arthur Stanley
 Eddington publia un article dans lequel il présentait un modèle impliquant la
 fusion d'hydrogène en hélium. Une réaction de **fusion nucléaire** se
-produit lorsque deux atomes entrent en collision si violemment que leur noyaux
+produit lorsque deux atomes entrent en collision si violemment que leur noyau
 se combinent en un seul noyau, libérant d'énormes quantités d'énergie. En
 tenant compte de la fusion nucléaire, on peut estimer que le Soleil devrait
 vivre environ 10 milliards d'années. C'est le modèle actuellement accepté.
@@ -110,11 +110,11 @@ température l'est aussi.
 
 S'il n'y avait pas de pression, la masse de l'étoile ferait en sorte qu'elle
 s'effondrerait sur elle-même jusqu'à ce que sa matière soit concentrée en un
-seul point. La pression interne empêche le gaz de s'effondrer en le poussant
-vers l'extérieur. Une étoile est donc en **équilibre hydrostatique**,
-c'est-à-dire que la force de gravité qui tire l'étoile vers sont centre est
-parfaitement contrebalancée par la pression qui pousse l'étoile vers
-l'extérieur.
+seul point. La pression interne, et le fait qu'elle soit plus grande au centre
+qu'en surface, empêche le gaz de s'effondrer en le poussant vers l'extérieur.
+Une étoile est donc en **équilibre hydrostatique**, c'est-à-dire que la force
+de gravité qui tire l'étoile vers son centre est parfaitement contrebalancée
+par le gradient de pression qui pousse l'étoile vers l'extérieur.
 
 <figure>
   <a href="https://commons.wikimedia.org/wiki/File:Affiche_du_soleil.svg">
@@ -123,27 +123,28 @@ l'extérieur.
       width="100%">
   </a>
   <figcaption>
-    Une étoile comme le Soleil a cœur très chaud, une zone de radiation où
+    Une étoile comme le Soleil a un cœur très chaud, une zone de radiation où
     l'énergie en provenance du coeur voyage vers la surface grâce à la
     radiation, une zone de convection dans laquelle l'énergie voyage grâce aux
     mouvements de convection de la matière. Les couches externes de l'étoile
     sont collectivement appelées l'atmosphère de l'étoile. (Adapté de
-    Kelvinsong [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/deed.en))
+    Kelvinsong [CC BY-SA
+    3.0](https://creativecommons.org/licenses/by-sa/3.0/deed.en))
   </figcaption>
 </figure>
 
 Les réactions de fusion nucléaire se produisent uniquement lorsque la
 température et la pression sont très élevées. Il faut que les atomes entrent en
 collision très violemment pour que les noyaux puissent rester collés ensembles.
-Dans les étoiles les réaction nucléaires se produisent donc uniquement dans le
-cœur. L'énergie produite lors de ces réactions contribue à la pression élevée
-qui règne dans le cœur de l'étoile. L'énergie libérée se fraye lentement un
-chemin vers la surface de l'étoile et s'en échappe sous forme de lumière après
-un périple de plusieurs centaines de milliers d'années.  Lors des réactions de
-fusion nucléaire, des éléments léger comme l'hydrogène et l'hélium sont
-combinés pour former des éléments plus lourds comme l'oxygène, le carbone et
-l'azote. Au fil de sa vie, le noyaux d'une étoile devient donc de plus en plus
-riche en éléments autres que l'hydrogène et l'hélium.
+Dans les étoiles, les réactions nucléaires se produisent donc uniquement dans
+le cœur. L'énergie produite lors de ces réactions contribue à la pression
+élevée qui règne dans le cœur de l'étoile. L'énergie libérée se fraye lentement
+un chemin vers la surface de l'étoile et s'en échappe sous forme de lumière
+après un périple de plusieurs centaines de milliers d'années.  Lors des
+réactions de fusion nucléaire, des éléments légers comme l'hydrogène et
+l'hélium sont combinés pour former des éléments plus lourds comme l'oxygène, le
+carbone et l'azote. Au fil de sa vie, le noyau d'une étoile devient donc de
+plus en plus riche en éléments autres que l'hydrogène et l'hélium.
 
 
 ## Diagrammes de Hertzsprung-Russell
@@ -242,7 +243,7 @@ télescope.
     width="100%">
   </a>
   <figcaption>
-    Le complexe Rho Ophiuchi contient de nombreuse nébuleuses. La nébuleuse
+    Le complexe Rho Ophiuchi contient de nombreuses nébuleuses. La nébuleuse
     centrale blanche est une nébuleuse d'émission qui émet de la lumière parce
     qu'elle est chauffée par une étoile à proximité. La nébuleuse rouge en bas
     à droite est une nébuleuse de réflexion qui réfléchit la lumière de
@@ -257,14 +258,15 @@ s'effondrer sur eux-mêmes. La gravité attire la matière et la force à deveni
 de plus en plus dense. La matière qui s'effondre a une masse environ égale à
 celle du Soleil et elle commence à s'échauffer en raison de l'énergie libérée
 par la contraction gravitationnelle. À mesure que la **protoétoile** se
-contracte, elle devient de plus en plus chaud et se met à briller intensément.
-Une centaine d'années après avoir commencé à se contracter, la protoétoile
-atteint son maximum de luminosité, elle brille environ 500 fois plus que notre
-Soleil. L'effondrement gravitationnel se poursuit et la diminution de la taille
-de l'étoile fait diminuer sa luminosité. Après une dizaine de millions
-d'années, l'étoile a rejoint la séquence principale et la fusion de l'hydrogène
-en hélium s'amorce. Les résidus de matière restant autour de l'étoile se
-concentrent en un anneau dans lequel naîtront bientôt des planètes.
+contracte, elle devient de plus en plus chaude et se met à briller intensément.
+Une centaine de milliers d'années après avoir commencé à se contracter, la
+protoétoile atteint son maximum de luminosité, elle brille des dizaines de fois
+plus que notre Soleil. L'effondrement gravitationnel se poursuit et la
+diminution de la taille de l'étoile fait diminuer sa luminosité. Après quelques
+dizaines de millions d'années, l'étoile a rejoint la séquence principale et la
+fusion de l'hydrogène en hélium s'amorce. Les résidus de matière restant autour
+de l'étoile se concentrent en un anneau dans lequel naîtront bientôt des
+planètes.
 
 ### Âge adulte dans la série principale
 
@@ -298,9 +300,9 @@ et se réchauffe sous l'influence de la gravité. Cette augmentation de la
 température accélère la fusion de l'hydrogène en hélium, augmentant encore plus
 la quantité d'hélium dans le noyau. Cette boucle de rétroaction produit
 d'importantes quantités d'énergie et la migration de cette énergie vers la
-surface augmente la taille de l'étoile. La température dans le cœur de
-l'étoile augmente éventuellement assez pour que la fusion de l'hélium en
-carbone commence. L'étoile devient une **géante rouge**.
+surface augmente la taille de l'étoile. La température dans le cœur de l'étoile
+augmente éventuellement assez pour que la fusion de l'hélium en carbone
+commence. L'étoile devient une **géante rouge**.
 
 La fusion de l'hélium provoque une accumulation de carbone et d'oxygène dans le
 noyau. La température n'est pas suffisamment élevée pour que le carbone et
