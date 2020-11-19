@@ -51,7 +51,7 @@ transition: fade
 Beer Barrel Belly Buster (Denny's Beer Barrel Pub)
 
 <figure>
-  <img src="../../beer_barrel_belly_buster.jpg"
+  <img src="../../images/beer_barrel_belly_buster.jpg"
        title="Beer Barrel Belly Buster" />
 </figure>
 
