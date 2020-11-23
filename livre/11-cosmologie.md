@@ -1,5 +1,5 @@
 ---
-title: <span class="chapnum">Chapitre 10</span> Galaxies
+title: <span class="chapnum">Chapitre 11</span> Cosmologie
 lang: fr
 title-prefix: Explorer et comprendre l'Univers
 ---
@@ -25,64 +25,6 @@ spirale comme la Voie Lactée, puis nous aborderons la superstructure de
 l'Univers et son expansion.
 
 
-## Modèles de la Voie lactée
-
-<figure>
-  <a href="https://www.lonelyspeck.com/cropped-zeiss-batis-18mm-astrophotography-review-milky-way-09227-jpg/">
-    <img src="../images/cropped-zeiss-batis-18mm-astrophotography-review-milky-way-09227.jpg"
-      alt="Voie lactée vue de la Terre"
-      width="100%">
-  </a>
-  <figcaption>
-  Voie lactée vue de la Terre
-  (lonelyspeck.com [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/))
-  </figcaption>
-</figure>
-
-De notre point de vue à l'intérieur de la galaxie, déterminer la forme de la
-galaxie et notre position dans celle-ci n'est pas une tâche facile. William
-Herschel, l'astronome qui a découvert Uranus, a été un des premiers à essayer
-de cartographier la Voie lactée. En comptant le nombre d'étoiles dans
-différentes région du ciel correspondant au plan de la Voie lactée, il a essayé
-d'établir la densité d'étoiles et leur localisation. Son modèle est illustré
-ci-dessous (tiré d'une présentation qu'il a fait à la Royal Society of London
-en 1785).  Dans ce modèle, le Soleil est indiqué par l'étoile un peu plus
-grosse près du centre de la galaxie. Le fait que le Soleil soit placé au centre
-est une conséquence de plusieurs hypothèses erronées : densité uniforme des
-étoiles dans la galaxie, toutes les étoiles ont la même magnitude absolue,
-absence d'extinction par la poussière et les gaz froids. Le modèle d'Herschel
-est incorrect à plusieurs égards, mais il montre correctement que la galaxie
-est beaucoup plus grande dans une direction que dans l'autre.
-
-<figure>
-  <img src="../images/Herschel-galaxy.jpg"
-    alt="Modèle de la Voie lactée d'Herschel"
-    width="100%">
-  <figcaption>
-  Modèle de la Voie lactée de William Herschel. Le Soleil est le point un peut
-  plus gros près du centre.
-  </figcaption>
-</figure>
-
-Jacobus Kapteyn a analysé la distribution des étoiles de façon plus détaillée
-et a été en mesure de déterminer une taille approximative de 30\ 000
-années-lumière dans la direction la plus grande et 5500 années-lumière dans
-l'autre direction. Il imaginait la Voie lactée comme un sphéroïde (un peu comme
-un ballon de football) et, tout comme Herschel, positionnait le Soleil près du
-centre.
-
-Il est intéressant de noter que ces deux scientifiques ont construit des
-modèles erronés parce qu'ils ignoraient le phénomène de l'extinction (dans le
-cas d'Herschel) ou la façon d'en tenir compte correctement (dans le cas de
-Kapteyn). L'**extinction** est l'atténuation de l'intensité lumineuse causée
-par l'absorption de la lumière par la poussière et le gaz contenu dans la
-galaxie. Une analogie est de s'imaginer qu'on essaie de décrire la forêt dans
-laquelle on se trouve alors qu'on est dans un brouillard dense : on décrira une
-forêt plus petite qu'elle ne l'est en réalité et on aura l'impression d'être au
-centre parce qu'on ne voit la bordure nulle part.
-
-
-
 ## Structure de la Voie lactée
 
 <figure>
@@ -97,20 +39,16 @@ centre parce qu'on ne voit la bordure nulle part.
   </figcaption>
 </figure>
 
-Le modèle actuelle de la Voie lactée est beaucoup plus adéquat que ceux de
-Herschel et Kapteyn parce que nos observations sont plus détaillées et parce
-qu'on a des meilleurs modèles de la distribution des étoiles et de la poussière
-qui atténue la lumière.  La Voie lactée est une **galaxie spirale**, comme UGC
-2885 illustrée dans la photo du télescope spatial Hubble ci-dessus. Les
-galaxies spirales ont des **bras**, des régions plus lumineuses que les autres
-et qui s'étendent à partir du centre de la galaxie en formant une spirale. La
-très grande majorité de la matière visible dans la galaxie est répartie sur un
-disque mince d'environ 2\ 000 années-lumière d'épaisseur. La région autour du
-centre de la galaxie est plus enflée et plus lumineuse que le reste. On appelle
-cette région le **bulbe galactique**. Répartis partout autour du centre de la
-galaxie, dans une région qu'on appelle le **halo**, se trouvent environ 200
-**amas globulaire**, quelques millions d'étoiles regroupées dans des structures
-sphériques. Les amas globulaires contiennent de très vieilles étoiles.
+La Voie lactée est une **galaxie spirale**, comme UGC 2885 illustrée dans la
+photo du télescope spatial Hubble ci-dessus. Les galaxies spirales ont des
+**bras**, des régions plus lumineuses que les autres et qui s'étendent à partir
+du centre de la galaxie en formant une spirale. La très grande majorité de la
+matière visible dans la galaxie est répartie sur un disque mince d'environ
+2\ 000 années-lumière d'épaisseur. La région autour du centre de la galaxie est
+plus enflée et plus lumineuse que le reste. On appelle cette région le **bulbe
+galactique**. Répartis partout autour du centre de la galaxie, dans une région
+qu'on appelle le **halo**, se trouvent environ 200 **amas globulaire**,
+quelques millions d'étoiles regroupées dans des structures sphériques.
 
 <figure>
   <a href="https://commons.wikimedia.org/wiki/File:Milky_way_profile_-_fr.svg">
@@ -270,3 +208,4 @@ questions pour les futures générations d'astronomes et beaucoup de mystères �
 
 8. Qu'est-ce que l'énergie sombre explique dans les modèles cosmologiques
    modernes?
+

@@ -1,6 +1,6 @@
 % Les galaxies
 % CEA Explorer et comprendre l'Univers
-% 7 mai 2020
+% 26 novembre 2020
 ---
 theme: night
 transition: fade
@@ -19,35 +19,9 @@ transition: fade
 
 ---
 
-0. Examen final
 1. Structure de la Voie lactée
 2. Rotation des galaxies et matière sombre
 3. Loi de Hubble et expansion de l'Univers
-
----
-
-# {data-background-image="../../images/STSCI-H-p2016a-m-2000x1374.jpg"}
-
-<h2 style="background-color: rgba(100, 100, 100, 0.5); padding: 20px;">
-Examen final
-</h2>
-
-<br><br><br><br><br>
-<figcaption style="font-size: 0.4em; color: #666;">
-   NASA, ESA, STScI
-</figcaption>
-
----
-
-### Examen final (20%)
-
-- 21 mai 2020 de 8h00 à 13h00
-- Examen **individuel** sur Teams
-- Questions à choix multiples, courtes réponses
-- Examen portant sur toute la matière du cours
-- Documentation permise
-- Consulter un autre humain est interdit, le travail doit être votre travail
-  personnel
 
 ---
 
@@ -61,6 +35,54 @@ Structure de la Voie lactée
 <figcaption style="font-size: 0.4em; color: #666;">
    NASA, ESA, STScI
 </figcaption>
+
+---
+
+### Galaxie d'Herschel
+
+<figure>
+  <img src="../../images/Herschel-galaxy.jpg"
+      alt="Modèle d'Herschel"
+      style="max-width: 700px;">
+</figure>
+
+---
+
+### Galaxie de Kapteyn
+
+:::::::::::::: {.columns}
+::: {.column width="50%"}
+
+- Galaxie sphéroïde
+- 30 000 années-lumière de diamètre
+- Soleil près du centre
+
+:::
+::: {.column width="50%"}
+
+<figure>
+  <a href="https://commons.wikimedia.org/wiki/File:Kapteyn2.jpg">
+    <img src="../../images/Kapteyn2.jpg"
+      alt="Jacobus Kapteyn"
+      style="max-width: 300px;">
+  </a>
+</figure>
+
+:::
+::::::::::::::
+
+---
+
+<figure>
+  <a href="https://commons.wikimedia.org/wiki/File:Foggy_forest.jpg">
+    <img src="../../images/Foggy_forest.jpg"
+      alt="Forêt brumeuse"
+      style="max-width: 700px;">
+  </a>
+  <figcaption style="font-size: 0.4em; color: #666;">
+   Nithya sai.c [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en)
+  </figcaption>
+</figure>
 
 ---
 
@@ -267,17 +289,4 @@ Loi de Hubble et expansion de l'Univers
 ### 27% matière sombre
 
 ### 5% matière ordinaire
-
----
-
-# {data-background-image="../../images/STSCI-H-p2016a-m-2000x1374.jpg"}
-
-<h1 style="padding: 20px;">
-Merci!
-</h1>
-
-<br><br><br><br><br><br><br>
-<figcaption style="font-size: 0.4em; color: #666;">
-   NASA, ESA, STScI
-</figcaption>
 
