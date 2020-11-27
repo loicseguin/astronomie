@@ -4,208 +4,267 @@ lang: fr
 title-prefix: Explorer et comprendre l'Univers
 ---
 
+
 <figure>
-  <a href="https://www.nasa.gov/feature/goddard/2020/nasas-hubble-surveys-gigantic-galaxy">
-    <img src="../images/stsci-h-p2001a-m-2000x1500_0.png"
-      alt="UGC 2885"
+  <a href="https://www.spacetelescope.org/images/heic1214a/">
+    <img src="../images/heic1214a.jpg"
+      alt="Hubble eXtreme Deep Field"
       width="100%">
   </a>
   <figcaption>
-  La galaxie spirale UGC 2885 est environ 2,5 fois plus grande que notre Voie
-  Lactée et contient environ 1000 milliards d'étoiles.
-  (NASA, ESA and B. Holwerda (University of Louisville))
+  Le champ extrêmement profond de Hubble (*Hubble eXtreme Deep Field*) contient
+  environ 5500 galaxies dont certaines sont si lointaines qu'on les voit telles
+  qu'elles étaient alors que l'Univers n'avait que 700 millions d'années. Cette
+  image couvre une région du ciel de la taille d'un dixième de la taille de
+  la pleine Lune.
+  (NASA, ESA, G. Illingworth, D. Magee, and P. Oesch (University of California,
+  Santa Cruz), R. Bouwens (Leiden University), and the HUDF09 Team)
   </figcaption>
 </figure>
 
-Dans l'Univers, les étoiles sont regroupées dans d'énormes structures qu'on
-appelle des **galaxies**. Ces galaxies sont le milieu de vie des étoiles, c'est
-là que le cycle de vie des étoiles se produit depuis des milliards d'années.
-Dans ce chapitre, nous discuterons brièvement de la structure d'une galaxie
-spirale comme la Voie Lactée, puis nous aborderons la superstructure de
-l'Univers et son expansion.
+Au dernier chapitre, nous avions conclu en discutant de l'expansion de
+l'Univers découverte par Lemaître, Friedman et Hubble. Cette découverte, faite
+à la fin des années 1920 a semé les graines de ce qui allait devenir la théorie
+cosmologique moderne.
 
 
-## Structure de la Voie lactée
+## Rayonnement de fond cosmologique
+
+Au milieu des années soixantes, un physicien originaire du Manitoba, Jim
+Peebles, a pris les équations de la relativité générale qui décrivaient
+l'expansion de l'Univers et les a "fait joué" à l'envers. Il a inversé le flot
+du temps dans les équations pour comprendre le passé de l'Univers. Ce faisant,
+il a réalisé que puisque l'Univers était plus petit et plus dense dans le
+passé, il devait aussi être plus chaud. En fait, l'Univers devait être
+tellement chaud qu'il émettait énormément de lumière (rappelez-vous la
+discussion sur le corps noir que nous avons eue au chapitre 9). Cette lumière
+datant du tout début de l'histoire du cosmos, un
+**rayonnement fossile cosmologique**, devrait encore être visible
+aujourd'hui, mais en raison de l'expansion de l'Univers, elle devrait être du
+domaine des micro-ondes.
 
 <figure>
-  <a href="https://commons.wikimedia.org/wiki/File:Milky_way_profile_-_fr.svg">
-    <img src="../images/Milky_way_profile-fr.png"
-      alt="Diagramme de la Voie lactée"
+  <a href="https://www.flickr.com/photos/pollosaurio/4618430728/in/photostream/">
+    <img src="../images/Jim_Peebles.jpg"
+      alt="Jim Peebles"
+      style="max-width: 600px;">
+  </a>
+  <figcaption>
+  Jim Peebles 
+  (pollosaurio [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/))
+  </figcaption>
+</figure>
+
+À la même époque, deux astronomes intéressés par les micro-ondes, Arno Penzias
+et Robert Wilson, venaient de mettre la main sur une antenne de détection de
+micro-ondes. Ils essayaient de l'utiliser pour étudier les gaz dans la Voie
+lactée, mais se heurtaient continuellement à un problème de bruit de fond qui
+rendait leurs mesures inutilisables. Ce bruit de fond était présent peu importe
+la direction dans laquelle ils pointaient leur antenne. Après avoir vérifié et
+contrevérifié toutes les sources possibles de ce bruit (incluant des pigeons
+qui avaient fait leur nid dans des racoins de l'antenne), ils étaient à court
+d'idées. Dans une rencontre fortuite avec un collègue de Jim Peebles, ils
+apprirent ses prédictions se l'existence du rayonnement fossile et réalisèrent
+que c'est ce qu'ils observaient dans leurs données. Penzias et Wilson reçurent
+le prix Nobel de physique en 1978 pour avoir été les premiers à observer le
+rayonnement de fond cosmologique. Jim Peebles reçut le prix Nobel de physique
+en 2019.
+
+<figure>
+  <a href="https://www.flickr.com/photos/nasacommons/16315677368/in/photolist-qRL7sd">
+    <img src="../images/penzias_wilson.jpg"
+      alt="Penzias et Wilson à l'antenne Horn"
+      style="max-width: 800px;">
+  </a>
+  <figcaption>
+  Arno Penzias et Robert Wilson avec l'antenne qui leur a servi à
+  détecter le rayonnement fossile.
+  </figcaption>
+</figure>
+
+La découverte du rayonnement fossile venait confirmer que l'Univers était
+autrefois beaucoup plus chaud et beaucoup plus dense et qu'il avait dû
+commencer sa vie en prenant soudainement de l'expansion, un événement qu'on
+nomme le **Big Bang**. Le rayonnement fossile a été cartographié avec une
+précision de quelques millionièmes de degrés celsius par le satellite européen
+Planck au début des années 2010. Les observations de Planck montre que le
+rayonnement fossile est présent partout dans l'Univers et qu'il a la même
+température partout. La carte ci-dessous montre que les variations dans la
+température du rayonnement sont de l'ordre de quelques 10 millièmes de degrés.
+Quand on regarde cette image, on voit le Big Bang.
+
+<figure>
+  <a href="https://www.cosmos.esa.int/web/planck/picture-gallery">
+    <img src="../images/2015_SMICA_CMB.png"
+      alt="Anisotroprie de température du rayonnement fossile"
       width="100%">
   </a>
   <figcaption>
-  Morphologie de la Voie lactée
-  (RJHall [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/deed.en))
+  Le rayonnement fossile a la même température partout dans l'Univers visible.
+  Ceci n'est possible que si toutes les parties étaient en contact dans le
+  passé de l'Univers (ESA et la Collaboration Planck)
   </figcaption>
 </figure>
 
-La Voie lactée est une **galaxie spirale**, comme UGC 2885 illustrée dans la
-photo du télescope spatial Hubble ci-dessus. Les galaxies spirales ont des
-**bras**, des régions plus lumineuses que les autres et qui s'étendent à partir
-du centre de la galaxie en formant une spirale. La très grande majorité de la
-matière visible dans la galaxie est répartie sur un disque mince d'environ
-2\ 000 années-lumière d'épaisseur. La région autour du centre de la galaxie est
-plus enflée et plus lumineuse que le reste. On appelle cette région le **bulbe
-galactique**. Répartis partout autour du centre de la galaxie, dans une région
-qu'on appelle le **halo**, se trouvent environ 200 **amas globulaire**,
-quelques millions d'étoiles regroupées dans des structures sphériques.
+
+## Une brève histoire de l'Univers
+
+Tout a commencé (probablement) par une singularité il y a 13.79 milliards
+d'années : l'Univers était tellement infiniment dense et chaud. La physique
+actuelle ne peut pas expliquer ce qui se passe dans une singularité. Pour une
+raison encore inconnue, l'Univers a commencé à prendre de l'expansion. Après
+10<sup>-43</sup> secondes, il a atteint une densité telle que la physique
+actuelle peut décrire ce qui s'est passé par la suite et la suite est donc
+mieux comprise et moins incertaine que le tout début.
+
+Entre 10<sup>-43</sup> et 10<sup>-35</sup> secondes, l'Univers était si dense
+qu'on pense que les quatres forces de la nature, la gravité, la force
+électromagnétique, la force nucléaire forte et la force nucléaire faible,
+étaient une seule et même force. Cette force, décrite par le même ensemble d'équations (qu'on
+ne connait pas pour l'instant), porte le très humble nom de **grande force
+unifiée**.
+
+Durant les 10<sup>-34</sup> secondes suivantes, l'Univers a grossi d'un facteur
+10<sup>26</sup> dans une phase d'expansion extrême qu'on appelle
+l'**inflation**. Après l'inflation, ce qui est aujourd'hui l'Univers observable
+avait la taille d'un gros ballon. L'inflation explique l'uniformité du
+rayonnement fossile : avant l'inflation, l'Univers était si petit que toutes
+ses parties ont eut le temps d'être en équilibre thermique, c'est-à-dire
+d'atteindre la même température. Sans cette phase d'inflation, il est
+impossible d'expliquer pourquoi le rayonnement fossile a exactement la même
+température partout dans l'Univers observable. C'est aussi l'inflation qui est
+responsable des petites fluctuations qu'on observe dans le rayonnement fossile
+: des variations aléatoires dans la densité d'énergie avant l'inflation ont été
+amplifiées par l'inflation.
 
 <figure>
-  <a href="https://commons.wikimedia.org/wiki/File:Milky_way_profile_-_fr.svg">
-    <img src="../images/42916395422_ec18e3f8a5_c.jpg"
-      alt="Amas globulaire M79"
+  <a href="http://bicepkeck.org/visuals.html">
+    <img src="../images/History-of-the-Universe.png"
+      alt="Histoire de l'Univers"
       width="100%">
   </a>
   <figcaption>
-  Amas globulaire Messier 79
-  (NASA and ESA; S. Djorgovski (Caltech) and F. Ferraro (University of
-  Bologna))
+  Histoire de l'Univers, du Big Bang à aujourd'hui. L'image n'est pas à
+  l'échelle. (Adapté d'une image de la collaboration BICEP2)
   </figcaption>
 </figure>
 
-Le Soleil est situé dans un de ces bras, à environ 26\ 000 années-lumière du
-centre de la galaxie, soit environ la moitié du rayon total de la galaxie. Il
-tourne autour du centre de la galaxie en environ 220 millions d'années. C'est
-donc dire que notre système solaire se déplace à environ 800\ 000\ km/h autour
-du centre galactique.
+Après l'inflation, les premières particules ont commencé à apparaître : les
+quarks et les gluons. L'Univers était tellement chaud, que ces particules
+formaient un plasma de quarks et de gluons, une forme de matière très exotique.
+On pense qu'aujourd'hui on peut retrouver du plasma quark-gluons dans certaines
+étoiles à neutrons, mais cette hypothèse est encore spéculative pour l'instant.
+C'est durant l'ère des quarks que la distinction entre matière et anti-matière
+est apparue.
 
-Au centre de la galaxie se trouve un **trou noir supermassif**, Sagittarius
-A&ast;.  Un trou noir est un objet si dense que rien ne peut échapper à son
-champ gravitationnel. Sagittarius A&ast; a une masse d'environ 4 millions de
-fois celle du Soleil. Sa présence a été déduite, entre autre, en observant les
-orbites d'étoiles à proximité. À partir de la taille des orbites et de la
-période de révolution, on peut déduire la masse de l'objet central en utilisant
-la troisième loi de Kepler, de la même façon que vous avez déduit la masse de
-Jupiter en observant les orbites des lunes galiléennes. On pense que presque
-toutes les galaxies spirales et elliptiques ont un trou noir supermassif en
-leur centre.
+À l'âge d'environ 1 millionième de secondes, l'Univers était suffisamment froid
+pour que les quarks se rejoignent et forment les premiers protons et les
+premiers neutrons. Les électrons sont aussi apparus à ce moment. La température
+et la densité demeuraient néanmoins tellement grande que les protons et les
+neutrons pouvaient fusionner et former des noyaux d'hélium (et des traces de
+tritium, un isotope de l'hydrogène, de lithium et de béryllium). On appelle
+cette phase la **nucléosynthèse primordiale**. Les calculs théorique de la
+quantité d'hydrogène, de tritium, d'hélium, de lithium et de béryllium produit
+lors de la nucléosynthèse primordiale concordent parfaitement avec les
+abondances mesurées aujourd'hui dans l'Univers. La nucléosynthèse primordiale a
+duré quelque minutes. Elle s'est arrêté parce que l'Univers avait suffisamment
+grossi pour que la densité ne soit plus assez grande pour fusionner les protons
+et les neutrons.
 
-<figure>
-  <a href="https://commons.wikimedia.org/wiki/File:Galactic_centre_orbits.svg">
-    <img src="../images/Galactic_centre_orbits.png"
-      alt="Orbite d'étoiles proches du centre galactique"
-      width="60%">
-  </a>
-  <figcaption>
-  Orbite d'étoiles proches du centre galactique (Cmglee [CC BY-SA
-  3.0](https://creativecommons.org/licenses/by-sa/3.0/deed.en))
-  </figcaption>
-</figure>
+Après la fin de la nucléosynthèse primordiale, l'Univers a continué son
+expansion sans aucun événement majeur durant 380 000 ans. En raison de la
+température qui baissait, les électrons ont été capables de se joindre aux
+noyaux d'hydrogène et d'hélium pour former des atomes neutres.
+La densité a diminué, mais l'Univers demeurait suffisamment dense pour
+être opaque et empêcher la lumière de voyager librement sans continuellement
+entrer en collision avec des électrons et des noyaux d'hydrogène et d'hélium.
+Lorsqu'il a atteint l'âge de 380 000 ans, quelque chose de remarquable s'est
+produit : l'Univers est devenu transparent. La densité a chuté suffisamment
+pour que la lumière puisse voyager librement. Le rayonnement fossile que nous
+observons aujourd'hui a été émis à cette époque.
 
+La période d'environ 100 millions d'années qui a suivi a été relativement
+calme. On appelle cette période les **Âges sombres**. La température a chuté
+tranquillement alors que la matière commençait à se condenser sous l'influence
+de la gravité dans les régions où la densité initiale était légèrement plus
+grande qu'ailleurs. À 100 millions d'années, les premières étoiles et les
+premières galaxies se sont formées.
 
+Après quelques centaines de millions d'années, le rayonnement produit par les
+étoiles en fin de vie est devenu si intense que la matière s'est en grande
+partie ionisée, c'est-à-dire que les électrons ont été arrachés au noyaux
+d'atomes. On appelle cette période la **réionisation**.
 
-## Rotation des galaxies et matière sombre
-
-À partir de la lumière émise par la Voie lactée, on peut estimer la masse de la
-galaxie. La majorité des étoiles étant des étoiles de type spectral K et M, on
-sait que chaque étoile émet, en moyenne, un peu moins de lumière que le Soleil.
-À partir de la luminosité de la galaxie, on peut donc déduire le nombre
-d'étoiles et, à partir de la masse moyenne des étoiles, obtenir la masse totale
-de la galaxie. À partir des observations, on calcule donc une masse d'environ
-100 milliards de masse solaire.
-
-Une méthode alternative pour mesurer la masse de la Voie lactée est d'utiliser
-la troisième loi de Kepler. Si on utilise les étoiles relativement proche du
-centre galactique comme le Soleil, la troisième loi de Kepler donne une masse
-en parfait accord avec l'estimation obtenue par la luminosité de la galaxie.
-Cependant, pour les nuages de gaz qui orbitent beaucoup plus loin du centre
-galactique, la troisième loi de Kepler donne une masse de 500 milliards de
-masse solaire, soit cinq fois plus grande que la masse obtenue par la méthode
-basée sur la luminosité. Cela signifie donc que la majorité de la masse de la
-galaxie est en réalité composée de **matière sombre**, c'est-à-dire de la
-matière qui n'émet aucune lumière. Déterminer la nature de la matière sombre
-est un des grands défis de la physique actuelle. On sait que cette matière
-interagit par la force gravitationnelle, mais n'interagit d'aucune autre
-façon\ : êtes-vous déjà entré en collision avec de la matière sombre en
-marchant dans la rue? La matière sombre est environ 5 fois plus abondante que
-la matière ordinaire (celle de la vie de tout les jours, celle qui constitue
-les maisons, les fourmis et les étoiles), mais nous n'avons aucune idée de ce
-qui la compose ni de la façon de la détectée. Plusieurs expérience
-scientifiques complexes sont actuellement en cours pour essayer de détecter la
-matière sombre et de mesurer ses propriétés.
-
-<figure>
-  <div style="width: 720px;
-              height: 400px;
-              background-color: #000000;
-              margin: 10px;">
-  </div>
-  <figcaption>
-  Vue d'artiste de la matière sombre
-  </figcaption>
-</figure>
+À l'âge de 1 milliard d'années, l'Univers a atteint un état très semblable à
+son état actuel et a évolué sans changement majeur jusqu'à aujourd'hui.
 
 
-## Loi de Hubble et expansion de l'Univers
+## Destin de l'Univers
 
-Au début du XX<sup>e</sup> siècle, plusieurs scientifiques ont commencé à
-considérer l'hypothèse que l'Univers n'était pas statique. Alexander Friedmann,
-un physicien russe, Georges Lemaître, un prêtre et astronome belge, et Edwin
-Hubble, un astronome américain, ont été les premiers à élaborer un modèle
-cohérent.  Peu importe où l'on regarde, on voit les galaxies s'éloigner de
-nous. Plus on regarde loin, plus les galaxies s'éloignent rapidement.
-L'analogie souvent utilisée est celle d'un pain au raisins. Si vous vivez dans
-un raisin dans le pain qui cuit au four, vous regardez autour de vous et voyez
-les autres raisins s'éloigner. Les raisins plus lointains s'éloignent plus vite
-parce qu'il y a plus de pâte entre eux et vous et que toute cette pâte gonfle.
-Les observations astronomiques des galaxies lointaines combinées avec des
-résultats obtenus à partir de la théorie de la relativité générale d'Einstein
-pointaient tous dans la même direction : l'Univers est en expansion.
+Ce que deviendra éventuellement l'Univers est encore très spéculatif. Plusieurs
+scénarios sont possibles, nous nous limiterons à deux d'entre eux.
 
-<figure>
-  <img src="../images/hubble_law.gif"
-    alt="Relation vélocité-distance dans l'article de Hubble de 1929"
-    width="100%">
-  <figcaption>
-  Relation vélocité-distance dans l'article de Edwin Hubble de 1929.
-  </figcaption>
-</figure>
+### Mort thermique
 
-La relation entre la vitesse des galaxies et la distance à laquelle elles se
-trouvent est connue sous le nom de la **loi de Hubble**: plus les galaxie sont
-loin, plus elles s'éloignent rapidement.
+Ce scénario est le plus probable. L'Univers continuera à prendre de l'expansion
+et deviendra de plus en plus froid et de moins en moins dense. De moins en
+moins d'étoiles se formeront jusqu'à ce que la formation d'étoiles cesse
+complètement. Les galaxies complètement isolées les unes des autres dans un
+Univers de plus en plus ténu et froid s'éteindront à mesure que Les cadavres
+stellaires se refroidiront peu à peu jusqu'à s'éteindre complètement.
+Éventuellement, les fluctuations quantique feront en sorte que les trous noirs
+s'évaporeront et disparaîtront. Les atomes se dissocieront à mesure que les
+protons et les neutrons se décomposeront. L'entropie dans l'Univers augmentera
+sans cesse, c'est-à-dire que les particules restantes se déplaceront de façon
+complètement désorganisé, il n'y aura plus aucune structure comme les atomes
+et encore moins des planètes ou des étoiles. Toute l'énergie dans l'Univers
+sera de la chaleur, c'est-à-dire une forme complètement désorganisé d'énergie.
+La température sera très proche du zéro absolu. À un certain point, l'Univers
+atteindra son état d'entropie maximal et le temps cessera d'avoir un sens.
+L'Univers sera alors mort à jamais, une mort thermique où tout se termine dans
+le froid et la noirceur.
 
-Beaucoup plus récemment, à la fin des années 1990, des observations ont
-bouleversé les modèles d'expansion de l'Univers qui avaient été construit au
-cours du XX<sup>e</sup> siècle. En observant des supernovas lointaines, les
-astronomes ont réalisé que l'expansion de l'Univers était de plus en plus
-rapide. Cette accélération de l'expansion de l'Univers semble étrange.
-Qu'est-ce qui peut bien «pousser» sur l'espace-temps dans toutes les directions
-pour le faire s'étendre de plus en plus rapidement? Cette force étrange a été
-attribuée à une **énergie sombre**, dont la nature exacte n'est pas encore
-connue. Les observations nous montrent néanmoins que l'énergie sombre doit
-constituer pas moins de 68% du contenu de l'Univers.
+La mort thermique de l'Univers se déroulera sur une période d'environ
+10<sup>1000</sup> ans. Le vidéo [TIMELAPSE OF THE FUTURE: A Journey to the End
+of Time](https://www.youtube.com/watch?v=uD4izuDMUQA) de l'artiste John D.
+Boswell illustre le scénario de la mort thermique de l'Univers (évidemment, une
+grande liberté artistique est prise dans ce vidéo, il est donc à prendre avec
+un grain de sel). 
 
-Nous vivons donc dans un Univers constitué à 68% d'énergie sombre, 27% de
-matière sombre et seulement 5% de matière ordinaire. Tout ce qui nous entoure
-dans notre vie quotidienne, tout ce dont nous somme fait, ne constitue qu'une
-petite fraction de ce que l'Univers contient. Il reste encore beaucoup de
-questions pour les futures générations d'astronomes et beaucoup de mystères à
-élucider.
+
+### Big Crunch
+
+Ce scénario est possible si la quantité de matière dans l'Univers est
+suffisamment grande pour que l'attraction gravitationnelle soit éventuellement
+capable de renverser l'expansion. L'expansion de l'Univers ralentira pour
+éventuellement arrêter complètement puis se transformer en une contraction de
+l'Univers. Les galaxies commenceront alors à se rapprocher les unes des
+autres et les collisions de galaxie deviendront de plus en plus fréquentes.
+La lumière présente dans l'Univers sera graduellement décalée vers le bleu et
+le violet en raison de la contraction de l'espace-temps et deviendra très
+énergétique. Cette radiation intense enflammera tout l'Univers : des réactions
+de fusion nucléaire se produiront partout, pas seulement dans le cœur des
+étoiles. Encore plus de rayonnement sera libéré et la température de l'Univers
+grimpera en flèche. La densité de matière augmentera et les atomes seront
+ionisés par la radiation. Le plasma de plus en plus chaud se contractera et
+atteindra probablement, après quelques centaines de milliards d'années, une
+singularité semblable à celle de laquelle l'Univers est né.
 
 
 ## Exercices
 
-1. Énoncez les trois lois de Kepler en prenant soin de bien expliquer leur
-   signification.
-
-2. Quelle est la forme du disque galactique dans une galaxie spirale? Quelle
-   est la forme du halo?
-
-3. Que retrouve-t-on principalement dans le halo de la galaxie?
-
-4. Définissez un amas globulaire.
-
-5. Qu'est-ce qui se trouve au centre de la galaxie? Comment a-t-on déduit sa
-   présence?
-
-6. Comment a-t-on déduit l'existence de la matière sombre?
-
-7. La galaxie A se trouve à une distance de 30 millions d'années-lumière et la
-   galaxie B se trouve à une distance de 20 millions d'années-lumière. Est-ce
-   que ce ces galaxies s'éloignent ou s'approchent de nous? Laquelle va le plus
-   vite?
-
-8. Qu'est-ce que l'énergie sombre explique dans les modèles cosmologiques
-   modernes?
-
+1. Quand a été émis le rayonnement fossile?
+2. Comment peut-on aujourd'hui détecter le rayonnement fossile?
+3. Comment explique-t-on que le rayonnement fossile provenant de régions de
+   l'Univers situées à des dizaines de milliards d'années-lumière soit à la
+   même température?
+4. Classez les événements suivants en ordre chronologique, du plus ancien au
+   plus récent : formation des galaxies, nucléosynthèse primordiale,
+   réionisation, inflation, formation des protons, singularité, Univers devient
+   transparent.
+5. Pourquoi l'hydrogène et l'hélium sont-ils les atomes les plus abondants dans
+   l'Univers?
+6. Dans le scénario de la mort thermique de l'Univers, la température à la Fin
+   est très élevée ou très basse?
+7. Dans le scénario du Big Crunch, la température à la Fin est très élevée ou
+   très basse?
