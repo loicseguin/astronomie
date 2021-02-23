@@ -83,7 +83,7 @@ sur la distance Terre-Soleil ($b$ dans le schéma ci-dessous). Aristarque de
 Samos mesura un angle de 87°, ce qui lui permettait de conclure que le Soleil
 était environ 19 fois plus loin de la Terre que ne l'était la Lune. L'angle
 obtenu par Aristarque n'était pas tout à fait correct et on sait aujourd'hui
-que cet angle est en réalité de 89,95° ce qui signifie que le Soleil est
+que cet angle est en réalité de 89,85° ce qui signifie que le Soleil est
 environ 382 fois plus loin de la Terre que ne l'est la Lune.
 
 <figure>
