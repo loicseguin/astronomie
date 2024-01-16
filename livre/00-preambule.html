@@ -8,10 +8,18 @@
   <style>
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    span.underline{text-decoration: underline;}
-    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    ul.task-list{list-style: none;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
   </style>
   <link rel="stylesheet" href="../www/style.css" />
   <!--[if lt IE 9]>
@@ -26,42 +34,133 @@
 </header>
 <h2 id="vers-linfiniment-grand">Vers l’infiniment grand</h2>
 <figure>
-<a href="https://www.jpl.nasa.gov/spaceimages/details.php?id=PIA17171"> <img src="../images/PIA17171_saturn_earth.jpg"
+<a href="https://www.jpl.nasa.gov/spaceimages/details.php?id=PIA17171">
+<img src="../images/PIA17171_saturn_earth.jpg"
       alt="La Terre vue de Saturne par la sonde Cassini-Huygens"
       style="width: 100%"> </a>
 <figcaption>
-La Terre vue de Saturne par la sonde Cassini-Huygens (NASA/JPL-Caltech/Space Science Institute)
+La Terre vue de Saturne par la sonde Cassini-Huygens
+(NASA/JPL-Caltech/Space Science Institute)
 </figcaption>
 </figure>
-<p>Dans cette photo époustouflante prise par la sonde Cassini-Huygens alors qu’elle se trouvait à proximité de Saturne le 19 juillet 2013, on aperçoit un petit point bleu en bas à droite. Ce point, c’est notre Terre. Elle apparait minuscule vue d’une distance de 1 440 000 000 km. Et pourtant, Saturne est située dans la cour arrière de notre planète. Les confins du système solaire sont dix fois plus éloignés de la Terre que ne l’est Saturne. <a href="https://voyager.jpl.nasa.gov/">Les sondes Voyager 1 et 2</a>, lancées en 1977, ont atteint les limites du système solaire en 2012 et en 2018, respectivement, après un voyage de plus de 40 ans. Voyager 1, aujourd’hui à plus de 22 000 000 000 km de la Terre, est l’objet fabriqué par l’être humain qui est le plus loin de la Terre.</p>
-<p>Cette distance est déjà vertigineuse, mais elle est minuscule par rapport à la distance qui nous sépare de l’étoile la plus proche du Soleil, <em>Proxima Centauri</em>. Cette étoile est située à environ 4,3 années-lumière de la Terre, soit environ 40 000 000 000 000 km, 40 000 fois plus loin que Saturne. La sonde Voyager 1, si elle se dirigeait vers <em>Proxima Centauri</em>, y parviendrait dans environ 74 000 ans à sa vitesse actuelle de 61 000 km/h.</p>
-<p>Le Soleil et <em>Proxima Centauri</em> ne sont que deux étoiles dans un gigantesque regroupement d’étoiles qu’on appelle une <strong>galaxie</strong>, notre galaxie, la <strong>Voie lactée</strong>. Notre galaxie a un diamètre environ 25 000 fois plus grand que la distance qui nous sépare de <em>Proxima Centauri</em>. Elle compte 100 milliards d’étoiles comme notre Soleil. C’est environ le nombre de cerises qu’on peut mettre dans le Stade olympique à Montréal. Toutes les étoiles qu’on peut voir dans le ciel à l’œil nu sont des étoiles dans la Voie lactée très proches de nous. Lorsque le ciel est suffisamment sombre, on peut aussi voir une bande blanchâtre qui s’étire sur une grande partie du ciel : c’est le reste des étoiles de la galaxie de même que des nuages de gaz et de poussière. La photo ci-dessous, prise par le télescope spatial Hubble, montre une autre galaxie qui ressemble un peu à la notre.</p>
+<p>Dans cette photo époustouflante prise par la sonde Cassini-Huygens
+alors qu’elle se trouvait à proximité de Saturne le 19 juillet 2013, on
+aperçoit un petit point bleu en bas à droite. Ce point, c’est notre
+Terre. Elle apparait minuscule vue d’une distance de 1 440 000 000 km.
+Et pourtant, Saturne est située dans la cour arrière de notre planète.
+Les confins du système solaire sont dix fois plus éloignés de la Terre
+que ne l’est Saturne. <a href="https://voyager.jpl.nasa.gov/">Les sondes
+Voyager 1 et 2</a>, lancées en 1977, ont atteint les limites du système
+solaire en 2012 et en 2018, respectivement, après un voyage de plus de
+40 ans. Voyager 1, aujourd’hui à plus de 22 000 000 000 km de la Terre,
+est l’objet fabriqué par l’être humain qui est le plus loin de la
+Terre.</p>
+<p>Cette distance est déjà vertigineuse, mais elle est minuscule par
+rapport à la distance qui nous sépare de l’étoile la plus proche du
+Soleil, <em>Proxima Centauri</em>. Cette étoile est située à environ 4,3
+années-lumière de la Terre, soit environ 40 000 000 000 000 km, 40 000
+fois plus loin que Saturne. La sonde Voyager 1, si elle se dirigeait
+vers <em>Proxima Centauri</em>, y parviendrait dans environ 74 000 ans à
+sa vitesse actuelle de 61 000 km/h.</p>
+<p>Le Soleil et <em>Proxima Centauri</em> ne sont que deux étoiles dans
+un gigantesque regroupement d’étoiles qu’on appelle une
+<strong>galaxie</strong>, notre galaxie, la <strong>Voie
+lactée</strong>. Notre galaxie a un diamètre environ 25 000 fois plus
+grand que la distance qui nous sépare de <em>Proxima Centauri</em>. Elle
+compte 100 milliards d’étoiles comme notre Soleil. C’est environ le
+nombre de cerises qu’on peut mettre dans le Stade olympique à Montréal.
+Toutes les étoiles qu’on peut voir dans le ciel à l’œil nu sont des
+étoiles dans la Voie lactée très proches de nous. Lorsque le ciel est
+suffisamment sombre, on peut aussi voir une bande blanchâtre qui s’étire
+sur une grande partie du ciel : c’est le reste des étoiles de la galaxie
+de même que des nuages de gaz et de poussière. La photo ci-dessous,
+prise par le télescope spatial Hubble, montre une autre galaxie qui
+ressemble un peu à la notre.</p>
 <figure>
-<a href="https://www.nasa.gov/image-feature/goddard/2020/hubble-views-galaxy-from-famous-catalog"> <img src="../images/potw2002a_NGC1803.jpg"
+<a href="https://www.nasa.gov/image-feature/goddard/2020/hubble-views-galaxy-from-famous-catalog">
+<img src="../images/potw2002a_NGC1803.jpg"
       alt="La galaxie spirale NGC 1803 à environ 200 millions d'années-lumière
         (ESA/Hubble &amp; NASA, A. Bellini et al.)"
       style="width: 100%"> </a>
 <figcaption>
-La galaxie spirale NGC 1803 à environ 200 millions d’années-lumière (ESA/Hubble &amp; NASA, A. Bellini et al.)
+La galaxie spirale NGC 1803 à environ 200 millions d’années-lumière
+(ESA/Hubble &amp; NASA, A. Bellini et al.)
 </figcaption>
 </figure>
-<p>La Voie lactée n’est pas la seule galaxie, il existe environ 2000 milliards d’autres galaxies dans l’Univers observable et chacune de ces galaxies contient des milliards d’étoiles. Les galaxies sont elles aussi regroupées en amas. Notre voisine, la <strong>galaxie d’Andromède</strong>, se dirige d’ailleurs vers nous et entrera en collision avec la Voie lactée dans un peu plus de quatre milliards d’années. La Voie lactée, la galaxie d’Andromède et une cinquantaine de galaxies plus petites forment un regroupement qu’on appelle le <strong>groupe local</strong>.</p>
-<p>L’<strong>Univers observable</strong> est l’ensemble de l’espace autour de nous duquel de la lumière peut nous parvenir. L’Univers lui-même est peut-être plus grand, voire même infini, mais nous ne pourrons jamais voir au-delà des limites de l’Univers observable. Cela est dû au fait que la lumière voyage à une vitesse finie et qu’elle n’a eu le temps de parcourir qu’une certaine distance depuis le début de l’existence de l’Univers, il y a environ 13,8 milliards d’années.</p>
+<p>La Voie lactée n’est pas la seule galaxie, il existe environ 2000
+milliards d’autres galaxies dans l’Univers observable et chacune de ces
+galaxies contient des milliards d’étoiles. Les galaxies sont elles aussi
+regroupées en amas. Notre voisine, la <strong>galaxie
+d’Andromède</strong>, se dirige d’ailleurs vers nous et entrera en
+collision avec la Voie lactée dans un peu plus de quatre milliards
+d’années. La Voie lactée, la galaxie d’Andromède et une cinquantaine de
+galaxies plus petites forment un regroupement qu’on appelle le
+<strong>groupe local</strong>.</p>
+<p>L’<strong>Univers observable</strong> est l’ensemble de l’espace
+autour de nous duquel de la lumière peut nous parvenir. L’Univers
+lui-même est peut-être plus grand, voire même infini, mais nous ne
+pourrons jamais voir au-delà des limites de l’Univers observable. Cela
+est dû au fait que la lumière voyage à une vitesse finie et qu’elle n’a
+eu le temps de parcourir qu’une certaine distance depuis le début de
+l’existence de l’Univers, il y a environ 13,8 milliards d’années.</p>
 <h2 id="vers-linfiniment-petit">Vers l’infiniment petit</h2>
-<p>Tout cet Univers est composé de la même matière que celle dont nous sommes nous-même faits. Notre corps est constitué d’<strong>organes</strong> de quelques dizaines de centimètres qui remplissent des fonctions importantes comme d’envoyer le sang partout dans le corps, de transformer les aliments et de réfléchir. Ces organes sont faits d’un assemblage de <strong>cellules</strong>, de petites unités qui contiennent notre code génétique et qui sont capable de communiquer entre elles, de produire de l’énergie à partir des aliments que nous ingérons et de se reproduire. Une cellule typique a un diamètre de 0,000 050 m, soit environ 10 000 fois plus petit qu’un organe. L’image ci-dessous, obtenue grâce à un microscope électronique à balayage, montre des cellules sanguines humaines grossies 1425 fois.</p>
+<p>Tout cet Univers est composé de la même matière que celle dont nous
+sommes nous-même faits. Notre corps est constitué
+d’<strong>organes</strong> de quelques dizaines de centimètres qui
+remplissent des fonctions importantes comme d’envoyer le sang partout
+dans le corps, de transformer les aliments et de réfléchir. Ces organes
+sont faits d’un assemblage de <strong>cellules</strong>, de petites
+unités qui contiennent notre code génétique et qui sont capable de
+communiquer entre elles, de produire de l’énergie à partir des aliments
+que nous ingérons et de se reproduire. Une cellule typique a un diamètre
+de 0,000 050 m, soit environ 10 000 fois plus petit qu’un organe.
+L’image ci-dessous, obtenue grâce à un microscope électronique à
+balayage, montre des cellules sanguines humaines grossies 1425 fois.</p>
 <figure>
-<a href="http://www.publicdomainfiles.com/show_file.php?id=13518535815709"> <img src="../images/blood-cells.jpg" alt="Cellules sanguines humaines (CDC/
+<a href="http://www.publicdomainfiles.com/show_file.php?id=13518535815709">
+<img src="../images/blood-cells.jpg" alt="Cellules sanguines humaines (CDC/
     Janice Carr)" style="width: 100%"> </a>
 <figcaption>
 Cellules sanguines humaines (CDC/ Janice Carr)
 </figcaption>
 </figure>
-<p>Nos cellules sont constituées de <strong>molécules</strong>, des structures minuscules comme le sucre, les lipides et les protéines. Des molécules composent également les objets qui nous entourent comme le polystyrène, l’eau et les fibres de carbones. Ces structures ont des tailles variables, mais elles sont environ mille fois plus petites que nos cellules. Ces molécules sont des assemblages de structures plus petites qu’on appelle des <strong>atomes</strong>. Il existe environ 120 sortes d’atomes qui sont répertoriés dans le fameux tableau périodique des éléments. Parmi ces atomes, l’hydrogène et l’hélium sont les plus petits et les plus abondants dans l’Univers. Ils ont été formés alors que l’Univers était agé de quelques minutes seulement. Les autres éléments ont été formés par des réactions de fusion nucléaire dans le cœur des étoiles ou lors d’explosions d’étoiles connues sous le nom de <strong>supernova</strong>. L’atome d’hydrogène a une taille d’environ 0,000 000 000 1 m. Chaque atome possède un noyau formé de protons et de neutrons autour duquel se trouve un nuage d’électrons.</p>
-<p>Il est possible d’explorer l’échelle des différents constituants de l’Univers dans l’application web <a href="https://www.nikon.com/about/sp/universcale/">Universcale</a>, développée par Nikon. Cette application permet de comprendre comment se comparent les tailles des différents constituants de notre Univers.</p>
-<h2 id="puissances-de-10-et-années-lumière">Puissances de 10 et années-lumière</h2>
-<p>Comme vous avez pu le constater dans les deux sections précédentes, les grandeurs avec lesquelles nous travaillerons en astronomie sont énormes. L’écriture des nombres correspondant devient rapidement confuse (que signifient tous ces zéros?) et il est très facile d’écrire un zéro de trop ou d’en oublier un. Pour pallier à ce problème, nous utiliserons souvent la notation scientifique et les puissances de 10 pour simplifier l’écriture des nombres. Lorsqu’on écrit 10<sup>5</sup>, on représente le nombre constitué du chiffre 1 suivi de 5 zéros. Si l’exposant est négatif, comme pour 10<sup>-9</sup>, le nombre comporte 9 zéros, suivi d’un un, avec une virgule décimale après le premier zéro. Le tableau ci-dessous résume la signification des puissances de 10.</p>
+<p>Nos cellules sont constituées de <strong>molécules</strong>, des
+structures minuscules comme le sucre, les lipides et les protéines. Des
+molécules composent également les objets qui nous entourent comme le
+polystyrène, l’eau et les fibres de carbones. Ces structures ont des
+tailles variables, mais elles sont environ mille fois plus petites que
+nos cellules. Ces molécules sont des assemblages de structures plus
+petites qu’on appelle des <strong>atomes</strong>. Il existe environ 120
+sortes d’atomes qui sont répertoriés dans le fameux tableau périodique
+des éléments. Parmi ces atomes, l’hydrogène et l’hélium sont les plus
+petits et les plus abondants dans l’Univers. Ils ont été formés alors
+que l’Univers était agé de quelques minutes seulement. Les autres
+éléments ont été formés par des réactions de fusion nucléaire dans le
+cœur des étoiles ou lors d’explosions d’étoiles connues sous le nom de
+<strong>supernova</strong>. L’atome d’hydrogène a une taille d’environ
+0,000 000 000 1 m. Chaque atome possède un noyau formé de protons et de
+neutrons autour duquel se trouve un nuage d’électrons.</p>
+<p>Il est possible d’explorer l’échelle des différents constituants de
+l’Univers dans l’application web <a
+href="https://www.nikon.com/about/sp/universcale/">Universcale</a>,
+développée par Nikon. Cette application permet de comprendre comment se
+comparent les tailles des différents constituants de notre Univers.</p>
+<h2 id="puissances-de-10-et-années-lumière">Puissances de 10 et
+années-lumière</h2>
+<p>Comme vous avez pu le constater dans les deux sections précédentes,
+les grandeurs avec lesquelles nous travaillerons en astronomie sont
+énormes. L’écriture des nombres correspondant devient rapidement confuse
+(que signifient tous ces zéros?) et il est très facile d’écrire un zéro
+de trop ou d’en oublier un. Pour pallier à ce problème, nous utiliserons
+souvent la notation scientifique et les puissances de 10 pour simplifier
+l’écriture des nombres. Lorsqu’on écrit 10<sup>5</sup>, on représente le
+nombre constitué du chiffre 1 suivi de 5 zéros. Si l’exposant est
+négatif, comme pour 10<sup>-9</sup>, le nombre comporte 9 zéros, suivi
+d’un un, avec une virgule décimale après le premier zéro. Le tableau
+ci-dessous résume la signification des puissances de 10.</p>
 <table>
-<caption>Quelques puissances de 10 et les préfixes correspondants.</caption>
+<caption>Quelques puissances de 10 et les préfixes
+correspondants.</caption>
 <thead>
 <tr class="header">
 <th style="text-align: left;">Nombre</th>
@@ -127,16 +226,57 @@ Cellules sanguines humaines (CDC/ Janice Carr)
 </tr>
 </tbody>
 </table>
-<p>Par exemple, <em>Proxima Centauri</em> est une étoile située à 40 152 290 000 000 000 m de la Terre, soit 4,015 × 10<sup>16</sup> m, ou 4,015 × 10<sup>13</sup> km. Cette notation est beaucoup plus compacte et nous évite d’avoir à compter le nombre de positions décimales.</p>
-<p>Puisque les distances impliquées en astronomie sont très grandes, il n’est pas rare d’avoir recours à une unité de mesure alternative, l’<strong>année-lumière</strong>. Malgré le fait qu’il y ait le mot <em>année</em> dans le nom, une année-lumière n’est pas une mesure de temps, mais bien une mesure de distance. C’est la distance que la lumière parcourt en un an soit environ 9,46 × 10<sup>15</sup> m.</p>
+<p>Par exemple, <em>Proxima Centauri</em> est une étoile située à
+40 152 290 000 000 000 m de la Terre, soit 4,015 × 10<sup>16</sup> m, ou
+4,015 × 10<sup>13</sup> km. Cette notation est beaucoup plus compacte et
+nous évite d’avoir à compter le nombre de positions décimales.</p>
+<p>Puisque les distances impliquées en astronomie sont très grandes, il
+n’est pas rare d’avoir recours à une unité de mesure alternative,
+l’<strong>année-lumière</strong>. Malgré le fait qu’il y ait le mot
+<em>année</em> dans le nom, une année-lumière n’est pas une mesure de
+temps, mais bien une mesure de distance. C’est la distance que la
+lumière parcourt en un an soit environ 9,46 × 10<sup>15</sup> m.</p>
 <h2 id="démarche-scientifique">Démarche scientifique</h2>
-<p>L’échelle du cosmos est difficile à appréhender. Ce qui est incroyable, c’est que nous soyons en mesure de comprendre, du moins en partie, cet Univers. Les galaxies les plus lointaines semblent être constituées des mêmes ingrédients fondamentaux que nos propres corps et obéir aux mêmes lois physiques que celles qui s’appliquent dans notre système solaire. La compréhension des interactions nucléaires dans les noyaux d’atomes que nous étudions dans nos laboratoires terrestres nous permet de savoir ce qui alimente les étoiles. Les ondes électromagnétiques que nous utilisons pour communiquer avec des téléphones cellulaires sont aussi émises par les étoiles et les gaz chauds dans les galaxies. Ces ondes qui se propagent dans l’Univers et nous arrivent de très loin ont débuté leur voyage il y a fort longtemps et nous arrivent avec de l’information sur l’histoire passée du cosmos.</p>
-<p>Dans ce cours, nous apprendrons beaucoup de choses sur l’Univers, mais aussi sur la façon dont nous faisons ces découvertes. Une simple observation comme le cycle du jour et de la nuit peut nous amener à comprendre la façon dont la Terre et le Soleil se déplacent. Pour y arriver, il faut poser des hypothèses et essayer de voir quelles sont les conséquences de ces hypothèses. Peut-être que le Soleil tourne autour de la Terre? Mais alors, comment expliquer le mouvement erratique de ces autres objets dans le ciel qu’on appelle des planètes? Si l’hypothèse s’avère incohérente avec les observations que nous faisons, nous la rejetons et essayons d’en formuler une meilleure. Ce processus itératif nous amène graduellement vers des modèles de la nature qui sont de plus en plus précis, qui permettent de faire des prédictions de plus en plus justes de ce qui se produira dans notre monde. La démarche scientifique est un processus dynamique qui implique de se poser beaucoup de questions et de toujours raffiner nos modèles pour qu’ils correspondent le mieux possible à l’ensemble des observations que nous avons faites.</p>
+<p>L’échelle du cosmos est difficile à appréhender. Ce qui est
+incroyable, c’est que nous soyons en mesure de comprendre, du moins en
+partie, cet Univers. Les galaxies les plus lointaines semblent être
+constituées des mêmes ingrédients fondamentaux que nos propres corps et
+obéir aux mêmes lois physiques que celles qui s’appliquent dans notre
+système solaire. La compréhension des interactions nucléaires dans les
+noyaux d’atomes que nous étudions dans nos laboratoires terrestres nous
+permet de savoir ce qui alimente les étoiles. Les ondes
+électromagnétiques que nous utilisons pour communiquer avec des
+téléphones cellulaires sont aussi émises par les étoiles et les gaz
+chauds dans les galaxies. Ces ondes qui se propagent dans l’Univers et
+nous arrivent de très loin ont débuté leur voyage il y a fort longtemps
+et nous arrivent avec de l’information sur l’histoire passée du
+cosmos.</p>
+<p>Dans ce cours, nous apprendrons beaucoup de choses sur l’Univers,
+mais aussi sur la façon dont nous faisons ces découvertes. Une simple
+observation comme le cycle du jour et de la nuit peut nous amener à
+comprendre la façon dont la Terre et le Soleil se déplacent. Pour y
+arriver, il faut poser des hypothèses et essayer de voir quelles sont
+les conséquences de ces hypothèses. Peut-être que le Soleil tourne
+autour de la Terre? Mais alors, comment expliquer le mouvement erratique
+de ces autres objets dans le ciel qu’on appelle des planètes? Si
+l’hypothèse s’avère incohérente avec les observations que nous faisons,
+nous la rejetons et essayons d’en formuler une meilleure. Ce processus
+itératif nous amène graduellement vers des modèles de la nature qui sont
+de plus en plus précis, qui permettent de faire des prédictions de plus
+en plus justes de ce qui se produira dans notre monde. La démarche
+scientifique est un processus dynamique qui implique de se poser
+beaucoup de questions et de toujours raffiner nos modèles pour qu’ils
+correspondent le mieux possible à l’ensemble des observations que nous
+avons faites.</p>
 <h2 id="exercices">Exercices</h2>
 <ol type="1">
-<li><p>Classer les objets suivants en ordre croissant de grandeur : Galaxie, cerveau, planète, virus, étoile, montagne, autobus, Univers, électron.</p></li>
-<li><p>À combien d’années-lumière Québec se trouve-t-elle de Montréal?</p></li>
-<li><p>D’où viennent les atomes de carbone qui composent notre corps?</p></li>
+<li><p>Classer les objets suivants en ordre croissant de grandeur :
+Galaxie, cerveau, planète, virus, étoile, montagne, autobus, Univers,
+électron.</p></li>
+<li><p>À combien d’années-lumière Québec se trouve-t-elle de
+Montréal?</p></li>
+<li><p>D’où viennent les atomes de carbone qui composent notre
+corps?</p></li>
 <li><p>Nommer une galaxie se trouvant proche de la nôtre.</p></li>
 </ol>
   </div>

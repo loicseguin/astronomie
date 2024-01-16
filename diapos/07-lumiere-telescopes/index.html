@@ -8,17 +8,28 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
-  <link rel="stylesheet" href="../reveal.js/dist/reset.css">
-  <link rel="stylesheet" href="../reveal.js/dist/reveal.css">
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^4//dist/reset.css">
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^4//dist/reveal.css">
   <style>
+    .reveal .sourceCode {  /* see #7635 */
+      overflow: visible;
+    }
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    span.underline{text-decoration: underline;}
-    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    ul.task-list{list-style: none;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
   </style>
-  <link rel="stylesheet" href="../reveal.js/dist/theme/night.css" id="theme">
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^4//dist/theme/night.css" id="theme">
 </head>
 <body>
   <div class="reveal">
@@ -30,10 +41,11 @@
   <p class="date">2 avril 2020</p>
 </section>
 
-<section class="slide level1">
+<section class="slide level2">
 
 <figure>
-<a href="https://www.jpl.nasa.gov/spaceimages/details.php?id=PIA23128"> <img src="../../images/PIA23128.jpg"
+<a href="https://www.jpl.nasa.gov/spaceimages/details.php?id=PIA23128">
+<img src="../../images/PIA23128.jpg"
       alt="Galaxie du Tourbillon"
       style="
           max-height: 500px;
@@ -44,13 +56,11 @@
 </figcaption>
 </figure>
 </section>
-<section class="slide level1">
-
-<h2 id="phénomènes-lumineux">Phénomènes lumineux</h2>
+<section id="phénomènes-lumineux" class="slide level2">
+<h2>Phénomènes lumineux</h2>
 </section>
-<section class="slide level1">
-
-<h2 id="réflexion">Réflexion</h2>
+<section id="réflexion" class="slide level2">
+<h2>Réflexion</h2>
 <p><img src="../../images/reflexion.jpg"
   alt="Réflexion de la lumière"
   style="
@@ -58,9 +68,8 @@
       max-width: 1000px;
   "></p>
 </section>
-<section class="slide level1">
-
-<h2 id="réfraction">Réfraction</h2>
+<section id="réfraction" class="slide level2">
+<h2>Réfraction</h2>
 <p><img src="../../images/refraction-cuillere.png"
   alt="Réfraction de la lumière"
   style="
@@ -68,15 +77,15 @@
       max-width: 1000px;
   "></p>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
 <p><a href="https://phet.colorado.edu/sims/html/bending-light/latest/bending-light_fr.html"
-   style="text-decoration: none;"> <img src="https://phet.colorado.edu/sims/html/bending-light/latest/bending-light-600.png"
+   style="text-decoration: none;">
+<img src="https://phet.colorado.edu/sims/html/bending-light/latest/bending-light-600.png"
        alt="Bending Light" style="border: none;" width="600"/> </a></p>
 </section>
-<section class="slide level1">
-
-<h2 id="dispersion">Dispersion</h2>
+<section id="dispersion" class="slide level2">
+<h2>Dispersion</h2>
 <img src="../../images/light-dispersion.jpg"
   alt="Dispersion de la lumière"
   style="
@@ -84,18 +93,20 @@
       max-width: 1000px;
   ">
 <figcaption style="font-size: 0.4em; color: #666;">
-(Alfredo Louro <a href="https://creativecommons.org/licenses/by-nc-sa/2.0/">CC BY-NC-SA 2.0</a>)
+(Alfredo Louro <a
+href="https://creativecommons.org/licenses/by-nc-sa/2.0/">CC BY-NC-SA
+2.0</a>)
 </figcaption>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
 <p><a href="https://phet.colorado.edu/sims/html/bending-light/latest/bending-light_fr.html"
-   style="text-decoration: none;"> <img src="https://phet.colorado.edu/sims/html/bending-light/latest/bending-light-600.png"
+   style="text-decoration: none;">
+<img src="https://phet.colorado.edu/sims/html/bending-light/latest/bending-light-600.png"
        alt="Bending Light" style="border: none;" width="600"/> </a></p>
 </section>
-<section class="slide level1">
-
-<h2 id="diffraction">Diffraction</h2>
+<section id="diffraction" class="slide level2">
+<h2>Diffraction</h2>
 <p><img src="../../images/diffraction_trou.jpg"
   alt="Trou dans une feuille d'aluminium"
   style="
@@ -108,34 +119,35 @@
       max-width: 45%;
   "></p>
 </section>
-<section class="slide level1">
-
-<h2 id="interférence-expérience-de-young">Interférence (expérience de Young)</h2>
-<p><a href="https://commons.wikimedia.org/wiki/File:Young-Thomas-Lectures1807-Plate_XXX-fig442-dbl_slit.jpg"> <img src="../../images/Young-Thomas-Lectures1807-Plate_XXX-fig442-dbl_slit.jpg"
+<section id="interférence-expérience-de-young" class="slide level2">
+<h2>Interférence (expérience de Young)</h2>
+<p><a href="https://commons.wikimedia.org/wiki/File:Young-Thomas-Lectures1807-Plate_XXX-fig442-dbl_slit.jpg">
+<img src="../../images/Young-Thomas-Lectures1807-Plate_XXX-fig442-dbl_slit.jpg"
   alt="Expérience de Young"
   style="
       max-height: 500px;
       max-width: 1000px;
   "> </a></p>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
 <p><a href="https://phet.colorado.edu/sims/html/wave-interference/latest/wave-interference_fr.html"
-   style="text-decoration: none;"> <img src="https://phet.colorado.edu/sims/html/wave-interference/latest/wave-interference-600.png"
+   style="text-decoration: none;">
+<img src="https://phet.colorado.edu/sims/html/wave-interference/latest/wave-interference-600.png"
        alt="Wave Interference" style="border: none;"/> </a></p>
 </section>
-<section class="slide level1">
-
-<h2 id="onde-ou-particule">Onde ou particule?</h2>
+<section id="onde-ou-particule" class="slide level2">
+<h2>Onde ou particule?</h2>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
 <div class="columns">
 <div class="column" style="width:40%;">
 <h3 id="particule">Particule</h3>
 <p><img src="../../images/descartes.jpg"
      alt="René Descartes"
-     style="max-height: 300px; max-width: 300px; margin: 0 0 0 -50px;"> <img src="../../images/newton.jpg"
+     style="max-height: 300px; max-width: 300px; margin: 0 0 0 -50px;">
+<img src="../../images/newton.jpg"
      alt="Isaac Newton"
      style="max-height: 300px; max-width: 300px;margin: -100px 0 0 60px;"></p>
 </div><div class="column" style="width:60%;">
@@ -143,21 +155,23 @@
 <p>Robert Hooke</p>
 <p><img src="../../images/huygens.jpg"
      alt="Christiaan Huygens"
-     style="max-height: 300px; max-width: 300px;"> <img src="../../images/young.jpg"
+     style="max-height: 300px; max-width: 300px;">
+<img src="../../images/young.jpg"
      alt="Thomas Young"
      style="max-height: 300px; max-width: 300px;"></p>
 </div>
 </div>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
 <iframe width="800" height="450" src="https://www.youtube.com/embed/8yis7GzlXNM?start=10" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
 </iframe>
 <figcaption style="font-size: 0.4em; color: #666;">
-<a href="https://www.youtube.com/watch?v=8yis7GzlXNM">Epic Rap Battle of History</a>
+<a href="https://www.youtube.com/watch?v=8yis7GzlXNM">Epic Rap Battle of
+History</a>
 </figcaption>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
 <h3 id="théorie-corpusculaire">Théorie corpusculaire</h3>
 <ul>
@@ -167,7 +181,7 @@
 <li>Est supportée par une grosse pointure (Newton)</li>
 </ul>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
 <h3 id="théorie-ondulatoire">Théorie ondulatoire</h3>
 <ul>
@@ -178,26 +192,31 @@
 <li>Explique l’interférence</li>
 </ul>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
-<h4 id="théorie-ondulatoire-éventuellement-acceptée-comme-correcte-jusquau-début-du-xxe-siècle">Théorie ondulatoire éventuellement acceptée comme correcte jusqu’au début du XX<sup>e</sup> siècle</h4>
+<h4
+id="théorie-ondulatoire-éventuellement-acceptée-comme-correcte-jusquau-début-du-xxe-siècle">Théorie
+ondulatoire éventuellement acceptée comme correcte jusqu’au début du
+XX<sup>e</sup> siècle</h4>
 </section>
-<section class="slide level1">
-
-<h2 id="effet-photoélectrique">Effet photoélectrique</h2>
+<section id="effet-photoélectrique" class="slide level2">
+<h2>Effet photoélectrique</h2>
 <figure>
-<a href="https://commons.wikimedia.org/wiki/File:EfectoFotoelectrico.svg"> <img src="../../images/effet_photoelectrique.png"
+<a href="https://commons.wikimedia.org/wiki/File:EfectoFotoelectrico.svg">
+<img src="../../images/effet_photoelectrique.png"
       alt="Effet photoélectrique"
       style="
           max-height: 500px;
           max-width: 1000px;
       "> </a>
 <figcaption style="font-size: 0.4em; color: #666;">
-(Jfmelero <a href="https://creativecommons.org/licenses/by-sa/3.0/deed.en">CC BY-SA 3.0</a>)
+(Jfmelero <a
+href="https://creativecommons.org/licenses/by-sa/3.0/deed.en">CC BY-SA
+3.0</a>)
 </figcaption>
 </figure>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
 <h3 id="dualité-onde-particule">Dualité onde-particule</h3>
 <p>Lumière est une onde</p>
@@ -207,25 +226,26 @@
      alt="Albert Einstein"
      style="max-height: 300px; max-width: 300px;"></p>
 </section>
-<section class="slide level1">
-
-<h2 id="nature-de-la-lumière">Nature de la lumière</h2>
+<section id="nature-de-la-lumière" class="slide level2">
+<h2>Nature de la lumière</h2>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
 <h3 id="onde-1">Onde</h3>
 <p><a href="https://phet.colorado.edu/sims/html/wave-on-a-string/latest/wave-on-a-string_fr.html"
-   style="text-decoration: none;"> <img src="https://phet.colorado.edu/sims/html/wave-on-a-string/latest/wave-on-a-string-600.png"
+   style="text-decoration: none;">
+<img src="https://phet.colorado.edu/sims/html/wave-on-a-string/latest/wave-on-a-string-600.png"
      alt="Wave on a String" style="border: none;"> </a></p>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
 <h3 id="onde-électromagnétique">Onde électromagnétique</h3>
 <p><a href="https://phet.colorado.edu/sims/html/charges-and-fields/latest/charges-and-fields_en.html"
-   style="text-decoration: none;"> <img src="https://phet.colorado.edu/sims/html/charges-and-fields/latest/charges-and-fields-600.png"
+   style="text-decoration: none;">
+<img src="https://phet.colorado.edu/sims/html/charges-and-fields/latest/charges-and-fields-600.png"
      alt="Wave on a String" style="border: none;"> </a></p>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
 <h3 id="anatomie-dune-onde">Anatomie d’une onde</h3>
 <p><img src="../../images/anatomie-onde.png"
@@ -233,65 +253,71 @@
   width="80%"
   style="background-color: #eeeeee;"></p>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
 <h3 id="spectre-électromagnétique">Spectre électromagnétique</h3>
 <figure>
-<a href="https://commons.wikimedia.org/wiki/File:Spectre_%C3%A9lectromagn%C3%A9tique.png"> <img src="../../images/Spectre_electromagnetique.png"
+<a href="https://commons.wikimedia.org/wiki/File:Spectre_%C3%A9lectromagn%C3%A9tique.png">
+<img src="../../images/Spectre_electromagnetique.png"
       alt="Spectre électromagnétique"
       width="100%"> </a>
 <figcaption style="font-size: 0.4em; color: #666;">
-(Ploufandsplash <a href="https://creativecommons.org/licenses/by-sa/3.0/deed.en">CC BY-SA 3.0</a>)
+(Ploufandsplash <a
+href="https://creativecommons.org/licenses/by-sa/3.0/deed.en">CC BY-SA
+3.0</a>)
 </figcaption>
 </figure>
 </section>
-<section class="slide level1">
-
-<h2 id="vitesse-de-la-lumière">Vitesse de la lumière</h2>
+<section id="vitesse-de-la-lumière" class="slide level2">
+<h2>Vitesse de la lumière</h2>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
 <h3 id="ms">299 792 458 m/s</h3>
 <h3 id="kmh">1 079 252 850 km/h</h3>
 </section>
-<section class="slide level1">
-
-<h2 id="cest-vite">C’est vite?</h2>
+<section id="cest-vite" class="slide level2">
+<h2>C’est vite?</h2>
 <ul>
-<li class="fragment">Voiture la plus rapide (Hennessey Venom GT) : 435 km/h <br/><a href="http://www.thesupercars.org/fastest-cars/fastest-cars-in-the-world-top-10-list/"> <img src="../../images/Hennessey-Venom-GT-front-side-view-in-yellow-480.jpg"></a>
+<li class="fragment">Voiture la plus rapide (Hennessey Venom GT) : 435
+km/h
+<br/><a href="http://www.thesupercars.org/fastest-cars/fastest-cars-in-the-world-top-10-list/">
+<img src="../../images/Hennessey-Venom-GT-front-side-view-in-yellow-480.jpg"></a>
 <figcaption style="font-size: 0.4em; color: #666;">
 (TheSuperCars.org)
 </figcaption></li>
 <li class="fragment">Vitesse du son : 1 236 km/h</li>
 </ul>
 </section>
-<section class="slide level1">
-
-<h2 id="cest-vite-1">C’est vite?</h2>
+<section id="cest-vite-1" class="slide level2">
+<h2>C’est vite?</h2>
 <ul>
-<li class="fragment">Jet le plus rapide (SR-71 Blackbird) : 3 530 km/h <br/><a href="https://commons.wikimedia.org/wiki/File:Lockheed_SR-71_Blackbird.jpg"> <img src="../../images/Lockheed_SR-71_Blackbird.jpg"></a></li>
+<li class="fragment">Jet le plus rapide (SR-71 Blackbird) : 3 530 km/h
+<br/><a href="https://commons.wikimedia.org/wiki/File:Lockheed_SR-71_Blackbird.jpg">
+<img src="../../images/Lockheed_SR-71_Blackbird.jpg"></a></li>
 </ul>
 </section>
-<section class="slide level1">
-
-<h2 id="cest-vite-2">C’est vite?</h2>
+<section id="cest-vite-2" class="slide level2">
+<h2>C’est vite?</h2>
 <ul>
-<li class="fragment">Navette spatiale à l’entrée de l’atmosphère : 28 000 km/h <br/><a title="By NASA/Chuck Luzier [Public domain], via Wikimedia Commons"
+<li class="fragment">Navette spatiale à l’entrée de l’atmosphère :
+28 000 km/h
+<br/><a title="By NASA/Chuck Luzier [Public domain], via Wikimedia Commons"
 href="http://commons.wikimedia.org/wiki/File%3ASpace_Shuttle_Atlantis_landing_at_KSC_following_STS-122.jpg"><img
 width="256" alt="Space Shuttle Atlantis landing at KSC following STS-122"
 src="http://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Space_Shuttle_Atlantis_landing_at_KSC_following_STS-122.jpg/256px-Space_Shuttle_Atlantis_landing_at_KSC_following_STS-122.jpg"/></a></li>
 </ul>
 </section>
-<section class="slide level1">
-
-<h2 id="cest-vite-3">C’est vite?</h2>
-<h3 id="fois-plus-vite-que-la-navette-spatiale">40 000 fois plus vite que la navette spatiale</h3>
+<section id="cest-vite-3" class="slide level2">
+<h2>C’est vite?</h2>
+<h3 id="fois-plus-vite-que-la-navette-spatiale">40 000 fois plus vite
+que la navette spatiale</h3>
 </section>
-<section class="slide level1">
-
-<h2 id="année-lumière">Année-lumière</h2>
+<section id="année-lumière" class="slide level2">
+<h2>Année-lumière</h2>
 <ul>
-<li>Dans un intervalle de temps donné, la lumière parcourt une certaine distance</li>
+<li>Dans un intervalle de temps donné, la lumière parcourt une certaine
+distance</li>
 <li>Exemple :
 <ul>
 <li>Une voiture se déplace à 60 km/h</li>
@@ -300,9 +326,8 @@ src="http://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Space_Shuttle_Atla
 </ul></li>
 </ul>
 </section>
-<section class="slide level1">
-
-<h2 id="année-lumière-1">Année-lumière</h2>
+<section id="année-lumière-1" class="slide level2">
+<h2>Année-lumière</h2>
 <table>
 <tbody>
 <tr class="odd">
@@ -324,9 +349,8 @@ src="http://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Space_Shuttle_Atla
 </tbody>
 </table>
 </section>
-<section class="slide level1">
-
-<h2 id="année-lumière-2">Année-lumière</h2>
+<section id="année-lumière-2" class="slide level2">
+<h2>Année-lumière</h2>
 <table>
 <thead>
 <tr class="header">
@@ -350,37 +374,41 @@ src="http://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Space_Shuttle_Atla
 </tbody>
 </table>
 </section>
-<section class="slide level1">
-
-<h2 id="télescopes">Télescopes</h2>
+<section id="télescopes" class="slide level2">
+<h2>Télescopes</h2>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
-<p>Un télescope est un instrument qui collecte la lumière provenant d’une source lointaine</p>
+<p>Un télescope est un instrument qui collecte la lumière provenant
+d’une source lointaine</p>
 <p><img src="../../images/schema_telescope.png" style="max-width:600px;"></p>
 </section>
-<section class="slide level1">
-
-<h2 id="réfracteur">Réfracteur</h2>
+<section id="réfracteur" class="slide level2">
+<h2>Réfracteur</h2>
 <figure>
-<a href="https://commons.wikimedia.org/wiki/File:Image_at_Infinity_for_Telescope.jpg"> <img src="../../images/schema_telescope_refracteur.jpg"
+<a href="https://commons.wikimedia.org/wiki/File:Image_at_Infinity_for_Telescope.jpg">
+<img src="../../images/schema_telescope_refracteur.jpg"
       alt="Télescope réfracteur"> </a>
 </figure>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
 <figure>
-<a href="https://commons.wikimedia.org/wiki/File:Refracting_telescope_of_the_Strasbourg_observatory.jpg"> <img src="../../images/Refracting_telescope_of_the_Strasbourg_observatory.jpg"
+<a href="https://commons.wikimedia.org/wiki/File:Refracting_telescope_of_the_Strasbourg_observatory.jpg">
+<img src="../../images/Refracting_telescope_of_the_Strasbourg_observatory.jpg"
       alt="Télescope réfracteur de l'Observatoire astronomique de Strasbourg en France"
       width="80%"> </a>
 <figcaption style="font-size: 0.4em; color: #666;">
-(Pethrus <a href="https://creativecommons.org/licenses/by-sa/3.0/deed.en">CC BY-SA 3.0</a>)
+(Pethrus <a
+href="https://creativecommons.org/licenses/by-sa/3.0/deed.en">CC BY-SA
+3.0</a>)
 </figcaption>
 </figure>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
-<h3 id="problèmes-des-télescopes-réfracteurs">Problèmes des télescopes réfracteurs</h3>
+<h3 id="problèmes-des-télescopes-réfracteurs">Problèmes des télescopes
+réfracteurs</h3>
 <ul>
 <li>Difficile de produire lentilles parfaitement transparentes</li>
 <li>Grosses lentilles se déforment</li>
@@ -388,65 +416,74 @@ src="http://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Space_Shuttle_Atla
 <li>Aberration chromatique</li>
 </ul>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
 <figure>
 <img src="../../images/lsst_camera_l2_lens.jpg"
     alt="Lentille L2 de la caméra du LSST"
     style="max-height: 600px;">
 <figcaption style="font-size: 0.4em; color: #666;">
-(LSST Camera Project <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>)
+(LSST Camera Project <a
+href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>)
 </figcaption>
 </figure>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
 <h3 id="aberration-chromatique">Aberration chromatique</h3>
 <figure>
-<a href="https://commons.wikimedia.org/wiki/File:Chromatic_aberration_1_14_2009.jpg"> <img src="../../images/Chromatic_aberration.jpg"
+<a href="https://commons.wikimedia.org/wiki/File:Chromatic_aberration_1_14_2009.jpg">
+<img src="../../images/Chromatic_aberration.jpg"
       alt="Aberration chromatique"
       style="max-height: 500px;"> </a>
 <figcaption style="font-size: 0.4em; color: #666;">
-(Wilder Kaiser <a href="https://creativecommons.org/licenses/by-sa/3.0/deed.en">CC BY-SA 3.0</a>)
+(Wilder Kaiser <a
+href="https://creativecommons.org/licenses/by-sa/3.0/deed.en">CC BY-SA
+3.0</a>)
 </figcaption>
 </figure>
 </section>
-<section class="slide level1">
-
-<h2 id="réflecteur">Réflecteur</h2>
+<section id="réflecteur" class="slide level2">
+<h2>Réflecteur</h2>
 <figure>
-<a href="https://commons.wikimedia.org/wiki/File:Newtonian_telescope2.svg"> <img src="../../images/Newtonian_telescope.png"
+<a href="https://commons.wikimedia.org/wiki/File:Newtonian_telescope2.svg">
+<img src="../../images/Newtonian_telescope.png"
       alt="Télescope newtonien"
       style="max-height: 500px; background-color: #eeeeee;"> </a>
 <figcaption style="font-size: 0.4em; color: #666;">
-(Krishnavedala <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.en">CC BY-SA 4.0</a>)
+(Krishnavedala <a
+href="https://creativecommons.org/licenses/by-sa/4.0/deed.en">CC BY-SA
+4.0</a>)
 </figcaption>
 </figure>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
-<h3 id="avantages-des-télescopes-réflecteurs">Avantages des télescopes réflecteurs</h3>
+<h3 id="avantages-des-télescopes-réflecteurs">Avantages des télescopes
+réflecteurs</h3>
 <ul>
 <li>Pas d’aberration chromatique</li>
 <li>Peuvent être supporté par l’arrière</li>
 <li>Plus facile à construire</li>
 </ul>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
 <figure>
 <img src="../../images/lsst_m1.jpg"
       alt="Miroir principal du LSST"
       style="max-height: 500px; background-color: #eeeeee;">
 <figcaption style="font-size: 0.4em; color: #666;">
-(LSST Project/NSF/AURA <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>)
+(LSST Project/NSF/AURA <a
+href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>)
 </figcaption>
 </figure>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
 <figure>
-<a href="https://www.flickr.com/photos/gsfc/30108124923"> <img src="../../images/james_webb_mirrors.jpg"
+<a href="https://www.flickr.com/photos/gsfc/30108124923">
+<img src="../../images/james_webb_mirrors.jpg"
       alt="Miroirs du James Webb Space Telescope"
       style="max-height: 600px; background-color: #eeeeee;"> </a>
 <figcaption style="font-size: 0.4em; color: #666;">
@@ -454,32 +491,31 @@ src="http://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Space_Shuttle_Atla
 </figcaption>
 </figure>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
 <p>Observation astronomique moderne</p>
 <p><img src="../../images/mayall_outside.jpg"
   alt="Kitt Peak"
   style="max-height: 500px; background-color: #eeeeee;"></p>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
 <p>Observation astronomique moderne</p>
 <p><img src="../../images/Mayall_4m_Kitt_Peak_mount.jpg"
   alt="Monture du Mayall 4 m"
   style="max-height: 500px; background-color: #eeeeee;"></p>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
 <p>Observation astronomique moderne</p>
 <p><img src="../../images/mayall_control_room.jpg"
   alt="Salle de contrôle du Mayall 4 m"
   style="max-height: 500px; background-color: #eeeeee;"></p>
 </section>
-<section class="slide level1">
-
-<h2 id="montures">Montures</h2>
+<section id="montures" class="slide level2">
+<h2>Montures</h2>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
 <h3 id="fonctions-de-la-monture">Fonctions de la monture</h3>
 <ul>
@@ -488,7 +524,7 @@ src="http://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Space_Shuttle_Atla
 <li>Entraînement sidéral</li>
 </ul>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
 <h3 id="monture-équatoriale">Monture équatoriale</h3>
 <ul>
@@ -498,7 +534,7 @@ src="http://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Space_Shuttle_Atla
 <li>Difficile à construire</li>
 </ul>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
 <h3 id="monture-azimutale">Monture azimutale</h3>
 <ul>
@@ -509,37 +545,176 @@ src="http://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Space_Shuttle_Atla
 <li>Plus facile à construire</li>
 </ul>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
 <figure>
-<a href="https://commons.wikimedia.org/wiki/File:Comparison_optical_telescope_primary_mirrors.svg"> <img src="../../images/Comparison_optical_telescope_primary_mirrors.png"
+<a href="https://commons.wikimedia.org/wiki/File:Comparison_optical_telescope_primary_mirrors.svg">
+<img src="../../images/Comparison_optical_telescope_primary_mirrors.png"
       alt="Comparaison des miroirs de télescopes modernes"
       style="max-height: 600px; background-color: #eeeeee;"> </a>
 <figcaption style="font-size: 0.4em; color: #666;">
-Cmglee <a href="https://creativecommons.org/licenses/by-sa/3.0/deed.en">CC BY-SA 3.0</a>
+Cmglee <a
+href="https://creativecommons.org/licenses/by-sa/3.0/deed.en">CC BY-SA
+3.0</a>
 </figcaption>
 </figure>
 </section>
     </div>
   </div>
 
-  <script src="../reveal.js/dist/reveal.js"></script>
+  <script src="https://unpkg.com/reveal.js@^4//dist/reveal.js"></script>
 
-  // reveal.js plugins
-  <script src="../reveal.js/plugin/notes/notes.js"></script>
-  <script src="../reveal.js/plugin/search/search.js"></script>
-  <script src="../reveal.js/plugin/zoom/zoom.js"></script>
-  <script src="../reveal.js/plugin/math/math.js"></script>
+  <!-- reveal.js plugins -->
+  <script src="https://unpkg.com/reveal.js@^4//plugin/notes/notes.js"></script>
+  <script src="https://unpkg.com/reveal.js@^4//plugin/search/search.js"></script>
+  <script src="https://unpkg.com/reveal.js@^4//plugin/zoom/zoom.js"></script>
+  <script src="https://unpkg.com/reveal.js@^4//plugin/math/math.js"></script>
 
   <script>
 
       // Full list of configuration options available at:
       // https://revealjs.com/config/
       Reveal.initialize({
+        // Display controls in the bottom right corner
+        controls: true,
+
+        // Help the user learn the controls by providing hints, for example by
+        // bouncing the down arrow when they first encounter a vertical slide
+        controlsTutorial: true,
+
+        // Determines where controls appear, "edges" or "bottom-right"
+        controlsLayout: 'bottom-right',
+
+        // Visibility rule for backwards navigation arrows; "faded", "hidden"
+        // or "visible"
+        controlsBackArrows: 'faded',
+
+        // Display a presentation progress bar
+        progress: true,
+
+        // Display the page number of the current slide
+        slideNumber: false,
+
+        // 'all', 'print', or 'speaker'
+        showSlideNumber: 'all',
+
+        // Add the current slide number to the URL hash so that reloading the
+        // page/copying the URL will return you to the same slide
+        hash: true,
+
+        // Start with 1 for the hash rather than 0
+        hashOneBasedIndex: false,
+
+        // Flags if we should monitor the hash and change slides accordingly
+        respondToHashChanges: true,
+
         // Push each slide change to the browser history
-        history: true,
-        // Transition style
-        transition: 'none', // none/fade/slide/convex/concave/zoom
+        history: false,
+
+        // Enable keyboard shortcuts for navigation
+        keyboard: true,
+
+        // Enable the slide overview mode
+        overview: true,
+
+        // Disables the default reveal.js slide layout (scaling and centering)
+        // so that you can use custom CSS layout
+        disableLayout: false,
+
+        // Vertical centering of slides
+        center: true,
+
+        // Enables touch navigation on devices with touch input
+        touch: true,
+
+        // Loop the presentation
+        loop: false,
+
+        // Change the presentation direction to be RTL
+        rtl: false,
+
+        // see https://revealjs.com/vertical-slides/#navigation-mode
+        navigationMode: 'default',
+
+        // Randomizes the order of slides each time the presentation loads
+        shuffle: false,
+
+        // Turns fragments on and off globally
+        fragments: true,
+
+        // Flags whether to include the current fragment in the URL,
+        // so that reloading brings you to the same fragment position
+        fragmentInURL: true,
+
+        // Flags if the presentation is running in an embedded mode,
+        // i.e. contained within a limited portion of the screen
+        embedded: false,
+
+        // Flags if we should show a help overlay when the questionmark
+        // key is pressed
+        help: true,
+
+        // Flags if it should be possible to pause the presentation (blackout)
+        pause: true,
+
+        // Flags if speaker notes should be visible to all viewers
+        showNotes: false,
+
+        // Global override for autoplaying embedded media (null/true/false)
+        autoPlayMedia: null,
+
+        // Global override for preloading lazy-loaded iframes (null/true/false)
+        preloadIframes: null,
+
+        // Number of milliseconds between automatically proceeding to the
+        // next slide, disabled when set to 0, this value can be overwritten
+        // by using a data-autoslide attribute on your slides
+        autoSlide: 0,
+
+        // Stop auto-sliding after user input
+        autoSlideStoppable: true,
+
+        // Use this method for navigation when auto-sliding
+        autoSlideMethod: null,
+
+        // Specify the average time in seconds that you think you will spend
+        // presenting each slide. This is used to show a pacing timer in the
+        // speaker view
+        defaultTiming: null,
+
+        // Enable slide navigation via mouse wheel
+        mouseWheel: false,
+
+        // The display mode that will be used to show slides
+        display: 'block',
+
+        // Hide cursor if inactive
+        hideInactiveCursor: true,
+
+        // Time before the cursor is hidden (in ms)
+        hideCursorTime: 5000,
+
+        // Opens links in an iframe preview overlay
+        previewLinks: false,
+
+        // Transition style (none/fade/slide/convex/concave/zoom)
+        transition: 'none',
+
+        // Transition speed (default/fast/slow)
+        transitionSpeed: 'default',
+
+        // Transition style for full page slide backgrounds
+        // (none/fade/slide/convex/concave/zoom)
+        backgroundTransition: 'fade',
+
+        // Number of slides away from the current that are visible
+        viewDistance: 3,
+
+        // Number of slides away from the current that are visible on mobile
+        // devices. It is advisable to set this to a lower number than
+        // viewDistance in order to save resources.
+        mobileViewDistance: 2,
+
         math: {
           mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js',
           config: 'TeX-AMS_HTML-full',

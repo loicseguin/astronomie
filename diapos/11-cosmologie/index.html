@@ -8,17 +8,28 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
-  <link rel="stylesheet" href="../reveal.js/dist/reset.css">
-  <link rel="stylesheet" href="../reveal.js/dist/reveal.css">
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^4//dist/reset.css">
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^4//dist/reveal.css">
   <style>
+    .reveal .sourceCode {  /* see #7635 */
+      overflow: visible;
+    }
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    span.underline{text-decoration: underline;}
-    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    ul.task-list{list-style: none;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
   </style>
-  <link rel="stylesheet" href="../reveal.js/dist/theme/night.css" id="theme">
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^4//dist/theme/night.css" id="theme">
 </head>
 <body>
   <div class="reveal">
@@ -38,8 +49,10 @@
 <li>Fin de l’Univers</li>
 </ol>
 </section>
-<section id="section" class="slide level1" data-background-image="../../images/STSCI-H-p2016a-m-2000x1374.jpg">
-<h1 data-background-image="../../images/STSCI-H-p2016a-m-2000x1374.jpg"></h1>
+<section id="section" class="slide level1"
+data-background-image="../../images/STSCI-H-p2016a-m-2000x1374.jpg">
+<h1
+data-background-image="../../images/STSCI-H-p2016a-m-2000x1374.jpg"></h1>
 <h2 style="background-color: rgba(100, 100, 100, 0.5); padding: 20px;">
 Rayonnement diffus cosmologique
 </h2>
@@ -50,30 +63,36 @@ NASA, ESA, STScI
 </section>
 <section class="slide level1">
 
-<h2 id="rembobiner-lhistoire-de-lunivers">Rembobiner l’histoire de l’Univers</h2>
+<h2 id="rembobiner-lhistoire-de-lunivers">Rembobiner l’histoire de
+l’Univers</h2>
 <figure>
-<a href="https://www.flickr.com/photos/pollosaurio/4618430728/in/photostream/"> <img src="../../images/Jim_Peebles.jpg"
+<a href="https://www.flickr.com/photos/pollosaurio/4618430728/in/photostream/">
+<img src="../../images/Jim_Peebles.jpg"
       alt="Jim Peebles"
       style="max-width: 600px;"> </a>
 <figcaption style="font-size: 0.4em; color: #666;">
-pollosaurio <a href="https://creativecommons.org/licenses/by/2.0/">CC BY 2.0</a>
+pollosaurio <a href="https://creativecommons.org/licenses/by/2.0/">CC BY
+2.0</a>
 </figcaption>
 </figure>
 </section>
 <section class="slide level1">
 
-<h2 id="rembobiner-lhistoire-de-lunivers-1">Rembobiner l’histoire de l’Univers</h2>
+<h2 id="rembobiner-lhistoire-de-lunivers-1">Rembobiner l’histoire de
+l’Univers</h2>
 <ul>
 <li class="fragment">L’Univers est en expansion</li>
 <li class="fragment">Dans le passé il se contractait</li>
 <li class="fragment">Il était plus dense et plus chaud</li>
-<li class="fragment">On devrait encore pouvoir voir le jeune Univers chaud si on regarde assez loin</li>
+<li class="fragment">On devrait encore pouvoir voir le jeune Univers
+chaud si on regarde assez loin</li>
 </ul>
 </section>
 <section class="slide level1">
 
 <figure>
-<a href="https://www.flickr.com/photos/nasacommons/16315677368/in/photolist-qRL7sd"> <img src="../../images/penzias_wilson.jpg"
+<a href="https://www.flickr.com/photos/nasacommons/16315677368/in/photolist-qRL7sd">
+<img src="../../images/penzias_wilson.jpg"
       alt="Penzias et Wilson à l'antenne Horn"
       style="max-width: 800px;"> </a>
 <figcaption style="font-size: 0.4em; color: #666;">
@@ -101,7 +120,8 @@ pollosaurio <a href="https://creativecommons.org/licenses/by/2.0/">CC BY 2.0</a>
 <section class="slide level1">
 
 <figure>
-<a href="https://www.cosmos.esa.int/web/planck/picture-gallery"> <img src="../../images/2015_SMICA_CMB.png"
+<a href="https://www.cosmos.esa.int/web/planck/picture-gallery">
+<img src="../../images/2015_SMICA_CMB.png"
       alt="Anisotroprie de température du rayonnement fossile"
     > </a>
 <figcaption style="font-size: 0.4em; color: #666;">
@@ -109,8 +129,10 @@ ESA et la Collaboration Planck
 </figcaption>
 </figure>
 </section>
-<section id="section-1" class="slide level1" data-background-image="../../images/STSCI-H-p2016a-m-2000x1374.jpg">
-<h1 data-background-image="../../images/STSCI-H-p2016a-m-2000x1374.jpg"></h1>
+<section id="section-1" class="slide level1"
+data-background-image="../../images/STSCI-H-p2016a-m-2000x1374.jpg">
+<h1
+data-background-image="../../images/STSCI-H-p2016a-m-2000x1374.jpg"></h1>
 <h2 style="background-color: rgba(100, 100, 100, 0.5); padding: 20px;">
 Brève histoire de l’Univers
 </h2>
@@ -122,15 +144,18 @@ NASA, ESA, STScI
 <section class="slide level1">
 
 <figure>
-<a href="http://bicepkeck.org/visuals.html"> <img src="../../images/History-of-the-Universe.png"
+<a href="http://bicepkeck.org/visuals.html">
+<img src="../../images/History-of-the-Universe.png"
       alt="Histoire de l'Univers"> </a>
 <figcaption style="font-size: 0.4em; color: #666;">
 Adapté d’une image de la collaboration BICEP2
 </figcaption>
 </figure>
 </section>
-<section id="section-2" class="slide level1" data-background-image="../../images/STSCI-H-p2016a-m-2000x1374.jpg">
-<h1 data-background-image="../../images/STSCI-H-p2016a-m-2000x1374.jpg"></h1>
+<section id="section-2" class="slide level1"
+data-background-image="../../images/STSCI-H-p2016a-m-2000x1374.jpg">
+<h1
+data-background-image="../../images/STSCI-H-p2016a-m-2000x1374.jpg"></h1>
 <h2 style="background-color: rgba(100, 100, 100, 0.5); padding: 20px;">
 Fin de l’Univers
 </h2>
@@ -142,8 +167,10 @@ NASA, ESA, STScI
 <section class="slide level1">
 
 </section>
-<section id="section-3" class="slide level1" data-background-image="../../images/STSCI-H-p2016a-m-2000x1374.jpg">
-<h1 data-background-image="../../images/STSCI-H-p2016a-m-2000x1374.jpg"></h1>
+<section id="section-3" class="slide level1"
+data-background-image="../../images/STSCI-H-p2016a-m-2000x1374.jpg">
+<h1
+data-background-image="../../images/STSCI-H-p2016a-m-2000x1374.jpg"></h1>
 <h1 style="padding: 20px;">
 Merci!
 </h1>
@@ -155,23 +182,159 @@ NASA, ESA, STScI
     </div>
   </div>
 
-  <script src="../reveal.js/dist/reveal.js"></script>
+  <script src="https://unpkg.com/reveal.js@^4//dist/reveal.js"></script>
 
-  // reveal.js plugins
-  <script src="../reveal.js/plugin/notes/notes.js"></script>
-  <script src="../reveal.js/plugin/search/search.js"></script>
-  <script src="../reveal.js/plugin/zoom/zoom.js"></script>
-  <script src="../reveal.js/plugin/math/math.js"></script>
+  <!-- reveal.js plugins -->
+  <script src="https://unpkg.com/reveal.js@^4//plugin/notes/notes.js"></script>
+  <script src="https://unpkg.com/reveal.js@^4//plugin/search/search.js"></script>
+  <script src="https://unpkg.com/reveal.js@^4//plugin/zoom/zoom.js"></script>
+  <script src="https://unpkg.com/reveal.js@^4//plugin/math/math.js"></script>
 
   <script>
 
       // Full list of configuration options available at:
       // https://revealjs.com/config/
       Reveal.initialize({
+        // Display controls in the bottom right corner
+        controls: true,
+
+        // Help the user learn the controls by providing hints, for example by
+        // bouncing the down arrow when they first encounter a vertical slide
+        controlsTutorial: true,
+
+        // Determines where controls appear, "edges" or "bottom-right"
+        controlsLayout: 'bottom-right',
+
+        // Visibility rule for backwards navigation arrows; "faded", "hidden"
+        // or "visible"
+        controlsBackArrows: 'faded',
+
+        // Display a presentation progress bar
+        progress: true,
+
+        // Display the page number of the current slide
+        slideNumber: false,
+
+        // 'all', 'print', or 'speaker'
+        showSlideNumber: 'all',
+
+        // Add the current slide number to the URL hash so that reloading the
+        // page/copying the URL will return you to the same slide
+        hash: true,
+
+        // Start with 1 for the hash rather than 0
+        hashOneBasedIndex: false,
+
+        // Flags if we should monitor the hash and change slides accordingly
+        respondToHashChanges: true,
+
         // Push each slide change to the browser history
-        history: true,
-        // Transition style
-        transition: 'fade', // none/fade/slide/convex/concave/zoom
+        history: false,
+
+        // Enable keyboard shortcuts for navigation
+        keyboard: true,
+
+        // Enable the slide overview mode
+        overview: true,
+
+        // Disables the default reveal.js slide layout (scaling and centering)
+        // so that you can use custom CSS layout
+        disableLayout: false,
+
+        // Vertical centering of slides
+        center: true,
+
+        // Enables touch navigation on devices with touch input
+        touch: true,
+
+        // Loop the presentation
+        loop: false,
+
+        // Change the presentation direction to be RTL
+        rtl: false,
+
+        // see https://revealjs.com/vertical-slides/#navigation-mode
+        navigationMode: 'default',
+
+        // Randomizes the order of slides each time the presentation loads
+        shuffle: false,
+
+        // Turns fragments on and off globally
+        fragments: true,
+
+        // Flags whether to include the current fragment in the URL,
+        // so that reloading brings you to the same fragment position
+        fragmentInURL: true,
+
+        // Flags if the presentation is running in an embedded mode,
+        // i.e. contained within a limited portion of the screen
+        embedded: false,
+
+        // Flags if we should show a help overlay when the questionmark
+        // key is pressed
+        help: true,
+
+        // Flags if it should be possible to pause the presentation (blackout)
+        pause: true,
+
+        // Flags if speaker notes should be visible to all viewers
+        showNotes: false,
+
+        // Global override for autoplaying embedded media (null/true/false)
+        autoPlayMedia: null,
+
+        // Global override for preloading lazy-loaded iframes (null/true/false)
+        preloadIframes: null,
+
+        // Number of milliseconds between automatically proceeding to the
+        // next slide, disabled when set to 0, this value can be overwritten
+        // by using a data-autoslide attribute on your slides
+        autoSlide: 0,
+
+        // Stop auto-sliding after user input
+        autoSlideStoppable: true,
+
+        // Use this method for navigation when auto-sliding
+        autoSlideMethod: null,
+
+        // Specify the average time in seconds that you think you will spend
+        // presenting each slide. This is used to show a pacing timer in the
+        // speaker view
+        defaultTiming: null,
+
+        // Enable slide navigation via mouse wheel
+        mouseWheel: false,
+
+        // The display mode that will be used to show slides
+        display: 'block',
+
+        // Hide cursor if inactive
+        hideInactiveCursor: true,
+
+        // Time before the cursor is hidden (in ms)
+        hideCursorTime: 5000,
+
+        // Opens links in an iframe preview overlay
+        previewLinks: false,
+
+        // Transition style (none/fade/slide/convex/concave/zoom)
+        transition: 'fade',
+
+        // Transition speed (default/fast/slow)
+        transitionSpeed: 'default',
+
+        // Transition style for full page slide backgrounds
+        // (none/fade/slide/convex/concave/zoom)
+        backgroundTransition: 'fade',
+
+        // Number of slides away from the current that are visible
+        viewDistance: 3,
+
+        // Number of slides away from the current that are visible on mobile
+        // devices. It is advisable to set this to a lower number than
+        // viewDistance in order to save resources.
+        mobileViewDistance: 2,
+
         math: {
           mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js',
           config: 'TeX-AMS_HTML-full',

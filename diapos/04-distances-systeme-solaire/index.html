@@ -8,17 +8,28 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
-  <link rel="stylesheet" href="../reveal.js/dist/reset.css">
-  <link rel="stylesheet" href="../reveal.js/dist/reveal.css">
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^4//dist/reset.css">
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^4//dist/reveal.css">
   <style>
+    .reveal .sourceCode {  /* see #7635 */
+      overflow: visible;
+    }
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    span.underline{text-decoration: underline;}
-    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    ul.task-list{list-style: none;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
   </style>
-  <link rel="stylesheet" href="../reveal.js/dist/theme/beige.css" id="theme">
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^4//dist/theme/beige.css" id="theme">
 </head>
 <body>
   <div class="reveal">
@@ -30,14 +41,17 @@
   <p class="date">27 février 2020</p>
 </section>
 
-<section class="slide level1">
-
-<h2 id="comment-fait-on-pour-déterminer-la-taille-des-astres-et-les-distances-entre-la-terre-et-les-astres">Comment fait-on pour déterminer la taille des astres et les distances entre la Terre et les astres?</h2>
+<section
+id="comment-fait-on-pour-déterminer-la-taille-des-astres-et-les-distances-entre-la-terre-et-les-astres"
+class="slide level2">
+<h2>Comment fait-on pour déterminer la taille des astres et les
+distances entre la Terre et les astres?</h2>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
 <figure>
-<a href="https://solarsystem.nasa.gov/solar-system/our-solar-system/galleries/?page=0&per_page=25&order=created_at+desc&search=&fancybox=true&href_query_params=category%3Dsolar-system_our-solar-system&button_class=big_more_button&tags=our+solar+system&condition_1=1%3Ais_in_resource_list&category=51"> <img src="../../images/solar_system.jpg"
+<a href="https://solarsystem.nasa.gov/solar-system/our-solar-system/galleries/?page=0&per_page=25&order=created_at+desc&search=&fancybox=true&href_query_params=category%3Dsolar-system_our-solar-system&button_class=big_more_button&tags=our+solar+system&condition_1=1%3Ais_in_resource_list&category=51">
+<img src="../../images/solar_system.jpg"
       alt="Système solaire, pas à l'échelle"
       width="100%"
       style="
@@ -49,56 +63,57 @@
 </figcaption>
 </figure>
 </section>
-<section class="slide level1">
-
-<h2 id="rappels-de-géométrie">Rappels de géométrie</h2>
+<section id="rappels-de-géométrie" class="slide level2">
+<h2>Rappels de géométrie</h2>
 <p><img src="../../images/triangle-rec.png"
     alt="Trigonométrie"
     style="padding: 15px"></p>
 </section>
-<section class="slide level1">
-
-<h2 id="le-soleil-est-plus-loin-que-la-lune">Le Soleil est plus loin que la Lune</h2>
+<section id="le-soleil-est-plus-loin-que-la-lune" class="slide level2">
+<h2>Le Soleil est plus loin que la Lune</h2>
 <p><strong>Méthode d’Aristarque</strong></p>
-<p><img data-src="https://upload.wikimedia.org/wikipedia/commons/2/2b/Aristarchus_working.jpg" /></p>
+<p><img
+data-src="https://upload.wikimedia.org/wikipedia/commons/2/2b/Aristarchus_working.jpg" /></p>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
 <p><img src="../../images/soleil-loin.png"
   style="max-height: 500px; max-width: 800px; padding: 15px;"></p>
 <ul>
-<li class="fragment"><span class="math inline">\(\theta = 89.85°\)</span></li>
+<li class="fragment"><span class="math inline">\(\theta =
+89.85°\)</span></li>
 <li class="fragment">Le Soleil est 382 fois plus loin que la Lune</li>
 </ul>
 </section>
-<section class="slide level1">
-
-<h2 id="le-rayon-de-la-terre">Le rayon de la Terre</h2>
+<section id="le-rayon-de-la-terre" class="slide level2">
+<h2>Le rayon de la Terre</h2>
 <p><strong>Méthode d’Ératosthène</strong></p>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
-<a href="https://fr.wikipedia.org/wiki/Fichier:Eratosthene_mesure_terre.png"> <img src="../../images/Eratosthene_mesure_terre.png"
+<a href="https://fr.wikipedia.org/wiki/Fichier:Eratosthene_mesure_terre.png">
+<img src="../../images/Eratosthene_mesure_terre.png"
     style="max-height: 500px; max-width: 800px; padding: 5px;"> </a>
 <figcaption style="font-size: 0.4em; color: #666;">
-Raphael Javaux <a href="https://creativecommons.org/licenses/by-sa/3.0/deed.fr">CC BY-SA 3.0</a>
+Raphael Javaux <a
+href="https://creativecommons.org/licenses/by-sa/3.0/deed.fr">CC BY-SA
+3.0</a>
 </figcaption>
 <ul>
 <li class="fragment">Le rayon de la Terre est d’environ 6700 km</li>
 <li class="fragment">Valeur moderne : 6380 km</li>
 </ul>
 </section>
-<section class="slide level1">
-
-<h2 id="distance-terre-lune">Distance Terre-Lune</h2>
+<section id="distance-terre-lune" class="slide level2">
+<h2>Distance Terre-Lune</h2>
 <p><strong>Méthode moderne</strong></p>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
 <iframe width="560" height="315" src="//www.youtube.com/embed/_v52LFgUq-8" frameborder="0" allowfullscreen>
 </iframe>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
 <p><a title="Par NASA [Public domain], via Wikimedia Commons"
 href="https://commons.wikimedia.org/wiki/File%3AApollo_11_Lunar_Laser_Ranging_Experiment.jpg"><img
@@ -106,36 +121,36 @@ width="512" alt="Apollo 11 Lunar Laser Ranging Experiment"
 src="//upload.wikimedia.org/wikipedia/commons/thumb/0/08/Apollo_11_Lunar_Laser_Ranging_Experiment.jpg/512px-Apollo_11_Lunar_Laser_Ranging_Experiment.jpg"/></a></p>
 <p><strong>384 400 km</strong></p>
 </section>
-<section class="slide level1">
-
-<h2 id="distance-terre-soleil">Distance Terre-Soleil</h2>
+<section id="distance-terre-soleil" class="slide level2">
+<h2>Distance Terre-Soleil</h2>
 <p><strong>Méthode parallaxe</strong></p>
-<p>La distance entre la Terre et le Soleil est appelée une <strong>unité astronomique (UA)</strong></p>
+<p>La distance entre la Terre et le Soleil est appelée une <strong>unité
+astronomique (UA)</strong></p>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
 <p><img src="parallaxe.png"
   style="max-height: 400px; max-width: 600px; padding: 15px;"></p>
 <ul>
-<li class="fragment"><strong>1 UA = 1.50 <span class="math inline">\(\times\)</span> 10<sup>11</sup> m = 150 000 000 km</strong></li>
+<li class="fragment"><strong>1 UA = 1.50 <span
+class="math inline">\(\times\)</span> 10<sup>11</sup> m = 150 000 000
+km</strong></li>
 </ul>
 </section>
-<section class="slide level1">
-
-<h2 id="distance-des-planètes-inférieures">Distance des planètes inférieures</h2>
+<section id="distance-des-planètes-inférieures" class="slide level2">
+<h2>Distance des planètes inférieures</h2>
 <p><strong>Méthode de l’élongation maximale</strong></p>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
 <p><img src="../../images/planetes-inf.png"
   style="max-height: 500px; max-width: 800px; padding: 15px;"></p>
 </section>
-<section class="slide level1">
-
-<h2 id="distance-des-planètes-supérieures">Distance des planètes supérieures</h2>
+<section id="distance-des-planètes-supérieures" class="slide level2">
+<h2>Distance des planètes supérieures</h2>
 <p><strong>Méthode de Kepler</strong></p>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
 <p><img src="../../images/kepler-distance-mars.png"
   style="max-height: 500px; max-width: 800px; padding: 15px;"></p>
@@ -143,23 +158,159 @@ src="//upload.wikimedia.org/wikipedia/commons/thumb/0/08/Apollo_11_Lunar_Laser_R
     </div>
   </div>
 
-  <script src="../reveal.js/dist/reveal.js"></script>
+  <script src="https://unpkg.com/reveal.js@^4//dist/reveal.js"></script>
 
-  // reveal.js plugins
-  <script src="../reveal.js/plugin/notes/notes.js"></script>
-  <script src="../reveal.js/plugin/search/search.js"></script>
-  <script src="../reveal.js/plugin/zoom/zoom.js"></script>
-  <script src="../reveal.js/plugin/math/math.js"></script>
+  <!-- reveal.js plugins -->
+  <script src="https://unpkg.com/reveal.js@^4//plugin/notes/notes.js"></script>
+  <script src="https://unpkg.com/reveal.js@^4//plugin/search/search.js"></script>
+  <script src="https://unpkg.com/reveal.js@^4//plugin/zoom/zoom.js"></script>
+  <script src="https://unpkg.com/reveal.js@^4//plugin/math/math.js"></script>
 
   <script>
 
       // Full list of configuration options available at:
       // https://revealjs.com/config/
       Reveal.initialize({
+        // Display controls in the bottom right corner
+        controls: true,
+
+        // Help the user learn the controls by providing hints, for example by
+        // bouncing the down arrow when they first encounter a vertical slide
+        controlsTutorial: true,
+
+        // Determines where controls appear, "edges" or "bottom-right"
+        controlsLayout: 'bottom-right',
+
+        // Visibility rule for backwards navigation arrows; "faded", "hidden"
+        // or "visible"
+        controlsBackArrows: 'faded',
+
+        // Display a presentation progress bar
+        progress: true,
+
+        // Display the page number of the current slide
+        slideNumber: false,
+
+        // 'all', 'print', or 'speaker'
+        showSlideNumber: 'all',
+
+        // Add the current slide number to the URL hash so that reloading the
+        // page/copying the URL will return you to the same slide
+        hash: true,
+
+        // Start with 1 for the hash rather than 0
+        hashOneBasedIndex: false,
+
+        // Flags if we should monitor the hash and change slides accordingly
+        respondToHashChanges: true,
+
         // Push each slide change to the browser history
-        history: true,
-        // Transition style
-        transition: 'linear', // none/fade/slide/convex/concave/zoom
+        history: false,
+
+        // Enable keyboard shortcuts for navigation
+        keyboard: true,
+
+        // Enable the slide overview mode
+        overview: true,
+
+        // Disables the default reveal.js slide layout (scaling and centering)
+        // so that you can use custom CSS layout
+        disableLayout: false,
+
+        // Vertical centering of slides
+        center: true,
+
+        // Enables touch navigation on devices with touch input
+        touch: true,
+
+        // Loop the presentation
+        loop: false,
+
+        // Change the presentation direction to be RTL
+        rtl: false,
+
+        // see https://revealjs.com/vertical-slides/#navigation-mode
+        navigationMode: 'default',
+
+        // Randomizes the order of slides each time the presentation loads
+        shuffle: false,
+
+        // Turns fragments on and off globally
+        fragments: true,
+
+        // Flags whether to include the current fragment in the URL,
+        // so that reloading brings you to the same fragment position
+        fragmentInURL: true,
+
+        // Flags if the presentation is running in an embedded mode,
+        // i.e. contained within a limited portion of the screen
+        embedded: false,
+
+        // Flags if we should show a help overlay when the questionmark
+        // key is pressed
+        help: true,
+
+        // Flags if it should be possible to pause the presentation (blackout)
+        pause: true,
+
+        // Flags if speaker notes should be visible to all viewers
+        showNotes: false,
+
+        // Global override for autoplaying embedded media (null/true/false)
+        autoPlayMedia: null,
+
+        // Global override for preloading lazy-loaded iframes (null/true/false)
+        preloadIframes: null,
+
+        // Number of milliseconds between automatically proceeding to the
+        // next slide, disabled when set to 0, this value can be overwritten
+        // by using a data-autoslide attribute on your slides
+        autoSlide: 0,
+
+        // Stop auto-sliding after user input
+        autoSlideStoppable: true,
+
+        // Use this method for navigation when auto-sliding
+        autoSlideMethod: null,
+
+        // Specify the average time in seconds that you think you will spend
+        // presenting each slide. This is used to show a pacing timer in the
+        // speaker view
+        defaultTiming: null,
+
+        // Enable slide navigation via mouse wheel
+        mouseWheel: false,
+
+        // The display mode that will be used to show slides
+        display: 'block',
+
+        // Hide cursor if inactive
+        hideInactiveCursor: true,
+
+        // Time before the cursor is hidden (in ms)
+        hideCursorTime: 5000,
+
+        // Opens links in an iframe preview overlay
+        previewLinks: false,
+
+        // Transition style (none/fade/slide/convex/concave/zoom)
+        transition: 'linear',
+
+        // Transition speed (default/fast/slow)
+        transitionSpeed: 'default',
+
+        // Transition style for full page slide backgrounds
+        // (none/fade/slide/convex/concave/zoom)
+        backgroundTransition: 'fade',
+
+        // Number of slides away from the current that are visible
+        viewDistance: 3,
+
+        // Number of slides away from the current that are visible on mobile
+        // devices. It is advisable to set this to a lower number than
+        // viewDistance in order to save resources.
+        mobileViewDistance: 2,
+
         math: {
           mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js',
           config: 'TeX-AMS_HTML-full',

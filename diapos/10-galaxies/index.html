@@ -8,17 +8,28 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
-  <link rel="stylesheet" href="../reveal.js/dist/reset.css">
-  <link rel="stylesheet" href="../reveal.js/dist/reveal.css">
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^4//dist/reset.css">
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^4//dist/reveal.css">
   <style>
+    .reveal .sourceCode {  /* see #7635 */
+      overflow: visible;
+    }
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    span.underline{text-decoration: underline;}
-    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    ul.task-list{list-style: none;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
   </style>
-  <link rel="stylesheet" href="../reveal.js/dist/theme/night.css" id="theme">
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^4//dist/theme/night.css" id="theme">
 </head>
 <body>
   <div class="reveal">
@@ -33,7 +44,8 @@
 <section class="slide level1">
 
 <figure>
-<a href="https://www.nasa.gov/feature/goddard/2020/nasas-hubble-surveys-gigantic-galaxy"> <img src="../../images/stsci-h-p2001a-m-2000x1500_0.png"
+<a href="https://www.nasa.gov/feature/goddard/2020/nasas-hubble-surveys-gigantic-galaxy">
+<img src="../../images/stsci-h-p2001a-m-2000x1500_0.png"
       alt="UGC 2885"
       style="max-width: 700px;"> </a>
 <figcaption style="font-size: 0.4em; color: #666;">
@@ -49,8 +61,10 @@ NASA, ESA and B. Holwerda (University of Louisville)
 <li>Loi de Hubble et expansion de l’Univers</li>
 </ol>
 </section>
-<section id="section" class="slide level1" data-background-image="../../images/STSCI-H-p2016a-m-2000x1374.jpg">
-<h1 data-background-image="../../images/STSCI-H-p2016a-m-2000x1374.jpg"></h1>
+<section id="section" class="slide level1"
+data-background-image="../../images/STSCI-H-p2016a-m-2000x1374.jpg">
+<h1
+data-background-image="../../images/STSCI-H-p2016a-m-2000x1374.jpg"></h1>
 <h2 style="background-color: rgba(100, 100, 100, 0.5); padding: 20px;">
 Structure de la Voie lactée
 </h2>
@@ -80,7 +94,8 @@ NASA, ESA, STScI
 </ul>
 </div><div class="column" style="width:50%;">
 <figure>
-<a href="https://commons.wikimedia.org/wiki/File:Kapteyn2.jpg"> <img src="../../images/Kapteyn2.jpg"
+<a href="https://commons.wikimedia.org/wiki/File:Kapteyn2.jpg">
+<img src="../../images/Kapteyn2.jpg"
       alt="Jacobus Kapteyn"
       style="max-width: 300px;"> </a>
 </figure>
@@ -90,11 +105,14 @@ NASA, ESA, STScI
 <section class="slide level1">
 
 <figure>
-<a href="https://commons.wikimedia.org/wiki/File:Foggy_forest.jpg"> <img src="../../images/Foggy_forest.jpg"
+<a href="https://commons.wikimedia.org/wiki/File:Foggy_forest.jpg">
+<img src="../../images/Foggy_forest.jpg"
       alt="Forêt brumeuse"
       style="max-width: 700px;"> </a>
 <figcaption style="font-size: 0.4em; color: #666;">
-Nithya sai.c <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.en">CC BY-SA 4.0</a>
+Nithya sai.c <a
+href="https://creativecommons.org/licenses/by-sa/4.0/deed.en">CC BY-SA
+4.0</a>
 </figcaption>
 </figure>
 </section>
@@ -102,7 +120,8 @@ Nithya sai.c <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.en">CC
 
 <h4 id="vue-du-dessus">Vue du dessus</h4>
 <figure>
-<a href="https://spaceplace.nasa.gov/galaxy/en/"> <img src="../../images/galaxy-shapes.png"
+<a href="https://spaceplace.nasa.gov/galaxy/en/">
+<img src="../../images/galaxy-shapes.png"
       alt="Diagramme de la Voie lactée"
       style="max-height: 550px;
              background-color: #dddddd;
@@ -116,13 +135,16 @@ Nithya sai.c <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.en">CC
 
 <h4 id="vue-de-côté">Vue de côté</h4>
 <figure>
-<a href="https://commons.wikimedia.org/wiki/File:Milky_way_profile_-_fr.svg"> <img src="../../images/Milky_way_profile-fr.png"
+<a href="https://commons.wikimedia.org/wiki/File:Milky_way_profile_-_fr.svg">
+<img src="../../images/Milky_way_profile-fr.png"
       alt="Diagramme de la Voie lactée"
       style="max-height: 520px;
              background-color: #dddddd;
       "> </a>
 <figcaption style="font-size: 0.4em; color: #666;">
-RJHall <a href="https://creativecommons.org/licenses/by-sa/3.0/deed.en">CC BY-SA 3.0</a>
+RJHall <a
+href="https://creativecommons.org/licenses/by-sa/3.0/deed.en">CC BY-SA
+3.0</a>
 </figcaption>
 </figure>
 </section>
@@ -130,28 +152,36 @@ RJHall <a href="https://creativecommons.org/licenses/by-sa/3.0/deed.en">CC BY-SA
 
 <h4 id="amas-globulaire">Amas globulaire</h4>
 <figure>
-<a href="https://commons.wikimedia.org/wiki/File:Milky_way_profile_-_fr.svg"> <img src="../../images/42916395422_ec18e3f8a5_c.jpg"
+<a href="https://commons.wikimedia.org/wiki/File:Milky_way_profile_-_fr.svg">
+<img src="../../images/42916395422_ec18e3f8a5_c.jpg"
       alt="Amas globulaire M79"
       style="max-height: 520px;"> </a>
 <figcaption style="font-size: 0.4em; color: #666;">
-NASA and ESA; S. Djorgovski (Caltech) and F. Ferraro (University of Bologna)
+NASA and ESA; S. Djorgovski (Caltech) and F. Ferraro (University of
+Bologna)
 </figcaption>
 </figure>
 </section>
 <section class="slide level1">
 
-<h4 id="orbite-des-étoiles-autour-du-centre-galactique">Orbite des étoiles autour du centre galactique</h4>
+<h4 id="orbite-des-étoiles-autour-du-centre-galactique">Orbite des
+étoiles autour du centre galactique</h4>
 <figure>
-<a href="https://commons.wikimedia.org/wiki/File:Galactic_centre_orbits.svg"> <img src="../../images/Galactic_centre_orbits.png"
+<a href="https://commons.wikimedia.org/wiki/File:Galactic_centre_orbits.svg">
+<img src="../../images/Galactic_centre_orbits.png"
       alt="Orbite d'étoiles proches du centre galactique"
       style="max-height: 520px;"> </a>
 <figcaption style="font-size: 0.4em; color: #666;">
-Cmglee <a href="https://creativecommons.org/licenses/by-sa/3.0/deed.en">CC BY-SA 3.0</a>
+Cmglee <a
+href="https://creativecommons.org/licenses/by-sa/3.0/deed.en">CC BY-SA
+3.0</a>
 </figcaption>
 </figure>
 </section>
-<section id="section-1" class="slide level1" data-background-image="../../images/STSCI-H-p2016a-m-2000x1374.jpg">
-<h1 data-background-image="../../images/STSCI-H-p2016a-m-2000x1374.jpg"></h1>
+<section id="section-1" class="slide level1"
+data-background-image="../../images/STSCI-H-p2016a-m-2000x1374.jpg">
+<h1
+data-background-image="../../images/STSCI-H-p2016a-m-2000x1374.jpg"></h1>
 <h2 style="background-color: rgba(100, 100, 100, 0.5); padding: 20px;">
 Rotation des galaxies et matière sombre
 </h2>
@@ -162,28 +192,35 @@ NASA, ESA, STScI
 </section>
 <section class="slide level1">
 
-<h2 id="comment-évaluer-la-masse-dune-galaxie">Comment évaluer la masse d’une galaxie?</h2>
+<h2 id="comment-évaluer-la-masse-dune-galaxie">Comment évaluer la masse
+d’une galaxie?</h2>
 </section>
 <section class="slide level1">
 
 <h3 id="relation-luminosité-masse">Relation luminosité-masse</h3>
 <ul>
-<li class="fragment">Majorité des étoiles moins brillantes que Soleil (M et K)</li>
+<li class="fragment">Majorité des étoiles moins brillantes que Soleil (M
+et K)</li>
 <li class="fragment">4 masses solaires → 1 luminosité solaire</li>
-<li class="fragment">Luminosité de la galaxie : 25 milliards de luminosités solaires</li>
-<li class="fragment">Masse de la galaxie : 100 milliards de masses solaires</li>
+<li class="fragment">Luminosité de la galaxie : 25 milliards de
+luminosités solaires</li>
+<li class="fragment">Masse de la galaxie : 100 milliards de masses
+solaires</li>
 </ul>
 </section>
 <section class="slide level1">
 
 <h3 id="rotation-de-la-galaxie">Rotation de la galaxie</h3>
 <figure>
-<a href="https://commons.wikimedia.org/wiki/File:Galactic_centre_orbits.svg"> <img src="../../images/Galactic_Rotation.png"
+<a href="https://commons.wikimedia.org/wiki/File:Galactic_centre_orbits.svg">
+<img src="../../images/Galactic_Rotation.png"
       alt="Rotation d'une galaxie spirale"
       style="max-height: 520px;
              background-color: #fff"> </a>
 <figcaption style="font-size: 0.4em; color: #666;">
-William Crochot <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.en">CC BY-SA 4.0</a>
+William Crochot <a
+href="https://creativecommons.org/licenses/by-sa/4.0/deed.en">CC BY-SA
+4.0</a>
 </figcaption>
 </figure>
 </section>
@@ -199,11 +236,15 @@ William Crochot <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.en"
 <iframe src="../../images/Galaxy_rotation_under_the_influence_of_dark_matter.ogv?embedplayer=yes" width="720" height="360" frameborder="0">
 </iframe>
 <figcaption style="font-size: 0.4em; color: #666;">
-Ingo Berg <a href="https://creativecommons.org/licenses/by-sa/3.0/deed.en">CC BY-SA 3.0</a>
+Ingo Berg <a
+href="https://creativecommons.org/licenses/by-sa/3.0/deed.en">CC BY-SA
+3.0</a>
 </figcaption>
 </section>
-<section id="section-2" class="slide level1" data-background-image="../../images/STSCI-H-p2016a-m-2000x1374.jpg">
-<h1 data-background-image="../../images/STSCI-H-p2016a-m-2000x1374.jpg"></h1>
+<section id="section-2" class="slide level1"
+data-background-image="../../images/STSCI-H-p2016a-m-2000x1374.jpg">
+<h1
+data-background-image="../../images/STSCI-H-p2016a-m-2000x1374.jpg"></h1>
 <h2 style="background-color: rgba(100, 100, 100, 0.5); padding: 20px;">
 Loi de Hubble et expansion de l’Univers
 </h2>
@@ -217,7 +258,8 @@ NASA, ESA, STScI
 <h3 id="univers-en-expansion">Univers en expansion</h3>
 <p><img src="../../images/Georges_Lemaitre_1930s.jpg"
   alt="Georges Lemaître"
-  style="max-height: 300px;"> <img src="../../images/Aleksandr_Fridman.png"
+  style="max-height: 300px;">
+<img src="../../images/Aleksandr_Fridman.png"
   alt="Aleksandr Fridman"
   style="max-height: 300px;"> <img src="../../images/Edwin_Hubble.jpg"
   alt="Edwin Hubble"
@@ -239,7 +281,8 @@ Relation vélocité-distance dans l’article de Edwin Hubble de 1929.
 
 <h3 id="modèle-du-pain-aux-raisins">Modèle du pain aux raisins</h3>
 <figure>
-<a href="https://map.gsfc.nasa.gov/universe/bb_tests_exp.html"> <img src="../../images/990404b.gif"
+<a href="https://map.gsfc.nasa.gov/universe/bb_tests_exp.html">
+<img src="../../images/990404b.gif"
       alt="Modèle du pain aux raisins"
       style="max-height: 500px;"> </a>
 <figcaption style="font-size: 0.4em; color: #666;">
@@ -251,7 +294,8 @@ NASA
 
 <h3 id="accélération-de-lexpansion">Accélération de l’expansion</h3>
 <figure>
-<a href="https://www.nasa.gov/mission_pages/planck/multimedia/pia16873.html"> <img src="../../images/pia16873.jpg"
+<a href="https://www.nasa.gov/mission_pages/planck/multimedia/pia16873.html">
+<img src="../../images/pia16873.jpg"
       alt="Modèle du pain aux raisins"
       style="max-height: 500px;"> </a>
 <figcaption style="font-size: 0.4em; color: #666;">
@@ -269,23 +313,159 @@ ESA and the Planck Collaboration
     </div>
   </div>
 
-  <script src="../reveal.js/dist/reveal.js"></script>
+  <script src="https://unpkg.com/reveal.js@^4//dist/reveal.js"></script>
 
-  // reveal.js plugins
-  <script src="../reveal.js/plugin/notes/notes.js"></script>
-  <script src="../reveal.js/plugin/search/search.js"></script>
-  <script src="../reveal.js/plugin/zoom/zoom.js"></script>
-  <script src="../reveal.js/plugin/math/math.js"></script>
+  <!-- reveal.js plugins -->
+  <script src="https://unpkg.com/reveal.js@^4//plugin/notes/notes.js"></script>
+  <script src="https://unpkg.com/reveal.js@^4//plugin/search/search.js"></script>
+  <script src="https://unpkg.com/reveal.js@^4//plugin/zoom/zoom.js"></script>
+  <script src="https://unpkg.com/reveal.js@^4//plugin/math/math.js"></script>
 
   <script>
 
       // Full list of configuration options available at:
       // https://revealjs.com/config/
       Reveal.initialize({
+        // Display controls in the bottom right corner
+        controls: true,
+
+        // Help the user learn the controls by providing hints, for example by
+        // bouncing the down arrow when they first encounter a vertical slide
+        controlsTutorial: true,
+
+        // Determines where controls appear, "edges" or "bottom-right"
+        controlsLayout: 'bottom-right',
+
+        // Visibility rule for backwards navigation arrows; "faded", "hidden"
+        // or "visible"
+        controlsBackArrows: 'faded',
+
+        // Display a presentation progress bar
+        progress: true,
+
+        // Display the page number of the current slide
+        slideNumber: false,
+
+        // 'all', 'print', or 'speaker'
+        showSlideNumber: 'all',
+
+        // Add the current slide number to the URL hash so that reloading the
+        // page/copying the URL will return you to the same slide
+        hash: true,
+
+        // Start with 1 for the hash rather than 0
+        hashOneBasedIndex: false,
+
+        // Flags if we should monitor the hash and change slides accordingly
+        respondToHashChanges: true,
+
         // Push each slide change to the browser history
-        history: true,
-        // Transition style
-        transition: 'fade', // none/fade/slide/convex/concave/zoom
+        history: false,
+
+        // Enable keyboard shortcuts for navigation
+        keyboard: true,
+
+        // Enable the slide overview mode
+        overview: true,
+
+        // Disables the default reveal.js slide layout (scaling and centering)
+        // so that you can use custom CSS layout
+        disableLayout: false,
+
+        // Vertical centering of slides
+        center: true,
+
+        // Enables touch navigation on devices with touch input
+        touch: true,
+
+        // Loop the presentation
+        loop: false,
+
+        // Change the presentation direction to be RTL
+        rtl: false,
+
+        // see https://revealjs.com/vertical-slides/#navigation-mode
+        navigationMode: 'default',
+
+        // Randomizes the order of slides each time the presentation loads
+        shuffle: false,
+
+        // Turns fragments on and off globally
+        fragments: true,
+
+        // Flags whether to include the current fragment in the URL,
+        // so that reloading brings you to the same fragment position
+        fragmentInURL: true,
+
+        // Flags if the presentation is running in an embedded mode,
+        // i.e. contained within a limited portion of the screen
+        embedded: false,
+
+        // Flags if we should show a help overlay when the questionmark
+        // key is pressed
+        help: true,
+
+        // Flags if it should be possible to pause the presentation (blackout)
+        pause: true,
+
+        // Flags if speaker notes should be visible to all viewers
+        showNotes: false,
+
+        // Global override for autoplaying embedded media (null/true/false)
+        autoPlayMedia: null,
+
+        // Global override for preloading lazy-loaded iframes (null/true/false)
+        preloadIframes: null,
+
+        // Number of milliseconds between automatically proceeding to the
+        // next slide, disabled when set to 0, this value can be overwritten
+        // by using a data-autoslide attribute on your slides
+        autoSlide: 0,
+
+        // Stop auto-sliding after user input
+        autoSlideStoppable: true,
+
+        // Use this method for navigation when auto-sliding
+        autoSlideMethod: null,
+
+        // Specify the average time in seconds that you think you will spend
+        // presenting each slide. This is used to show a pacing timer in the
+        // speaker view
+        defaultTiming: null,
+
+        // Enable slide navigation via mouse wheel
+        mouseWheel: false,
+
+        // The display mode that will be used to show slides
+        display: 'block',
+
+        // Hide cursor if inactive
+        hideInactiveCursor: true,
+
+        // Time before the cursor is hidden (in ms)
+        hideCursorTime: 5000,
+
+        // Opens links in an iframe preview overlay
+        previewLinks: false,
+
+        // Transition style (none/fade/slide/convex/concave/zoom)
+        transition: 'fade',
+
+        // Transition speed (default/fast/slow)
+        transitionSpeed: 'default',
+
+        // Transition style for full page slide backgrounds
+        // (none/fade/slide/convex/concave/zoom)
+        backgroundTransition: 'fade',
+
+        // Number of slides away from the current that are visible
+        viewDistance: 3,
+
+        // Number of slides away from the current that are visible on mobile
+        // devices. It is advisable to set this to a lower number than
+        // viewDistance in order to save resources.
+        mobileViewDistance: 2,
+
         math: {
           mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js',
           config: 'TeX-AMS_HTML-full',

@@ -1,9 +1,11 @@
 % Astronomie à l'œil nu
-% CEA Explorer et comprendre l'Univers
-% 31 août 2020
+% Explorer et comprendre l'Univers
+% 1 février 2024
 ---
 theme: night
-transition: linear
+title-slide-attributes:
+    data-background-image: ../../images/52565304936_fc8852f1e9_k.jpg
+    data-background-size: contain
 ---
 
 <figure>
@@ -65,8 +67,6 @@ Triangulum Australe Tucana Ursa Major Ursa Minor Vela Virgo Volans Vulpecula
 
 Quels énoncés à propos des constellations sont vrais?
 
-[https://b.socrative.com/login/student/](https://b.socrative.com/login/student/) \ \ DCRDEWY
-
 <ol style="list-style-type: upper-alpha">
   <li>Elles sont formées d'étoiles qui paraissent proches dans le ciel.</li>
   <li>Elles forment des dessins imaginaires qui aident à se repérer sur la sphère
@@ -121,8 +121,6 @@ Ceci signifie que ces étoiles sont très brillantes.
 
 Vrai ou faux?
 
-[https://b.socrative.com/login/student/](https://b.socrative.com/login/student/) \ \ DCRDEWY
-
 ---
 
 ### Nébuleuses
@@ -142,7 +140,7 @@ Vrai ou faux?
 Nébuleuse d'Orion
 
 <figure>
-  <a href="https://hubblesite.org/image/3866">
+  <a href="https://hubblesite.org/contents/media/images/3866-Image?keyword=3866">
     <img src="../../images/hs-2006-01-a-large_web.jpg"
     alt="Nébuleuse d'Orion vue par Hubble" style="max-height: 55%; max-width: 55%"/>
   </a>
@@ -215,9 +213,11 @@ Robert Knapp (www.modernartphotograph.com, CC-BY-SA-3.0)
 
 #### Rotation diurne de la sphère céleste
 
-<img alt="Rotation diurne de la sphère céleste"
-  src="../../images/ClassAction_CoordinateSystemsComparison.png"
-  style="max-height: 450px;"/>
+<a href="https://astro.unl.edu/naap/motion2/animations/ce_hc.html">
+  <img alt="Rotation diurne de la sphère céleste"
+    src="../../images/ClassAction_CoordinateSystemsComparison.png"
+    style="max-height: 450px;"/>
+</a>
 <figcaption style="font-size: 0.4em; color: #666;">
   Astronomy Education at the University of Nebraska-Lincoln Web Site
   ([http://astro.unl.edu](http://astro.unl.edu))
@@ -302,9 +302,11 @@ sera
 
 ### Mouvement annuel du Soleil
 
-<img alt="Mouvement annuel du Soleil"
-  src="../../images/ClassAction_SunPaths.png"
-  style="max-height: 450px;"/>
+<a href="https://astro.unl.edu/naap/motion3/animations/sunmotions.html">
+  <img alt="Mouvement annuel du Soleil"
+    src="../../images/ClassAction_SunPaths.png"
+    style="max-height: 450px;" />
+</a>
 <figcaption style="font-size: 0.4em; color: #666;">
   Astronomy Education at the University of Nebraska-Lincoln Web Site
   ([http://astro.unl.edu](http://astro.unl.edu))
@@ -316,9 +318,11 @@ sera
 
 ---
 
-<img alt="Saisons"
-  src="../../images/ClassAction_Seasons.png"
-  style="max-height: 450px;"/>
+<a href="https://astro.unl.edu/classaction/animations/coordsmotion/eclipticsimulator.html">
+  <img alt="Saisons"
+    src="../../images/ClassAction_Seasons.png"
+    style="max-height: 450px;"/>
+</a>
 <figcaption style="font-size: 0.4em; color: #666;">
   Astronomy Education at the University of Nebraska-Lincoln Web Site
   ([http://astro.unl.edu](http://astro.unl.edu))
@@ -332,9 +336,11 @@ sera
 
 ### Le zodiaque et l'écliptique
 
-<img alt="Zodiaque et écliptique"
-  src="../../images/ClassAction_Zodiac.png"
-  style="max-height: 450px;"/>
+<a href="https://astro.unl.edu/classaction/animations/coordsmotion/zodiac.html">
+  <img alt="Zodiaque et écliptique"
+    src="../../images/ClassAction_Zodiac.png"
+    style="max-height: 450px;"/>
+</a>
 <figcaption style="font-size: 0.4em; color: #666;">
   Astronomy Education at the University of Nebraska-Lincoln Web Site
   ([http://astro.unl.edu](http://astro.unl.edu))
@@ -396,9 +402,11 @@ NASA Goddard Media Studios
 
 ---
 
-<img alt="Éclipses"
-  src="../../images/ClassAction_Eclipse.png"
-  style="max-height: 450px;"/>
+<a href="https://astro.unl.edu/classaction/animations/lunarcycles/shadowsim.html">
+  <img alt="Éclipses"
+    src="../../images/ClassAction_Eclipse.png"
+    style="max-height: 450px;"/>
+</a>
 <figcaption style="font-size: 0.4em; color: #666;">
   Astronomy Education at the University of Nebraska-Lincoln Web Site
   ([http://astro.unl.edu](http://astro.unl.edu))
@@ -433,27 +441,16 @@ Est-ce qu'une éclipse de Soleil est visible partout où le Soleil est visible?
 
 ### Précession des équinoxes
 
-<iframe width="560" height="315"
-src="https://www.youtube.com/embed/uf-UFu-lACY?start=9" frameborder="0"
-allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-allowfullscreen></iframe>
-
----
-
-### Précession des équinoxes
-
 <a title="By Tfr000 (talk) 14:59, 14 May 2012 (UTC) (Own work) [CC-BY-SA-3.0
 (http://creativecommons.org/licenses/by-sa/3.0) or GFDL
 (http://www.gnu.org/copyleft/fdl.html)], via Wikimedia Commons"
 href="http://commons.wikimedia.org/wiki/File%3APrecession_animation_small_new.gif"><img
-width="256" alt="Precession animation small new"
+width="400" alt="Precession animation small new"
 src="../../images/Precession_animation_small.gif"/></a>
-
 <figcaption style="font-size: 0.4em; color: #666;">
   Tfr000 (CC BY-SA 3.0)
 </figcaption>
 
-<br />
 Période de **26000 ans**
 
 ---
@@ -462,4 +459,8 @@ Période de **26000 ans**
 
 - Le pôle Nord céleste ne coïncide pas toujours avec Polaris
 - Signe astrologique pas toujours le même que le signe « astronomique »
+
+---
+
+## {background-image="../../images/52565304936_fc8852f1e9_k.jpg"}
 

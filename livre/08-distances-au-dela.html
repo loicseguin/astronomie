@@ -4,14 +4,23 @@
   <meta charset="utf-8" />
   <meta name="generator" content="pandoc" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
-  <title>Explorer et comprendre l’Univers – Chapitre 8 Distances au-delà du système solaire</title>
+  <title>Explorer et comprendre
+l’Univers – Chapitre 8 Distances au-delà du système solaire</title>
   <style>
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    span.underline{text-decoration: underline;}
-    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    ul.task-list{list-style: none;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
   </style>
   <link rel="stylesheet" href="../www/style.css" />
   <!--[if lt IE 9]>
@@ -22,74 +31,222 @@
 <div class="page">
   <div class="page-content">
 <header id="title-block-header">
-<h1 class="title"><span class="chapnum">Chapitre 8</span> Distances au-delà du système solaire</h1>
+<h1 class="title"><span class="chapnum">Chapitre 8</span> Distances
+au-delà du système solaire</h1>
 </header>
 <figure>
-<a href="https://apod.nasa.gov/apod/ap130909.html"> <img src="../images/rspuppis_bryne_3938.jpg"
+<a href="https://apod.nasa.gov/apod/ap130909.html">
+<img src="../images/rspuppis_bryne_3938.jpg"
       alt="Étoile variable de type céphéide RS Puppis"
       width="100%"> </a>
 <figcaption>
-Image de l’étoile variable céphéide RS Puppis prise par le télescope spatial Hubble (Hubble Legacy Archive, NASA, ESA - Traitement: Stephen Byrne)
+Image de l’étoile variable céphéide RS Puppis prise par le télescope
+spatial Hubble (Hubble Legacy Archive, NASA, ESA - Traitement: Stephen
+Byrne)
 </figcaption>
 </figure>
-<p>Au chapitre précédent nous avons discuté de la façon dont les télescopes nous permettent de collecter la lumière afin de l’analyser et d’en extraire le maximum d’information sur les astres. Une des questions les plus naturelle qu’on peut poser à propos des astres et à laquelle on pourra répondre en utilisant les données collectées par les télescopes, c’est de se demander à quelles distances ils se trouvent de nous. Les distances dans l’Univers sont si grandes que les évaluer est une tâche remarquablement difficile. Nous avons déjà discuté des méthodes utilisées pour évaluer les distances dans le système solaire. Le premier jalon était la mesure de la taille de la Terre par Ératosthène. Cette mesure avait ensuite permis de déduire la valeur de l’unité astronomique et donc d’établir les distances des différents objets dans le système solaire grâce à des méthodes géométriques, comme celle de la parallaxe. Ces valeurs ont été confirmée par la méthode du radar. L’objectif de ce chapitre est d’explorer les étapes suivantes dans l’échelle des distances cosmiques. Nous ne présenterons qu’un petit nombre de méthodes, il en existe plusieurs autres que nous n’aurons pas le temps d’aborder.</p>
+<p>Au chapitre précédent nous avons discuté de la façon dont les
+télescopes nous permettent de collecter la lumière afin de l’analyser et
+d’en extraire le maximum d’information sur les astres. Une des questions
+les plus naturelle qu’on peut poser à propos des astres et à laquelle on
+pourra répondre en utilisant les données collectées par les télescopes,
+c’est de se demander à quelles distances ils se trouvent de nous. Les
+distances dans l’Univers sont si grandes que les évaluer est une tâche
+remarquablement difficile. Nous avons déjà discuté des méthodes
+utilisées pour évaluer les distances dans le système solaire. Le premier
+jalon était la mesure de la taille de la Terre par Ératosthène. Cette
+mesure avait ensuite permis de déduire la valeur de l’unité astronomique
+et donc d’établir les distances des différents objets dans le système
+solaire grâce à des méthodes géométriques, comme celle de la parallaxe.
+Ces valeurs ont été confirmée par la méthode du radar. L’objectif de ce
+chapitre est d’explorer les étapes suivantes dans l’échelle des
+distances cosmiques. Nous ne présenterons qu’un petit nombre de
+méthodes, il en existe plusieurs autres que nous n’aurons pas le temps
+d’aborder.</p>
 <h2 id="méthode-de-la-parallaxe">Méthode de la parallaxe</h2>
-<p>Nous avons vu au <a href="./04-distances-systeme-solaire.html">chapitre 4</a> que la méthode de la parallaxe consiste à observer un objet de deux points de vue différents. On voit alors l’objet à deux endroits différents par rapport aux étoiles lointaines et en faisant un peu de trigonométrie, on peut déduire la distance de l’objet. Cette technique fonctionne bien si on on a deux points de vue assez éloignés l’un de l’autre. Par exemple, nos deux yeux, séparés d’environ 10 cm, nous permettent d’évaluer des distances de l’ordre de quelques mètres. En observant de Paris et Cayenne, deux villes séparées de 7 000 km, Cassini et Richer ont été en mesure de déterminer la distance de Mars, situés à environ 100 millions de km de la Terre. Cependant, si on veut mesurer la distance d’objets à l’extérieur du système solaire, les deux points d’observation doivent être encore plus éloignés l’un de l’autre.</p>
+<p>Nous avons vu au <a
+href="./04-distances-systeme-solaire.html">chapitre 4</a> que la méthode
+de la parallaxe consiste à observer un objet de deux points de vue
+différents. On voit alors l’objet à deux endroits différents par rapport
+aux étoiles lointaines et en faisant un peu de trigonométrie, on peut
+déduire la distance de l’objet. Cette technique fonctionne bien si on on
+a deux points de vue assez éloignés l’un de l’autre. Par exemple, nos
+deux yeux, séparés d’environ 10 cm, nous permettent d’évaluer des
+distances de l’ordre de quelques mètres. En observant de Paris et
+Cayenne, deux villes séparées de 7 000 km, Cassini et Richer ont été en
+mesure de déterminer la distance de Mars, situés à environ 100 millions
+de km de la Terre. Cependant, si on veut mesurer la distance d’objets à
+l’extérieur du système solaire, les deux points d’observation doivent
+être encore plus éloignés l’un de l’autre.</p>
 <figure>
-<a href="https://commons.wikimedia.org/wiki/File:Friedrich_Wilhelm_Bessel_(1839_painting).jpg"> <img src="../images/Friedrich_Wilhelm_Bessel_1839_painting.jpg"
+<a href="https://commons.wikimedia.org/wiki/File:Friedrich_Wilhelm_Bessel_(1839_painting).jpg">
+<img src="../images/Friedrich_Wilhelm_Bessel_1839_painting.jpg"
       alt="Portrait de Friedrich Bessel par le peintre danois Christian
       Albrecht Jensen. Bessel est le premier astronome à avoir mesuré la
       distance d'une étoile avec la méthode de la parallaxe annuelle."
     > </a>
 <figcaption>
-Portrait de Friedrich Bessel par le peintre danois Christian Albrecht Jensen. Bessel est le premier astronome a avoir mesuré la distance d’une étoile avec la méthode de la parallaxe annuelle.
+Portrait de Friedrich Bessel par le peintre danois Christian Albrecht
+Jensen. Bessel est le premier astronome a avoir mesuré la distance d’une
+étoile avec la méthode de la parallaxe annuelle.
 </figcaption>
 </figure>
-<p>Le premier astronome a avoir appliqué la méthode de la parallaxe pour mesurer la distance d’une étoile est Friedrich Bessel (1784-1846). L’idée ingénieuse qu’il eut fut de mesurer la parallaxe de l’étoile en l’observant à six mois d’intervalle. En six mois, la Terre fait la moitié d’une révolution autour du Soleil ce qui fait qu’on a deux points d’observation qui sont séparés par le diamètre de l’orbite terrestre. Connaissant ce diamètre (2 unités astronomiques), Bessel a été en mesure de déduire que l’étoile 61 Cygni était à une distance de 10,3 années-lumière (la valeur aujourd’hui acceptée est 11,4 années-lumière). Pour obtenir ce résultat, Bessel a mesuré un angle d’environ 1/10 000 de degré, un exploit technique pour l’époque!</p>
+<p>Le premier astronome a avoir appliqué la méthode de la parallaxe pour
+mesurer la distance d’une étoile est Friedrich Bessel (1784-1846).
+L’idée ingénieuse qu’il eut fut de mesurer la parallaxe de l’étoile en
+l’observant à six mois d’intervalle. En six mois, la Terre fait la
+moitié d’une révolution autour du Soleil ce qui fait qu’on a deux points
+d’observation qui sont séparés par le diamètre de l’orbite terrestre.
+Connaissant ce diamètre (2 unités astronomiques), Bessel a été en mesure
+de déduire que l’étoile 61 Cygni était à une distance de 10,3
+années-lumière (la valeur aujourd’hui acceptée est 11,4 années-lumière).
+Pour obtenir ce résultat, Bessel a mesuré un angle d’environ 1/10 000 de
+degré, un exploit technique pour l’époque!</p>
 <figure>
-<a href="https://commons.wikimedia.org/wiki/File:ParallaxV2.svg"> <img src="../images/annual-parallax.png"
+<a href="https://commons.wikimedia.org/wiki/File:ParallaxV2.svg">
+<img src="../images/annual-parallax.png"
       alt="Parallaxe annuelle"
       width="80%"> </a>
 <figcaption>
-En observant une étoile proche (en rouge) à deux moments de l’année, on la voit bouger par rapport aux étoiles lointaines. Une mesure de l’angle combinée avec la distance de deux unités astronomiques entre les points d’observation permet de calculer la distance. (WikiStefan <a href="https://creativecommons.org/licenses/by/3.0/deed.en">CC BY 3.0</a>)
+En observant une étoile proche (en rouge) à deux moments de l’année, on
+la voit bouger par rapport aux étoiles lointaines. Une mesure de l’angle
+combinée avec la distance de deux unités astronomiques entre les points
+d’observation permet de calculer la distance. (WikiStefan <a
+href="https://creativecommons.org/licenses/by/3.0/deed.en">CC BY
+3.0</a>)
 </figcaption>
 </figure>
-<p>La méthode de la parallaxe permet de mesurer précisément la distance des étoiles les plus proches. Le satellite européen <a href="https://www.cosmos.esa.int/web/hipparcos/home">Hipparcos</a> a mesuré la distance de 118 218 étoiles entre 1989 et 1993. La précision des mesures d’angle est d’environ 10 millionièmes de degrés et le satellite a été en mesure de déterminer la distance d’étoiles avec une incertitude inférieure à 10% jusqu’à environ 1000 années-lumière. Au-delà de 1000 années-lumière, l’incertitude devient très importante et la méthode de la parallaxe ne peut pas être utilisée pour déterminer adéquatement les distances.</p>
-<h2 id="méthodes-basées-sur-lintensité-et-la-luminosité">Méthodes basées sur l’intensité et la luminosité</h2>
-<p>Si vous mettez une ampoule de 100 watts à quelques centimètres de vos yeux, elle paraîtra beaucoup plus brillante que si vous la placez à plusieurs dizaines de mètres. Cette simple observation, combinée avec une bonne compréhension de la physique de la propagation de la lumière, fournit une excellente façon de déterminer des distances. En effet, imaginez que vous connaissez le lien entre la brillance et la distance d’une ampoule de 100 watts. Si vous observez une source lumineuse et que vous savez qu’il s’agit d’une ampoule de 100 watts, vous pourrez facilement déterminer à quelle distance elle se trouve.</p>
+<p>La méthode de la parallaxe permet de mesurer précisément la distance
+des étoiles les plus proches. Le satellite européen <a
+href="https://www.cosmos.esa.int/web/hipparcos/home">Hipparcos</a> a
+mesuré la distance de 118 218 étoiles entre 1989 et 1993. La précision
+des mesures d’angle est d’environ 10 millionièmes de degrés et le
+satellite a été en mesure de déterminer la distance d’étoiles avec une
+incertitude inférieure à 10% jusqu’à environ 1000 années-lumière.
+Au-delà de 1000 années-lumière, l’incertitude devient très importante et
+la méthode de la parallaxe ne peut pas être utilisée pour déterminer
+adéquatement les distances.</p>
+<h2 id="méthodes-basées-sur-lintensité-et-la-luminosité">Méthodes basées
+sur l’intensité et la luminosité</h2>
+<p>Si vous mettez une ampoule de 100 watts à quelques centimètres de vos
+yeux, elle paraîtra beaucoup plus brillante que si vous la placez à
+plusieurs dizaines de mètres. Cette simple observation, combinée avec
+une bonne compréhension de la physique de la propagation de la lumière,
+fournit une excellente façon de déterminer des distances. En effet,
+imaginez que vous connaissez le lien entre la brillance et la distance
+d’une ampoule de 100 watts. Si vous observez une source lumineuse et que
+vous savez qu’il s’agit d’une ampoule de 100 watts, vous pourrez
+facilement déterminer à quelle distance elle se trouve.</p>
 <h3 id="luminosité-et-intensité">Luminosité et intensité</h3>
-<p>La <strong>luminosité</strong> d’une source de lumière est la quantité d’énergie que cette source émet à chaque seconde. Par exemple, une ampoule de 100 watts émet 100 joules d’énergie à chaque seconde. Une ampoule de 50 watts émet la moitié moins, soit 50 joules d’énergie à chaque seconde. La luminosité est une propriété intrinsèque à la source lumineuse qui dépend de la façon dont la lumière est produite. Dans le cas des étoiles, nous verrons la semaine prochaine que la lumière est produite par l’énergie thermique et l’énergie nucléaire. La luminosité d’une étoile dépend donc principalement de sa taille, de sa température et de sa composition chimique. Si nous connaissons ces paramètres, nous pouvons déduire la luminosité de l’étoile. À titre d’exemple, le Soleil a une luminosité de 3,8 × 10<sup>26</sup> watts. En astronomie, on utilise souvent la <strong>magnitude absolue</strong> plutôt que la luminosité. Rappelez-vous que la magnitude est une façon de mesurer la brillance d’une étoile sur une échelle où les petites valeurs correspondent à des étoiles très brillantes et les grandes valeurs à des étoiles peu brillantes. De la même façon, la magnitude absolue d’une étoile est faible si l’étoile a une grande luminosité alors qu’elle est grande si l’étoile a une faible luminosité. Le Soleil a une magnitude absolue de 4,7 alors que Deneb, une supergéante bleue environ 100 000 fois plus lumineuse que le Soleil, a une magnitude absolue de -8,7.</p>
-<p>L’<strong>intensité</strong> d’une source lumineuse dépend de la distance à laquelle on l’observe. Plus la source est éloignée, moins elle est intense. L’intensité mesure la quantité d’énergie qui arrive sur chaque unité de surface d’un détecteur à chaque seconde. Par exemple, si vous lancez un caillou dans un bassin d’eau, vous verrez que la hauteur des vagues diminue à mesure que les vagues s’éloignent du point d’impact. Pourquoi? Parce que l’énergie contenue dans la vague s’est répartie sur une plus grande surface, ce qui fait moins d’énergie par unité de surface. Pour la lumière, on sait que l’intensité est inversement proportionnelle au carré de la distance de la source. La <strong>magnitude apparente</strong> dont nous avons parlé au <a href="./01-astronomie-oeil-nu.html">chapitre 1</a> est une mesure indirecte de l’intensité.</p>
+<p>La <strong>luminosité</strong> d’une source de lumière est la
+quantité d’énergie que cette source émet à chaque seconde. Par exemple,
+une ampoule de 100 watts émet 100 joules d’énergie à chaque seconde. Une
+ampoule de 50 watts émet la moitié moins, soit 50 joules d’énergie à
+chaque seconde. La luminosité est une propriété intrinsèque à la source
+lumineuse qui dépend de la façon dont la lumière est produite. Dans le
+cas des étoiles, nous verrons la semaine prochaine que la lumière est
+produite par l’énergie thermique et l’énergie nucléaire. La luminosité
+d’une étoile dépend donc principalement de sa taille, de sa température
+et de sa composition chimique. Si nous connaissons ces paramètres, nous
+pouvons déduire la luminosité de l’étoile. À titre d’exemple, le Soleil
+a une luminosité de 3,8 × 10<sup>26</sup> watts. En astronomie, on
+utilise souvent la <strong>magnitude absolue</strong> plutôt que la
+luminosité. Rappelez-vous que la magnitude est une façon de mesurer la
+brillance d’une étoile sur une échelle où les petites valeurs
+correspondent à des étoiles très brillantes et les grandes valeurs à des
+étoiles peu brillantes. De la même façon, la magnitude absolue d’une
+étoile est faible si l’étoile a une grande luminosité alors qu’elle est
+grande si l’étoile a une faible luminosité. Le Soleil a une magnitude
+absolue de 4,7 alors que Deneb, une supergéante bleue environ 100 000
+fois plus lumineuse que le Soleil, a une magnitude absolue de -8,7.</p>
+<p>L’<strong>intensité</strong> d’une source lumineuse dépend de la
+distance à laquelle on l’observe. Plus la source est éloignée, moins
+elle est intense. L’intensité mesure la quantité d’énergie qui arrive
+sur chaque unité de surface d’un détecteur à chaque seconde. Par
+exemple, si vous lancez un caillou dans un bassin d’eau, vous verrez que
+la hauteur des vagues diminue à mesure que les vagues s’éloignent du
+point d’impact. Pourquoi? Parce que l’énergie contenue dans la vague
+s’est répartie sur une plus grande surface, ce qui fait moins d’énergie
+par unité de surface. Pour la lumière, on sait que l’intensité est
+inversement proportionnelle au carré de la distance de la source. La
+<strong>magnitude apparente</strong> dont nous avons parlé au <a
+href="./01-astronomie-oeil-nu.html">chapitre 1</a> est une mesure
+indirecte de l’intensité.</p>
 <figure>
-<a href="https://commons.wikimedia.org/wiki/File:Inverse_square_law.svg"> <img src="../images/Inverse_square_law.png"
+<a href="https://commons.wikimedia.org/wiki/File:Inverse_square_law.svg">
+<img src="../images/Inverse_square_law.png"
       alt="Intensité inversement proportionnelle au carré de la distance"
       width="80%"> </a>
 <figcaption>
-En s’éloignant d’une source, la lumière se répartie sur une surface de plus en plus grande. Si on double la distance, la surface sur laquelle l’énergie lumineuse est répartie est quatre fois plus grande, c’est-à-dire que l’intensité est quatre fois plus faible. (Borb <a href="https://creativecommons.org/licenses/by-sa/3.0/deed.en">CC BY-SA 3.0</a>)
+En s’éloignant d’une source, la lumière se répartie sur une surface de
+plus en plus grande. Si on double la distance, la surface sur laquelle
+l’énergie lumineuse est répartie est quatre fois plus grande,
+c’est-à-dire que l’intensité est quatre fois plus faible. (Borb <a
+href="https://creativecommons.org/licenses/by-sa/3.0/deed.en">CC BY-SA
+3.0</a>)
 </figcaption>
 </figure>
-<p>Considérons les étoiles jumelles GSC 01799-00656 et HIP 14684. La distance de HIP 14684 a été mesurée par la méthode de la parallaxe grâce au satellite Hipparcos. Elle est de 126 années-lumière. L’étoile jumelle GSC 01799-00656 est environ 9 fois moins intense, ce qui signifie qu’elle se trouve environ 3 fois plus loin (parce que 3 au carré donne 9), soit à environ 378 années-lumière.</p>
+<p>Considérons les étoiles jumelles GSC 01799-00656 et HIP 14684. La
+distance de HIP 14684 a été mesurée par la méthode de la parallaxe grâce
+au satellite Hipparcos. Elle est de 126 années-lumière. L’étoile jumelle
+GSC 01799-00656 est environ 9 fois moins intense, ce qui signifie
+qu’elle se trouve environ 3 fois plus loin (parce que 3 au carré donne
+9), soit à environ 378 années-lumière.</p>
 <h3 id="type-spectral">Type spectral</h3>
-<p>La méthode décrite ci-dessus est élégante, mais un problème important subsiste : comment fait-on pour déterminer que deux étoiles sont des «jumelles»? Il faut qu’on soit assuré que les deux étoiles sont vraiment identiques. Pour cela, nous utilisons une propriété importante de la lumière, sa couleur. La lumière est composée de plusieurs longueurs d’onde, c’est-à-dire de plusieurs couleurs. En utilisant un prisme, on peut, grâce au phénomène de la réfraction, disperser la lumière de telle sorte qu’on voit ses couleurs se séparer les unes des autres. On est alors en mesure de mesurer l’intensité des différentes couleurs et de produire un <strong>spectre</strong> de la lumière provenant de l’étoile. Il est également possible d’obtenir un spectre en utilisant un réseau de diffraction et le phénomène de diffraction. Vous pouvez facilement observer la lumière séparée en ses différentes couleurs avec un disque compact ou un DVD.</p>
+<p>La méthode décrite ci-dessus est élégante, mais un problème important
+subsiste : comment fait-on pour déterminer que deux étoiles sont des
+«jumelles»? Il faut qu’on soit assuré que les deux étoiles sont vraiment
+identiques. Pour cela, nous utilisons une propriété importante de la
+lumière, sa couleur. La lumière est composée de plusieurs longueurs
+d’onde, c’est-à-dire de plusieurs couleurs. En utilisant un prisme, on
+peut, grâce au phénomène de la réfraction, disperser la lumière de telle
+sorte qu’on voit ses couleurs se séparer les unes des autres. On est
+alors en mesure de mesurer l’intensité des différentes couleurs et de
+produire un <strong>spectre</strong> de la lumière provenant de
+l’étoile. Il est également possible d’obtenir un spectre en utilisant un
+réseau de diffraction et le phénomène de diffraction. Vous pouvez
+facilement observer la lumière séparée en ses différentes couleurs avec
+un disque compact ou un DVD.</p>
 <figure>
 <img src="../images/NIE_spectre.jpg"
     alt="Spectres stellaires enregistrés sur plaque photographique"
     width="60%">
 <figcaption>
-Spectres stellaires enregistrés sur plaque photographique illustrées dans le <em>New International Encyclopedia</em> de 1902.
+Spectres stellaires enregistrés sur plaque photographique illustrées
+dans le <em>New International Encyclopedia</em> de 1902.
 </figcaption>
 </figure>
-<p>Historiquement, un appareil pour séparer la lumière (prisme ou réseau de diffraction) était installé à l’oculaire d’un télescope et le spectre était enregistré sur une plaque photographique. Ceci produisait une image en noir et blanc qui devait ensuite être comparée avec d’autres spectres manuellement. En regroupant les étoiles qui avaient des spectres semblables, on pouvait établir une classification spectrale des étoiles. À la fin du XIX<sup>e</sup> et au début du XX<sup>e</sup> siècle, de nombreuses étoiles ont ainsi été classifiées. Des astronomes comme Edward Pickering, Williamina Fleming, Antonia Maury et Annie Jump Cannon ont traité des dizaines de milliers de spectres ainsi.</p>
+<p>Historiquement, un appareil pour séparer la lumière (prisme ou réseau
+de diffraction) était installé à l’oculaire d’un télescope et le spectre
+était enregistré sur une plaque photographique. Ceci produisait une
+image en noir et blanc qui devait ensuite être comparée avec d’autres
+spectres manuellement. En regroupant les étoiles qui avaient des
+spectres semblables, on pouvait établir une classification spectrale des
+étoiles. À la fin du XIX<sup>e</sup> et au début du XX<sup>e</sup>
+siècle, de nombreuses étoiles ont ainsi été classifiées. Des astronomes
+comme Edward Pickering, Williamina Fleming, Antonia Maury et Annie Jump
+Cannon ont traité des dizaines de milliers de spectres ainsi.</p>
 <figure>
 <img src="../images/spectrum_figure.png"
     alt="Spectre stellaire sous forme de graphique"
     width="80%">
 <figcaption>
-Spectres stellaires enregistrés sur capteur numérique et illustrée sous forme de graphique.
+Spectres stellaires enregistrés sur capteur numérique et illustrée sous
+forme de graphique.
 </figcaption>
 </figure>
-<p>Aujourd’hui, les spectres sont enregistrés par des capteurs numériques plutôt que des plaques photographiques et ils sont traités par ordinateur. En utilisant des modèles sophistiqués et des statistiques avancées, les ordinateurs sont capables de classifier des centaines de millier de spectres rapidement.</p>
-<p>On classe les étoiles selon leur <strong>type spectral</strong>, c’est-à-dire l’allure de leur spectre, en 9 grandes catégories identifiées par des lettres majuscules : OBAFGKMLT. Ces catégories vont des étoiles les plus bleues-blanches, celles de type O, jusqu’au étoiles rouge très foncées L et celles qui ne sont visibles que dans l’infrarouge, T. Notre Soleil, une étoile blanc-jaune, est de type G.</p>
+<p>Aujourd’hui, les spectres sont enregistrés par des capteurs
+numériques plutôt que des plaques photographiques et ils sont traités
+par ordinateur. En utilisant des modèles sophistiqués et des
+statistiques avancées, les ordinateurs sont capables de classifier des
+centaines de millier de spectres rapidement.</p>
+<p>On classe les étoiles selon leur <strong>type spectral</strong>,
+c’est-à-dire l’allure de leur spectre, en 9 grandes catégories
+identifiées par des lettres majuscules : OBAFGKMLT. Ces catégories vont
+des étoiles les plus bleues-blanches, celles de type O, jusqu’au étoiles
+rouge très foncées L et celles qui ne sont visibles que dans
+l’infrarouge, T. Notre Soleil, une étoile blanc-jaune, est de type
+G.</p>
 <figure>
 <img src="../images/HD269810_2MASS.png"
     alt="HD269810"
@@ -102,9 +259,22 @@ Spectres stellaires enregistrés sur capteur numérique et illustrée sous forme
 Images d’étoiles de type O, G et M (HD 269810, HD 7589 et Elia 2-33).
 </figcaption>
 </figure>
-<p>Deux étoiles de même type spectral et de même taille sont des étoiles jumelles. On peut donc relativement facilement trouver des étoiles jumelles en comparant leur spectre.</p>
+<p>Deux étoiles de même type spectral et de même taille sont des étoiles
+jumelles. On peut donc relativement facilement trouver des étoiles
+jumelles en comparant leur spectre.</p>
 <h3 id="céphéides">Céphéides</h3>
-<p>Une autre technique de mesure des distances repose sur une classe particulière d’étoiles variables qu’on appelle des <strong>céphéides</strong>. On dit qu’elles sont variables parce que leur luminosité change de façon périodique et régulière. En observant avec soin plusieurs céphéides différentes, Henrietta Leavitt a découvert, au début du XX<sup>e</sup> siècle, que la luminosité moyenne des céphéides était proportionnelle à leur période de pulsation. Il est facile de mesurer la période de pulsation en observant l’étoile pendant quelques jours. Par la suite, grâce à la relation entre la période et la luminosité, on peut déduire la luminosité de l’étoile. Sachant sa luminosité et son intensité, on peut calculer la distance à laquelle se trouve l’étoile.</p>
+<p>Une autre technique de mesure des distances repose sur une classe
+particulière d’étoiles variables qu’on appelle des
+<strong>céphéides</strong>. On dit qu’elles sont variables parce que
+leur luminosité change de façon périodique et régulière. En observant
+avec soin plusieurs céphéides différentes, Henrietta Leavitt a
+découvert, au début du XX<sup>e</sup> siècle, que la luminosité moyenne
+des céphéides était proportionnelle à leur période de pulsation. Il est
+facile de mesurer la période de pulsation en observant l’étoile pendant
+quelques jours. Par la suite, grâce à la relation entre la période et la
+luminosité, on peut déduire la luminosité de l’étoile. Sachant sa
+luminosité et son intensité, on peut calculer la distance à laquelle se
+trouve l’étoile.</p>
 <figure>
 <img src="../images/Leavitt.jpg"
     alt="Henrietta Swan Leavitt"
@@ -112,12 +282,21 @@ Images d’étoiles de type O, G et M (HD 269810, HD 7589 et Elia 2-33).
     alt="HD7589"
     width="50%">
 <figcaption>
-Photographie de Henrietta Swan Leavitt et graphique de son article de 1912 où elle présentait la relation luminosité-période pour les céphéides.
+Photographie de Henrietta Swan Leavitt et graphique de son article de
+1912 où elle présentait la relation luminosité-période pour les
+céphéides.
 </figcaption>
 </figure>
-<p>La méthode de mesure de distances basée sur les céphéides est très utile parce qu’il y a des céphéides partout dans l’Univers et que ce sont des étoiles géantes très brillantes qu’on peut donc voir à des distances énormes. En utilisant des céphéides observées par le télescope spatial Hubble, on a pu déterminer la distance de galaxies situées aussi loin que 108 millions d’années-lumière.</p>
+<p>La méthode de mesure de distances basée sur les céphéides est très
+utile parce qu’il y a des céphéides partout dans l’Univers et que ce
+sont des étoiles géantes très brillantes qu’on peut donc voir à des
+distances énormes. En utilisant des céphéides observées par le télescope
+spatial Hubble, on a pu déterminer la distance de galaxies situées aussi
+loin que 108 millions d’années-lumière.</p>
 <h2 id="résumé">Résumé</h2>
-<p>Voici un résumé des méthodes de mesure de distance dont nous avons discuté dans ce chapitre et dans le <a href="04-distances-systeme-solaire.html">chapitre 4</a>.</p>
+<p>Voici un résumé des méthodes de mesure de distance dont nous avons
+discuté dans ce chapitre et dans le <a
+href="04-distances-systeme-solaire.html">chapitre 4</a>.</p>
 <table>
 <colgroup>
 <col style="width: 17%" />
@@ -134,38 +313,71 @@ Photographie de Henrietta Swan Leavitt et graphique de son article de 1912 où e
 <tbody>
 <tr class="odd">
 <td style="text-align: left;">Radar</td>
-<td style="text-align: left;">On envoie une onde électromagnétique vers l’astre, on mesure le temps pour que l’onde réfléchie reviennent, on déduit la distance à l’aide de la vitesse de la lumière.</td>
+<td style="text-align: left;">On envoie une onde électromagnétique vers
+l’astre, on mesure le temps pour que l’onde réfléchie reviennent, on
+déduit la distance à l’aide de la vitesse de la lumière.</td>
 <td style="text-align: left;">Système solaire</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Parallaxe</td>
-<td style="text-align: left;">On mesure la position d’un astre par rapport aux étoiles lointaines de deux points de vue différents. En faisant un peu de trigonométrie, on déduit la distance.</td>
-<td style="text-align: left;">Étoiles proches, jusqu’à ~1000 années-lumière</td>
+<td style="text-align: left;">On mesure la position d’un astre par
+rapport aux étoiles lointaines de deux points de vue différents. En
+faisant un peu de trigonométrie, on déduit la distance.</td>
+<td style="text-align: left;">Étoiles proches, jusqu’à ~1000
+années-lumière</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">Étoiles jumelles</td>
-<td style="text-align: left;">On connaît la distance d’une étoile A. On trouve une étoile B qui a un spectre presque identique. Ces étoiles ont la même luminosité (et donc la même magnitude absolue). On mesure l’intensité (ou la magnitude apparente) des deux étoiles. En utilisant la relation entre la luminosité, l’intensité et la distance, on déduit la distance.</td>
-<td style="text-align: left;">Galaxies voisines, tant que des étoiles sont suffisamment brillantes pour obtenir un spectre</td>
+<td style="text-align: left;">On connaît la distance d’une étoile A. On
+trouve une étoile B qui a un spectre presque identique. Ces étoiles ont
+la même luminosité (et donc la même magnitude absolue). On mesure
+l’intensité (ou la magnitude apparente) des deux étoiles. En utilisant
+la relation entre la luminosité, l’intensité et la distance, on déduit
+la distance.</td>
+<td style="text-align: left;">Galaxies voisines, tant que des étoiles
+sont suffisamment brillantes pour obtenir un spectre</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">Céphéides</td>
-<td style="text-align: left;">On mesure la période de pulsation de la céphéide. Cette période permet de déduire la luminosité de l’étoile. En utilisant la relation entre la luminosité, l’intensité et la distance, on déduit la distance.</td>
+<td style="text-align: left;">On mesure la période de pulsation de la
+céphéide. Cette période permet de déduire la luminosité de l’étoile. En
+utilisant la relation entre la luminosité, l’intensité et la distance,
+on déduit la distance.</td>
 <td style="text-align: left;">Galaxies lointaines</td>
 </tr>
 </tbody>
 </table>
 <h2 id="exercices">Exercices</h2>
 <ol type="1">
-<li><p>Pourquoi ne peut-on pas utiliser la méthode de la parallaxe pour déterminer la distance des étoiles à l’autre bout de la galaxie?</p></li>
-<li><p>Quelle est la différence entre la magnitude apparente et la magnitude absolue?</p></li>
-<li><p>Quelle est la différence entre le phénomène de réfraction et le phénomène de diffraction?</p></li>
-<li><p>On prend une ampoule de 60 watts et une ampoule de 100 watts. On place l’ampoule de 60 watts à 100 mètres. On place l’ampoule de 100 watts à 50 mètres. Laquelle des ampoules a la magnitude apparente la plus grande? Laquelle des ampoules a la magnitude absolue la plus grande? Expliquez votre raisonnement.</p></li>
+<li><p>Pourquoi ne peut-on pas utiliser la méthode de la parallaxe pour
+déterminer la distance des étoiles à l’autre bout de la
+galaxie?</p></li>
+<li><p>Quelle est la différence entre la magnitude apparente et la
+magnitude absolue?</p></li>
+<li><p>Quelle est la différence entre le phénomène de réfraction et le
+phénomène de diffraction?</p></li>
+<li><p>On prend une ampoule de 60 watts et une ampoule de 100 watts. On
+place l’ampoule de 60 watts à 100 mètres. On place l’ampoule de 100
+watts à 50 mètres. Laquelle des ampoules a la magnitude apparente la
+plus grande? Laquelle des ampoules a la magnitude absolue la plus
+grande? Expliquez votre raisonnement.</p></li>
 <li><p>Expliquez la distinction entre intensité et luminosité.</p></li>
-<li><p>Deux étoiles A et B ont la même magnitude apparente. Si l’étoile B a une luminosité 16 fois plus grande que l’étoile A et que l’étoile A est située à une distance de 20 années-lumière de la Terre, à quelle distance est située l’étoile B?</p></li>
-<li><p>Deux étoiles A et B ont des spectres identiques. L’étoile A est à une distance de 100 années-lumière. L’étoile B a une intensité quatre fois plus faible que l’étoile A. À quelle distance se trouve l’étoile B?</p></li>
-<li><p>La céphéide A située à 75 années-lumière a une période de 3 jours et une magnitude apparente identique à celle de la céphéide B. La céphéide B a une période de 12 jours. À quelle distance est situé la céphéide B?</p></li>
+<li><p>Deux étoiles A et B ont la même magnitude apparente. Si l’étoile
+B a une luminosité 16 fois plus grande que l’étoile A et que l’étoile A
+est située à une distance de 20 années-lumière de la Terre, à quelle
+distance est située l’étoile B?</p></li>
+<li><p>Deux étoiles A et B ont des spectres identiques. L’étoile A est à
+une distance de 100 années-lumière. L’étoile B a une intensité quatre
+fois plus faible que l’étoile A. À quelle distance se trouve l’étoile
+B?</p></li>
+<li><p>La céphéide A située à 75 années-lumière a une période de 3 jours
+et une magnitude apparente identique à celle de la céphéide B. La
+céphéide B a une période de 12 jours. À quelle distance est situé la
+céphéide B?</p></li>
 <li><p>Définissez le type spectral.</p></li>
-<li><p>Les étoiles A, B et C sont jaune, bleu et rouge, respectivement. Sachant qu’il y a une étoile de type B, une étoile de type F et une étoile de type L, déterminez le type spectral de chaque étoile.</p></li>
+<li><p>Les étoiles A, B et C sont jaune, bleu et rouge, respectivement.
+Sachant qu’il y a une étoile de type B, une étoile de type F et une
+étoile de type L, déterminez le type spectral de chaque étoile.</p></li>
 </ol>
   </div>
 </div>

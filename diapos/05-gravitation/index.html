@@ -8,17 +8,28 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
-  <link rel="stylesheet" href="../reveal.js/dist/reset.css">
-  <link rel="stylesheet" href="../reveal.js/dist/reveal.css">
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^4//dist/reset.css">
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^4//dist/reveal.css">
   <style>
+    .reveal .sourceCode {  /* see #7635 */
+      overflow: visible;
+    }
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    span.underline{text-decoration: underline;}
-    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    ul.task-list{list-style: none;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
   </style>
-  <link rel="stylesheet" href="../reveal.js/dist/theme/beige.css" id="theme">
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^4//dist/theme/beige.css" id="theme">
 </head>
 <body>
   <div class="reveal">
@@ -30,31 +41,37 @@
   <p class="date">12 octobre 2020</p>
 </section>
 
-<section class="slide level1">
-
-<h2 id="pourquoi-les-planètes-du-système-solaire-bougent-elles-sur-des-orbites-elliptiques">Pourquoi les planètes du système solaire bougent-elles sur des orbites elliptiques?</h2>
+<section
+id="pourquoi-les-planètes-du-système-solaire-bougent-elles-sur-des-orbites-elliptiques"
+class="slide level2">
+<h2>Pourquoi les planètes du système solaire bougent-elles sur des
+orbites elliptiques?</h2>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
 <h3 id="galilée">Galilée</h3>
 <p><em>(1564 — 1642)</em></p>
-<p>La gravité agit de la même façon sur tous les corps à la surface de la Terre.</p>
+<p>La gravité agit de la même façon sur tous les corps à la surface de
+la Terre.</p>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
 <figure>
-<a href="https://commons.wikimedia.org/wiki/File:Piazza_dei_Miracoli_-_The_Cathedral_and_the_Leaning_Tower_in_Pisa_(2).jpg"> <img src="../../images/tower_pisa.jpg"
+<a href="https://commons.wikimedia.org/wiki/File:Piazza_dei_Miracoli_-_The_Cathedral_and_the_Leaning_Tower_in_Pisa_(2).jpg">
+<img src="../../images/tower_pisa.jpg"
        alt="Tour de Pise d'où Galilée aurait soi disant-laissé tomber deux boulets de masses différentes."
       style="
           max-height: 500px;
           max-width: 1000px;
       "> </a>
 <figcaption style="font-size: 0.4em; color: #666;">
-(Dudva <a href="https://creativecommons.org/licenses/by-sa/3.0/deed.en">CC BY-SA 3.0</a>)
+(Dudva <a
+href="https://creativecommons.org/licenses/by-sa/3.0/deed.en">CC BY-SA
+3.0</a>)
 </figcaption>
 </figure>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
 <iframe src="//commons.wikimedia.org/wiki/File:Apollo_15_feather_and_hammer_drop.ogv?embedplayer=yes" width="654" height="480" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen>
 </iframe>
@@ -62,25 +79,27 @@
 Dave Scott, Apollo 15 (NASA)
 </figcaption>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/E43-CfukEgs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
 </iframe>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
 <h3 id="galilée-encore">Galilée (encore)</h3>
 <p><strong>Principe d’inertie</strong> (v. 1.0)</p>
-<p><em>En l’absence de toute contrainte et de toute force, un objet en mouvement continuera sur sa lancée horizontale pour toujours.</em></p>
+<p><em>En l’absence de toute contrainte et de toute force, un objet en
+mouvement continuera sur sa lancée horizontale pour toujours.</em></p>
 <p>Les planètes continuent a parcourir leur orbite pour toujours.</p>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
 <h3 id="rené-descartes">René Descartes</h3>
 <p><em>(1596 — 1650)</em></p>
 <figure>
 <a title="After Frans Hals (1582/1583–1666) [Public domain], via Wikimedia Commons"
-   href="https://commons.wikimedia.org/wiki/File%3AFrans_Hals_-_Portret_van_Ren%C3%A9_Descartes.jpg"> <img src="../../images/descartes.jpg"
+   href="https://commons.wikimedia.org/wiki/File%3AFrans_Hals_-_Portret_van_Ren%C3%A9_Descartes.jpg">
+<img src="../../images/descartes.jpg"
     alt="Portrait de René Descartes par Frans Hals."
     style="
         max-height: 450px;
@@ -88,23 +107,27 @@ Dave Scott, Apollo 15 (NASA)
     "> </a>
 </figure>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
 <h3 id="rené-descartes-1">René Descartes</h3>
 <p><strong>Principe d’inertie</strong> (v. 2.0)</p>
-<p><em>Les objets se déplacent en ligne droite à vitesse constante tant et aussi longtemps qu’aucune force n’agit sur eux.</em></p>
+<p><em>Les objets se déplacent en ligne droite à vitesse constante tant
+et aussi longtemps qu’aucune force n’agit sur eux.</em></p>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
-<h3 id="il-doit-donc-y-avoir-une-force-qui-tire-les-planètes-vers-le-soleil">Il doit donc y avoir une force qui tire les planètes vers le Soleil</h3>
+<h3
+id="il-doit-donc-y-avoir-une-force-qui-tire-les-planètes-vers-le-soleil">Il
+doit donc y avoir une force qui tire les planètes vers le Soleil</h3>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
 <h3 id="isaac-newton">Isaac Newton</h3>
 <p><em>(1642 — 1727)</em></p>
 <figure>
 <a title="Sir Godfrey Kneller [Public domain], via Wikimedia Commons"
-href="https://commons.wikimedia.org/wiki/File%3AGodfreyKneller-IsaacNewton-1689.jpg"> <img src="../../images/newton.jpg"
+href="https://commons.wikimedia.org/wiki/File%3AGodfreyKneller-IsaacNewton-1689.jpg">
+<img src="../../images/newton.jpg"
     alt="Portrait d'Isaac Newton par Godfrey Kneller."
     style="
         max-height: 450px;
@@ -112,106 +135,135 @@ href="https://commons.wikimedia.org/wiki/File%3AGodfreyKneller-IsaacNewton-1689.
     "> </a>
 </figure>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
 <h3 id="isaac-newton-1">Isaac Newton</h3>
-<h4 id="quelle-est-la-force-qui-tire-continuellement-les-planètes-vers-le-soleil-et-les-maintient-sur-leur-orbite">Quelle est la force qui tire continuellement les planètes vers le Soleil et les maintient sur leur orbite?</h4>
+<h4
+id="quelle-est-la-force-qui-tire-continuellement-les-planètes-vers-le-soleil-et-les-maintient-sur-leur-orbite">Quelle
+est la force qui tire continuellement les planètes vers le Soleil et les
+maintient sur leur orbite?</h4>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
 <h3 id="première-loi-de-la-mécanique">Première loi de la mécanique</h3>
 <p><strong>Principe d’inertie</strong> (v. 2.0)</p>
-<p><em>Les objets se déplacent en ligne droite à vitesse constante tant et aussi longtemps qu’aucune force n’agit sur eux.</em></p>
+<p><em>Les objets se déplacent en ligne droite à vitesse constante tant
+et aussi longtemps qu’aucune force n’agit sur eux.</em></p>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
 <h3 id="deuxième-loi-de-la-mécanique">Deuxième loi de la mécanique</h3>
-<p>L’accélération subit par un corps est proportionnelle à la force nette appliquée à ce corps et inversement proportionnelle à la masse du corps.</p>
+<p>L’accélération subit par un corps est proportionnelle à la force
+nette appliquée à ce corps et inversement proportionnelle à la masse du
+corps.</p>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
-<h3 id="troisième-loi-de-la-mécanique">Troisième loi de la mécanique</h3>
-<p>Toute force exercée par un objet A sur un objet B est accompagnée d’une force exercée par l’objet B sur l’objet A qui a la même grandeur et est dans la direction opposée.</p>
+<h3 id="troisième-loi-de-la-mécanique">Troisième loi de la
+mécanique</h3>
+<p>Toute force exercée par un objet A sur un objet B est accompagnée
+d’une force exercée par l’objet B sur l’objet A qui a la même grandeur
+et est dans la direction opposée.</p>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
-<h3 id="la-force-qui-maintient-les-planètes-en-orbite-autour-du-soleil-est-la-même-qui-fait-tomber-les-objets-à-la-surface-de-la-terre">La force qui maintient les planètes en orbite autour du Soleil est la même qui fait tomber les objets à la surface de la Terre</h3>
+<h3
+id="la-force-qui-maintient-les-planètes-en-orbite-autour-du-soleil-est-la-même-qui-fait-tomber-les-objets-à-la-surface-de-la-terre">La
+force qui maintient les planètes en orbite autour du Soleil est la même
+qui fait tomber les objets à la surface de la Terre</h3>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
-<h3 id="interlude-newton-et-la-pomme">Interlude : Newton et la pomme</h3>
+<h3 id="interlude-newton-et-la-pomme">Interlude : Newton et la
+pomme</h3>
 <figure>
-<a href="https://fr.wikipedia.org/wiki/Fichier:Newton%27s-apple.jpg"> <img src="../../images/Newton-apple.jpg"
+<a href="https://fr.wikipedia.org/wiki/Fichier:Newton%27s-apple.jpg">
+<img src="../../images/Newton-apple.jpg"
        alt="Newton et la pomme"
       style="
           max-height: 500px;
           max-width: 1000px;
       "> </a>
 <figcaption style="font-size: 0.4em; color: #666;">
-(Alexander Borek <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.fr">CC BY-SA 4.0</a>)
+(Alexander Borek <a
+href="https://creativecommons.org/licenses/by-sa/4.0/deed.fr">CC BY-SA
+4.0</a>)
 </figcaption>
 </figure>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
-<h3 id="loi-de-la-gravitation-universelle-de-newton">Loi de la gravitation universelle de Newton</h3>
+<h3 id="loi-de-la-gravitation-universelle-de-newton">Loi de la
+gravitation universelle de Newton</h3>
 <p><span class="math display">\[F = \frac{G m_1 m_2}{r^2}\]</span></p>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
 <iframe width="800px" height="600px" src="https://lab.loicseguin.com/schroeder/index.html">
 </iframe>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
 <h3 id="isaac-newton-2">Isaac Newton</h3>
-<p>Publication de ses résultats dans les <em>Philosophiae Naturalis Principia Mathematica</em></p>
+<p>Publication de ses résultats dans les <em>Philosophiae Naturalis
+Principia Mathematica</em></p>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
-<h3 id="succès-de-la-théorie-newtonienne">Succès de la théorie newtonienne</h3>
+<h3 id="succès-de-la-théorie-newtonienne">Succès de la théorie
+newtonienne</h3>
 <p>Permet d’expliquer tous les phénomènes célestes observés</p>
 <p>Prédit de nouveaux phénomènes</p>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
-<h3 id="prédiction-de-la-trajectoire-dune-comète-par-edmund-halley">Prédiction de la trajectoire d’une comète par Edmund Halley</h3>
+<h3
+id="prédiction-de-la-trajectoire-dune-comète-par-edmund-halley">Prédiction
+de la trajectoire d’une comète par Edmund Halley</h3>
 <p><a title="By NASA/W. Liller [Public domain], via Wikimedia Commons"
 href="https://commons.wikimedia.org/wiki/File%3ALspn_comet_halley.jpg"><img
 width="512" alt="Lspn comet halley"
 src="//upload.wikimedia.org/wikipedia/commons/2/2a/Lspn_comet_halley.jpg"/></a></p>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
-<h3 id="étude-des-systèmes-binaires-par-caroline-et-william-herschel">Étude des systèmes binaires par Caroline et William Herschel</h3>
+<h3
+id="étude-des-systèmes-binaires-par-caroline-et-william-herschel">Étude
+des systèmes binaires par Caroline et William Herschel</h3>
 <figure>
-<a href="https://wellcomecollection.org/works/dmbmc538"> <img src="../../images/herschels.jpg"
+<a href="https://wellcomecollection.org/works/dmbmc538">
+<img src="../../images/herschels.jpg"
     alt="Caroline et William Herschel polissant un miroir"
     style="
         max-height: 450px;
         max-width: 1000px;
     "> </a>
 <figcaption style="font-size: 0.4em; color: #666;">
-Wellcome Collection (<a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>)
+Wellcome Collection (<a
+href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>)
 </figcaption>
 </figure>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
-<h3 id="découverte-de-nouvelles-planètes">Découverte de nouvelles planètes</h3>
+<h3 id="découverte-de-nouvelles-planètes">Découverte de nouvelles
+planètes</h3>
 <ul>
-<li class="fragment">Découverte d’Uranus en 1781 par William Herschel</li>
+<li class="fragment">Découverte d’Uranus en 1781 par William
+Herschel</li>
 <li class="fragment">L’orbite d’Uranus est bizarre…</li>
-<li class="fragment">J. C. Adams et Urbain Le Verrier prédisent l’existence d’une autre planète</li>
-<li class="fragment">Neptune découverte en 1846 par J. G. Galle à l’endroit prédit par Adams et Le Verrier</li>
+<li class="fragment">J. C. Adams et Urbain Le Verrier prédisent
+l’existence d’une autre planète</li>
+<li class="fragment">Neptune découverte en 1846 par J. G. Galle à
+l’endroit prédit par Adams et Le Verrier</li>
 </ul>
 </section>
-<section class="slide level1">
-
-<h2 id="problème-avec-la-théorie-newtonienne">Problème avec la théorie newtonienne</h2>
-<p>Perturbation dans l’orbite de Mercure qui ne s’explique d’aucune façon…</p>
+<section id="problème-avec-la-théorie-newtonienne" class="slide level2">
+<h2>Problème avec la théorie newtonienne</h2>
+<p>Perturbation dans l’orbite de Mercure qui ne s’explique d’aucune
+façon…</p>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
 <h3 id="albert-einstein">Albert Einstein</h3>
 <p><em>(1879 — 1955)</em></p>
@@ -222,19 +274,22 @@ href="http://commons.wikimedia.org/wiki/File%3AAlbert_Einstein_ETH-Bib_Portr_059
 width="256" alt="Albert Einstein ETH-Bib Portr 05937"
 src="../../images/Albert_Einstein.jpg"/></a></p>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
 <h3 id="albert-einstein-1">Albert Einstein</h3>
 <ul>
-<li>Essaie de réconcilier le principe de relativité galiléenne et l’électrodynamisme</li>
-<li>Essaie d’expliquer pourquoi toutes les mesures de la vitesse de la lumière donnent la même valeur</li>
+<li>Essaie de réconcilier le principe de relativité galiléenne et
+l’électrodynamisme</li>
+<li>Essaie d’expliquer pourquoi toutes les mesures de la vitesse de la
+lumière donnent la même valeur</li>
 </ul>
 <p><br /></p>
 <ul>
-<li class="fragment">Il ne tente pas d’expliquer l’orbite de Mercure</li>
+<li class="fragment">Il ne tente pas d’expliquer l’orbite de
+Mercure</li>
 </ul>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
 <h3 id="relativité-restreinte">Relativité restreinte</h3>
 <p><em>(1905)</em></p>
@@ -244,30 +299,34 @@ src="../../images/Albert_Einstein.jpg"/></a></p>
 <li>La constance de la vitesse de la lumière</li>
 </ul>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
 <h3 id="relativité-restreinte-1">Relativité restreinte</h3>
 <ul>
 <li>Espace et temps ne sont plus absolus</li>
 <li>Dilatation du temps et contraction des longueurs</li>
-<li>Facteur de ralentissement du temps <span class="math display">\[\gamma = \frac{1}{\sqrt{1 - \frac{v^2}{c^2}}}\]</span></li>
+<li>Facteur de ralentissement du temps <span
+class="math display">\[\gamma = \frac{1}{\sqrt{1 -
+\frac{v^2}{c^2}}}\]</span></li>
 </ul>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
 <h3 id="relativité-restreinte-2">Relativité restreinte</h3>
 <ul>
-<li>Dilatation du temps et contraction des longueurs deviennent plus importante lorsqu’on s’approche de la vitesse de la lumière</li>
-<li>Les objets massifs ne peuvent jamais atteindre la vitesse de la lumière</li>
+<li>Dilatation du temps et contraction des longueurs deviennent plus
+importante lorsqu’on s’approche de la vitesse de la lumière</li>
+<li>Les objets massifs ne peuvent jamais atteindre la vitesse de la
+lumière</li>
 </ul>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
 <h3 id="relativité-restreinte-3">Relativité restreinte</h3>
 <p>Équivalence masse-énergie</p>
 <p><span class="math display">\[E = \gamma m c^2\]</span></p>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
 <h3 id="albert-einstein-2">Albert Einstein</h3>
 <p>La même année (1905), il publie 4 découvertes fondamentales :</p>
@@ -280,17 +339,20 @@ src="../../images/Albert_Einstein.jpg"/></a></p>
 <p><br /></p>
 <p>C’est l’<em>Annus Mirabilis</em>.</p>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
 <h3 id="relativité-générale">Relativité générale</h3>
 <p><em>(1916)</em></p>
 <ul>
-<li>Extension de la relativité restreinte à des référentiels accélérés</li>
-<li>En plus des deux postulats de la relativité restreinte, Einstein ajoute le <strong>principe d’équivalence</strong></li>
+<li>Extension de la relativité restreinte à des référentiels
+accélérés</li>
+<li>En plus des deux postulats de la relativité restreinte, Einstein
+ajoute le <strong>principe d’équivalence</strong></li>
 </ul>
-<p><em>Il n’y a pas de différence entre la gravité et un référentiel accéléré.</em></p>
+<p><em>Il n’y a pas de différence entre la gravité et un référentiel
+accéléré.</em></p>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
 <h3 id="principe-déquivalence">Principe d’équivalence</h3>
 <figure>
@@ -303,7 +365,7 @@ src="../../images/Albert_Einstein.jpg"/></a></p>
       ">
 </figure>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
 <h3 id="relativité-générale-1">Relativité générale</h3>
 <ul>
@@ -311,7 +373,7 @@ src="../../images/Albert_Einstein.jpg"/></a></p>
 <li>Ces déformations sont la cause de la gravitation</li>
 </ul>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
 <h3 id="relativité-générale-2">Relativité générale</h3>
 <ul>
@@ -320,14 +382,15 @@ src="../../images/Albert_Einstein.jpg"/></a></p>
 <li>Einstein prédit les perturbations de l’orbite de Mercure</li>
 </ul>
 </section>
-<section class="slide level1">
-
-<h2 id="autres-succès-de-la-relativité-générale">Autres succès de la relativité générale</h2>
+<section id="autres-succès-de-la-relativité-générale"
+class="slide level2">
+<h2>Autres succès de la relativité générale</h2>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
 <h3 id="lentilles-gravitationnelles">Lentilles gravitationnelles</h3>
-<p><a href="https://hubblesite.org/contents/media/images/1990/20/22-Image.html?news=true"> <img alt="Croix d'Einstein G2237+0305"
+<p><a href="https://hubblesite.org/contents/media/images/1990/20/22-Image.html?news=true">
+<img alt="Croix d'Einstein G2237+0305"
   src="../../images/g2237+0305.jpg"
   style="
     max-height: 500px;
@@ -335,10 +398,11 @@ src="../../images/Albert_Einstein.jpg"/></a></p>
     "
 /> </a></p>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
 <figure>
-<a href="https://apod.nasa.gov/apod/ap111221.html"> <img src="../../images/lensshoe_hubble_3235.jpg"
+<a href="https://apod.nasa.gov/apod/ap111221.html">
+<img src="../../images/lensshoe_hubble_3235.jpg"
     alt="Lentille gravitationnelle LRG 3-757 photographiée par Hubble"
     style="
         max-height: 600px;
@@ -349,10 +413,11 @@ LRG 3-757 photographiée par Hubble. (ESA/Hubble &amp; NASA)
 </figcaption>
 </figure>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
 <figure>
-<a href="https://www.spacetelescope.org/images/potw1506a/"> <img src="../../images/potw1506a.jpg"
+<a href="https://www.spacetelescope.org/images/potw1506a/">
+<img src="../../images/potw1506a.jpg"
       alt="Amas de galaxies causant un effet de lentille gravitationnelle"
     style="
         max-height: 600px;
@@ -363,24 +428,28 @@ LRG 3-757 photographiée par Hubble. (ESA/Hubble &amp; NASA)
 </figcaption>
 </figure>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
 <h3 id="trous-noirs">Trous noirs</h3>
 <ul>
-<li>La relativité générale ajoute un ralentissement du temps dû à la gravité.</li>
+<li>La relativité générale ajoute un ralentissement du temps dû à la
+gravité.</li>
 <li>Ce ralentissement dépend de la vitesse de libération</li>
-<li>Si la vitesse de libération est celle de la lumière, ralentissement infini</li>
+<li>Si la vitesse de libération est celle de la lumière, ralentissement
+infini</li>
 </ul>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
 <h3 id="trous-noirs-1">Trous noirs</h3>
-<p>Les objets pour lesquels la vitesse de libération est celle de la lumière sont appelés des <strong>trous noirs</strong>.</p>
+<p>Les objets pour lesquels la vitesse de libération est celle de la
+lumière sont appelés des <strong>trous noirs</strong>.</p>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
 <h3 id="trous-noirs-supermassifs">Trous noirs supermassifs</h3>
-<a href="https://www.nasa.gov/multimedia/imagegallery/image_feature_2247.html"> <img alt="Active Black Hole Squashes Star Formation"
+<a href="https://www.nasa.gov/multimedia/imagegallery/image_feature_2247.html">
+<img alt="Active Black Hole Squashes Star Formation"
     src="../../images/PIA15625.jpg"
     style="
         max-height: 500px;
@@ -390,10 +459,11 @@ LRG 3-757 photographiée par Hubble. (ESA/Hubble &amp; NASA)
 NASA/JPL-Caltech
 </figcaption>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
 <figure>
-<a href="https://www.nasa.gov/feature/goddard/2019/nasa-visualization-shows-a-black-hole-s-warped-world"> <img src="../../images/bh_accretiondisk_sim_stationary_websize.gif"
+<a href="https://www.nasa.gov/feature/goddard/2019/nasa-visualization-shows-a-black-hole-s-warped-world">
+<img src="../../images/bh_accretiondisk_sim_stationary_websize.gif"
     alt="Simulation d'un trou noir avec disque d'acrétion"
     style="
         max-height: 500px;
@@ -404,10 +474,11 @@ NASA’s Goddard Space Flight Center/Jeremy Schnittman
 </figcaption>
 </figure>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
 <figure>
-<a href="https://www.eso.org/public/images/eso1907a/"> <img src="../../images/eso1907a.jpg"
+<a href="https://www.eso.org/public/images/eso1907a/">
+<img src="../../images/eso1907a.jpg"
     alt="Trou noir M87* au centre de la galaxie M87"
     style="
         max-height: 500px;
@@ -418,40 +489,178 @@ EHT Collaboration
 </figcaption>
 </figure>
 </section>
-<section class="slide level1">
-
-<h2 id="le-futur">Le futur…</h2>
+<section id="le-futur" class="slide level2">
+<h2>Le futur…</h2>
 <ul>
-<li class="fragment">Pour expliquer la vitesse de rotation des galaxies, il manque de la masse! C’est la <strong>matière sombre</strong> qui compose environ 27% de la masse dans l’Univers.</li>
-<li class="fragment">L’expansion de l’Univers est trop rapide! Il faut de l’<strong>énergie sombre</strong> pour l’expliquer. L’énergie sombre représente 68% de la masse dans l’Univers.</li>
+<li class="fragment">Pour expliquer la vitesse de rotation des galaxies,
+il manque de la masse! C’est la <strong>matière sombre</strong> qui
+compose environ 27% de la masse dans l’Univers.</li>
+<li class="fragment">L’expansion de l’Univers est trop rapide! Il faut
+de l’<strong>énergie sombre</strong> pour l’expliquer. L’énergie sombre
+représente 68% de la masse dans l’Univers.</li>
 </ul>
 </section>
-<section class="slide level1">
-
-<h2 id="le-futur-1">Le futur…</h2>
+<section id="le-futur-1" class="slide level2">
+<h2>Le futur…</h2>
 <p>On ne sait pas de quoi est composé 95% de l’Univers…</p>
 <p>Il reste beaucoup à faire!</p>
 </section>
     </div>
   </div>
 
-  <script src="../reveal.js/dist/reveal.js"></script>
+  <script src="https://unpkg.com/reveal.js@^4//dist/reveal.js"></script>
 
-  // reveal.js plugins
-  <script src="../reveal.js/plugin/notes/notes.js"></script>
-  <script src="../reveal.js/plugin/search/search.js"></script>
-  <script src="../reveal.js/plugin/zoom/zoom.js"></script>
-  <script src="../reveal.js/plugin/math/math.js"></script>
+  <!-- reveal.js plugins -->
+  <script src="https://unpkg.com/reveal.js@^4//plugin/notes/notes.js"></script>
+  <script src="https://unpkg.com/reveal.js@^4//plugin/search/search.js"></script>
+  <script src="https://unpkg.com/reveal.js@^4//plugin/zoom/zoom.js"></script>
+  <script src="https://unpkg.com/reveal.js@^4//plugin/math/math.js"></script>
 
   <script>
 
       // Full list of configuration options available at:
       // https://revealjs.com/config/
       Reveal.initialize({
+        // Display controls in the bottom right corner
+        controls: true,
+
+        // Help the user learn the controls by providing hints, for example by
+        // bouncing the down arrow when they first encounter a vertical slide
+        controlsTutorial: true,
+
+        // Determines where controls appear, "edges" or "bottom-right"
+        controlsLayout: 'bottom-right',
+
+        // Visibility rule for backwards navigation arrows; "faded", "hidden"
+        // or "visible"
+        controlsBackArrows: 'faded',
+
+        // Display a presentation progress bar
+        progress: true,
+
+        // Display the page number of the current slide
+        slideNumber: false,
+
+        // 'all', 'print', or 'speaker'
+        showSlideNumber: 'all',
+
+        // Add the current slide number to the URL hash so that reloading the
+        // page/copying the URL will return you to the same slide
+        hash: true,
+
+        // Start with 1 for the hash rather than 0
+        hashOneBasedIndex: false,
+
+        // Flags if we should monitor the hash and change slides accordingly
+        respondToHashChanges: true,
+
         // Push each slide change to the browser history
-        history: true,
-        // Transition style
-        transition: 'linear', // none/fade/slide/convex/concave/zoom
+        history: false,
+
+        // Enable keyboard shortcuts for navigation
+        keyboard: true,
+
+        // Enable the slide overview mode
+        overview: true,
+
+        // Disables the default reveal.js slide layout (scaling and centering)
+        // so that you can use custom CSS layout
+        disableLayout: false,
+
+        // Vertical centering of slides
+        center: true,
+
+        // Enables touch navigation on devices with touch input
+        touch: true,
+
+        // Loop the presentation
+        loop: false,
+
+        // Change the presentation direction to be RTL
+        rtl: false,
+
+        // see https://revealjs.com/vertical-slides/#navigation-mode
+        navigationMode: 'default',
+
+        // Randomizes the order of slides each time the presentation loads
+        shuffle: false,
+
+        // Turns fragments on and off globally
+        fragments: true,
+
+        // Flags whether to include the current fragment in the URL,
+        // so that reloading brings you to the same fragment position
+        fragmentInURL: true,
+
+        // Flags if the presentation is running in an embedded mode,
+        // i.e. contained within a limited portion of the screen
+        embedded: false,
+
+        // Flags if we should show a help overlay when the questionmark
+        // key is pressed
+        help: true,
+
+        // Flags if it should be possible to pause the presentation (blackout)
+        pause: true,
+
+        // Flags if speaker notes should be visible to all viewers
+        showNotes: false,
+
+        // Global override for autoplaying embedded media (null/true/false)
+        autoPlayMedia: null,
+
+        // Global override for preloading lazy-loaded iframes (null/true/false)
+        preloadIframes: null,
+
+        // Number of milliseconds between automatically proceeding to the
+        // next slide, disabled when set to 0, this value can be overwritten
+        // by using a data-autoslide attribute on your slides
+        autoSlide: 0,
+
+        // Stop auto-sliding after user input
+        autoSlideStoppable: true,
+
+        // Use this method for navigation when auto-sliding
+        autoSlideMethod: null,
+
+        // Specify the average time in seconds that you think you will spend
+        // presenting each slide. This is used to show a pacing timer in the
+        // speaker view
+        defaultTiming: null,
+
+        // Enable slide navigation via mouse wheel
+        mouseWheel: false,
+
+        // The display mode that will be used to show slides
+        display: 'block',
+
+        // Hide cursor if inactive
+        hideInactiveCursor: true,
+
+        // Time before the cursor is hidden (in ms)
+        hideCursorTime: 5000,
+
+        // Opens links in an iframe preview overlay
+        previewLinks: false,
+
+        // Transition style (none/fade/slide/convex/concave/zoom)
+        transition: 'linear',
+
+        // Transition speed (default/fast/slow)
+        transitionSpeed: 'default',
+
+        // Transition style for full page slide backgrounds
+        // (none/fade/slide/convex/concave/zoom)
+        backgroundTransition: 'fade',
+
+        // Number of slides away from the current that are visible
+        viewDistance: 3,
+
+        // Number of slides away from the current that are visible on mobile
+        // devices. It is advisable to set this to a lower number than
+        // viewDistance in order to save resources.
+        mobileViewDistance: 2,
+
         math: {
           mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js',
           config: 'TeX-AMS_HTML-full',

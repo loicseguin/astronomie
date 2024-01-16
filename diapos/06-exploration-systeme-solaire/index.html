@@ -8,17 +8,28 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
-  <link rel="stylesheet" href="../reveal.js/dist/reset.css">
-  <link rel="stylesheet" href="../reveal.js/dist/reveal.css">
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^4//dist/reset.css">
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^4//dist/reveal.css">
   <style>
+    .reveal .sourceCode {  /* see #7635 */
+      overflow: visible;
+    }
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    span.underline{text-decoration: underline;}
-    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    ul.task-list{list-style: none;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
   </style>
-  <link rel="stylesheet" href="../reveal.js/dist/theme/beige.css" id="theme">
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^4//dist/theme/beige.css" id="theme">
 </head>
 <body>
   <div class="reveal">
@@ -30,9 +41,8 @@
   <p class="date">26 octobre 2020</p>
 </section>
 
-<section class="slide level1">
-
-<h2 id="système-solaire">Système solaire</h2>
+<section id="système-solaire" class="slide level2">
+<h2>Système solaire</h2>
 <ul>
 <li>Planètes
 <ul>
@@ -51,9 +61,8 @@
 </ul></li>
 </ul>
 </section>
-<section class="slide level1">
-
-<h2 id="système-solaire-1">Système solaire</h2>
+<section id="système-solaire-1" class="slide level2">
+<h2>Système solaire</h2>
 <ul>
 <li>Ceinture d’astéroïdes
 <ul>
@@ -71,10 +80,11 @@
 </ul></li>
 </ul>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
 <figure>
-<a href="https://solarsystem.nasa.gov/solar-system/our-solar-system/galleries/?page=0&per_page=25&order=created_at+desc&search=&fancybox=true&href_query_params=category%3Dsolar-system_our-solar-system&button_class=big_more_button&tags=our+solar+system&condition_1=1%3Ais_in_resource_list&category=51"> <img src="../../images/solar_system.jpg"
+<a href="https://solarsystem.nasa.gov/solar-system/our-solar-system/galleries/?page=0&per_page=25&order=created_at+desc&search=&fancybox=true&href_query_params=category%3Dsolar-system_our-solar-system&button_class=big_more_button&tags=our+solar+system&condition_1=1%3Ais_in_resource_list&category=51">
+<img src="../../images/solar_system.jpg"
       alt="Système solaire, pas à l'échelle"
       width="100%"
       style="
@@ -86,14 +96,15 @@
 </figcaption>
 </figure>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
 <p><img data-src="../../images/planetes.png" /></p>
 <figcaption style="font-size: 0.4em; color: #666;">
-<span class="citation" data-cites="DoTryThisAtHome">@DoTryThisAtHome</span>
+<span class="citation"
+data-cites="DoTryThisAtHome">@DoTryThisAtHome</span>
 </figcaption>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
 <h3 id="distribution-de-la-masse">Distribution de la masse</h3>
 <table>
@@ -127,7 +138,7 @@
 </tbody>
 </table>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
 <table>
 <thead>
@@ -172,16 +183,14 @@
 </tbody>
 </table>
 </section>
-<section class="slide level1">
-
-<h2 id="température-des-planètes">Température des planètes</h2>
+<section id="température-des-planètes" class="slide level2">
+<h2>Température des planètes</h2>
 <p><img data-src="../../images/temperatures-planetes.png" /></p>
 </section>
-<section class="slide level1">
-
-<h2 id="deux-types-de-planètes">Deux types de planètes</h2>
+<section id="deux-types-de-planètes" class="slide level2">
+<h2>Deux types de planètes</h2>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
 <h3 id="planètes-telluriques">Planètes telluriques</h3>
 <ul>
@@ -190,7 +199,7 @@
 <li>Mercure, Vénus, Terre, Mars</li>
 </ul>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
 <h3 id="planètes-joviennes">Planètes joviennes</h3>
 <ul>
@@ -199,11 +208,12 @@
 <li>Jupiter, Saturne, Uranus, Neptune</li>
 </ul>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
 <h3 id="soleil">Soleil</h3>
 <figure>
-<a href="https://www.flickr.com/photos/gsfc/4923566097"> <img src="../../images/soho-sun.jpg"
+<a href="https://www.flickr.com/photos/gsfc/4923566097">
+<img src="../../images/soho-sun.jpg"
     alt="Image du Soleil en éruption."
     style="max-width: 500px;"> </a>
 <figcaption style="font-size: 0.4em; color: #666;">
@@ -211,7 +221,7 @@
 </figcaption>
 </figure>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
 <h3 id="soleil-1">Soleil</h3>
 <ul>
@@ -220,7 +230,7 @@
 <li>333 000 plus massif que la Terre</li>
 </ul>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
 <h3 id="soleil-2">Soleil</h3>
 <ul>
@@ -228,7 +238,7 @@
 <li>Fusion d’hydrogène</li>
 </ul>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
 <h3 id="éjections-de-masse-coronale">Éjections de masse coronale</h3>
 <video controls width="500">
@@ -239,33 +249,37 @@
 </figcaption>
 </figure>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
 <h3 id="missions-dexploration">Missions d’exploration</h3>
 <figure>
-<a href="https://sohowww.nascom.nasa.gov/gallery/Spacecraft/soho_photo3.html"> <img src="../../images/soho_photo3_prev.jpg"
-    alt="Sonde spatiale SOHO" width="35%"> </a> <a href="https://sdo.gsfc.nasa.gov/"> <img src="../../images/SDObeautyshot2.jpg"
+<a href="https://sohowww.nascom.nasa.gov/gallery/Spacecraft/soho_photo3.html">
+<img src="../../images/soho_photo3_prev.jpg"
+    alt="Sonde spatiale SOHO" width="35%"> </a>
+<a href="https://sdo.gsfc.nasa.gov/">
+<img src="../../images/SDObeautyshot2.jpg"
     alt="Sonde spatiale SDO" width="35%"> </a>
 <figcaption style="font-size: 0.4em; color: #666;">
 (SOHO (ESA &amp; NASA); NASA/SDO and the AIA, EVE and HMI science teams)
 </figcaption>
 </figure>
 </section>
-<section class="slide level1">
-
-<h2 id="les-planètes-telluriques">Les planètes telluriques</h2>
+<section id="les-planètes-telluriques" class="slide level2">
+<h2>Les planètes telluriques</h2>
 <p><img data-src="../../images/telluriques.png" /></p>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
 <h3 id="mercure">Mercure</h3>
-<a href="https://messenger.jhuapl.edu/Explore/Science-Images-Database/gallery-image-911.html"> <img alt="Mercure" src="../../images/Mercure.png"
+<a href="https://messenger.jhuapl.edu/Explore/Science-Images-Database/gallery-image-911.html">
+<img alt="Mercure" src="../../images/Mercure.png"
   style="max-width: 500px;"> </a>
 <figcaption style="font-size: 0.4em; color: #666;">
-NASA/Johns Hopkins University Applied Physics Laboratory/Carnegie Institution of Washington
+NASA/Johns Hopkins University Applied Physics Laboratory/Carnegie
+Institution of Washington
 </figcaption>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
 <h3 id="mercure-1">Mercure</h3>
 <table>
@@ -301,7 +315,7 @@ NASA/Johns Hopkins University Applied Physics Laboratory/Carnegie Institution of
 </tbody>
 </table>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
 <h3 id="mercure-2">Mercure</h3>
 <ul>
@@ -311,30 +325,33 @@ NASA/Johns Hopkins University Applied Physics Laboratory/Carnegie Institution of
 <li>Messenger en orbite</li>
 </ul>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
 <h3 id="messenger">Messenger</h3>
 <figure>
-<a href="https://messenger.jhuapl.edu/Explore/Science-Images-Database/gallery-image-1452.html"> <img src="../../images/EW1048998458G.nomap.jpg"
+<a href="https://messenger.jhuapl.edu/Explore/Science-Images-Database/gallery-image-1452.html">
+<img src="../../images/EW1048998458G.nomap.jpg"
     alt="Bassin de Rembrandt sur Mercure"
     style="max-width: 500px;"> </a>
 <figcaption style="font-size: 0.4em; color: #666;">
-NASA/Johns Hopkins University Applied Physics Laboratory/Carnegie Institution of Washington
+NASA/Johns Hopkins University Applied Physics Laboratory/Carnegie
+Institution of Washington
 </figcaption>
 </figure>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
 <h3 id="vénus">Vénus</h3>
 <figure>
-<a href="https://solarsystem.nasa.gov/resources/688/computer-simulated-global-view-of-venus/?category=planets_venus"> <img alt="Mercure" src="../../images/Venus.jpg"
+<a href="https://solarsystem.nasa.gov/resources/688/computer-simulated-global-view-of-venus/?category=planets_venus">
+<img alt="Mercure" src="../../images/Venus.jpg"
     style="max-width: 500px;"> </a>
 <figcaption style="font-size: 0.4em; color: #666;">
 NASA/Jet Propulsion Laboratory-Caltech
 </figcaption>
 </figure>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
 <h3 id="vénus-1">Vénus</h3>
 <table>
@@ -370,7 +387,7 @@ NASA/Jet Propulsion Laboratory-Caltech
 </tbody>
 </table>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
 <h3 id="vénus-2">Vénus</h3>
 <ul>
@@ -379,7 +396,7 @@ NASA/Jet Propulsion Laboratory-Caltech
 <li>Constitution interne très semblable à la Terre</li>
 </ul>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
 <h3 id="vénus-3">Vénus</h3>
 <ul>
@@ -392,7 +409,7 @@ NASA/Jet Propulsion Laboratory-Caltech
 <li>Effet de serre</li>
 </ul>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
 <h3 id="venera-13">Venera-13</h3>
 <figure>
@@ -403,15 +420,14 @@ URSS
 </figcaption>
 </figure>
 </section>
-<section class="slide level1">
-
-<h2 id="vénus-4">Vénus</h2>
+<section id="vénus-4" class="slide level2">
+<h2>Vénus</h2>
 <ul>
 <li>Semble avoir une activité tectonique</li>
 <li>Rotation rétrograde très lente</li>
 </ul>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
 <h3 id="terre">Terre</h3>
 <p><a title="View of rising Earth about five degrees above the Lunar horizon"
@@ -421,7 +437,7 @@ src="http://nssdc.gsfc.nasa.gov/image/planetary/earth/apollo08_earthrise.jpg"/><
 <p><small>NASA/NSSDC</small></p>
 <p><em>Lever de Terre tel que vu par les astronautes d’Apollo 8</em></p>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
 <p><a title="Mosaic taken by NEAR in 1998"
 href="http://nssdc.gsfc.nasa.gov/photo_gallery/photogallery-earthmoon.html"><img
@@ -430,9 +446,10 @@ src="http://nssdc.gsfc.nasa.gov/image/planetary/earth/near_earth_moon.jpg"/></a>
 <p><small>NASA/NSSDC</small></p>
 <p><em>Mosaïque prise par NEAR en 1998</em></p>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
-<h3 id="constitution-interne-de-la-terre">Constitution interne de la Terre</h3>
+<h3 id="constitution-interne-de-la-terre">Constitution interne de la
+Terre</h3>
 <table>
 <tbody>
 <tr class="odd">
@@ -454,23 +471,27 @@ src="http://nssdc.gsfc.nasa.gov/image/planetary/earth/near_earth_moon.jpg"/></a>
 </tbody>
 </table>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
-<h3 id="constitution-interne-de-la-terre-1">Constitution interne de la Terre</h3>
+<h3 id="constitution-interne-de-la-terre-1">Constitution interne de la
+Terre</h3>
 <ul>
 <li class="fragment">Matériaux accessibles : densité d’environ 3</li>
 <li class="fragment">Terre : densité moyenne de 5.5</li>
 </ul>
 <p><br /></p>
 <ul>
-<li class="fragment"><strong>Les matériaux situés au centre de la Terre doivent être plus denses</strong></li>
+<li class="fragment"><strong>Les matériaux situés au centre de la Terre
+doivent être plus denses</strong></li>
 </ul>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
-<h3 id="constitution-interne-de-la-terre-2">Constitution interne de la Terre</h3>
+<h3 id="constitution-interne-de-la-terre-2">Constitution interne de la
+Terre</h3>
 <ul>
-<li>Centre de la Terre composé de <strong>fer</strong> et <strong>nickel</strong></li>
+<li>Centre de la Terre composé de <strong>fer</strong> et
+<strong>nickel</strong></li>
 <li>Densité : 7.87 pour le fer, 8.91 pour le nickel</li>
 <li>Parmi les métaux les plus abondants dans l’Univers</li>
 </ul>
@@ -496,30 +517,27 @@ src="http://nssdc.gsfc.nasa.gov/image/planetary/earth/near_earth_moon.jpg"/></a>
 </tr>
 </table>
 </section>
-<section class="slide level1">
-
-<h2 id="âge-de-la-terre">Âge de la Terre</h2>
+<section id="âge-de-la-terre" class="slide level2">
+<h2>Âge de la Terre</h2>
 <h4 id="ga">4,6 Ga</h4>
 <p>Même âge que le reste du système solaire</p>
 </section>
-<section class="slide level1">
-
-<h2 id="magnétisme-terrestre">Magnétisme terrestre</h2>
+<section id="magnétisme-terrestre" class="slide level2">
+<h2>Magnétisme terrestre</h2>
 <ul>
 <li>Champ magnétique qui protège du vent solaire</li>
-<li>Cause du champ magnétique : courant dans le noyau liquide (peut-être…)</li>
+<li>Cause du champ magnétique : courant dans le noyau liquide
+(peut-être…)</li>
 </ul>
 </section>
-<section class="slide level1">
-
-<h2 id="magnétisme-terrestre-1">Magnétisme terrestre</h2>
+<section id="magnétisme-terrestre-1" class="slide level2">
+<h2>Magnétisme terrestre</h2>
 <iframe src="https://www.flickr.com/photos/gsfc/4445502419/player/" width="640" height="500" frameborder="0" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen>
 </iframe>
 <p><small>NASA/GSFC/SOHO/ESA</small></p>
 </section>
-<section class="slide level1">
-
-<h2 id="magnétisme-terrestre-2">Magnétisme terrestre</h2>
+<section id="magnétisme-terrestre-2" class="slide level2">
+<h2>Magnétisme terrestre</h2>
 <ul>
 <li>Particules chargées capturées par le champ magnétique
 <ul>
@@ -529,43 +547,38 @@ src="http://nssdc.gsfc.nasa.gov/image/planetary/earth/near_earth_moon.jpg"/></a>
 <li>Ceinture supérieure : électrons</li>
 </ul>
 </section>
-<section class="slide level1">
-
-<h2 id="aurores-polaires">Aurores polaires</h2>
+<section id="aurores-polaires" class="slide level2">
+<h2>Aurores polaires</h2>
 <p><a title="By United States Air Force photo by Senior Airman Joshua Strang
 [Public domain], via Wikimedia Commons"
 href="http://commons.wikimedia.org/wiki/File%3APolarlicht_2.jpg"><img
 width="512" alt="Polarlicht 2"
 src="//upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Polarlicht_2.jpg/512px-Polarlicht_2.jpg"/></a></p>
 </section>
-<section class="slide level1">
-
-<h2 id="aurores-polaires-1">Aurores polaires</h2>
+<section id="aurores-polaires-1" class="slide level2">
+<h2>Aurores polaires</h2>
 <p><a title="By ISS Expedition 23 crew [Public domain], via Wikimedia Commons"
 href="http://commons.wikimedia.org/wiki/File%3AAurora_Australis_From_ISS.JPG"><img
 width="512" alt="Aurora Australis From ISS"
 src="//upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Aurora_Australis_From_ISS.JPG/512px-Aurora_Australis_From_ISS.JPG"/></a></p>
 </section>
-<section class="slide level1">
-
-<h2 id="aurores-polaires-2">Aurores polaires</h2>
+<section id="aurores-polaires-2" class="slide level2">
+<h2>Aurores polaires</h2>
 <p><a title="By FairbanksMike (Aurora Watching 03/16/2013) [CC-BY-2.0
 (http://creativecommons.org/licenses/by/2.0)], via Wikimedia Commons"
 href="http://commons.wikimedia.org/wiki/File%3AAurora_Borealis_-_Wickersham_Dome_-_Alaska_-_16_March_2013.jpg"><img
 width="512" alt="Aurora Borealis - Wickersham Dome - Alaska - 16 March 2013"
 src="//upload.wikimedia.org/wikipedia/commons/thumb/9/96/Aurora_Borealis_-_Wickersham_Dome_-_Alaska_-_16_March_2013.jpg/512px-Aurora_Borealis_-_Wickersham_Dome_-_Alaska_-_16_March_2013.jpg"/></a></p>
 </section>
-<section class="slide level1">
-
-<h2 id="atmosphère-terrestre">Atmosphère terrestre</h2>
+<section id="atmosphère-terrestre" class="slide level2">
+<h2>Atmosphère terrestre</h2>
 <ul>
 <li>Mince couche autour du globe</li>
 <li>75% de la masse à moins de 10 km d’altitude</li>
 </ul>
 </section>
-<section class="slide level1">
-
-<h2 id="atmosphère-terrestre-1">Atmosphère terrestre</h2>
+<section id="atmosphère-terrestre-1" class="slide level2">
+<h2>Atmosphère terrestre</h2>
 <table>
 <thead>
 <tr class="header">
@@ -575,11 +588,13 @@ src="//upload.wikimedia.org/wikipedia/commons/thumb/9/96/Aurora_Borealis_-_Wicke
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">Azote (<span class="math inline">\(\mathrm{N}_2\)</span>)</td>
+<td style="text-align: left;">Azote (<span
+class="math inline">\(\mathrm{N}_2\)</span>)</td>
 <td style="text-align: right;">78%</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">Oxygène (<span class="math inline">\(\mathrm{O}_2\)</span>)</td>
+<td style="text-align: left;">Oxygène (<span
+class="math inline">\(\mathrm{O}_2\)</span>)</td>
 <td style="text-align: right;">21%</td>
 </tr>
 <tr class="odd">
@@ -587,19 +602,20 @@ src="//upload.wikimedia.org/wikipedia/commons/thumb/9/96/Aurora_Borealis_-_Wicke
 <td style="text-align: right;">0,93%</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">Eau (<span class="math inline">\(\mathrm{H}_2O\)</span>)</td>
+<td style="text-align: left;">Eau (<span
+class="math inline">\(\mathrm{H}_2O\)</span>)</td>
 <td style="text-align: right;">0 - 4%</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">Gaz carbonique (<span class="math inline">\(C\mathrm{O}_2\)</span>)</td>
+<td style="text-align: left;">Gaz carbonique (<span
+class="math inline">\(C\mathrm{O}_2\)</span>)</td>
 <td style="text-align: right;">0,037%</td>
 </tr>
 </tbody>
 </table>
 </section>
-<section class="slide level1">
-
-<h2 id="la-lune">La Lune</h2>
+<section id="la-lune" class="slide level2">
+<h2>La Lune</h2>
 <ul>
 <li>Mers formées il y a 3,3 à 3,8 Ga
 <ul>
@@ -613,9 +629,8 @@ src="//upload.wikimedia.org/wikipedia/commons/thumb/9/96/Aurora_Borealis_-_Wicke
 <li>Pas d’atmosphère</li>
 </ul>
 </section>
-<section class="slide level1">
-
-<h2 id="naissance-de-la-lune">Naissance de la Lune</h2>
+<section id="naissance-de-la-lune" class="slide level2">
+<h2>Naissance de la Lune</h2>
 <p><em>Hypothèse la plus plausible</em></p>
 <ul>
 <li>Collision entre Terre et objet de la taille de Mars</li>
@@ -623,35 +638,36 @@ src="//upload.wikimedia.org/wikipedia/commons/thumb/9/96/Aurora_Borealis_-_Wicke
 <li>Restes de l’objet ont formé la Lune</li>
 </ul>
 </section>
-<section class="slide level1">
-
-<h2 id="rotation-de-la-lune">Rotation de la Lune</h2>
+<section id="rotation-de-la-lune" class="slide level2">
+<h2>Rotation de la Lune</h2>
 <ul>
 <li>Période de rotation correspond à la période de révolution</li>
 <li>C’est un exemple de <strong>résonance gravitationnelle</strong></li>
 </ul>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
 <h3 id="mars">Mars</h3>
 <figure>
-<a href="https://hubblesite.org/contents/media/images/2001/24/1090-Image.html?news=true"> <img alt="Mars" src="../../images/Mars.jpg"
+<a href="https://hubblesite.org/contents/media/images/2001/24/1090-Image.html?news=true">
+<img alt="Mars" src="../../images/Mars.jpg"
     style="max-width: 500px;"> </a>
 <figcaption style="font-size: 0.4em; color: #666;">
 NASA and The Hubble Heritage Team (STScI/AURA)
 </figcaption>
 </figure>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
 <h3 id="mars-1">Mars</h3>
 <p><a title="By NASA/JPL/MSSS & User:DrLee (NASA/JPL/MSSS based on the these
 sources.) [Public domain], via Wikimedia Commons"
-href="http://commons.wikimedia.org/wiki/File%3AMars_Earth_Comparison_2.jpg"> <img alt="Mars Earth Comparison 2"
+href="http://commons.wikimedia.org/wiki/File%3AMars_Earth_Comparison_2.jpg">
+<img alt="Mars Earth Comparison 2"
 src="//upload.wikimedia.org/wikipedia/commons/thumb/9/93/Mars_Earth_Comparison_2.jpg/1024px-Mars_Earth_Comparison_2.jpg"
 style="max-height: 500px;"/> </a></p>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
 <h3 id="mars-2">Mars</h3>
 <table>
@@ -687,31 +703,35 @@ style="max-height: 500px;"/> </a></p>
 </tbody>
 </table>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
-<h3 id="missions-dexploration-de-mars">Missions d’exploration de Mars</h3>
+<h3 id="missions-dexploration-de-mars">Missions d’exploration de
+Mars</h3>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
 <h3 id="mars-global-surveyor">Mars Global Surveyor</h3>
 <p><strong>Cartographie</strong> (<em>1997</em>)</p>
-<p><a href="http://commons.wikimedia.org/wiki/File:Mars_gullies.800px.jpg#mediaviewer/File:Mars_gullies.800px.jpg"> <img src="http://upload.wikimedia.org/wikipedia/commons/2/25/Mars_gullies.800px.jpg"
+<p><a href="http://commons.wikimedia.org/wiki/File:Mars_gullies.800px.jpg#mediaviewer/File:Mars_gullies.800px.jpg">
+<img src="http://upload.wikimedia.org/wikipedia/commons/2/25/Mars_gullies.800px.jpg"
     alt="Mars gullies.800px.jpg"
     style="max-height: 500px;"> </a></p>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
 <h3 id="spirit">Spirit</h3>
-<p><strong>Preuve qu’il y a eu de l’eau sur Mars</strong> (<em>2004</em>)</p>
+<p><strong>Preuve qu’il y a eu de l’eau sur Mars</strong>
+(<em>2004</em>)</p>
 <figure>
-<a href="https://www.nasa.gov/mission_pages/mer/images/20061025.html"> <img alt="Spirit" src="../../images/PIA01907_modest.jpg"
+<a href="https://www.nasa.gov/mission_pages/mer/images/20061025.html">
+<img alt="Spirit" src="../../images/PIA01907_modest.jpg"
     style="max-heigth: 500px;"> </a>
 <figcaption style="font-size: 0.4em; color: #666;">
 NASA/JPL/Cornell
 </figcaption>
 </figure>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
 <h3 id="spirit-1">Spirit</h3>
 <ul>
@@ -719,59 +739,64 @@ NASA/JPL/Cornell
 <li>Fin de la mission en 2011</li>
 </ul>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
 <h3 id="opportunity">Opportunity</h3>
-<p><strong>Preuve qu’il y a eu de l’eau sur Mars</strong> (<em>2004</em>)</p>
+<p><strong>Preuve qu’il y a eu de l’eau sur Mars</strong>
+(<em>2004</em>)</p>
 <p><img alt="Opportunity tracks" height="450px" src="http://www.nasa.gov/sites/default/files/pia18604-main_pcam-sol3754b_l257atc_2.jpg" /></p>
 <p><small>NASA/JPL-Caltech/Cornell Univ./Arizona State Univ.</small></p>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
 <figure>
-<a href="https://mars.nasa.gov/resources/spirit-and-opportunity-by-the-numbers/"> <img alt="Curiosity" src="../../images/8249_MER_ByTheNumbers_infographic_Feb2019.jpg"
+<a href="https://mars.nasa.gov/resources/spirit-and-opportunity-by-the-numbers/">
+<img alt="Curiosity" src="../../images/8249_MER_ByTheNumbers_infographic_Feb2019.jpg"
     style="max-height: 500px;"> </a>
 <figcaption style="font-size: 0.4em; color: #666;">
 NASA/JPL-Caltech
 </figcaption>
 </figure>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
 <h3 id="curiosity">Curiosity</h3>
 <figure>
-<a href="https://photojournal.jpl.nasa.gov/catalog/PIA16239"> <img alt="Curiosity" src="../../images/PIA16239_modest.jpg"
+<a href="https://photojournal.jpl.nasa.gov/catalog/PIA16239">
+<img alt="Curiosity" src="../../images/PIA16239_modest.jpg"
     style="max-height: 500px;"> </a>
 <figcaption style="font-size: 0.4em; color: #666;">
 NASA/JPL-Caltech/Malin Space Science Systems
 </figcaption>
 </figure>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
 <h3 id="curiosity-1">Curiosity</h3>
-<p><strong>À la recherche de molécules organiques</strong> (<em>2012</em>)</p>
+<p><strong>À la recherche de molécules organiques</strong>
+(<em>2012</em>)</p>
 <figure>
-<a href="https://www.nasa.gov/image-feature/going-forward"> <img alt="Curiosity" src="../../images/pia22326-16.jpg"
+<a href="https://www.nasa.gov/image-feature/going-forward">
+<img alt="Curiosity" src="../../images/pia22326-16.jpg"
     style="max-height: 400px;"> </a>
 <figcaption style="font-size: 0.4em; color: #666;">
 NASA
 </figcaption>
 </figure>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
 <h3 id="maven">MAVEN</h3>
-<p><strong>Pourquoi Mars a perdu son atmosphère</strong> (<em>2014</em>)</p>
+<p><strong>Pourquoi Mars a perdu son atmosphère</strong>
+(<em>2014</em>)</p>
 <p><img alt="MAVEN spin test" height="450px"
 src="http://www.nasa.gov/sites/default/files/styles/1024x768_autoletterbox/public/2013-3701-m.jpg?itok=tE5JuzPf" /></p>
 <figcaption style="font-size: 0.4em; color: #666;">
 NASA/Kim Shiflett
 </figcaption>
 </section>
-<section class="slide level1">
-
-<h2 id="mars-3">Mars</h2>
+<section id="mars-3" class="slide level2">
+<h2>Mars</h2>
 <ul>
 <li>Atmosphère ténue (0,01 bar)
 <ul>
@@ -781,9 +806,8 @@ NASA/Kim Shiflett
 <li>Couleur orangée : rouille (oxyde de fer)</li>
 </ul>
 </section>
-<section class="slide level1">
-
-<h2 id="mars-4">Mars</h2>
+<section id="mars-4" class="slide level2">
+<h2>Mars</h2>
 <ul>
 <li>Composition semblable à la Terre</li>
 <li>Croûte
@@ -795,9 +819,8 @@ NASA/Kim Shiflett
 <li>Noyau métallique</li>
 </ul>
 </section>
-<section class="slide level1">
-
-<h2 id="mars-5">Mars</h2>
+<section id="mars-5" class="slide level2">
+<h2>Mars</h2>
 <ul>
 <li>Pas d’activité tectonique</li>
 <li>Pas de chaînes de montagne</li>
@@ -805,30 +828,29 @@ NASA/Kim Shiflett
 <li>Volcans gigantesques</li>
 </ul>
 </section>
-<section class="slide level1">
-
-<h2 id="mont-olympus">Mont Olympus</h2>
+<section id="mont-olympus" class="slide level2">
+<h2>Mont Olympus</h2>
 <ul>
 <li>Plus haut volcan du système solaire</li>
 <li>Hauteur de 23 km (3 fois l’Éverest)</li>
 <li>Large de 600 km</li>
 </ul>
 </section>
-<section class="slide level1">
-
-<h2 id="mont-olympus-1">Mont Olympus</h2>
+<section id="mont-olympus-1" class="slide level2">
+<h2>Mont Olympus</h2>
 <p><img alt="Olympus Mons" src="http://mars.nasa.gov/gallery/atlas/images/oly-az.jpg" /></p>
 <figcaption style="font-size: 0.4em; color: #666;">
 NASA/JPL
 </figcaption>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
 <h3 id="satellites-de-mars">Satellites de Mars</h3>
 <p>Phobos (27 km)</p>
 <p><a title="By NASA/JPL-Caltech/University of Arizona (NASA) [Public domain], via
 Wikimedia Commons"
-href="http://commons.wikimedia.org/wiki/File%3A221831main_PIA10368.png"> <img alt="221831main PIA10368"
+href="http://commons.wikimedia.org/wiki/File%3A221831main_PIA10368.png">
+<img alt="221831main PIA10368"
   src="//upload.wikimedia.org/wikipedia/commons/thumb/4/40/221831main_PIA10368.png/1024px-221831main_PIA10368.png"
   style="max-height: 400px;"
 /></a></p>
@@ -836,7 +858,7 @@ href="http://commons.wikimedia.org/wiki/File%3A221831main_PIA10368.png"> <img al
 MRO || NASA/JPL-Caltech/University of Arizona
 </figcaption>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
 <h3 id="satellites-de-mars-1">Satellites de Mars</h3>
 <p>Deimos (15 km)</p>
@@ -846,25 +868,22 @@ src="http://photojournal.jpl.nasa.gov/jpegMod/PIA11826_modest.jpg" /></p>
 MRO || NASA/JPL-Caltech/University of Arizona
 </figcaption>
 </section>
-<section class="slide level1">
-
-<h2 id="les-planètes-joviennes">Les planètes joviennes</h2>
+<section id="les-planètes-joviennes" class="slide level2">
+<h2>Les planètes joviennes</h2>
 <p><img data-src="../../images/Gas_planet_size_comparisons.jpg" /></p>
 <figcaption style="font-size: 0.4em; color: #666;">
 NASA
 </figcaption>
 </section>
-<section class="slide level1">
-
-<h2 id="jupiter">Jupiter</h2>
+<section id="jupiter" class="slide level2">
+<h2>Jupiter</h2>
 <p><img data-src="../../images/Full_Disk_Jupiter1_br.jpg" /></p>
 <figcaption style="font-size: 0.4em; color: #666;">
 Cassini (2011) | NASA/JPL/University of Arizona
 </figcaption>
 </section>
-<section class="slide level1">
-
-<h2 id="jupiter-1">Jupiter</h2>
+<section id="jupiter-1" class="slide level2">
+<h2>Jupiter</h2>
 <table>
 <tbody>
 <tr class="odd">
@@ -898,9 +917,8 @@ Cassini (2011) | NASA/JPL/University of Arizona
 </tbody>
 </table>
 </section>
-<section class="slide level1">
-
-<h2 id="jupiter-2">Jupiter</h2>
+<section id="jupiter-2" class="slide level2">
+<h2>Jupiter</h2>
 <ul>
 <li>70% de toute la masse des planètes</li>
 <li>1400 fois plus volumineuse que la Terre</li>
@@ -910,9 +928,8 @@ Cassini (2011) | NASA/JPL/University of Arizona
 <li>Aplatissement de 6%</li>
 </ul>
 </section>
-<section class="slide level1">
-
-<h2 id="jupiter-3">Jupiter</h2>
+<section id="jupiter-3" class="slide level2">
+<h2>Jupiter</h2>
 <ul>
 <li>Composition de la planète
 <ul>
@@ -924,18 +941,19 @@ Cassini (2011) | NASA/JPL/University of Arizona
 </ul></li>
 </ul>
 </section>
-<section class="slide level1">
-
-<h2 id="jupiter-4">Jupiter</h2>
+<section id="jupiter-4" class="slide level2">
+<h2>Jupiter</h2>
 <ul>
 <li>Rotation différentielle
 <ul>
-<li>Période de rotation équatoriale plus courte que la période de rotation des pôles</li>
-<li>Période de rotation de la surface plus courte que la période de rotation interne</li>
+<li>Période de rotation équatoriale plus courte que la période de
+rotation des pôles</li>
+<li>Période de rotation de la surface plus courte que la période de
+rotation interne</li>
 </ul></li>
 </ul>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
 <h3 id="grande-tache-rouge">Grande tache rouge</h3>
 <figure>
@@ -946,17 +964,18 @@ Voyager 2 (1979) | NASA
 </figcaption>
 </figure>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
 <figure>
-<a href="https://solarsystem.nasa.gov/resources/626/jupiters-great-red-spot-in-true-color/?category=planets_jupiter"> <img alt="Grande tache rouge" src="../../images/626_PIA21775.jpg"
+<a href="https://solarsystem.nasa.gov/resources/626/jupiters-great-red-spot-in-true-color/?category=planets_jupiter">
+<img alt="Grande tache rouge" src="../../images/626_PIA21775.jpg"
     style="max-height: 600px;"> </a>
 <figcaption style="font-size: 0.4em; color: #666;">
 Juno (2017) | NASA/JPL-Caltech/SwRI/MSSS/Bjorn Jonsson
 </figcaption>
 </figure>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
 <h3 id="grande-tache-rouge-1">Grande tache rouge</h3>
 <ul>
@@ -964,28 +983,28 @@ Juno (2017) | NASA/JPL-Caltech/SwRI/MSSS/Bjorn Jonsson
 <li>Dure depuis au moins 350 ans</li>
 </ul>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
 <figure>
-<a href="https://www.nasa.gov/image-feature/nasas-juno-spacecraft-has-a-close-encounter-with-jupiter"> <img alt="Image de Jupiter par Juno" src="../../images/pia22692.jpg"
+<a href="https://www.nasa.gov/image-feature/nasas-juno-spacecraft-has-a-close-encounter-with-jupiter">
+<img alt="Image de Jupiter par Juno" src="../../images/pia22692.jpg"
     style="max-height: 600px;"> </a>
 <figcaption style="font-size: 0.4em; color: #666;">
-Juno (2018) | Gerald Eichstädt and Sean Doran (CC BY-NC-SA) based on images provided courtesy of NASA/JPL-Caltech/SwRI/MSSS
+Juno (2018) | Gerald Eichstädt and Sean Doran (CC BY-NC-SA) based on
+images provided courtesy of NASA/JPL-Caltech/SwRI/MSSS
 </figcaption>
 </figure>
 </section>
-<section class="slide level1">
-
-<h2 id="composition-interne-de-jupiter">Composition interne de Jupiter</h2>
+<section id="composition-interne-de-jupiter" class="slide level2">
+<h2>Composition interne de Jupiter</h2>
 <p><a title="By Kelvinsong (Own work) [CC-BY-SA-3.0
 (http://creativecommons.org/licenses/by-sa/3.0)], via Wikimedia Commons"
 href="http://commons.wikimedia.org/wiki/File%3AJupiter_diagram.svg"><img
 width="1024" alt="Jupiter diagram"
 src="http://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Jupiter_diagram.svg/1024px-Jupiter_diagram.svg.png"/></a></p>
 </section>
-<section class="slide level1">
-
-<h2 id="io">Io</h2>
+<section id="io" class="slide level2">
+<h2>Io</h2>
 <figure>
 <img alt="Jupiter et Io" src="../../images/Cassini_Jupiter_and_Io.jpg"
     style="max-height: 500px;">
@@ -994,9 +1013,8 @@ Cassini (2001) | NASA/JPL/University of Arizona
 </figcaption>
 </figure>
 </section>
-<section class="slide level1">
-
-<h2 id="satellites-de-jupiter">Satellites de Jupiter</h2>
+<section id="satellites-de-jupiter" class="slide level2">
+<h2>Satellites de Jupiter</h2>
 <ul>
 <li>Io</li>
 <li>Ganymède</li>
@@ -1005,9 +1023,8 @@ Cassini (2001) | NASA/JPL/University of Arizona
 <li>75 autres petits satellites</li>
 </ul>
 </section>
-<section class="slide level1">
-
-<h2 id="saturne">Saturne</h2>
+<section id="saturne" class="slide level2">
+<h2>Saturne</h2>
 <figure>
 <img alt="Saturne" src="../../images/Saturne.jpeg"
     style="max-height: 600px;">
@@ -1016,9 +1033,8 @@ Cassini | NASA
 </figcaption>
 </figure>
 </section>
-<section class="slide level1">
-
-<h2 id="saturne-1">Saturne</h2>
+<section id="saturne-1" class="slide level2">
+<h2>Saturne</h2>
 <figure>
 <img alt="Anneaux de Saturne" src="../../images/Saturne_anneau.jpg"
     style="max-height: 600px;">
@@ -1027,9 +1043,8 @@ Cassini | NASA
 </figcaption>
 </figure>
 </section>
-<section class="slide level1">
-
-<h2 id="saturne-2">Saturne</h2>
+<section id="saturne-2" class="slide level2">
+<h2>Saturne</h2>
 <figure>
 <img alt="Saturne" src="../../images/True_Saturn732x520.jpg"
     style="max-height: 600px;">
@@ -1038,9 +1053,8 @@ Cassini | NASA/JPL/Space Science Institute
 </figcaption>
 </figure>
 </section>
-<section class="slide level1">
-
-<h2 id="saturne-3">Saturne</h2>
+<section id="saturne-3" class="slide level2">
+<h2>Saturne</h2>
 <table>
 <tbody>
 <tr class="odd">
@@ -1074,9 +1088,8 @@ Cassini | NASA/JPL/Space Science Institute
 </tbody>
 </table>
 </section>
-<section class="slide level1">
-
-<h2 id="saturne-4">Saturne</h2>
+<section id="saturne-4" class="slide level2">
+<h2>Saturne</h2>
 <ul>
 <li>Composée d’hydrogène et d’hélium</li>
 <li>Champ magnétique 500 fois plus grand que celui de la Terre</li>
@@ -1084,15 +1097,14 @@ Cassini | NASA/JPL/Space Science Institute
 <li>Aplatissement de 10%</li>
 </ul>
 </section>
-<section class="slide level1">
-
-<h2 id="anneaux-de-saturne">Anneaux de Saturne</h2>
+<section id="anneaux-de-saturne" class="slide level2">
+<h2>Anneaux de Saturne</h2>
 <ul>
 <li>Composés principalement de glace</li>
 <li>1 km d’épaisseur</li>
 </ul>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
 <h3 id="uranus">Uranus</h3>
 <figure>
@@ -1103,9 +1115,8 @@ Voyager 2 (1986) | NASA
 </figcaption>
 </figure>
 </section>
-<section class="slide level1">
-
-<h2 id="uranus-1">Uranus</h2>
+<section id="uranus-1" class="slide level2">
+<h2>Uranus</h2>
 <table>
 <tbody>
 <tr class="odd">
@@ -1139,7 +1150,7 @@ Voyager 2 (1986) | NASA
 </tbody>
 </table>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
 <h3 id="uranus-2">Uranus</h3>
 <figure>
@@ -1149,7 +1160,7 @@ Voyager 2 (1986) | NASA
 </figcaption>
 </figure>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
 <h3 id="uranus-3">Uranus</h3>
 <ul>
@@ -1159,7 +1170,7 @@ Voyager 2 (1986) | NASA
 <li>27 satellites</li>
 </ul>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
 <h3 id="neptune">Neptune</h3>
 <figure>
@@ -1169,7 +1180,7 @@ Voyager 2 (1986) | NASA
 </figcaption>
 </figure>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
 <h3 id="neptune-1">Neptune</h3>
 <table>
@@ -1205,46 +1216,184 @@ Voyager 2 (1986) | NASA
 </tbody>
 </table>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
 <h3 id="neptune-2">Neptune</h3>
 <ul>
 <li>Composition interne très semblable à Uranus</li>
 <li>Inclinaison de l’axe de rotation de 30°</li>
-<li>Phénomènes atmosphériques probablement dus à la production d’énergie par contraction gravitationnelle</li>
+<li>Phénomènes atmosphériques probablement dus à la production d’énergie
+par contraction gravitationnelle</li>
 </ul>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
 <h3 id="pluton">Pluton</h3>
 <figure>
 <img alt="Pluton" src="../../images/Pluton.png"
     style="max-height: 500px;">
 <figcaption style="font-size: 0.4em; color: #666;">
-NASA/Johns Hopkins University Applied Physics Laboratory/Southwest Research Institute/Alex Parker
+NASA/Johns Hopkins University Applied Physics Laboratory/Southwest
+Research Institute/Alex Parker
 </figcaption>
 </figure>
 </section>
     </div>
   </div>
 
-  <script src="../reveal.js/dist/reveal.js"></script>
+  <script src="https://unpkg.com/reveal.js@^4//dist/reveal.js"></script>
 
-  // reveal.js plugins
-  <script src="../reveal.js/plugin/notes/notes.js"></script>
-  <script src="../reveal.js/plugin/search/search.js"></script>
-  <script src="../reveal.js/plugin/zoom/zoom.js"></script>
-  <script src="../reveal.js/plugin/math/math.js"></script>
+  <!-- reveal.js plugins -->
+  <script src="https://unpkg.com/reveal.js@^4//plugin/notes/notes.js"></script>
+  <script src="https://unpkg.com/reveal.js@^4//plugin/search/search.js"></script>
+  <script src="https://unpkg.com/reveal.js@^4//plugin/zoom/zoom.js"></script>
+  <script src="https://unpkg.com/reveal.js@^4//plugin/math/math.js"></script>
 
   <script>
 
       // Full list of configuration options available at:
       // https://revealjs.com/config/
       Reveal.initialize({
+        // Display controls in the bottom right corner
+        controls: true,
+
+        // Help the user learn the controls by providing hints, for example by
+        // bouncing the down arrow when they first encounter a vertical slide
+        controlsTutorial: true,
+
+        // Determines where controls appear, "edges" or "bottom-right"
+        controlsLayout: 'bottom-right',
+
+        // Visibility rule for backwards navigation arrows; "faded", "hidden"
+        // or "visible"
+        controlsBackArrows: 'faded',
+
+        // Display a presentation progress bar
+        progress: true,
+
+        // Display the page number of the current slide
+        slideNumber: false,
+
+        // 'all', 'print', or 'speaker'
+        showSlideNumber: 'all',
+
+        // Add the current slide number to the URL hash so that reloading the
+        // page/copying the URL will return you to the same slide
+        hash: true,
+
+        // Start with 1 for the hash rather than 0
+        hashOneBasedIndex: false,
+
+        // Flags if we should monitor the hash and change slides accordingly
+        respondToHashChanges: true,
+
         // Push each slide change to the browser history
-        history: true,
-        // Transition style
-        transition: 'none', // none/fade/slide/convex/concave/zoom
+        history: false,
+
+        // Enable keyboard shortcuts for navigation
+        keyboard: true,
+
+        // Enable the slide overview mode
+        overview: true,
+
+        // Disables the default reveal.js slide layout (scaling and centering)
+        // so that you can use custom CSS layout
+        disableLayout: false,
+
+        // Vertical centering of slides
+        center: true,
+
+        // Enables touch navigation on devices with touch input
+        touch: true,
+
+        // Loop the presentation
+        loop: false,
+
+        // Change the presentation direction to be RTL
+        rtl: false,
+
+        // see https://revealjs.com/vertical-slides/#navigation-mode
+        navigationMode: 'default',
+
+        // Randomizes the order of slides each time the presentation loads
+        shuffle: false,
+
+        // Turns fragments on and off globally
+        fragments: true,
+
+        // Flags whether to include the current fragment in the URL,
+        // so that reloading brings you to the same fragment position
+        fragmentInURL: true,
+
+        // Flags if the presentation is running in an embedded mode,
+        // i.e. contained within a limited portion of the screen
+        embedded: false,
+
+        // Flags if we should show a help overlay when the questionmark
+        // key is pressed
+        help: true,
+
+        // Flags if it should be possible to pause the presentation (blackout)
+        pause: true,
+
+        // Flags if speaker notes should be visible to all viewers
+        showNotes: false,
+
+        // Global override for autoplaying embedded media (null/true/false)
+        autoPlayMedia: null,
+
+        // Global override for preloading lazy-loaded iframes (null/true/false)
+        preloadIframes: null,
+
+        // Number of milliseconds between automatically proceeding to the
+        // next slide, disabled when set to 0, this value can be overwritten
+        // by using a data-autoslide attribute on your slides
+        autoSlide: 0,
+
+        // Stop auto-sliding after user input
+        autoSlideStoppable: true,
+
+        // Use this method for navigation when auto-sliding
+        autoSlideMethod: null,
+
+        // Specify the average time in seconds that you think you will spend
+        // presenting each slide. This is used to show a pacing timer in the
+        // speaker view
+        defaultTiming: null,
+
+        // Enable slide navigation via mouse wheel
+        mouseWheel: false,
+
+        // The display mode that will be used to show slides
+        display: 'block',
+
+        // Hide cursor if inactive
+        hideInactiveCursor: true,
+
+        // Time before the cursor is hidden (in ms)
+        hideCursorTime: 5000,
+
+        // Opens links in an iframe preview overlay
+        previewLinks: false,
+
+        // Transition style (none/fade/slide/convex/concave/zoom)
+        transition: 'none',
+
+        // Transition speed (default/fast/slow)
+        transitionSpeed: 'default',
+
+        // Transition style for full page slide backgrounds
+        // (none/fade/slide/convex/concave/zoom)
+        backgroundTransition: 'fade',
+
+        // Number of slides away from the current that are visible
+        viewDistance: 3,
+
+        // Number of slides away from the current that are visible on mobile
+        // devices. It is advisable to set this to a lower number than
+        // viewDistance in order to save resources.
+        mobileViewDistance: 2,
+
         math: {
           mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js',
           config: 'TeX-AMS_HTML-full',

@@ -8,17 +8,28 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
-  <link rel="stylesheet" href="../reveal.js/dist/reset.css">
-  <link rel="stylesheet" href="../reveal.js/dist/reveal.css">
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^4//dist/reset.css">
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^4//dist/reveal.css">
   <style>
+    .reveal .sourceCode {  /* see #7635 */
+      overflow: visible;
+    }
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    span.underline{text-decoration: underline;}
-    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    ul.task-list{list-style: none;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
   </style>
-  <link rel="stylesheet" href="../reveal.js/dist/theme/black.css" id="theme">
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^4//dist/theme/black.css" id="theme">
 </head>
 <body>
   <div class="reveal">
@@ -30,22 +41,27 @@
   <p class="date">9 novembre 2020</p>
 </section>
 
-<section id="section" class="slide level1" data-background-image="../../images/milky_way_schmidt.jpg">
+<section id="section" class="slide level1"
+data-background-image="../../images/milky_way_schmidt.jpg">
 <h1 data-background-image="../../images/milky_way_schmidt.jpg"></h1>
 <div class="fragment">
 <h3 style="background-color: rgba(100, 100, 100, 0.4); padding: 20px;">
-Comment fait-on pour déterminer la taille des astres et les distances entre la Terre et les astres?
+Comment fait-on pour déterminer la taille des astres et les distances
+entre la Terre et les astres?
 </h3>
 <br><br><br><br><br>
 <figcaption style="font-size: 0.4em; color: #666;">
-<a href="https://www.flickr.com/photos/geckzilla/30386605114/">Judy Schmidt</a> <a href="https://creativecommons.org/licenses/by/2.0/">CC BY 2.0</a>
+<a href="https://www.flickr.com/photos/geckzilla/30386605114/">Judy
+Schmidt</a> <a href="https://creativecommons.org/licenses/by/2.0/">CC BY
+2.0</a>
 </figcaption>
 </div>
 </section>
 <section class="slide level1">
 
 <h2 id="rappels">Rappels</h2>
-<p>Dans le système solaire, on peut utiliser les méthodes suivantes pour déterminer des distances :</p>
+<p>Dans le système solaire, on peut utiliser les méthodes suivantes pour
+déterminer des distances :</p>
 <ul>
 <li>Radar</li>
 <li>Méthode par parallaxe</li>
@@ -63,7 +79,8 @@ Comment fait-on pour déterminer la taille des astres et les distances entre la 
     ">
 </figure>
 <figcaption style="font-size: 0.4em; color: #666;">
-Astronomy Education at the University of Nebraska-Lincoln Web Site (<a href="http://astro.unl.edu">http://astro.unl.edu</a>)
+Astronomy Education at the University of Nebraska-Lincoln Web Site (<a
+href="http://astro.unl.edu">http://astro.unl.edu</a>)
 </figcaption>
 </section>
 <section class="slide level1">
@@ -87,7 +104,8 @@ Astronomy Education at the University of Nebraska-Lincoln Web Site (<a href="htt
 <li>Céphéides</li>
 </ul>
 </section>
-<section id="section-1" class="slide level1" data-background-image="../../images/potw2014a.jpg">
+<section id="section-1" class="slide level1"
+data-background-image="../../images/potw2014a.jpg">
 <h1 data-background-image="../../images/potw2014a.jpg"></h1>
 <h1 style="background-color: rgba(100, 100, 100, 0.4); padding: 20px;">
 Parallaxe annuelle
@@ -102,14 +120,16 @@ ESA/Hubble &amp; NASA, J. Greene
 <h3 id="parallaxe-annuelle">Parallaxe annuelle</h3>
 <ul>
 <li>Distance des étoiles proches</li>
-<li>On mesure le changement de position apparente d’une étoile à 6 mois d’intervalle</li>
+<li>On mesure le changement de position apparente d’une étoile à 6 mois
+d’intervalle</li>
 </ul>
 </section>
 <section class="slide level1">
 
 <h3 id="parallaxe-annuelle-1">Parallaxe annuelle</h3>
 <figure>
-<a href="https://commons.wikimedia.org/wiki/File:ParallaxV2.svg"> <img src="../../images/annual-parallax.png"
+<a href="https://commons.wikimedia.org/wiki/File:ParallaxV2.svg">
+<img src="../../images/annual-parallax.png"
       alt="Parallaxe annuelle"
       style="
           max-height: 400px;
@@ -118,7 +138,9 @@ ESA/Hubble &amp; NASA, J. Greene
           padding: 10px;
       "> </a>
 <figcaption style="font-size: 0.4em; color: #666;">
-(WikiStefan <a href="https://creativecommons.org/licenses/by/3.0/deed.en">CC BY 3.0</a>)
+(WikiStefan <a
+href="https://creativecommons.org/licenses/by/3.0/deed.en">CC BY
+3.0</a>)
 </figcaption>
 </figure>
 </section>
@@ -133,7 +155,8 @@ ESA/Hubble &amp; NASA, J. Greene
 </ul>
 </div><div class="column" style="width:50%;">
 <figure>
-<a href="https://commons.wikimedia.org/wiki/File:Friedrich_Wilhelm_Bessel_(1839_painting).jpg"> <img src="../../images/Friedrich_Wilhelm_Bessel_1839_painting.jpg"
+<a href="https://commons.wikimedia.org/wiki/File:Friedrich_Wilhelm_Bessel_(1839_painting).jpg">
+<img src="../../images/Friedrich_Wilhelm_Bessel_1839_painting.jpg"
       alt="Portrait de Friedrich Bessel par le peintre danois Christian
       Albrecht Jensen. Bessel est le premier astronome à avoir mesuré la
       distance d'une étoile avec la méthode de la parallaxe annuelle."
@@ -154,14 +177,17 @@ ESA/Hubble &amp; NASA, J. Greene
 </ul>
 </div><div class="column" style="width:50%;">
 <figure>
-<a href="https://commons.wikimedia.org/wiki/File%3AHipparcos-testing-estec.jpg"> <img src="../../images/Hipparcos-testing-estec.jpg"/
+<a href="https://commons.wikimedia.org/wiki/File%3AHipparcos-testing-estec.jpg">
+<img src="../../images/Hipparcos-testing-estec.jpg"/
       alt="Hipparcos"
       style="
           max-height: 400px;
           max-width: 800px;
       "> </a>
 <figcaption style="font-size: 0.4em; color: #666;">
-(Michael Perryman <a href="https://creativecommons.org/licenses/by-sa/3.0/deed.en">CC BY-SA 3.0</a>)
+(Michael Perryman <a
+href="https://creativecommons.org/licenses/by-sa/3.0/deed.en">CC BY-SA
+3.0</a>)
 </figcaption>
 </figure>
 </div>
@@ -179,7 +205,8 @@ ESA/Hubble &amp; NASA, J. Greene
 </ul>
 </div><div class="column" style="width:50%;">
 <figure>
-<a href="https://sci.esa.int/web/gaia/-/55638-artist-impression-of-gaia"> <img src="../../images/Gaia_spacecraft_illustration.jpg"/
+<a href="https://sci.esa.int/web/gaia/-/55638-artist-impression-of-gaia">
+<img src="../../images/Gaia_spacecraft_illustration.jpg"/
       alt="Hipparcos"
       style="
           max-height: 400px;
@@ -192,7 +219,8 @@ ESA/ATG medialab
 </div>
 </div>
 </section>
-<section id="section-2" class="slide level1" data-background-image="../../images/potw2014a.jpg">
+<section id="section-2" class="slide level1"
+data-background-image="../../images/potw2014a.jpg">
 <h1 data-background-image="../../images/potw2014a.jpg"></h1>
 <h1 style="background-color: rgba(100, 100, 100, 0.4); padding: 20px;">
 Parallaxe spectroscopique
@@ -204,41 +232,53 @@ ESA/Hubble &amp; NASA, J. Greene
 </section>
 <section class="slide level1">
 
-<p>Deux sources lumineuses identiques placées à des distances différentes paraîtront différentes</p>
+<p>Deux sources lumineuses identiques placées à des distances
+différentes paraîtront différentes</p>
 </section>
-<section id="section-3" class="slide level1" data-background-image="../../images/lampadaires-distance.jpg">
+<section id="section-3" class="slide level1"
+data-background-image="../../images/lampadaires-distance.jpg">
 <h1 data-background-image="../../images/lampadaires-distance.jpg"></h1>
 </section>
 <section class="slide level1">
 
-<h2 id="intensité-luminosité-distance">Intensité, luminosité, distance</h2>
+<h2 id="intensité-luminosité-distance">Intensité, luminosité,
+distance</h2>
 <ul>
-<li><strong>Intensité lumineuse</strong> : énergie par unité de temps par unité de surface</li>
-<li>Dépend de la <strong>luminosité</strong> de la source et de sa <strong>distance</strong></li>
+<li><strong>Intensité lumineuse</strong> : énergie par unité de temps
+par unité de surface</li>
+<li>Dépend de la <strong>luminosité</strong> de la source et de sa
+<strong>distance</strong></li>
 </ul>
 <p><span class="math display">\[I = \frac{L}{4\pi d^2}\]</span></p>
 </section>
 <section class="slide level1">
 
-<h2 id="intensité-luminosité-distance-1">Intensité, luminosité, distance</h2>
+<h2 id="intensité-luminosité-distance-1">Intensité, luminosité,
+distance</h2>
 <figure>
-<a href="https://commons.wikimedia.org/wiki/File:Inverse_square_law.svg"> <img src="../../images/Inverse_square_law.png"
+<a href="https://commons.wikimedia.org/wiki/File:Inverse_square_law.svg">
+<img src="../../images/Inverse_square_law.png"
       alt="Intensité inversement proportionnelle au carré de la distance"
       style="max-width: 800px;
              max-height: 400px;"
       > </a>
 <figcaption style="font-size: 0.4em; color: #aaa;">
-(Borb <a href="https://creativecommons.org/licenses/by-sa/3.0/deed.en">CC BY-SA 3.0</a>)
+(Borb <a
+href="https://creativecommons.org/licenses/by-sa/3.0/deed.en">CC BY-SA
+3.0</a>)
 </figcaption>
 </figure>
 </section>
 <section class="slide level1">
 
-<h2 id="intensité-luminosité-distance-2">Intensité, luminosité, distance</h2>
-<p>On observe une ampoule de 100 W. Un capteur permet de déterminer que l’intensité de la lumière qui provient de l’ampoule est de 0,08 W/m<sup>2</sup>. À quelle distance est l’ampoule?</p>
-<div class="fragment">
-<p><span class="math display">\[d = \sqrt{\frac{L}{4\pi I}} = 10\,\mathrm{m}\]</span></p>
-</div>
+<h2 id="intensité-luminosité-distance-2">Intensité, luminosité,
+distance</h2>
+<p>On observe une ampoule de 100 W. Un capteur permet de déterminer que
+l’intensité de la lumière qui provient de l’ampoule est de
+0,08 W/m<sup>2</sup>. À quelle distance est l’ampoule?</p>
+<p>. . .</p>
+<p><span class="math display">\[d = \sqrt{\frac{L}{4\pi I}} =
+10\,\mathrm{m}\]</span></p>
 </section>
 <section class="slide level1">
 
@@ -248,27 +288,32 @@ ESA/Hubble &amp; NASA, J. Greene
 </section>
 <section class="slide level1">
 
-<p>La galaxie M87 a une magnitude absolue d’environ -22. On voit donc cette galaxie briller très clairement dans le ciel nocturne.</p>
+<p>La galaxie M87 a une magnitude absolue d’environ -22. On voit donc
+cette galaxie briller très clairement dans le ciel nocturne.</p>
 <p>Vrai ou faux?</p>
 <p>https://b.socrative.com/login/student/</p>
 <p>DCRDEWY</p>
 </section>
 <section class="slide level1">
 
-<p>Deneb a une magnitude apparente d’environ 1.25. Le Soleil a une magnitude apparente d’environ -26. Sélectionnez les énoncés vrais.</p>
+<p>Deneb a une magnitude apparente d’environ 1.25. Le Soleil a une
+magnitude apparente d’environ -26. Sélectionnez les énoncés vrais.</p>
 <small>
 <ol style="list-style-type: upper-alpha">
 <li>
-Si on les mettait côte-à-côte, Deneb paraîtrait moins brillante que le Soleil.
+Si on les mettait côte-à-côte, Deneb paraîtrait moins brillante que le
+Soleil.
 </li>
 <li>
 Deneb paraît moins brillante que le Soleil dans le ciel.
 </li>
 <li>
-Sachant que Deneb est à 1400 années-lumière, il est raisonnable de croire qu’elle est en fait plus brillante que le Soleil.
+Sachant que Deneb est à 1400 années-lumière, il est raisonnable de
+croire qu’elle est en fait plus brillante que le Soleil.
 </li>
 <li>
-Le Soleil parait beaucoup plus brillant que Deneb parce qu’il est beaucoup plus proche.
+Le Soleil parait beaucoup plus brillant que Deneb parce qu’il est
+beaucoup plus proche.
 </li>
 </ol>
 <p></small></p>
@@ -279,13 +324,16 @@ Le Soleil parait beaucoup plus brillant que Deneb parce qu’il est beaucoup plu
 <p>On veut mesurer la distance de l’étoile A</p>
 <ol type="1">
 <li>On mesure l’intensité de l’étoile A</li>
-<li>On trouve une étoile «jumelle» B dont on connait la distance et donc la luminosité</li>
-<li>En supposant que l’étoile A a la même luminosité que B, on calcule la distance de A</li>
+<li>On trouve une étoile «jumelle» B dont on connait la distance et donc
+la luminosité</li>
+<li>En supposant que l’étoile A a la même luminosité que B, on calcule
+la distance de A</li>
 </ol>
 </section>
 <section class="slide level1">
 
-<h2 id="méthode-des-étoiles-jumelles-exemple">Méthode des étoiles jumelles, exemple</h2>
+<h2 id="méthode-des-étoiles-jumelles-exemple">Méthode des étoiles
+jumelles, exemple</h2>
 <ul>
 <li class="fragment">Étoile Smurf est jumelle de Spectl</li>
 </ul>
@@ -304,7 +352,10 @@ Le Soleil parait beaucoup plus brillant que Deneb parce qu’il est beaucoup plu
 </section>
 <section class="slide level1">
 
-<p>Les étoiles Malm et Vikhammer sont jumelles. On sait que Vikhammer est à une distance de 1000 années-lumière. Malm parait 25 fois plus brillante que Vikhammer dans le ciel. À quelle distance se trouve Malm?</p>
+<p>Les étoiles Malm et Vikhammer sont jumelles. On sait que Vikhammer
+est à une distance de 1000 années-lumière. Malm parait 25 fois plus
+brillante que Vikhammer dans le ciel. À quelle distance se trouve
+Malm?</p>
 <ol style="list-style-type: upper-alpha">
 <li>
 40 al
@@ -325,7 +376,10 @@ Le Soleil parait beaucoup plus brillant que Deneb parce qu’il est beaucoup plu
 </section>
 <section class="slide level1">
 
-<p>Trysil et Nesna sont des étoiles jumelles. Trysil a une magnitude apparente de 4. On sait qu’elle est au moins deux fois plus loin que Mesna. Laquelle des valeurs suivantes est une magnitude apparente possible pour Mesna?</p>
+<p>Trysil et Nesna sont des étoiles jumelles. Trysil a une magnitude
+apparente de 4. On sait qu’elle est au moins deux fois plus loin que
+Mesna. Laquelle des valeurs suivantes est une magnitude apparente
+possible pour Mesna?</p>
 <ol style="list-style-type: upper-alpha">
 <li>
 -20
@@ -346,7 +400,8 @@ Le Soleil parait beaucoup plus brillant que Deneb parce qu’il est beaucoup plu
 </section>
 <section class="slide level1">
 
-<h3 id="comment-connaît-on-la-luminosité-dune-étoile">Comment connaît-on la luminosité d’une étoile?</h3>
+<h3 id="comment-connaît-on-la-luminosité-dune-étoile">Comment connaît-on
+la luminosité d’une étoile?</h3>
 </section>
 <section class="slide level1">
 
@@ -363,7 +418,8 @@ Le Soleil parait beaucoup plus brillant que Deneb parce qu’il est beaucoup plu
 
 <div class="columns">
 <div class="column" style="width:50%;">
-<p>On disperse la lumière d’une étoile pour obtenir son <strong>spectre</strong></p>
+<p>On disperse la lumière d’une étoile pour obtenir son
+<strong>spectre</strong></p>
 <p>. . .</p>
 <p>OBAFGKMLT</p>
 <p>. . .</p>
@@ -387,10 +443,12 @@ Le Soleil parait beaucoup plus brillant que Deneb parce qu’il est beaucoup plu
 <div class="columns">
 <div class="column" style="width:50%;">
 <p>Renseigne sur la température et la composition chimique</p>
-<p>Deux étoiles avec le même spectre et la même taille ont la même luminosité</p>
+<p>Deux étoiles avec le même spectre et la même taille ont la même
+luminosité</p>
 </div><div class="column" style="width:50%;">
 <figure>
-<a href="https://www.flickr.com/photos/schlesinger_library/27219643971/"> <img src="../../images/annie-jump-cannon.jpg"
+<a href="https://www.flickr.com/photos/schlesinger_library/27219643971/">
+<img src="../../images/annie-jump-cannon.jpg"
       alt="Annie Jump Cannon"
       style="max-width: 400px;
              max-height: 500px;"
@@ -411,10 +469,12 @@ Le Soleil parait beaucoup plus brillant que Deneb parce qu’il est beaucoup plu
            max-height: 600px;"
 >
 <figcaption style="font-size: 0.4em; color: #666;">
-Astronomy Education at the University of Nebraska-Lincoln Web Site (<a href="http://astro.unl.edu">http://astro.unl.edu</a>)
+Astronomy Education at the University of Nebraska-Lincoln Web Site (<a
+href="http://astro.unl.edu">http://astro.unl.edu</a>)
 </figcaption>
 </section>
-<section id="section-4" class="slide level1" data-background-image="../../images/potw2014a.jpg">
+<section id="section-4" class="slide level1"
+data-background-image="../../images/potw2014a.jpg">
 <h1 data-background-image="../../images/potw2014a.jpg"></h1>
 <h1 style="background-color: rgba(100, 100, 100, 0.4); padding: 20px;">
 Céphéides
@@ -431,18 +491,23 @@ ESA/Hubble &amp; NASA, J. Greene
 <li><strong>Céphéides</strong> : étoiles géantes rouges pulsantes</li>
 <li>Période des pulsations : 1 à 100 jours</li>
 </ul>
-<p><a href="https://vanderbei.princeton.edu/images/NJP/m15_RRlyrae3.gif">Photos de céphéides dans M15</a></p>
+<p><a
+href="https://vanderbei.princeton.edu/images/NJP/m15_RRlyrae3.gif">Photos
+de céphéides dans M15</a></p>
 </section>
 <section class="slide level1">
 
 <figure>
-<a href="https://commons.wikimedia.org/wiki/File:Cepheid_animation_3.gif"> <img src="../../images/Cepheid_animation_3.gif"
+<a href="https://commons.wikimedia.org/wiki/File:Cepheid_animation_3.gif">
+<img src="../../images/Cepheid_animation_3.gif"
       alt="Animation d'une céphéide"
       style="max-width: 600px;
              max-height: 800px;"
     > </a>
 <figcaption style="font-size: 0.4em; color: #666;">
-Merikanto (<a href="https://creativecommons.org/licenses/by-sa/4.0/deed.en">CC BY-SA 4.0</a>)
+Merikanto (<a
+href="https://creativecommons.org/licenses/by-sa/4.0/deed.en">CC BY-SA
+4.0</a>)
 </figcaption>
 </figure>
 </section>
@@ -450,7 +515,8 @@ Merikanto (<a href="https://creativecommons.org/licenses/by-sa/4.0/deed.en">CC B
 
 <h2 id="analyse-des-céphéides-1">Analyse des céphéides</h2>
 <figure>
-<a href="https://www.nasa.gov/mission_pages/spitzer/multimedia/pia15819.html"> <img src="../../images/cepheid_luminosity_period.jpg"
+<a href="https://www.nasa.gov/mission_pages/spitzer/multimedia/pia15819.html">
+<img src="../../images/cepheid_luminosity_period.jpg"
       alt="Relation période-luminosité des céphéides"
       style="max-width: 800px;
              max-height: 500px;"
@@ -465,12 +531,16 @@ NASA/JPL-Caltech/Carnegie
 <h2 id="analyse-des-céphéides-2">Analyse des céphéides</h2>
 <ul>
 <li>Lien entre la période de pulsation et la luminosité</li>
-<li>Permet de mesurer des distances jusqu’à des millions d’années-lumière</li>
+<li>Permet de mesurer des distances jusqu’à des millions
+d’années-lumière</li>
 </ul>
 </section>
 <section class="slide level1">
 
-<p>L’étoile céphéide Bob a une période de 3 jours et elle est distante de 100 000 al. L’étoile céphéide Alice a une période de 12 jours et elle parait aussi brillante dans le ciel. À quelle distance est-elle située?</p>
+<p>L’étoile céphéide Bob a une période de 3 jours et elle est distante
+de 100 000 al. L’étoile céphéide Alice a une période de 12 jours et elle
+parait aussi brillante dans le ciel. À quelle distance est-elle
+située?</p>
 <ol style="list-style-type: upper-alpha">
 <li>
 25 000 al
@@ -489,7 +559,8 @@ NASA/JPL-Caltech/Carnegie
 </li>
 </ol>
 </section>
-<section id="section-5" class="slide level1" data-background-image="../../images/rspuppis_bryne_3938.jpg">
+<section id="section-5" class="slide level1"
+data-background-image="../../images/rspuppis_bryne_3938.jpg">
 <h1 data-background-image="../../images/rspuppis_bryne_3938.jpg"></h1>
 <br><br><br> <br><br><br> <br><br><br> <br>
 <figcaption style="font-size: 0.4em; color: #bbb;">
@@ -498,10 +569,13 @@ NASA/JPL-Caltech/Carnegie
 </section>
 <section class="slide level1">
 
-<h2 id="encore-plus-haut-encore-plus-loin">Encore plus haut, encore plus loin!</h2>
+<h2 id="encore-plus-haut-encore-plus-loin">Encore plus haut, encore plus
+loin!</h2>
 <ul>
-<li>Galaxies spirales de type ScI : 2,5 milliards de fois plus lumineuses que le Soleil</li>
-<li>Supernovæ de type Ia : 10 milliards de fois plus lumineuses que le Soleil
+<li>Galaxies spirales de type ScI : 2,5 milliards de fois plus
+lumineuses que le Soleil</li>
+<li>Supernovæ de type Ia : 10 milliards de fois plus lumineuses que le
+Soleil
 <ul>
 <li>Jusqu’à des Gal</li>
 </ul></li>
@@ -510,23 +584,159 @@ NASA/JPL-Caltech/Carnegie
     </div>
   </div>
 
-  <script src="../reveal.js/dist/reveal.js"></script>
+  <script src="https://unpkg.com/reveal.js@^4//dist/reveal.js"></script>
 
-  // reveal.js plugins
-  <script src="../reveal.js/plugin/notes/notes.js"></script>
-  <script src="../reveal.js/plugin/search/search.js"></script>
-  <script src="../reveal.js/plugin/zoom/zoom.js"></script>
-  <script src="../reveal.js/plugin/math/math.js"></script>
+  <!-- reveal.js plugins -->
+  <script src="https://unpkg.com/reveal.js@^4//plugin/notes/notes.js"></script>
+  <script src="https://unpkg.com/reveal.js@^4//plugin/search/search.js"></script>
+  <script src="https://unpkg.com/reveal.js@^4//plugin/zoom/zoom.js"></script>
+  <script src="https://unpkg.com/reveal.js@^4//plugin/math/math.js"></script>
 
   <script>
 
       // Full list of configuration options available at:
       // https://revealjs.com/config/
       Reveal.initialize({
+        // Display controls in the bottom right corner
+        controls: true,
+
+        // Help the user learn the controls by providing hints, for example by
+        // bouncing the down arrow when they first encounter a vertical slide
+        controlsTutorial: true,
+
+        // Determines where controls appear, "edges" or "bottom-right"
+        controlsLayout: 'bottom-right',
+
+        // Visibility rule for backwards navigation arrows; "faded", "hidden"
+        // or "visible"
+        controlsBackArrows: 'faded',
+
+        // Display a presentation progress bar
+        progress: true,
+
+        // Display the page number of the current slide
+        slideNumber: false,
+
+        // 'all', 'print', or 'speaker'
+        showSlideNumber: 'all',
+
+        // Add the current slide number to the URL hash so that reloading the
+        // page/copying the URL will return you to the same slide
+        hash: true,
+
+        // Start with 1 for the hash rather than 0
+        hashOneBasedIndex: false,
+
+        // Flags if we should monitor the hash and change slides accordingly
+        respondToHashChanges: true,
+
         // Push each slide change to the browser history
-        history: true,
-        // Transition style
-        transition: 'linear', // none/fade/slide/convex/concave/zoom
+        history: false,
+
+        // Enable keyboard shortcuts for navigation
+        keyboard: true,
+
+        // Enable the slide overview mode
+        overview: true,
+
+        // Disables the default reveal.js slide layout (scaling and centering)
+        // so that you can use custom CSS layout
+        disableLayout: false,
+
+        // Vertical centering of slides
+        center: true,
+
+        // Enables touch navigation on devices with touch input
+        touch: true,
+
+        // Loop the presentation
+        loop: false,
+
+        // Change the presentation direction to be RTL
+        rtl: false,
+
+        // see https://revealjs.com/vertical-slides/#navigation-mode
+        navigationMode: 'default',
+
+        // Randomizes the order of slides each time the presentation loads
+        shuffle: false,
+
+        // Turns fragments on and off globally
+        fragments: true,
+
+        // Flags whether to include the current fragment in the URL,
+        // so that reloading brings you to the same fragment position
+        fragmentInURL: true,
+
+        // Flags if the presentation is running in an embedded mode,
+        // i.e. contained within a limited portion of the screen
+        embedded: false,
+
+        // Flags if we should show a help overlay when the questionmark
+        // key is pressed
+        help: true,
+
+        // Flags if it should be possible to pause the presentation (blackout)
+        pause: true,
+
+        // Flags if speaker notes should be visible to all viewers
+        showNotes: false,
+
+        // Global override for autoplaying embedded media (null/true/false)
+        autoPlayMedia: null,
+
+        // Global override for preloading lazy-loaded iframes (null/true/false)
+        preloadIframes: null,
+
+        // Number of milliseconds between automatically proceeding to the
+        // next slide, disabled when set to 0, this value can be overwritten
+        // by using a data-autoslide attribute on your slides
+        autoSlide: 0,
+
+        // Stop auto-sliding after user input
+        autoSlideStoppable: true,
+
+        // Use this method for navigation when auto-sliding
+        autoSlideMethod: null,
+
+        // Specify the average time in seconds that you think you will spend
+        // presenting each slide. This is used to show a pacing timer in the
+        // speaker view
+        defaultTiming: null,
+
+        // Enable slide navigation via mouse wheel
+        mouseWheel: false,
+
+        // The display mode that will be used to show slides
+        display: 'block',
+
+        // Hide cursor if inactive
+        hideInactiveCursor: true,
+
+        // Time before the cursor is hidden (in ms)
+        hideCursorTime: 5000,
+
+        // Opens links in an iframe preview overlay
+        previewLinks: false,
+
+        // Transition style (none/fade/slide/convex/concave/zoom)
+        transition: 'linear',
+
+        // Transition speed (default/fast/slow)
+        transitionSpeed: 'default',
+
+        // Transition style for full page slide backgrounds
+        // (none/fade/slide/convex/concave/zoom)
+        backgroundTransition: 'fade',
+
+        // Number of slides away from the current that are visible
+        viewDistance: 3,
+
+        // Number of slides away from the current that are visible on mobile
+        // devices. It is advisable to set this to a lower number than
+        // viewDistance in order to save resources.
+        mobileViewDistance: 2,
+
         math: {
           mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js',
           config: 'TeX-AMS_HTML-full',

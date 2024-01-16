@@ -8,17 +8,28 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
-  <link rel="stylesheet" href="../reveal.js/dist/reset.css">
-  <link rel="stylesheet" href="../reveal.js/dist/reveal.css">
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^4//dist/reset.css">
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^4//dist/reveal.css">
   <style>
+    .reveal .sourceCode {  /* see #7635 */
+      overflow: visible;
+    }
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    span.underline{text-decoration: underline;}
-    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    ul.task-list{list-style: none;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
   </style>
-  <link rel="stylesheet" href="../reveal.js/dist/theme/night.css" id="theme">
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^4//dist/theme/night.css" id="theme">
 </head>
 <body>
   <div class="reveal">
@@ -33,7 +44,8 @@
 <section class="slide level1">
 
 <figure>
-<a href="https://apod.nasa.gov/apod/ap170408.html"> <img src="../../images/ZetaOph_spitzer_960.jpg"
+<a href="https://apod.nasa.gov/apod/ap170408.html">
+<img src="../../images/ZetaOph_spitzer_960.jpg"
       alt="Zeta Ophiuchi"
       style="max-width: 700px;"> </a>
 <figcaption style="font-size: 0.4em; color: #666;">
@@ -50,8 +62,10 @@
 <li>Évolution stellaire</li>
 </ol>
 </section>
-<section id="section" class="slide level1" data-background-image="../../images/STSCI-H-p2016a-m-2000x1374.jpg">
-<h1 data-background-image="../../images/STSCI-H-p2016a-m-2000x1374.jpg"></h1>
+<section id="section" class="slide level1"
+data-background-image="../../images/STSCI-H-p2016a-m-2000x1374.jpg">
+<h1
+data-background-image="../../images/STSCI-H-p2016a-m-2000x1374.jpg"></h1>
 <h2 style="background-color: rgba(100, 100, 100, 0.5); padding: 20px;">
 Âge du Soleil
 </h2>
@@ -64,13 +78,16 @@ NASA, ESA, STScI
 
 <h3 id="soleil">Soleil</h3>
 <ul>
-<li>Masse : 1,99 <span class="math inline">\(\times\)</span> 10<sup>30</sup> kg</li>
-<li>Luminosité : 3,83 <span class="math inline">\(\times\)</span> 10<sup>26</sup> J/s</li>
+<li>Masse : 1,99 <span class="math inline">\(\times\)</span>
+10<sup>30</sup> kg</li>
+<li>Luminosité : 3,83 <span class="math inline">\(\times\)</span>
+10<sup>26</sup> J/s</li>
 </ul>
 </section>
 <section class="slide level1">
 
-<h3 id="un-des-plus-gros-burger-du-monde">Un des plus gros burger du monde</h3>
+<h3 id="un-des-plus-gros-burger-du-monde">Un des plus gros burger du
+monde</h3>
 <p>Beer Barrel Belly Buster (Denny’s Beer Barrel Pub)</p>
 <figure>
 <img src="../../images/beer_barrel_belly_buster.jpg"
@@ -89,8 +106,10 @@ NASA, ESA, STScI
             Atomic_cloud_over_Hiroshima.jpg) [CC-BY-SA-3.0
             (http://creativecommons.org/licenses/by-sa/3.0)], via Wikimedia
             Commons"
-     href="http://commons.wikimedia.org/wiki/File%3AAtomic_bombing_of_Japan.jpg"> <img width="700" alt="Atomic bombing of Japan"
-         src="http://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Atomic_bombing_of_Japan.jpg/1024px-Atomic_bombing_of_Japan.jpg"/> </a>
+     href="http://commons.wikimedia.org/wiki/File%3AAtomic_bombing_of_Japan.jpg">
+<img width="700" alt="Atomic bombing of Japan"
+         src="http://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Atomic_bombing_of_Japan.jpg/1024px-Atomic_bombing_of_Japan.jpg"/>
+</a>
 </figure>
 <p>67 TJ et 100 TJ (10<sup>14</sup> J)</p>
 </section>
@@ -98,7 +117,8 @@ NASA, ESA, STScI
 
 <h3 id="impact-du-chicxulub">Impact du Chicxulub</h3>
 <figure>
-<a href="https://commons.wikimedia.org/wiki/File:Chicxulub-Anomaly.jpg"> <img width="300" alt="Cratère du Chicxulub"
+<a href="https://commons.wikimedia.org/wiki/File:Chicxulub-Anomaly.jpg">
+<img width="300" alt="Cratère du Chicxulub"
          src="../../images/Chicxulub-Anomaly.jpg"/> </a>
 </figure>
 <p>10<sup>25</sup> J</p>
@@ -113,16 +133,16 @@ NASA, ESA, STScI
 <p><em>(1642 — 1727)</em></p>
 <figure>
 <a title="Sir Godfrey Kneller [Public domain], via Wikimedia Commons"
-href="https://commons.wikimedia.org/wiki/File%3AGodfreyKneller-IsaacNewton-1689.jpg"> <img src="../../images/newton.jpg"
+href="https://commons.wikimedia.org/wiki/File%3AGodfreyKneller-IsaacNewton-1689.jpg">
+<img src="../../images/newton.jpg"
     alt="Portrait d'Isaac Newton par Godfrey Kneller."
     style="
         max-height: 300px;
         max-width: 1000px;
     "> </a>
 </figure>
-<div class="fragment">
+<p>. . .</p>
 <p>4000 ans, selon la Bible</p>
-</div>
 </section>
 <section class="slide level1">
 
@@ -141,12 +161,10 @@ href="https://commons.wikimedia.org/wiki/File%3AGodfreyKneller-IsaacNewton-1689.
         max-width: 1000px;
     ">
 </figure>
-<div class="fragment">
+<p>. . .</p>
 <p>Soleil en charbon : 5000 ans</p>
-</div>
-<div class="fragment">
+<p>. . .</p>
 <p>Contraction gravitationnelle : 100 millions d’années</p>
-</div>
 </section>
 <section class="slide level1">
 
@@ -160,16 +178,18 @@ href="https://commons.wikimedia.org/wiki/File%3AGodfreyKneller-IsaacNewton-1689.
         max-width: 1000px;
     ">
 </figure>
-<div class="fragment">
+<p>. . .</p>
 <ul>
 <li>E = mc<sup>2</sup></li>
-<li>4 Mt chaque seconde (4 <span class="math inline">\(\times\)</span> 10<sup>6</sup> t)</li>
+<li>4 Mt chaque seconde (4 <span class="math inline">\(\times\)</span>
+10<sup>6</sup> t)</li>
 <li>Le Soleil pourrait briller environ 10 Ga</li>
 </ul>
-</div>
 </section>
-<section id="section-1" class="slide level1" data-background-image="../../images/STSCI-H-p2016a-m-2000x1374.jpg">
-<h1 data-background-image="../../images/STSCI-H-p2016a-m-2000x1374.jpg"></h1>
+<section id="section-1" class="slide level1"
+data-background-image="../../images/STSCI-H-p2016a-m-2000x1374.jpg">
+<h1
+data-background-image="../../images/STSCI-H-p2016a-m-2000x1374.jpg"></h1>
 <h2 style="background-color: rgba(100, 100, 100, 0.5); padding: 20px;">
 Structure interne des étoiles
 </h2>
@@ -191,7 +211,8 @@ NASA, ESA, STScI
 
 <h3 id="équilibre-hydrostatique">Équilibre hydrostatique</h3>
 <ul>
-<li>Équilibre entre l’attraction gravitationnelle et gradient de pression interne</li>
+<li>Équilibre entre l’attraction gravitationnelle et gradient de
+pression interne</li>
 </ul>
 <figure>
 <img src="../../images/equilibre_hydrostatique.jpg"
@@ -205,14 +226,18 @@ NASA, ESA, STScI
 <section class="slide level1">
 
 <h3 id="énergie-nucléaire">Énergie nucléaire</h3>
-<p><strong>Fusion</strong> grâce à la pression et la température très élevées</p>
+<p><strong>Fusion</strong> grâce à la pression et la température très
+élevées</p>
 <figure>
-<a href="http://commons.wikimedia.org/wiki/File%3AFusionintheSun.svg"> <img style="background-color: white;
+<a href="http://commons.wikimedia.org/wiki/File%3AFusionintheSun.svg">
+<img style="background-color: white;
                 max-height: 400px;"
          alt="Fusion de l'hydrogène"
-         src="http://upload.wikimedia.org/wikipedia/commons/thumb/7/78/FusionintheSun.svg/512px-FusionintheSun.svg.png"/> </a>
+         src="http://upload.wikimedia.org/wikipedia/commons/thumb/7/78/FusionintheSun.svg/512px-FusionintheSun.svg.png"/>
+</a>
 <figcaption style="font-size: 0.4em; color: #666;">
-Borb <a href="https://creativecommons.org/licenses/by-sa/3.0/deed.en">CC BY-SA 3.0</a>
+Borb <a href="https://creativecommons.org/licenses/by-sa/3.0/deed.en">CC
+BY-SA 3.0</a>
 </figcaption>
 </figure>
 </section>
@@ -220,23 +245,28 @@ Borb <a href="https://creativecommons.org/licenses/by-sa/3.0/deed.en">CC BY-SA 3
 
 <h3 id="fusion-nucléaire">Fusion nucléaire</h3>
 <p>4 H <span class="math inline">\(\rightarrow\)</span> He + énergie</p>
-<p>6,17 <span class="math inline">\(\times\)</span> 10<sup>14</sup> J / kg</p>
+<p>6,17 <span class="math inline">\(\times\)</span> 10<sup>14</sup> J /
+kg</p>
 </section>
 <section class="slide level1">
 
 <h3 id="fusion-nucléaire-1">Fusion nucléaire</h3>
 <ul>
-<li>2 <span class="math inline">\(\times\)</span> 10<sup>30</sup> kg d’hydrogène dans le bébé Soleil</li>
-<li>10% (soit 2 <span class="math inline">\(\times\)</span> 10<sup>29</sup> kg) peuvent être utilisé</li>
+<li>2 <span class="math inline">\(\times\)</span> 10<sup>30</sup> kg
+d’hydrogène dans le bébé Soleil</li>
+<li>10% (soit 2 <span class="math inline">\(\times\)</span>
+10<sup>29</sup> kg) peuvent être utilisé</li>
 </ul>
 </section>
 <section class="slide level1">
 
 <h2 id="nucléosynthèse-stellaire">Nucléosynthèse stellaire</h2>
 <ul>
-<li>Plus une étoile est grosse, plus des éléments lourds peuvent être créés</li>
+<li>Plus une étoile est grosse, plus des éléments lourds peuvent être
+créés</li>
 <li>H, He, O, C, Ne, N, Mg, Si, Fe</li>
-<li>Les éléments qui nous composent ont été formés dans le coeur des étoiles</li>
+<li>Les éléments qui nous composent ont été formés dans le coeur des
+étoiles</li>
 <li>Éléments plus massifs : produits lors de supernova</li>
 </ul>
 </section>
@@ -244,21 +274,29 @@ Borb <a href="https://creativecommons.org/licenses/by-sa/3.0/deed.en">CC BY-SA 3
 
 <h2 id="équilibre-stellaire">Équilibre stellaire</h2>
 <p>Plus de réactions nucléaires</p>
-<p><span class="math inline">\(\rightarrow\)</span> plus de pression vers l’extérieur</p>
-<p><span class="math inline">\(\rightarrow\)</span> augmentation du volume de l’étoile</p>
-<p><span class="math inline">\(\rightarrow\)</span> diminution de la densité</p>
-<p><span class="math inline">\(\rightarrow\)</span> moins de réactions nucléaires</p>
-<p><span class="math inline">\(\rightarrow\)</span> contraction gravitationnelle</p>
+<p><span class="math inline">\(\rightarrow\)</span> plus de pression
+vers l’extérieur</p>
+<p><span class="math inline">\(\rightarrow\)</span> augmentation du
+volume de l’étoile</p>
+<p><span class="math inline">\(\rightarrow\)</span> diminution de la
+densité</p>
+<p><span class="math inline">\(\rightarrow\)</span> moins de réactions
+nucléaires</p>
+<p><span class="math inline">\(\rightarrow\)</span> contraction
+gravitationnelle</p>
 </section>
 <section class="slide level1">
 
 <h3 id="structure-interne">Structure interne</h3>
 <figure>
-<a href="https://commons.wikimedia.org/wiki/File:Affiche_du_soleil.svg"> <img src="../../images/structure_soleil.png"
+<a href="https://commons.wikimedia.org/wiki/File:Affiche_du_soleil.svg">
+<img src="../../images/structure_soleil.png"
       alt="Structure interne du Soleil"
       style="max-height: 500px"> </a>
 <figcaption style="font-size: 0.4em; color: #666;">
-(Adapté de Kelvinsong <a href="https://creativecommons.org/licenses/by-sa/3.0/deed.en">CC BY-SA 3.0</a>)
+(Adapté de Kelvinsong <a
+href="https://creativecommons.org/licenses/by-sa/3.0/deed.en">CC BY-SA
+3.0</a>)
 </figcaption>
 </figure>
 </section>
@@ -280,8 +318,10 @@ Borb <a href="https://creativecommons.org/licenses/by-sa/3.0/deed.en">CC BY-SA 3
 <li>Mouvements macroscopique de matière</li>
 </ul>
 </section>
-<section id="section-2" class="slide level1" data-background-image="../../images/STSCI-H-p2016a-m-2000x1374.jpg">
-<h1 data-background-image="../../images/STSCI-H-p2016a-m-2000x1374.jpg"></h1>
+<section id="section-2" class="slide level1"
+data-background-image="../../images/STSCI-H-p2016a-m-2000x1374.jpg">
+<h1
+data-background-image="../../images/STSCI-H-p2016a-m-2000x1374.jpg"></h1>
 <h2 style="background-color: rgba(100, 100, 100, 0.5); padding: 20px;">
 Diagramme de Hertzsprung-Russell
 </h2>
@@ -295,11 +335,13 @@ NASA, ESA, STScI
 <h3 id="le-corps-noir">Le corps noir</h3>
 <figure>
 <a title="By , via Wikimedia Commons"
-     href="http://commons.wikimedia.org/wiki/File%3ABlacksmith_working.jpg"> <img alt="Du fer chauffé suffisamment émet de la lumière visible"
+     href="http://commons.wikimedia.org/wiki/File%3ABlacksmith_working.jpg">
+<img alt="Du fer chauffé suffisamment émet de la lumière visible"
          src="http://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Blacksmith_working.jpg/1024px-Blacksmith_working.jpg"
          style="max-height: 500px;"> </a>
 <figcaption style="font-size: 0.4em; color: #666;">
-Jeff Kubina <a href="http://creativecommons.org/licenses/by-sa/2.0">CC-BY-SA-2.0</a>
+Jeff Kubina <a
+href="http://creativecommons.org/licenses/by-sa/2.0">CC-BY-SA-2.0</a>
 </figcaption>
 </figure>
 </section>
@@ -307,16 +349,20 @@ Jeff Kubina <a href="http://creativecommons.org/licenses/by-sa/2.0">CC-BY-SA-2.0
 
 <h3 id="corps-noir">Corps noir</h3>
 <ul>
-<li>Sorte de céramique qui était utilisée autrefois pour faire des pots de cuisson</li>
-<li>Modèle idéal d’un objet chauffé qui émet du rayonnement électromagnétique</li>
-<li>L’explication du rayonnement du corps noir a été l’un des piliers du développement de la mécanique quantique</li>
+<li>Sorte de céramique qui était utilisée autrefois pour faire des pots
+de cuisson</li>
+<li>Modèle idéal d’un objet chauffé qui émet du rayonnement
+électromagnétique</li>
+<li>L’explication du rayonnement du corps noir a été l’un des piliers du
+développement de la mécanique quantique</li>
 </ul>
 </section>
 <section class="slide level1">
 
 <h3 id="spectre-du-corps-noir">Spectre du corps noir</h3>
 <p><a href="https://phet.colorado.edu/sims/html/blackbody-spectrum/latest/blackbody-spectrum_fr.html"
-   style="text-decoration: none;"> <img src="https://phet.colorado.edu/sims/html/blackbody-spectrum/latest/blackbody-spectrum-600.png"
+   style="text-decoration: none;">
+<img src="https://phet.colorado.edu/sims/html/blackbody-spectrum/latest/blackbody-spectrum-600.png"
        alt="Spectre du corps noir" style="border: none;" /> </a></p>
 </section>
 <section class="slide level1">
@@ -332,39 +378,47 @@ Jeff Kubina <a href="http://creativecommons.org/licenses/by-sa/2.0">CC-BY-SA-2.0
 <section class="slide level1">
 
 <h3 id="luminosité-du-corps-noir">Luminosité du corps noir</h3>
-<p><span class="math inline">\(L = 4 \pi R^2 \sigma T^4_\mathrm{eff}\)</span></p>
+<p><span class="math inline">\(L = 4 \pi R^2 \sigma
+T^4_\mathrm{eff}\)</span></p>
 </section>
 <section class="slide level1">
 
-<h3 id="les-étoiles-comme-des-corps-noirs">Les étoiles comme des corps noirs</h3>
+<h3 id="les-étoiles-comme-des-corps-noirs">Les étoiles comme des corps
+noirs</h3>
 <ul>
 <li class="fragment">Les étoiles ne sont pas des corps noirs…</li>
 <li class="fragment">… mais presque</li>
-<li class="fragment">On peut utiliser l’équation précédente pour déterminer la température effective d’une étoile</li>
+<li class="fragment">On peut utiliser l’équation précédente pour
+déterminer la température effective d’une étoile</li>
 </ul>
 </section>
 <section class="slide level1">
 
 <h3 id="classification-des-étoiles">Classification des étoiles</h3>
 <ul>
-<li>On classe les étoiles dans un diagramme de la luminosité en fonction de la température effective</li>
+<li>On classe les étoiles dans un diagramme de la luminosité en fonction
+de la température effective</li>
 <li>C’est un <strong>diagramme de Hertzsprung-Russell</strong></li>
 </ul>
 </section>
 <section class="slide level1">
 
 <figure>
-<a href="https://fr.wikipedia.org/wiki/Fichier:HRDiagram-Fr.png"> <img src="../../images/HRDiagram.png"
+<a href="https://fr.wikipedia.org/wiki/Fichier:HRDiagram-Fr.png">
+<img src="../../images/HRDiagram.png"
     alt="Diagramme de Hertzsprung-Russell"
     style="max-height: 620px;"> </a>
 <figcaption style="font-size: 0.4em; color: #666;">
-(Richard Powell <a href="https://creativecommons.org/licenses/by-sa/2.5/deed.fr">CC BY-SA 2.5</a>)
+(Richard Powell <a
+href="https://creativecommons.org/licenses/by-sa/2.5/deed.fr">CC BY-SA
+2.5</a>)
 </figcaption>
 </figure>
 </section>
 <section class="slide level1">
 
-<p><strong>Lien entre le type spectral et la masse sur la séquence principale</strong></p>
+<p><strong>Lien entre le type spectral et la masse sur la séquence
+principale</strong></p>
 <table>
 <thead>
 <tr class="header">
@@ -404,8 +458,10 @@ Jeff Kubina <a href="http://creativecommons.org/licenses/by-sa/2.0">CC-BY-SA-2.0
 </tbody>
 </table>
 </section>
-<section id="section-3" class="slide level1" data-background-image="../../images/STSCI-H-p2016a-m-2000x1374.jpg">
-<h1 data-background-image="../../images/STSCI-H-p2016a-m-2000x1374.jpg"></h1>
+<section id="section-3" class="slide level1"
+data-background-image="../../images/STSCI-H-p2016a-m-2000x1374.jpg">
+<h1
+data-background-image="../../images/STSCI-H-p2016a-m-2000x1374.jpg"></h1>
 <h2 style="background-color: rgba(100, 100, 100, 0.5); padding: 20px;">
 Évolution stellaire
 </h2>
@@ -419,13 +475,15 @@ NASA, ESA, STScI
 <h3 id="matière-interstellaire">Matière interstellaire</h3>
 <ul>
 <li>Nuages de gaz et poussière : <strong>nébuleuses</strong></li>
-<li>Nébuleuses denses avec molécules : <strong>nuage moléculaire</strong></li>
+<li>Nébuleuses denses avec molécules : <strong>nuage
+moléculaire</strong></li>
 </ul>
 </section>
 <section class="slide level1">
 
 <figure>
-<a href="http://wise.ssl.berkeley.edu/gallery_rho_ophiuchi.html"> <img src="../../images/700975main_RhoOph_WISE.jpg"
+<a href="http://wise.ssl.berkeley.edu/gallery_rho_ophiuchi.html">
+<img src="../../images/700975main_RhoOph_WISE.jpg"
     alt="Nébuleuses du complexe Rho Ophiuchi"
     style="max-height: 600px;"> </a>
 <figcaption style="font-size: 0.4em; color: #666;">
@@ -440,7 +498,8 @@ NASA, ESA, STScI
 <li>Effondrement des nuages moléculaire</li>
 <li>Causé par supernova, radiation, etc?</li>
 <li>Effondrement gravitationnel génère beaucoup d’énergie</li>
-<li>La température au centre de l’étoile augmente et la <strong>fusion</strong> nucléaire s’amorce</li>
+<li>La température au centre de l’étoile augmente et la
+<strong>fusion</strong> nucléaire s’amorce</li>
 </ul>
 </section>
 <section class="slide level1">
@@ -486,7 +545,10 @@ Hubble Legacy Archive, NASA, ESA - Traitement : Judy Schmidt
     alt="Évolution d'une étoile de masse solaire"
     width="100%">
 <figcaption style="font-size: 0.4em; color: #666;">
-(Adapté de <a href="https://commons.wikimedia.org/wiki/File:Evolution_of_a_Sun-like_star.svg">Szczureq</a> <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.en">CC BY-SA 4.0</a>)
+(Adapté de <a
+href="https://commons.wikimedia.org/wiki/File:Evolution_of_a_Sun-like_star.svg">Szczureq</a>
+<a href="https://creativecommons.org/licenses/by-sa/4.0/deed.en">CC
+BY-SA 4.0</a>)
 </figcaption>
 </figure>
 </section>
@@ -510,7 +572,8 @@ Hubble Legacy Archive, NASA, ESA - Traitement : Judy Schmidt
 <ul>
 <li>Luminosité 10 000 fois plus grande que le Soleil</li>
 <li>Fusion de l’hélium en périphérie du cœur</li>
-<li>Fusion de l’hydrogène en périphérie de la zone de fusion d’hélium</li>
+<li>Fusion de l’hydrogène en périphérie de la zone de fusion
+d’hélium</li>
 <li>Accumulation de carbone dans le cœur</li>
 </ul></li>
 </ul>
@@ -523,7 +586,8 @@ Hubble Legacy Archive, NASA, ESA - Traitement : Judy Schmidt
 <ul>
 <li>Fin de la fusion dans le cœur</li>
 <li>Cœur se contracte</li>
-<li>Couches externes de l’étoile expulsées par les zones de fusion périphériques</li>
+<li>Couches externes de l’étoile expulsées par les zones de fusion
+périphériques</li>
 </ul></li>
 </ul>
 </section>
@@ -531,7 +595,8 @@ Hubble Legacy Archive, NASA, ESA - Traitement : Judy Schmidt
 
 <h3 id="naine-blanche">Naine blanche</h3>
 <ul>
-<li>Cadavre d’une étoile dont la masse initiale est inférieure à 8 <span class="math inline">\(M_\odot\)</span></li>
+<li>Cadavre d’une étoile dont la masse initiale est inférieure à 8 <span
+class="math inline">\(M_\odot\)</span></li>
 <li>Grosse comme la Terre</li>
 <li>Masse : entre 0.5 et 1.4 masse solaire</li>
 <li>Gravité de surface : 350 000 fois plus élevée que sur Terre</li>
@@ -552,13 +617,15 @@ NASA, ESA, Hubble Heritage Team (STScI / AURA)
 
 <p>NGC 2440</p>
 <figure>
-<a href="https://apod.nasa.gov/apod/ap150517.html"> <img src="../../images/ngc2440_hst3_big.jpg"
+<a href="https://apod.nasa.gov/apod/ap150517.html">
+<img src="../../images/ngc2440_hst3_big.jpg"
     alt="La nébuleuse planétaire NGC 2440 avec, en son centre, une naine
     blanche (H. Bond (STScI), R. Ciardullo (PSU), WFPC2, HST, NASA; Traitement:
     Forrest Hamilton)"
     style="max-height: 500px;"> </a>
 <figcaption style="font-size: 0.4em; color: #666;">
-(H. Bond (STScI), R. Ciardullo (PSU), WFPC2, HST, NASA; Traitement: Forrest Hamilton)
+(H. Bond (STScI), R. Ciardullo (PSU), WFPC2, HST, NASA; Traitement:
+Forrest Hamilton)
 </figcaption>
 </figure>
 </section>
@@ -589,29 +656,166 @@ R. Sahai and J. Trauger (JPL), WFPC2, HST, NASA
 
 <h2 id="résumé"><a href="../../www/HRdiagramStable.html">Résumé</a></h2>
 <figcaption style="font-size: 0.4em; color: #666;">
-(Adapté du site <a href="http://astro.unl.edu">Astronomy Education at the University of Nebraska-Lincoln</a>)
+(Adapté du site <a href="http://astro.unl.edu">Astronomy Education at
+the University of Nebraska-Lincoln</a>)
 </figcaption>
 </section>
     </div>
   </div>
 
-  <script src="../reveal.js/dist/reveal.js"></script>
+  <script src="https://unpkg.com/reveal.js@^4//dist/reveal.js"></script>
 
-  // reveal.js plugins
-  <script src="../reveal.js/plugin/notes/notes.js"></script>
-  <script src="../reveal.js/plugin/search/search.js"></script>
-  <script src="../reveal.js/plugin/zoom/zoom.js"></script>
-  <script src="../reveal.js/plugin/math/math.js"></script>
+  <!-- reveal.js plugins -->
+  <script src="https://unpkg.com/reveal.js@^4//plugin/notes/notes.js"></script>
+  <script src="https://unpkg.com/reveal.js@^4//plugin/search/search.js"></script>
+  <script src="https://unpkg.com/reveal.js@^4//plugin/zoom/zoom.js"></script>
+  <script src="https://unpkg.com/reveal.js@^4//plugin/math/math.js"></script>
 
   <script>
 
       // Full list of configuration options available at:
       // https://revealjs.com/config/
       Reveal.initialize({
+        // Display controls in the bottom right corner
+        controls: true,
+
+        // Help the user learn the controls by providing hints, for example by
+        // bouncing the down arrow when they first encounter a vertical slide
+        controlsTutorial: true,
+
+        // Determines where controls appear, "edges" or "bottom-right"
+        controlsLayout: 'bottom-right',
+
+        // Visibility rule for backwards navigation arrows; "faded", "hidden"
+        // or "visible"
+        controlsBackArrows: 'faded',
+
+        // Display a presentation progress bar
+        progress: true,
+
+        // Display the page number of the current slide
+        slideNumber: false,
+
+        // 'all', 'print', or 'speaker'
+        showSlideNumber: 'all',
+
+        // Add the current slide number to the URL hash so that reloading the
+        // page/copying the URL will return you to the same slide
+        hash: true,
+
+        // Start with 1 for the hash rather than 0
+        hashOneBasedIndex: false,
+
+        // Flags if we should monitor the hash and change slides accordingly
+        respondToHashChanges: true,
+
         // Push each slide change to the browser history
-        history: true,
-        // Transition style
-        transition: 'fade', // none/fade/slide/convex/concave/zoom
+        history: false,
+
+        // Enable keyboard shortcuts for navigation
+        keyboard: true,
+
+        // Enable the slide overview mode
+        overview: true,
+
+        // Disables the default reveal.js slide layout (scaling and centering)
+        // so that you can use custom CSS layout
+        disableLayout: false,
+
+        // Vertical centering of slides
+        center: true,
+
+        // Enables touch navigation on devices with touch input
+        touch: true,
+
+        // Loop the presentation
+        loop: false,
+
+        // Change the presentation direction to be RTL
+        rtl: false,
+
+        // see https://revealjs.com/vertical-slides/#navigation-mode
+        navigationMode: 'default',
+
+        // Randomizes the order of slides each time the presentation loads
+        shuffle: false,
+
+        // Turns fragments on and off globally
+        fragments: true,
+
+        // Flags whether to include the current fragment in the URL,
+        // so that reloading brings you to the same fragment position
+        fragmentInURL: true,
+
+        // Flags if the presentation is running in an embedded mode,
+        // i.e. contained within a limited portion of the screen
+        embedded: false,
+
+        // Flags if we should show a help overlay when the questionmark
+        // key is pressed
+        help: true,
+
+        // Flags if it should be possible to pause the presentation (blackout)
+        pause: true,
+
+        // Flags if speaker notes should be visible to all viewers
+        showNotes: false,
+
+        // Global override for autoplaying embedded media (null/true/false)
+        autoPlayMedia: null,
+
+        // Global override for preloading lazy-loaded iframes (null/true/false)
+        preloadIframes: null,
+
+        // Number of milliseconds between automatically proceeding to the
+        // next slide, disabled when set to 0, this value can be overwritten
+        // by using a data-autoslide attribute on your slides
+        autoSlide: 0,
+
+        // Stop auto-sliding after user input
+        autoSlideStoppable: true,
+
+        // Use this method for navigation when auto-sliding
+        autoSlideMethod: null,
+
+        // Specify the average time in seconds that you think you will spend
+        // presenting each slide. This is used to show a pacing timer in the
+        // speaker view
+        defaultTiming: null,
+
+        // Enable slide navigation via mouse wheel
+        mouseWheel: false,
+
+        // The display mode that will be used to show slides
+        display: 'block',
+
+        // Hide cursor if inactive
+        hideInactiveCursor: true,
+
+        // Time before the cursor is hidden (in ms)
+        hideCursorTime: 5000,
+
+        // Opens links in an iframe preview overlay
+        previewLinks: false,
+
+        // Transition style (none/fade/slide/convex/concave/zoom)
+        transition: 'fade',
+
+        // Transition speed (default/fast/slow)
+        transitionSpeed: 'default',
+
+        // Transition style for full page slide backgrounds
+        // (none/fade/slide/convex/concave/zoom)
+        backgroundTransition: 'fade',
+
+        // Number of slides away from the current that are visible
+        viewDistance: 3,
+
+        // Number of slides away from the current that are visible on mobile
+        // devices. It is advisable to set this to a lower number than
+        // viewDistance in order to save resources.
+        mobileViewDistance: 2,
+
         math: {
           mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js',
           config: 'TeX-AMS_HTML-full',

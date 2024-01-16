@@ -8,17 +8,28 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
-  <link rel="stylesheet" href="../reveal.js/dist/reset.css">
-  <link rel="stylesheet" href="../reveal.js/dist/reveal.css">
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^4//dist/reset.css">
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^4//dist/reveal.css">
   <style>
+    .reveal .sourceCode {  /* see #7635 */
+      overflow: visible;
+    }
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    span.underline{text-decoration: underline;}
-    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    ul.task-list{list-style: none;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
   </style>
-  <link rel="stylesheet" href="../reveal.js/dist/theme/night.css" id="theme">
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^4//dist/theme/night.css" id="theme">
 </head>
 <body>
   <div class="reveal">
@@ -30,23 +41,25 @@
   <p class="date">8 septembre 2020</p>
 </section>
 
-<section class="slide level1">
-
-<h2 id="les-mésopotamiens">Les Mésopotamiens</h2>
+<section id="les-mésopotamiens" class="slide level2">
+<h2>Les Mésopotamiens</h2>
 <figure>
 <a title="By Goran tek-en [CC-BY-SA-3.0](http://creativecommons.org/licenses/by-sa/3.0), via Wikimedia Commons"
-    href="https://commons.wikimedia.org/wiki/File:N-Mesopotamia_and_Syria_english.svg"> <img alt="La Mésopotamie se trouvait sur le territoire où sont ajourd'hui
+    href="https://commons.wikimedia.org/wiki/File:N-Mesopotamia_and_Syria_english.svg">
+<img alt="La Mésopotamie se trouvait sur le territoire où sont ajourd'hui
     situés la Syrie et l'Irak (Goran tek-en)" src="../../images/Mesopotamia.png"
     style="max-height: 500px"> </a>
 <figcaption style="font-size: 0.4em; color: #666;">
-Goran tek-en <a href="http://creativecommons.org/licenses/by-sa/3.0">CC-BY-SA-3.0</a>
+Goran tek-en <a
+href="http://creativecommons.org/licenses/by-sa/3.0">CC-BY-SA-3.0</a>
 </figcaption>
 </figure>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
 <figure>
-<a href="https://ccp.yale.edu/P240180"> <img src="../../images/mulapin3.jpg"
+<a href="https://ccp.yale.edu/P240180">
+<img src="../../images/mulapin3.jpg"
     alt="Tablette 3 du texte mésopotamien Mul Apin, le plus vieux registre des
     constellations et de différents phénomènes célestes, daté du
     VII<sup>e</sup> siècle avant J.C. (Trustees of the British Museum)"
@@ -56,7 +69,7 @@ Trustees of the British Museum
 </figcaption>
 </figure>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
 <h3 id="mésopotamiens-et-astrologie">Mésopotamiens et astrologie</h3>
 <ul>
@@ -65,9 +78,10 @@ Trustees of the British Museum
 <li class="fragment">Motivation pour l’étude des astres?</li>
 </ul>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
-<h3 id="certains-astres-ont-une-influence-sur-la-terre">Certains astres ont une influence sur la Terre</h3>
+<h3 id="certains-astres-ont-une-influence-sur-la-terre">Certains astres
+ont une influence sur la Terre</h3>
 <table>
 <tr>
 <td>
@@ -85,14 +99,15 @@ Trustees of the British Museum
 </tr>
 </table>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
-<h4 id="les-astres-ont-une-influence-sur-la-destiné-des-rois">Les astres ont une influence sur la destiné des rois</h4>
+<h4 id="les-astres-ont-une-influence-sur-la-destiné-des-rois">Les astres
+ont une influence sur la destiné des rois</h4>
 <p><img src="../../images/Sargon_II.jpg"
 alt="Sargon II, roi d'Assyrie de 710 à 705 av. J.C."
 style="max-height: 500px"></p>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
 <h3 id="observations-mésopotamiennes">Observations mésopotamiennes</h3>
 <ul>
@@ -101,38 +116,40 @@ style="max-height: 500px"></p>
 <li>Mesure des positions des planètes par rapport au Soleil</li>
 </ul>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
 <h3 id="rappels">Rappels</h3>
 <ul>
 <li>Les étoiles ne se déplacent pas les unes par rapport aux autres</li>
-<li>7 <strong>astres errants</strong> : Soleil, Lune, Mercure, Vénus, Mars, Jupiter, Saturne</li>
-<li>Les astres errants se déplacent dans les 12 constellations du zodiaque (le long de l’<strong>écliptique</strong>)</li>
+<li>7 <strong>astres errants</strong> : Soleil, Lune, Mercure, Vénus,
+Mars, Jupiter, Saturne</li>
+<li>Les astres errants se déplacent dans les 12 constellations du
+zodiaque (le long de l’<strong>écliptique</strong>)</li>
 </ul>
 </section>
-<section class="slide level1">
-
-<h2 id="deux-sortes-dastres-errants">Deux sortes d’astres errants</h2>
+<section id="deux-sortes-dastres-errants" class="slide level2">
+<h2>Deux sortes d’astres errants</h2>
 <h3 id="planètes-inférieures">Planètes inférieures</h3>
 <h3 id="planètes-supérieures">Planètes supérieures</h3>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
 <h3 id="planètes-inférieures-1">Planètes inférieures</h3>
 <ul>
 <li>Mercure et Vénus</li>
 <li>Se déplacent avec le Soleil</li>
-<li>Position par rapport au Soleil varie entre deux élongations maximales</li>
+<li>Position par rapport au Soleil varie entre deux élongations
+maximales</li>
 </ul>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
 <h4 id="planètes-inférieures-2">Planètes inférieures</h4>
 <p><img src="../../images/conj_planete_inferieure.png"
 alt="Positions particulières des planètes inférieures"
 style="max-height: 600px; max-width: 600px; padding: 10px;"></p>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
 <h3 id="planètes-supérieures-1">Planètes supérieures</h3>
 <ul>
@@ -141,14 +158,14 @@ style="max-height: 600px; max-width: 600px; padding: 10px;"></p>
 <li>Peuvent occuper toutes les positions par rapport au Soleil</li>
 </ul>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
 <h4 id="planètes-supérieures-2">Planètes supérieures</h4>
 <p><img src="../../images/conj_planete_superieure.png"
 alt="Positions particulières des planètes supérieures"
 style="max-height: 600px; max-width: 600px; padding: 10px;"></p>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
 <table style="width:76%;">
 <colgroup>
@@ -193,35 +210,39 @@ style="max-height: 600px; max-width: 600px; padding: 10px;"></p>
 </tbody>
 </table>
 </section>
-<section class="slide level1">
-
-<h2 id="les-grecs">Les Grecs</h2>
+<section id="les-grecs" class="slide level2">
+<h2>Les Grecs</h2>
 <figure>
-<a href="https://commons.wikimedia.org/wiki/File:NAMA_Machine_d%27Anticyth%C3%A8re_1.jpg"> <img alt="Machine d'Anticythère qui servait à prédire la position du Soleil
+<a href="https://commons.wikimedia.org/wiki/File:NAMA_Machine_d%27Anticyth%C3%A8re_1.jpg">
+<img alt="Machine d'Anticythère qui servait à prédire la position du Soleil
     et de la Lune, 89 av. J.C." src="../../images/NAMA_Machine_Antikytera.jpg"
     style="max-height: 500px"> </a>
 <figcaption style="font-size: 0.4em; color: #666;">
-Marsyas <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA</a>
+Marsyas <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC
+BY-SA</a>
 </figcaption>
 </figure>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
 <p><strong>En première approximation</strong>, les astres errants</p>
 <ul>
-<li>se déplacent tous d’ouest en est par rapport aux constellations du zodiaque</li>
+<li>se déplacent tous d’ouest en est par rapport aux constellations du
+zodiaque</li>
 <li>ont une vitesse constante</li>
 </ul>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
 <h3 id="observations-plus-raffinées">Observations plus raffinées</h3>
 <ul>
-<li>Les planètes ont parfois un <strong>mouvement rétrograde</strong></li>
-<li>La vitesse de chaque planète n’est pas constante : <strong>préférence zodiacale</strong></li>
+<li>Les planètes ont parfois un <strong>mouvement
+rétrograde</strong></li>
+<li>La vitesse de chaque planète n’est pas constante :
+<strong>préférence zodiacale</strong></li>
 </ul>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
 <h3 id="mouvement-rétrograde">Mouvement rétrograde</h3>
 <figure>
@@ -232,48 +253,53 @@ Stellarium
 </figcaption>
 </figure>
 </section>
-<section class="slide level1">
-
-<h2 id="comment-expliquer-ces-observations">Comment expliquer ces observations?</h2>
+<section id="comment-expliquer-ces-observations" class="slide level2">
+<h2>Comment expliquer ces observations?</h2>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
 <h3 id="la-terre-est-une-sphère">La Terre est une sphère</h3>
 <ul>
-<li>Fait connu à partir de 400 av. J.-C. (<em>puis oublié pendant le Moyen-Âge</em>)</li>
+<li>Fait connu à partir de 400 av. J.-C. (<em>puis oublié pendant le
+Moyen-Âge</em>)</li>
 <li>Observations :
 <ul>
 <li>Mat d’un voilier disparaît après la coque</li>
-<li>Ombre circulaire de la Terre sur la Lune lors d’éclipses de Lune</li>
+<li>Ombre circulaire de la Terre sur la Lune lors d’éclipses de
+Lune</li>
 <li>Changement de l’apparence du ciel selon la latitude</li>
 </ul></li>
 </ul>
 <p><strong>Tout cela est correct</strong></p>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
 <figure>
-<a href="https://commons.wikimedia.org/wiki/File:Horizon,_Valencia_(Spain).JPG"> <img alt="Les objets à l'horizon disparaissent par le bas"
+<a href="https://commons.wikimedia.org/wiki/File:Horizon,_Valencia_(Spain).JPG">
+<img alt="Les objets à l'horizon disparaissent par le bas"
   src="../../images/Horizon_Valencia_Spain.jpg"
   style="max-height: 600px; max-width: 1000px;"></a>
 <figcaption style="font-size: 0.4em; color: #666;">
-Santifc <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA</a>
+Santifc <a href="https://creativecommons.org/licenses/by-sa/4.0">CC
+BY-SA</a>
 </figcaption>
 </figure>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
-<a href="https://www.jpl.nasa.gov/edu/news/2018/1/18/how-to-watch-a-total-lunar-eclipse-and-get-students-observing-the-moon/"> <img src="../../images/lunareclipse.gif" alt="Eclipse de Lune"></a>
+<a href="https://www.jpl.nasa.gov/edu/news/2018/1/18/how-to-watch-a-total-lunar-eclipse-and-get-students-observing-the-moon/">
+<img src="../../images/lunareclipse.gif" alt="Eclipse de Lune"></a>
 <figcaption style="font-size: 0.4em; color: #666;">
 NASA Goddard Media Studios
 </figcaption>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
 <figure>
 <img alt="Ciel vu de Longueuil"
   src="../../images/ciel_longueuil.png"
-  style="max-height: 600px; max-width: 450px;"> <img alt="Ciel vu du Vénézuela"
+  style="max-height: 600px; max-width: 450px;">
+<img alt="Ciel vu du Vénézuela"
   src="../../images/ciel_venezuela.png"
   style="max-height: 600px; max-width: 450px;">
 <figcaption style="font-size: 0.4em; color: #666;">
@@ -281,61 +307,60 @@ Stellarium
 </figcaption>
 </figure>
 </section>
-<section class="slide level1">
-
-<h2 id="conclusion-incorrecte-des-grecs">Conclusion (incorrecte) des grecs :</h2>
-<h3 id="lunivers-est-une-série-de-sphères-centrées-sur-la-terre">L’Univers est une série de sphères centrées sur la Terre</h3>
+<section id="conclusion-incorrecte-des-grecs" class="slide level2">
+<h2>Conclusion (incorrecte) des grecs :</h2>
+<h3
+id="lunivers-est-une-série-de-sphères-centrées-sur-la-terre">L’Univers
+est une série de sphères centrées sur la Terre</h3>
 <ul>
 <li class="fragment">C’est le <strong>modèle géocentrique</strong></li>
 </ul>
 </section>
-<section class="slide level1">
-
-<h2 id="aristote">Aristote</h2>
+<section id="aristote" class="slide level2">
+<h2>Aristote</h2>
 <p><em>350 av. J.-C.</em></p>
 <p><a title="By jlorenz1 (jlorenz1) [GFDL (http://www.gnu.org/copyleft/fdl.html),
 CC-BY-SA-3.0 (http://creativecommons.org/licenses/by-sa/3.0/) or CC-BY-2.5
 (http://creativecommons.org/licenses/by/2.5)], via Wikimedia Commons"
-href="http://commons.wikimedia.org/wiki/File%3AAristotle_Bust_White_Background_Transparent.png"> <img width="256" alt="Aristotle Bust White Background Transparent"
+href="http://commons.wikimedia.org/wiki/File%3AAristotle_Bust_White_Background_Transparent.png">
+<img width="256" alt="Aristotle Bust White Background Transparent"
 src="../../images/Aristote_buste.png"/> </a></p>
 </section>
-<section class="slide level1">
-
-<h2 id="aristote-1">Aristote</h2>
+<section id="aristote-1" class="slide level2">
+<h2>Aristote</h2>
 <ul>
 <li>Le cercle est la figure parfaite! (<em>Platonique</em>)</li>
 <li>Sphères en mouvement <strong>circulaire uniforme</strong></li>
 </ul>
 <ul>
-<li class="fragment">Centre : <strong>Terre</strong>, <strong>Eau</strong></li>
-<li class="fragment">Ciel : <strong>Air</strong>, <strong>Feu</strong></li>
+<li class="fragment">Centre : <strong>Terre</strong>,
+<strong>Eau</strong></li>
+<li class="fragment">Ciel : <strong>Air</strong>,
+<strong>Feu</strong></li>
 <li class="fragment">Éther : <strong>Étoiles</strong></li>
 </ul>
 </section>
-<section class="slide level1">
-
-<h2 id="aristote-2">Aristote</h2>
+<section id="aristote-2" class="slide level2">
+<h2>Aristote</h2>
 <p><img src="../../images/modele_aristote.png" alt="Modèle d'Aristote"
 style="max-height: 500px; max-width: 1000px;"></p>
 </section>
-<section class="slide level1">
-
-<h2 id="hipparque">Hipparque</h2>
+<section id="hipparque" class="slide level2">
+<h2>Hipparque</h2>
 <p><em>150 av. J.-C.</em></p>
 <p><img src="../../images/Hipparque.jpeg" alt="Hipparque"
 style="max-height: 500px; max-width: 1000px;"></p>
 </section>
-<section class="slide level1">
-
-<h2 id="hipparque-1">Hipparque</h2>
+<section id="hipparque-1" class="slide level2">
+<h2>Hipparque</h2>
 <ul>
 <li>Propose une explication du mouvement rétrograde des planètes</li>
-<li>Planète se déplace sur un <strong>épicycle</strong> qui lui-même se déplace sur un <strong>déférent</strong></li>
+<li>Planète se déplace sur un <strong>épicycle</strong> qui lui-même se
+déplace sur un <strong>déférent</strong></li>
 </ul>
 </section>
-<section class="slide level1">
-
-<h2 id="hipparque-2">Hipparque</h2>
+<section id="hipparque-2" class="slide level2">
+<h2>Hipparque</h2>
 <p><img src="../../images/modele_hipparque.png"
 alt="Modèle d'Hipparque"
 style="
@@ -345,13 +370,15 @@ style="
     max-width: 1000px;
 "></p>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
 <figure>
 <img src="../../images/modele_hipparque.png"
        alt="Modèle d'Hipparque"
        style="background-color:#eee; padding: 10px;"
-       width="45%"> <a href="http://old.nationalcurvebank.org/cycloidmaple/cycloid.htm"> <img src="../../images/epitroa.gif" alt="Épitrochoïde qui montre comment la
+       width="45%">
+<a href="http://old.nationalcurvebank.org/cycloidmaple/cycloid.htm">
+<img src="../../images/epitroa.gif" alt="Épitrochoïde qui montre comment la
     combinaison d'un déférent et d'un épicycle peut donner lieu à un mouvement
     rétrograde" width="45%" loop="infinite"> </a>
 <figcaption style="font-size: 0.4em; color: #666;">
@@ -359,9 +386,8 @@ Image de droite : Paul Chabot
 </figcaption>
 </figure>
 </section>
-<section class="slide level1">
-
-<h2 id="claude-ptolémée">Claude Ptolémée</h2>
+<section id="claude-ptolémée" class="slide level2">
+<h2>Claude Ptolémée</h2>
 <p><em>II<sup>e</sup> siècle</em></p>
 <p><img src="../../images/ptolemee.jpg"
 alt="Ptolémée, gravure de Theodor de Bry, 1596"
@@ -370,17 +396,15 @@ style="
     max-width: 1000px;
 "></p>
 </section>
-<section class="slide level1">
-
-<h2 id="ptolémée">Ptolémée</h2>
+<section id="ptolémée" class="slide level2">
+<h2>Ptolémée</h2>
 <ul>
 <li>Reprend l’idée des épicycles</li>
 <li>Ajoute : <strong>équant</strong>, Terre décentrée</li>
 </ul>
 </section>
-<section class="slide level1">
-
-<h2 id="ptolémée-1">Ptolémée</h2>
+<section id="ptolémée-1" class="slide level2">
+<h2>Ptolémée</h2>
 <p><img src="../../images/modele_ptolemee.png"
 alt="Modèle de Ptolémée"
 style="
@@ -390,44 +414,184 @@ style="
     max-width: 1000px;
 "></p>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
 <h3 id="ptolémée-explique">Ptolémée explique</h3>
 <ul>
 <li>le mouvement rétrograde</li>
 <li>la préférence zodiacale</li>
-<li>les positions des astres errants avec une précision de l’ordre de 5°</li>
+<li>les positions des astres errants avec une précision de l’ordre de
+5°</li>
 </ul>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
 <h3 id="ptolémée-nexplique-pas">Ptolémée n’explique pas</h3>
 <ul>
-<li>les contraintes bizarres sur le segment <em>centre de l’épicycle - planète</em></li>
-<li>centre de l’épicycle des planètes inférieures sur l’axe Terre-Soleil</li>
-<li>axe centre de l’épicycle-planète supérieure parallèle à l’axe Terre-Soleil</li>
+<li>les contraintes bizarres sur le segment <em>centre de l’épicycle -
+planète</em></li>
+<li>centre de l’épicycle des planètes inférieures sur l’axe
+Terre-Soleil</li>
+<li>axe centre de l’épicycle-planète supérieure parallèle à l’axe
+Terre-Soleil</li>
 </ul>
 </section>
     </div>
   </div>
 
-  <script src="../reveal.js/dist/reveal.js"></script>
+  <script src="https://unpkg.com/reveal.js@^4//dist/reveal.js"></script>
 
-  // reveal.js plugins
-  <script src="../reveal.js/plugin/notes/notes.js"></script>
-  <script src="../reveal.js/plugin/search/search.js"></script>
-  <script src="../reveal.js/plugin/zoom/zoom.js"></script>
-  <script src="../reveal.js/plugin/math/math.js"></script>
+  <!-- reveal.js plugins -->
+  <script src="https://unpkg.com/reveal.js@^4//plugin/notes/notes.js"></script>
+  <script src="https://unpkg.com/reveal.js@^4//plugin/search/search.js"></script>
+  <script src="https://unpkg.com/reveal.js@^4//plugin/zoom/zoom.js"></script>
+  <script src="https://unpkg.com/reveal.js@^4//plugin/math/math.js"></script>
 
   <script>
 
       // Full list of configuration options available at:
       // https://revealjs.com/config/
       Reveal.initialize({
+        // Display controls in the bottom right corner
+        controls: true,
+
+        // Help the user learn the controls by providing hints, for example by
+        // bouncing the down arrow when they first encounter a vertical slide
+        controlsTutorial: true,
+
+        // Determines where controls appear, "edges" or "bottom-right"
+        controlsLayout: 'bottom-right',
+
+        // Visibility rule for backwards navigation arrows; "faded", "hidden"
+        // or "visible"
+        controlsBackArrows: 'faded',
+
+        // Display a presentation progress bar
+        progress: true,
+
+        // Display the page number of the current slide
+        slideNumber: false,
+
+        // 'all', 'print', or 'speaker'
+        showSlideNumber: 'all',
+
+        // Add the current slide number to the URL hash so that reloading the
+        // page/copying the URL will return you to the same slide
+        hash: true,
+
+        // Start with 1 for the hash rather than 0
+        hashOneBasedIndex: false,
+
+        // Flags if we should monitor the hash and change slides accordingly
+        respondToHashChanges: true,
+
         // Push each slide change to the browser history
-        history: true,
-        // Transition style
-        transition: 'none', // none/fade/slide/convex/concave/zoom
+        history: false,
+
+        // Enable keyboard shortcuts for navigation
+        keyboard: true,
+
+        // Enable the slide overview mode
+        overview: true,
+
+        // Disables the default reveal.js slide layout (scaling and centering)
+        // so that you can use custom CSS layout
+        disableLayout: false,
+
+        // Vertical centering of slides
+        center: true,
+
+        // Enables touch navigation on devices with touch input
+        touch: true,
+
+        // Loop the presentation
+        loop: false,
+
+        // Change the presentation direction to be RTL
+        rtl: false,
+
+        // see https://revealjs.com/vertical-slides/#navigation-mode
+        navigationMode: 'default',
+
+        // Randomizes the order of slides each time the presentation loads
+        shuffle: false,
+
+        // Turns fragments on and off globally
+        fragments: true,
+
+        // Flags whether to include the current fragment in the URL,
+        // so that reloading brings you to the same fragment position
+        fragmentInURL: true,
+
+        // Flags if the presentation is running in an embedded mode,
+        // i.e. contained within a limited portion of the screen
+        embedded: false,
+
+        // Flags if we should show a help overlay when the questionmark
+        // key is pressed
+        help: true,
+
+        // Flags if it should be possible to pause the presentation (blackout)
+        pause: true,
+
+        // Flags if speaker notes should be visible to all viewers
+        showNotes: false,
+
+        // Global override for autoplaying embedded media (null/true/false)
+        autoPlayMedia: null,
+
+        // Global override for preloading lazy-loaded iframes (null/true/false)
+        preloadIframes: null,
+
+        // Number of milliseconds between automatically proceeding to the
+        // next slide, disabled when set to 0, this value can be overwritten
+        // by using a data-autoslide attribute on your slides
+        autoSlide: 0,
+
+        // Stop auto-sliding after user input
+        autoSlideStoppable: true,
+
+        // Use this method for navigation when auto-sliding
+        autoSlideMethod: null,
+
+        // Specify the average time in seconds that you think you will spend
+        // presenting each slide. This is used to show a pacing timer in the
+        // speaker view
+        defaultTiming: null,
+
+        // Enable slide navigation via mouse wheel
+        mouseWheel: false,
+
+        // The display mode that will be used to show slides
+        display: 'block',
+
+        // Hide cursor if inactive
+        hideInactiveCursor: true,
+
+        // Time before the cursor is hidden (in ms)
+        hideCursorTime: 5000,
+
+        // Opens links in an iframe preview overlay
+        previewLinks: false,
+
+        // Transition style (none/fade/slide/convex/concave/zoom)
+        transition: 'none',
+
+        // Transition speed (default/fast/slow)
+        transitionSpeed: 'default',
+
+        // Transition style for full page slide backgrounds
+        // (none/fade/slide/convex/concave/zoom)
+        backgroundTransition: 'fade',
+
+        // Number of slides away from the current that are visible
+        viewDistance: 3,
+
+        // Number of slides away from the current that are visible on mobile
+        // devices. It is advisable to set this to a lower number than
+        // viewDistance in order to save resources.
+        mobileViewDistance: 2,
+
         math: {
           mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js',
           config: 'TeX-AMS_HTML-full',

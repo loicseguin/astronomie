@@ -1,9 +1,11 @@
 % Préambule
-% CEA Explorer et comprendre l'Univers
-% 24 août 2020
+% Explorer et comprendre l'Univers
+% 25 janvier 2024
 ---
-theme: black
-transition: linear
+theme: night
+title-slide-attributes:
+    data-background-image: ../../images/52565304936_fc8852f1e9_k.jpg
+    data-background-size: contain
 ---
 
 
@@ -43,3 +45,7 @@ transition: linear
   allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
   allowfullscreen>
 </iframe>
+
+---
+
+## {background-image="../../images/52565304936_fc8852f1e9_k.jpg"}

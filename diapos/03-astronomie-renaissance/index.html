@@ -8,17 +8,28 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
-  <link rel="stylesheet" href="../reveal.js/dist/reset.css">
-  <link rel="stylesheet" href="../reveal.js/dist/reveal.css">
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^4//dist/reset.css">
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^4//dist/reveal.css">
   <style>
+    .reveal .sourceCode {  /* see #7635 */
+      overflow: visible;
+    }
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    span.underline{text-decoration: underline;}
-    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    ul.task-list{list-style: none;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
   </style>
-  <link rel="stylesheet" href="../reveal.js/dist/theme/beige.css" id="theme">
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^4//dist/theme/beige.css" id="theme">
 </head>
 <body>
   <div class="reveal">
@@ -30,15 +41,16 @@
   <p class="date">17 septembre 2020</p>
 </section>
 
-<section class="slide level1">
-
-<h2 id="signe-astrologique">Signe astrologique</h2>
-<p>Est-ce que votre signe astrologique correspondait bien à la position du Soleil le jour de votre naissance?</p>
-<p><a href="https://b.socrative.com/login/student/">https://b.socrative.com/login/student/</a>   DCRDEWY</p>
+<section id="signe-astrologique" class="slide level2">
+<h2>Signe astrologique</h2>
+<p>Est-ce que votre signe astrologique correspondait bien à la position
+du Soleil le jour de votre naissance?</p>
+<p><a
+href="https://b.socrative.com/login/student/">https://b.socrative.com/login/student/</a>
+  DCRDEWY</p>
 </section>
-<section class="slide level1">
-
-<h2 id="rappels">Rappels</h2>
+<section id="rappels" class="slide level2">
+<h2>Rappels</h2>
 <h3 id="observations-mésopotamiennes">Observations mésopotamiennes</h3>
 <ul>
 <li>Observations systématiques de la Lune et du Soleil</li>
@@ -46,9 +58,8 @@
 <li>Mesure des positions des planètes par rapport au Soleil</li>
 </ul>
 </section>
-<section class="slide level1">
-
-<h2 id="rappels-1">Rappels</h2>
+<section id="rappels-1" class="slide level2">
+<h2>Rappels</h2>
 <h3 id="modèle-de-ptolémée">Modèle de Ptolémée</h3>
 <p><img src="../../images/modele_ptolemee.png"
 alt="Ptolémée, gravure de Theodor de Bry, 1596"
@@ -58,20 +69,20 @@ style="
     padding: 15px;
 "></p>
 </section>
-<section class="slide level1">
-
-<h2 id="moyen-âge">Moyen-Âge</h2>
-<p><a href="https://commons.wikimedia.org/wiki/File:Belt_and_spur_-_stories_of_the_knights_of_the_middle_ages_from_the_old_chronicles_(1884)_(14801493253).jpg"> <img src="../../images/middle_ages.jpg"
+<section id="moyen-âge" class="slide level2">
+<h2>Moyen-Âge</h2>
+<p><a href="https://commons.wikimedia.org/wiki/File:Belt_and_spur_-_stories_of_the_knights_of_the_middle_ages_from_the_old_chronicles_(1884)_(14801493253).jpg">
+<img src="../../images/middle_ages.jpg"
 alt="Occupation des civilisations occidentales durant le Moyen-Âge"
 style="
     max-height: 400px;
     max-width: 1000px;
 "></a></p>
 </section>
-<section class="slide level1">
-
-<h2 id="moyen-âge-1">Moyen-Âge</h2>
-<p><a href="https://commons.wikimedia.org/wiki/File:Lunar_eclipse_al-Biruni.jpg"> <img src="../../images/Lunar_eclipse_al-Biruni.jpg"
+<section id="moyen-âge-1" class="slide level2">
+<h2>Moyen-Âge</h2>
+<p><a href="https://commons.wikimedia.org/wiki/File:Lunar_eclipse_al-Biruni.jpg">
+<img src="../../images/Lunar_eclipse_al-Biruni.jpg"
 alt="Phases de la Lune telles que dessinées dans un livre de l'astronome Abu
 Rayhan Al-Biruni"
 style="
@@ -79,47 +90,44 @@ style="
     max-width: 1000px;
 "></a></p>
 </section>
-<section class="slide level1">
-
-<h2 id="copernic">Copernic</h2>
+<section id="copernic" class="slide level2">
+<h2>Copernic</h2>
 <p><em>1473-1543</em></p>
 <p><a title="Par Inconnu [Public domain], via Wikimedia Commons"
-href="http://commons.wikimedia.org/wiki/File%3ANikolaus_Kopernikus.jpg"> <img alt="Nikolaus Kopernikus"
+href="http://commons.wikimedia.org/wiki/File%3ANikolaus_Kopernikus.jpg">
+<img alt="Nikolaus Kopernikus"
 src="../../images/Nikolaus_Kopernikus.jpg"
 style="
     max-height: 400px;
     max-width: 1000px;
 "></a></p>
 </section>
-<section class="slide level1">
-
-<h2 id="copernic-1">Copernic</h2>
+<section id="copernic-1" class="slide level2">
+<h2>Copernic</h2>
 <ul>
 <li>Introduit un <strong>modèle héliocentrique</strong></li>
-<li>Basé sur des arguments d’<em>élégance</em> et de <em>simplicité</em></li>
+<li>Basé sur des arguments d’<em>élégance</em> et de
+<em>simplicité</em></li>
 </ul>
 </section>
-<section class="slide level1">
-
-<h2 id="copernic-2">Copernic</h2>
+<section id="copernic-2" class="slide level2">
+<h2>Copernic</h2>
 <p><a title="By Nicolai Copernici Created in vector format by Scewing ([1])
 [Public domain], via Wikimedia Commons"
 href="http://commons.wikimedia.org/wiki/File%3ACopernican_heliocentrism_theory_diagram.svg"><img
 width="512" alt="Copernican heliocentrism theory diagram"
 src="../../images/Copernican_heliocentrism_theory_diagram.png"/></a></p>
 </section>
-<section class="slide level1">
-
-<h2 id="copernic-3">Copernic</h2>
+<section id="copernic-3" class="slide level2">
+<h2>Copernic</h2>
 <ul>
 <li>Soleil est au centre</li>
 <li>Planètes inférieures sont plus près du Soleil</li>
 <li>Planètes supérieures plus loin du Soleil</li>
 </ul>
 </section>
-<section class="slide level1">
-
-<h2 id="copernic-4">Copernic</h2>
+<section id="copernic-4" class="slide level2">
+<h2>Copernic</h2>
 <p>Explique</p>
 <ul>
 <li>Période de révolution des planètes</li>
@@ -127,9 +135,10 @@ src="../../images/Copernican_heliocentrism_theory_diagram.png"/></a></p>
 <li>Taille relative des rétrogradations</li>
 </ul>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
-<p>Dans le modèle de Copernic, pourquoi est-ce que les planètes inférieures apparaissent toujours proches du Soleil dans le ciel?</p>
+<p>Dans le modèle de Copernic, pourquoi est-ce que les planètes
+inférieures apparaissent toujours proches du Soleil dans le ciel?</p>
 <ol style="list-style-type: upper-alpha">
 <li>
 Elles sont plus petites que les autres planètes
@@ -138,19 +147,21 @@ Elles sont plus petites que les autres planètes
 Elles sont plus grandes que les autres planètes
 </li>
 <li>
-Elles sont sur des orbites autour du Soleil plus petite que celle de la Terre
+Elles sont sur des orbites autour du Soleil plus petite que celle de la
+Terre
 </li>
 <li>
-Elles sont sur des orbites autour du Soleil plus grande que celle de la Terre
+Elles sont sur des orbites autour du Soleil plus grande que celle de la
+Terre
 </li>
 <li>
-Elles sont sur un épicycle qui est toujours centré sur l’axe Terre-Soleil
+Elles sont sur un épicycle qui est toujours centré sur l’axe
+Terre-Soleil
 </li>
 </ol>
 </section>
-<section class="slide level1">
-
-<h2 id="période-de-révolution-des-planètes">Période de révolution des planètes</h2>
+<section id="période-de-révolution-des-planètes" class="slide level2">
+<h2>Période de révolution des planètes</h2>
 <table>
 <thead>
 <tr class="header">
@@ -186,22 +197,22 @@ Elles sont sur un épicycle qui est toujours centré sur l’axe Terre-Soleil
 </tbody>
 </table>
 </section>
-<section class="slide level1">
-
-<h2 id="copernic-5">Copernic</h2>
+<section id="copernic-5" class="slide level2">
+<h2>Copernic</h2>
 <p>Pour expliquer la préférence zodiacale, il introduit…</p>
 <div class="fragment">
 <p>…des épicycles.</p>
 </div>
 </section>
-<section class="slide level1">
-
-<h2 id="copernic-6">Copernic</h2>
-<p>Permet de prédire les positions des astres errants avec une précision de l’ordre de 5°</p>
+<section id="copernic-6" class="slide level2">
+<h2>Copernic</h2>
+<p>Permet de prédire les positions des astres errants avec une précision
+de l’ordre de 5°</p>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
-<p>Quels éléments parmi les suivants sont communs aux modèle de Ptolémée et de Copernic?</p>
+<p>Quels éléments parmi les suivants sont communs aux modèle de Ptolémée
+et de Copernic?</p>
 <ol style="list-style-type: upper-alpha">
 <li>
 Orbites circulaires
@@ -220,40 +231,39 @@ Soleil au centre
 </li>
 </ol>
 </section>
-<section class="slide level1">
-
-<h2 id="galilée">Galilée</h2>
+<section id="galilée" class="slide level2">
+<h2>Galilée</h2>
 <p><em>1564-1642</em></p>
 <p><a title="Justus Sustermans [Public domain], via Wikimedia Commons"
-href="http://commons.wikimedia.org/wiki/File%3AGalileo-sustermans.jpg"> <img alt="Galileo-sustermans"
+href="http://commons.wikimedia.org/wiki/File%3AGalileo-sustermans.jpg">
+<img alt="Galileo-sustermans"
 src="../../images/Galileo-sustermans.jpg"
 style="
     max-height: 400px;
     max-width: 1000px;
 "></a></p>
 </section>
-<section class="slide level1">
-
-<h2 id="galilée-1">Galilée</h2>
+<section id="galilée-1" class="slide level2">
+<h2>Galilée</h2>
 <ul>
-<li>Pionnier de l’utilisation d’instrument optique pour l’observation astronomique</li>
+<li>Pionnier de l’utilisation d’instrument optique pour l’observation
+astronomique</li>
 <li><strong>Lunette de Galilée</strong></li>
 </ul>
 </section>
-<section class="slide level1">
-
-<h2 id="lunette-de-galilée">Lunette de Galilée</h2>
+<section id="lunette-de-galilée" class="slide level2">
+<h2>Lunette de Galilée</h2>
 <p><a title="Giuseppe Bertini [Public domain], via Wikimedia Commons"
-href="http://commons.wikimedia.org/wiki/File%3ABertini_fresco_of_Galileo_Galilei_and_Doge_of_Venice.jpg"> <img alt="Bertini fresco of Galileo Galilei and Doge of Venice"
+href="http://commons.wikimedia.org/wiki/File%3ABertini_fresco_of_Galileo_Galilei_and_Doge_of_Venice.jpg">
+<img alt="Bertini fresco of Galileo Galilei and Doge of Venice"
 src="../../images/Bertini_fresco_of_Galileo_Galilei_and_Doge_of_Venice.jpg"
 style="
     max-height: 500px;
     max-width: 1000px;
 "></a></p>
 </section>
-<section class="slide level1">
-
-<h2 id="observation-de-galilée">Observation de Galilée</h2>
+<section id="observation-de-galilée" class="slide level2">
+<h2>Observation de Galilée</h2>
 <ul>
 <li>Lunes de Jupiter</li>
 <li>Phases de Vénus</li>
@@ -261,11 +271,12 @@ style="
 <li>Montagnes sur la Lune</li>
 </ul>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
 <h3 id="lunes-de-jupiter">Lunes de Jupiter</h3>
 <figure>
-<a href="https://commons.wikimedia.org/wiki/File:Jupiter-moons.jpg"> <img src="../../images/Jupiter-moons.jpg"
+<a href="https://commons.wikimedia.org/wiki/File:Jupiter-moons.jpg">
+<img src="../../images/Jupiter-moons.jpg"
     alt="Lunes de Jupiter vues dans un télescope moderne"
     style="
         max-height: 500px;
@@ -276,26 +287,32 @@ Lunes de Jupiter vues dans un télescope moderne (Jan Sandberg)
 </figcaption>
 </figure>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
 <h3 id="phases-de-vénus">Phases de Vénus</h3>
 <figure>
-<a href="https://commons.wikimedia.org/wiki/File:The_Phases_of_Venus.jpg"> <img src="../../images/Phases_of_Venus.jpg"
+<a href="https://commons.wikimedia.org/wiki/File:The_Phases_of_Venus.jpg">
+<img src="../../images/Phases_of_Venus.jpg"
     alt="Phases de Vénus dans le modèle copernicien"
     style="
         max-height: 500px;
         max-width: 1000px;
     "> </a>
 <figcaption style="font-size: 0.4em; color: #666;">
-Rachel Knott <a href="https://creativecommons.org/licenses/by-sa/3.0/deed.en">CC BY-SA 3.0</a>
+Rachel Knott <a
+href="https://creativecommons.org/licenses/by-sa/3.0/deed.en">CC BY-SA
+3.0</a>
 </figcaption>
 </figure>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
 <h3 id="phases-de-vénus-1">Phases de Vénus</h3>
 <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="870" height="500">
-<param name="movie" value="../../images/venusphases.swf" /> <!--[if !IE]>--> <object type="application/x-shockwave-flash" data="../../images/venusphases.swf" width="870" height="500"> <!--<![endif]-->
+<param name="movie" value="../../images/venusphases.swf" />
+<!--[if !IE]>-->
+<object type="application/x-shockwave-flash" data="../../images/venusphases.swf" width="870" height="500">
+<!--<![endif]-->
 <p>
 Animation des phases de Vénus
 </p>
@@ -304,10 +321,12 @@ Animation des phases de Vénus
 <!--<![endif]-->
 </object>
 <figcaption style="font-size: 0.4em; color: #666;">
-<a href="https://astro.unl.edu/classaction/animations/renaissance/venusphases.html">UNL Astronomy</a>
+<a
+href="https://astro.unl.edu/classaction/animations/renaissance/venusphases.html">UNL
+Astronomy</a>
 </figcaption>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
 <h3 id="montagnes-sur-la-lune">Montagnes sur la Lune</h3>
 <figure>
@@ -320,11 +339,12 @@ Animation des phases de Vénus
     ">
 </figure>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
 <h3 id="taches-solaires">Taches solaires</h3>
 <figure>
-<a href="https://www.nasa.gov/content/goddard/largest-sunspot-of-solar-cycle"> <img src="../../images/sunspots.jpg"
+<a href="https://www.nasa.gov/content/goddard/largest-sunspot-of-solar-cycle">
+<img src="../../images/sunspots.jpg"
     alt="Photo de taches solaires prise par le Solar Dynamic Observatory"
     style="
         max-height: 500px;
@@ -332,11 +352,13 @@ Animation des phases de Vénus
     "> </a>
 </figure>
 </section>
-<section class="slide level1">
-
-<h2 id="toutes-les-observations-de-galilée-valident-le-modèle-héliocentrique-de-copernic">Toutes les observations de Galilée valident le modèle héliocentrique de Copernic</h2>
+<section
+id="toutes-les-observations-de-galilée-valident-le-modèle-héliocentrique-de-copernic"
+class="slide level2">
+<h2>Toutes les observations de Galilée valident le modèle héliocentrique
+de Copernic</h2>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
 <figure>
 <img src="../../images/Galileo_facing_the_Roman_Inquisition.jpg"
@@ -347,13 +369,13 @@ Animation des phases de Vénus
         max-width: 1000px;
     ">
 <figcaption style="font-size: 0.4em; color: #666;">
-Peinture de Cristiano Banti qui montre Galilée faisant face à l’Inquisition.
+Peinture de Cristiano Banti qui montre Galilée faisant face à
+l’Inquisition.
 </figcaption>
 </figure>
 </section>
-<section class="slide level1">
-
-<h2 id="tycho-brahé">Tycho Brahé</h2>
+<section id="tycho-brahé" class="slide level2">
+<h2>Tycho Brahé</h2>
 <p><em>(1546 — 1601)</em></p>
 <p><a title="By Eduard Ender († 1883)
 (http://cache.eb.com/eb/image?id=83677&rendTypeId=4) [Public domain], via
@@ -362,52 +384,50 @@ href="http://commons.wikimedia.org/wiki/File%3ATycho_Brahe.JPG"><img
 width="256" alt="Tycho Brahe"
 src="//upload.wikimedia.org/wikipedia/commons/2/2b/Tycho_Brahe.JPG"/></a></p>
 </section>
-<section class="slide level1">
-
-<h2 id="tycho-brahé-1">Tycho Brahé</h2>
+<section id="tycho-brahé-1" class="slide level2">
+<h2>Tycho Brahé</h2>
 <ul>
 <li>Château-observatoire, Uraniborg, sur l’île de Hveen</li>
 <li>Observations à l’<strong>œil nu</strong></li>
 <li>Position des planètes à 1/60 de degré</li>
 </ul>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d4513487.101112015!2d12.486592059157093!3d56.4703257817558!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465235606b16f931%3A0x7c2b7a040a52432d!2sUranienbourg!5e0!3m2!1sfr!2sca!4v1412805951948" width="600" height="450" frameborder="0" style="border:0">
 </iframe>
 </section>
-<section class="slide level1">
-
-<h2 id="tycho-brahé-2">Tycho Brahé</h2>
+<section id="tycho-brahé-2" class="slide level2">
+<h2>Tycho Brahé</h2>
 <ul>
-<li>Élabore un modèle complexe et incorrect à partir de ses observations</li>
+<li>Élabore un modèle complexe et incorrect à partir de ses
+observations</li>
 <li>Lègue ses données à Johannes Kepler</li>
 </ul>
 </section>
-<section class="slide level1">
-
-<h2 id="johannes-kepler">Johannes Kepler</h2>
+<section id="johannes-kepler" class="slide level2">
+<h2>Johannes Kepler</h2>
 <p><em>(1571 — 1630)</em></p>
 <p><a title="See page for author [Public domain], via Wikimedia Commons"
 href="https://commons.wikimedia.org/wiki/File%3AJohannes_Kepler_1610.jpg"><img
 width="256" alt="Johannes Kepler 1610"
 src="//upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Johannes_Kepler_1610.jpg/256px-Johannes_Kepler_1610.jpg"/></a></p>
 </section>
-<section class="slide level1">
-
-<h2 id="johannes-kepler-1">Johannes Kepler</h2>
+<section id="johannes-kepler-1" class="slide level2">
+<h2>Johannes Kepler</h2>
 <ul>
 <li>Féru de mathématiques</li>
 <li>Élabore un modèle mathématique du mouvement des planètes</li>
-<li>Découvre <strong>trois</strong> lois qui régissent leur mouvement</li>
+<li>Découvre <strong>trois</strong> lois qui régissent leur
+mouvement</li>
 </ul>
 </section>
-<section class="slide level1">
-
-<h2 id="première-loi-de-kepler">Première loi de Kepler</h2>
-<p><em>Les planètes décrivent des orbites en forme d’ellipse autour du Soleil. Ce dernier se trouve sur un des foyers de l’ellipse.</em></p>
+<section id="première-loi-de-kepler" class="slide level2">
+<h2>Première loi de Kepler</h2>
+<p><em>Les planètes décrivent des orbites en forme d’ellipse autour du
+Soleil. Ce dernier se trouve sur un des foyers de l’ellipse.</em></p>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
 <p><a title="By HB (Own work) [GFDL (http://www.gnu.org/copyleft/fdl.html) or
 CC-BY-SA-3.0-2.5-2.0-1.0 (http://creativecommons.org/licenses/by-sa/3.0)], via
@@ -416,24 +436,22 @@ href="http://commons.wikimedia.org/wiki/File%3AEllipseVal.svg"><img width="512"
 alt="EllipseVal" style="background-color: white;"
 src="//upload.wikimedia.org/wikipedia/commons/thumb/7/72/EllipseVal.svg/512px-EllipseVal.svg.png"/></a></p>
 </section>
-<section class="slide level1">
-
-<h2 id="lellipse">L’ellipse</h2>
+<section id="lellipse" class="slide level2">
+<h2>L’ellipse</h2>
 <ul>
 <li>Possède deux <strong>foyers</strong></li>
 <li>Caractérisée par son <strong>excentricité</strong></li>
 </ul>
 <p><span class="math display">\[e = \frac{c}{a}\]</span></p>
 </section>
-<section class="slide level1">
-
-<h2 id="lellipse-1">L’ellipse</h2>
+<section id="lellipse-1" class="slide level2">
+<h2>L’ellipse</h2>
 <ul>
 <li>Aphélie : point le plus loin du Soleil</li>
 <li>Périhélie : point le plus près du Soleil</li>
 </ul>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
 <table>
 <thead>
@@ -482,12 +500,12 @@ src="//upload.wikimedia.org/wikipedia/commons/thumb/7/72/EllipseVal.svg/512px-El
 </tbody>
 </table>
 </section>
-<section class="slide level1">
-
-<h2 id="deuxième-loi-de-kepler">Deuxième loi de Kepler</h2>
-<p><em>La ligne qui relie la planète au Soleil balaie des aires égales en des temps égaux.</em></p>
+<section id="deuxième-loi-de-kepler" class="slide level2">
+<h2>Deuxième loi de Kepler</h2>
+<p><em>La ligne qui relie la planète au Soleil balaie des aires égales
+en des temps égaux.</em></p>
 </section>
-<section class="slide level1">
+<section class="slide level2">
 
 <p><a title="By Hankwang (Own work) [GFDL (http://www.gnu.org/copyleft/fdl.html),
 CC-BY-SA-3.0 (http://creativecommons.org/licenses/by-sa/3.0/) or CC-BY-2.5
@@ -496,9 +514,8 @@ href="https://commons.wikimedia.org/wiki/File%3AKepler_laws_diagram.svg"><img
 width="512" alt="Kepler laws diagram" style="background-color: white;"
 src="//upload.wikimedia.org/wikipedia/commons/thumb/9/98/Kepler_laws_diagram.svg/512px-Kepler_laws_diagram.svg.png"/></a></p>
 </section>
-<section class="slide level1">
-
-<h2 id="deuxième-loi-de-kepler-1">Deuxième loi de Kepler</h2>
+<section id="deuxième-loi-de-kepler-1" class="slide level2">
+<h2>Deuxième loi de Kepler</h2>
 <ul>
 <li>Vitesse varie le long de l’orbite</li>
 <li>Près du Soleil : plus vite</li>
@@ -508,35 +525,172 @@ src="//upload.wikimedia.org/wikipedia/commons/thumb/9/98/Kepler_laws_diagram.svg
 <li class="fragment">C’est la préférence zodiacale</li>
 </ul>
 </section>
-<section class="slide level1">
-
-<h2 id="troisième-loi-de-kepler">Troisième loi de Kepler</h2>
+<section id="troisième-loi-de-kepler" class="slide level2">
+<h2>Troisième loi de Kepler</h2>
 <p><span class="math display">\[T^2 = a^3\]</span></p>
 <ul>
-<li><span class="math inline">\(T\)</span> : <strong>période sidérale</strong> en années</li>
-<li><span class="math inline">\(a\)</span> : <strong>demi-grand axe</strong> en unités astronomiques</li>
+<li><span class="math inline">\(T\)</span> : <strong>période
+sidérale</strong> en années</li>
+<li><span class="math inline">\(a\)</span> : <strong>demi-grand
+axe</strong> en unités astronomiques</li>
 </ul>
 </section>
     </div>
   </div>
 
-  <script src="../reveal.js/dist/reveal.js"></script>
+  <script src="https://unpkg.com/reveal.js@^4//dist/reveal.js"></script>
 
-  // reveal.js plugins
-  <script src="../reveal.js/plugin/notes/notes.js"></script>
-  <script src="../reveal.js/plugin/search/search.js"></script>
-  <script src="../reveal.js/plugin/zoom/zoom.js"></script>
-  <script src="../reveal.js/plugin/math/math.js"></script>
+  <!-- reveal.js plugins -->
+  <script src="https://unpkg.com/reveal.js@^4//plugin/notes/notes.js"></script>
+  <script src="https://unpkg.com/reveal.js@^4//plugin/search/search.js"></script>
+  <script src="https://unpkg.com/reveal.js@^4//plugin/zoom/zoom.js"></script>
+  <script src="https://unpkg.com/reveal.js@^4//plugin/math/math.js"></script>
 
   <script>
 
       // Full list of configuration options available at:
       // https://revealjs.com/config/
       Reveal.initialize({
+        // Display controls in the bottom right corner
+        controls: true,
+
+        // Help the user learn the controls by providing hints, for example by
+        // bouncing the down arrow when they first encounter a vertical slide
+        controlsTutorial: true,
+
+        // Determines where controls appear, "edges" or "bottom-right"
+        controlsLayout: 'bottom-right',
+
+        // Visibility rule for backwards navigation arrows; "faded", "hidden"
+        // or "visible"
+        controlsBackArrows: 'faded',
+
+        // Display a presentation progress bar
+        progress: true,
+
+        // Display the page number of the current slide
+        slideNumber: false,
+
+        // 'all', 'print', or 'speaker'
+        showSlideNumber: 'all',
+
+        // Add the current slide number to the URL hash so that reloading the
+        // page/copying the URL will return you to the same slide
+        hash: true,
+
+        // Start with 1 for the hash rather than 0
+        hashOneBasedIndex: false,
+
+        // Flags if we should monitor the hash and change slides accordingly
+        respondToHashChanges: true,
+
         // Push each slide change to the browser history
-        history: true,
-        // Transition style
-        transition: 'linear', // none/fade/slide/convex/concave/zoom
+        history: false,
+
+        // Enable keyboard shortcuts for navigation
+        keyboard: true,
+
+        // Enable the slide overview mode
+        overview: true,
+
+        // Disables the default reveal.js slide layout (scaling and centering)
+        // so that you can use custom CSS layout
+        disableLayout: false,
+
+        // Vertical centering of slides
+        center: true,
+
+        // Enables touch navigation on devices with touch input
+        touch: true,
+
+        // Loop the presentation
+        loop: false,
+
+        // Change the presentation direction to be RTL
+        rtl: false,
+
+        // see https://revealjs.com/vertical-slides/#navigation-mode
+        navigationMode: 'default',
+
+        // Randomizes the order of slides each time the presentation loads
+        shuffle: false,
+
+        // Turns fragments on and off globally
+        fragments: true,
+
+        // Flags whether to include the current fragment in the URL,
+        // so that reloading brings you to the same fragment position
+        fragmentInURL: true,
+
+        // Flags if the presentation is running in an embedded mode,
+        // i.e. contained within a limited portion of the screen
+        embedded: false,
+
+        // Flags if we should show a help overlay when the questionmark
+        // key is pressed
+        help: true,
+
+        // Flags if it should be possible to pause the presentation (blackout)
+        pause: true,
+
+        // Flags if speaker notes should be visible to all viewers
+        showNotes: false,
+
+        // Global override for autoplaying embedded media (null/true/false)
+        autoPlayMedia: null,
+
+        // Global override for preloading lazy-loaded iframes (null/true/false)
+        preloadIframes: null,
+
+        // Number of milliseconds between automatically proceeding to the
+        // next slide, disabled when set to 0, this value can be overwritten
+        // by using a data-autoslide attribute on your slides
+        autoSlide: 0,
+
+        // Stop auto-sliding after user input
+        autoSlideStoppable: true,
+
+        // Use this method for navigation when auto-sliding
+        autoSlideMethod: null,
+
+        // Specify the average time in seconds that you think you will spend
+        // presenting each slide. This is used to show a pacing timer in the
+        // speaker view
+        defaultTiming: null,
+
+        // Enable slide navigation via mouse wheel
+        mouseWheel: false,
+
+        // The display mode that will be used to show slides
+        display: 'block',
+
+        // Hide cursor if inactive
+        hideInactiveCursor: true,
+
+        // Time before the cursor is hidden (in ms)
+        hideCursorTime: 5000,
+
+        // Opens links in an iframe preview overlay
+        previewLinks: false,
+
+        // Transition style (none/fade/slide/convex/concave/zoom)
+        transition: 'linear',
+
+        // Transition speed (default/fast/slow)
+        transitionSpeed: 'default',
+
+        // Transition style for full page slide backgrounds
+        // (none/fade/slide/convex/concave/zoom)
+        backgroundTransition: 'fade',
+
+        // Number of slides away from the current that are visible
+        viewDistance: 3,
+
+        // Number of slides away from the current that are visible on mobile
+        // devices. It is advisable to set this to a lower number than
+        // viewDistance in order to save resources.
+        mobileViewDistance: 2,
+
         math: {
           mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js',
           config: 'TeX-AMS_HTML-full',

@@ -30,8 +30,7 @@ def run(call_str):
 def revealjs(in_fname, out_fname):
     """Crée une présentation avec la librairie javascript Reveal.js."""
     call_str = "pandoc -t revealjs " \
-               "-V revealjs-url=../reveal.js -s " \
-               "--slide-level=1 " \
+               "-s " \
                "--mathjax {} -o {}".format(in_fname, out_fname)
     run(call_str)
 

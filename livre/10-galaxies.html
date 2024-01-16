@@ -8,10 +8,18 @@
   <style>
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    span.underline{text-decoration: underline;}
-    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    ul.task-list{list-style: none;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
   </style>
   <link rel="stylesheet" href="../www/style.css" />
   <!--[if lt IE 9]>
@@ -25,65 +33,173 @@
 <h1 class="title"><span class="chapnum">Chapitre 10</span> Galaxies</h1>
 </header>
 <figure>
-<a href="https://www.nasa.gov/feature/goddard/2020/nasas-hubble-surveys-gigantic-galaxy"> <img src="../images/stsci-h-p2001a-m-2000x1500_0.png"
+<a href="https://www.nasa.gov/feature/goddard/2020/nasas-hubble-surveys-gigantic-galaxy">
+<img src="../images/stsci-h-p2001a-m-2000x1500_0.png"
       alt="UGC 2885"
       width="100%"> </a>
 <figcaption>
-La galaxie spirale UGC 2885 est environ 2,5 fois plus grande que notre Voie Lactée et contient environ 1000 milliards d’étoiles. (NASA, ESA and B. Holwerda (University of Louisville))
+La galaxie spirale UGC 2885 est environ 2,5 fois plus grande que notre
+Voie Lactée et contient environ 1000 milliards d’étoiles. (NASA, ESA and
+B. Holwerda (University of Louisville))
 </figcaption>
 </figure>
-<p>Dans l’Univers, les étoiles sont regroupées dans d’énormes structures qu’on appelle des <strong>galaxies</strong>. Ces galaxies sont le milieu de vie des étoiles, c’est là que le cycle de vie des étoiles se produit depuis des milliards d’années. Dans ce chapitre, nous discuterons brièvement de la structure d’une galaxie spirale comme la Voie Lactée, puis nous aborderons la superstructure de l’Univers et son expansion.</p>
+<p>Dans l’Univers, les étoiles sont regroupées dans d’énormes structures
+qu’on appelle des <strong>galaxies</strong>. Ces galaxies sont le milieu
+de vie des étoiles, c’est là que le cycle de vie des étoiles se produit
+depuis des milliards d’années. Dans ce chapitre, nous discuterons
+brièvement de la structure d’une galaxie spirale comme la Voie Lactée,
+puis nous aborderons la superstructure de l’Univers et son
+expansion.</p>
 <h2 id="modèles-de-la-voie-lactée">Modèles de la Voie lactée</h2>
 <figure>
-<a href="https://www.lonelyspeck.com/cropped-zeiss-batis-18mm-astrophotography-review-milky-way-09227-jpg/"> <img src="../images/cropped-zeiss-batis-18mm-astrophotography-review-milky-way-09227.jpg"
+<a href="https://www.lonelyspeck.com/cropped-zeiss-batis-18mm-astrophotography-review-milky-way-09227-jpg/">
+<img src="../images/cropped-zeiss-batis-18mm-astrophotography-review-milky-way-09227.jpg"
       alt="Voie lactée vue de la Terre"
       width="100%"> </a>
 <figcaption>
-Voie lactée vue de la Terre (lonelyspeck.com <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>)
+Voie lactée vue de la Terre (lonelyspeck.com <a
+href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA
+4.0</a>)
 </figcaption>
 </figure>
-<p>De notre point de vue à l’intérieur de la galaxie, déterminer la forme de la galaxie et notre position dans celle-ci n’est pas une tâche facile. William Herschel, l’astronome qui a découvert Uranus, a été un des premiers à essayer de cartographier la Voie lactée. En comptant le nombre d’étoiles dans différentes région du ciel correspondant au plan de la Voie lactée, il a essayé d’établir la densité d’étoiles et leur localisation. Son modèle est illustré ci-dessous (tiré d’une présentation qu’il a fait à la Royal Society of London en 1785). Dans ce modèle, le Soleil est indiqué par l’étoile un peu plus grosse près du centre de la galaxie. Le fait que le Soleil soit placé au centre est une conséquence de plusieurs hypothèses erronées : densité uniforme des étoiles dans la galaxie, toutes les étoiles ont la même magnitude absolue, absence d’extinction par la poussière et les gaz froids. Le modèle d’Herschel est incorrect à plusieurs égards, mais il montre correctement que la galaxie est beaucoup plus grande dans une direction que dans l’autre.</p>
+<p>De notre point de vue à l’intérieur de la galaxie, déterminer la
+forme de la galaxie et notre position dans celle-ci n’est pas une tâche
+facile. William Herschel, l’astronome qui a découvert Uranus, a été un
+des premiers à essayer de cartographier la Voie lactée. En comptant le
+nombre d’étoiles dans différentes région du ciel correspondant au plan
+de la Voie lactée, il a essayé d’établir la densité d’étoiles et leur
+localisation. Son modèle est illustré ci-dessous (tiré d’une
+présentation qu’il a fait à la Royal Society of London en 1785). Dans ce
+modèle, le Soleil est indiqué par l’étoile un peu plus grosse près du
+centre de la galaxie. Le fait que le Soleil soit placé au centre est une
+conséquence de plusieurs hypothèses erronées : densité uniforme des
+étoiles dans la galaxie, toutes les étoiles ont la même magnitude
+absolue, absence d’extinction par la poussière et les gaz froids. Le
+modèle d’Herschel est incorrect à plusieurs égards, mais il montre
+correctement que la galaxie est beaucoup plus grande dans une direction
+que dans l’autre.</p>
 <figure>
 <img src="../images/Herschel-galaxy.jpg"
     alt="Modèle de la Voie lactée d'Herschel"
     width="100%">
 <figcaption>
-Modèle de la Voie lactée de William Herschel. Le Soleil est le point un peut plus gros près du centre.
+Modèle de la Voie lactée de William Herschel. Le Soleil est le point un
+peut plus gros près du centre.
 </figcaption>
 </figure>
-<p>Jacobus Kapteyn a analysé la distribution des étoiles de façon plus détaillée et a été en mesure de déterminer une taille approximative de 30 000 années-lumière dans la direction la plus grande et 5500 années-lumière dans l’autre direction. Il imaginait la Voie lactée comme un sphéroïde (un peu comme un ballon de football) et, tout comme Herschel, positionnait le Soleil près du centre.</p>
-<p>Il est intéressant de noter que ces deux scientifiques ont construit des modèles erronés parce qu’ils ignoraient le phénomène de l’extinction (dans le cas d’Herschel) ou la façon d’en tenir compte correctement (dans le cas de Kapteyn). L’<strong>extinction</strong> est l’atténuation de l’intensité lumineuse causée par l’absorption de la lumière par la poussière et le gaz contenu dans la galaxie. Une analogie est de s’imaginer qu’on essaie de décrire la forêt dans laquelle on se trouve alors qu’on est dans un brouillard dense : on décrira une forêt plus petite qu’elle ne l’est en réalité et on aura l’impression d’être au centre parce qu’on ne voit la bordure nulle part.</p>
+<p>Jacobus Kapteyn a analysé la distribution des étoiles de façon plus
+détaillée et a été en mesure de déterminer une taille approximative de
+30 000 années-lumière dans la direction la plus grande et 5500
+années-lumière dans l’autre direction. Il imaginait la Voie lactée comme
+un sphéroïde (un peu comme un ballon de football) et, tout comme
+Herschel, positionnait le Soleil près du centre.</p>
+<p>Il est intéressant de noter que ces deux scientifiques ont construit
+des modèles erronés parce qu’ils ignoraient le phénomène de l’extinction
+(dans le cas d’Herschel) ou la façon d’en tenir compte correctement
+(dans le cas de Kapteyn). L’<strong>extinction</strong> est
+l’atténuation de l’intensité lumineuse causée par l’absorption de la
+lumière par la poussière et le gaz contenu dans la galaxie. Une analogie
+est de s’imaginer qu’on essaie de décrire la forêt dans laquelle on se
+trouve alors qu’on est dans un brouillard dense : on décrira une forêt
+plus petite qu’elle ne l’est en réalité et on aura l’impression d’être
+au centre parce qu’on ne voit la bordure nulle part.</p>
 <h2 id="structure-de-la-voie-lactée">Structure de la Voie lactée</h2>
 <figure>
-<a href="https://commons.wikimedia.org/wiki/File:Milky_way_profile_-_fr.svg"> <img src="../images/Milky_way_profile-fr.png"
+<a href="https://commons.wikimedia.org/wiki/File:Milky_way_profile_-_fr.svg">
+<img src="../images/Milky_way_profile-fr.png"
       alt="Diagramme de la Voie lactée"
       width="100%"> </a>
 <figcaption>
-Morphologie de la Voie lactée (RJHall <a href="https://creativecommons.org/licenses/by-sa/3.0/deed.en">CC BY-SA 3.0</a>)
+Morphologie de la Voie lactée (RJHall <a
+href="https://creativecommons.org/licenses/by-sa/3.0/deed.en">CC BY-SA
+3.0</a>)
 </figcaption>
 </figure>
-<p>Le modèle actuelle de la Voie lactée est beaucoup plus adéquat que ceux de Herschel et Kapteyn parce que nos observations sont plus détaillées et parce qu’on a des meilleurs modèles de la distribution des étoiles et de la poussière qui atténue la lumière. La Voie lactée est une <strong>galaxie spirale</strong>, comme UGC 2885 illustrée dans la photo du télescope spatial Hubble ci-dessus. Les galaxies spirales ont des <strong>bras</strong>, des régions plus lumineuses que les autres et qui s’étendent à partir du centre de la galaxie en formant une spirale. La très grande majorité de la matière visible dans la galaxie est répartie sur un disque mince d’environ 2 000 années-lumière d’épaisseur. La région autour du centre de la galaxie est plus enflée et plus lumineuse que le reste. On appelle cette région le <strong>bulbe galactique</strong>. Répartis partout autour du centre de la galaxie, dans une région qu’on appelle le <strong>halo</strong>, se trouvent environ 200 <strong>amas globulaire</strong>, quelques millions d’étoiles regroupées dans des structures sphériques. Les amas globulaires contiennent de très vieilles étoiles.</p>
+<p>Le modèle actuelle de la Voie lactée est beaucoup plus adéquat que
+ceux de Herschel et Kapteyn parce que nos observations sont plus
+détaillées et parce qu’on a des meilleurs modèles de la distribution des
+étoiles et de la poussière qui atténue la lumière. La Voie lactée est
+une <strong>galaxie spirale</strong>, comme UGC 2885 illustrée dans la
+photo du télescope spatial Hubble ci-dessus. Les galaxies spirales ont
+des <strong>bras</strong>, des régions plus lumineuses que les autres et
+qui s’étendent à partir du centre de la galaxie en formant une spirale.
+La très grande majorité de la matière visible dans la galaxie est
+répartie sur un disque mince d’environ 2 000 années-lumière d’épaisseur.
+La région autour du centre de la galaxie est plus enflée et plus
+lumineuse que le reste. On appelle cette région le <strong>bulbe
+galactique</strong>. Répartis partout autour du centre de la galaxie,
+dans une région qu’on appelle le <strong>halo</strong>, se trouvent
+environ 200 <strong>amas globulaire</strong>, quelques millions
+d’étoiles regroupées dans des structures sphériques. Les amas
+globulaires contiennent de très vieilles étoiles.</p>
 <figure>
-<a href="https://commons.wikimedia.org/wiki/File:Milky_way_profile_-_fr.svg"> <img src="../images/42916395422_ec18e3f8a5_c.jpg"
+<a href="https://commons.wikimedia.org/wiki/File:Milky_way_profile_-_fr.svg">
+<img src="../images/42916395422_ec18e3f8a5_c.jpg"
       alt="Amas globulaire M79"
       width="100%"> </a>
 <figcaption>
-Amas globulaire Messier 79 (NASA and ESA; S. Djorgovski (Caltech) and F. Ferraro (University of Bologna))
+Amas globulaire Messier 79 (NASA and ESA; S. Djorgovski (Caltech) and F.
+Ferraro (University of Bologna))
 </figcaption>
 </figure>
-<p>Le Soleil est situé dans un de ces bras, à environ 26 000 années-lumière du centre de la galaxie, soit environ la moitié du rayon total de la galaxie. Il tourne autour du centre de la galaxie en environ 220 millions d’années. C’est donc dire que notre système solaire se déplace à environ 800 000 km/h autour du centre galactique.</p>
-<p>Au centre de la galaxie se trouve un <strong>trou noir supermassif</strong>, Sagittarius A*. Un trou noir est un objet si dense que rien ne peut échapper à son champ gravitationnel. Sagittarius A* a une masse d’environ 4 millions de fois celle du Soleil. Sa présence a été déduite, entre autre, en observant les orbites d’étoiles à proximité. À partir de la taille des orbites et de la période de révolution, on peut déduire la masse de l’objet central en utilisant la troisième loi de Kepler, de la même façon que vous avez déduit la masse de Jupiter en observant les orbites des lunes galiléennes. On pense que presque toutes les galaxies spirales et elliptiques ont un trou noir supermassif en leur centre.</p>
+<p>Le Soleil est situé dans un de ces bras, à environ 26 000
+années-lumière du centre de la galaxie, soit environ la moitié du rayon
+total de la galaxie. Il tourne autour du centre de la galaxie en environ
+220 millions d’années. C’est donc dire que notre système solaire se
+déplace à environ 800 000 km/h autour du centre galactique.</p>
+<p>Au centre de la galaxie se trouve un <strong>trou noir
+supermassif</strong>, Sagittarius A*. Un trou noir est un objet si dense
+que rien ne peut échapper à son champ gravitationnel. Sagittarius A* a
+une masse d’environ 4 millions de fois celle du Soleil. Sa présence a
+été déduite, entre autre, en observant les orbites d’étoiles à
+proximité. À partir de la taille des orbites et de la période de
+révolution, on peut déduire la masse de l’objet central en utilisant la
+troisième loi de Kepler, de la même façon que vous avez déduit la masse
+de Jupiter en observant les orbites des lunes galiléennes. On pense que
+presque toutes les galaxies spirales et elliptiques ont un trou noir
+supermassif en leur centre.</p>
 <figure>
-<a href="https://commons.wikimedia.org/wiki/File:Galactic_centre_orbits.svg"> <img src="../images/Galactic_centre_orbits.png"
+<a href="https://commons.wikimedia.org/wiki/File:Galactic_centre_orbits.svg">
+<img src="../images/Galactic_centre_orbits.png"
       alt="Orbite d'étoiles proches du centre galactique"
       width="60%"> </a>
 <figcaption>
-Orbite d’étoiles proches du centre galactique (Cmglee <a href="https://creativecommons.org/licenses/by-sa/3.0/deed.en">CC BY-SA 3.0</a>)
+Orbite d’étoiles proches du centre galactique (Cmglee <a
+href="https://creativecommons.org/licenses/by-sa/3.0/deed.en">CC BY-SA
+3.0</a>)
 </figcaption>
 </figure>
-<h2 id="rotation-des-galaxies-et-matière-sombre">Rotation des galaxies et matière sombre</h2>
-<p>À partir de la lumière émise par la Voie lactée, on peut estimer la masse de la galaxie. La majorité des étoiles étant des étoiles de type spectral K et M, on sait que chaque étoile émet, en moyenne, un peu moins de lumière que le Soleil. À partir de la luminosité de la galaxie, on peut donc déduire le nombre d’étoiles et, à partir de la masse moyenne des étoiles, obtenir la masse totale de la galaxie. À partir des observations, on calcule donc une masse d’environ 100 milliards de masse solaire.</p>
-<p>Une méthode alternative pour mesurer la masse de la Voie lactée est d’utiliser la troisième loi de Kepler. Si on utilise les étoiles relativement proche du centre galactique comme le Soleil, la troisième loi de Kepler donne une masse en parfait accord avec l’estimation obtenue par la luminosité de la galaxie. Cependant, pour les nuages de gaz qui orbitent beaucoup plus loin du centre galactique, la troisième loi de Kepler donne une masse de 500 milliards de masse solaire, soit cinq fois plus grande que la masse obtenue par la méthode basée sur la luminosité. Cela signifie donc que la majorité de la masse de la galaxie est en réalité composée de <strong>matière sombre</strong>, c’est-à-dire de la matière qui n’émet aucune lumière. Déterminer la nature de la matière sombre est un des grands défis de la physique actuelle. On sait que cette matière interagit par la force gravitationnelle, mais n’interagit d’aucune autre façon : êtes-vous déjà entré en collision avec de la matière sombre en marchant dans la rue? La matière sombre est environ 5 fois plus abondante que la matière ordinaire (celle de la vie de tout les jours, celle qui constitue les maisons, les fourmis et les étoiles), mais nous n’avons aucune idée de ce qui la compose ni de la façon de la détectée. Plusieurs expérience scientifiques complexes sont actuellement en cours pour essayer de détecter la matière sombre et de mesurer ses propriétés.</p>
+<h2 id="rotation-des-galaxies-et-matière-sombre">Rotation des galaxies
+et matière sombre</h2>
+<p>À partir de la lumière émise par la Voie lactée, on peut estimer la
+masse de la galaxie. La majorité des étoiles étant des étoiles de type
+spectral K et M, on sait que chaque étoile émet, en moyenne, un peu
+moins de lumière que le Soleil. À partir de la luminosité de la galaxie,
+on peut donc déduire le nombre d’étoiles et, à partir de la masse
+moyenne des étoiles, obtenir la masse totale de la galaxie. À partir des
+observations, on calcule donc une masse d’environ 100 milliards de masse
+solaire.</p>
+<p>Une méthode alternative pour mesurer la masse de la Voie lactée est
+d’utiliser la troisième loi de Kepler. Si on utilise les étoiles
+relativement proche du centre galactique comme le Soleil, la troisième
+loi de Kepler donne une masse en parfait accord avec l’estimation
+obtenue par la luminosité de la galaxie. Cependant, pour les nuages de
+gaz qui orbitent beaucoup plus loin du centre galactique, la troisième
+loi de Kepler donne une masse de 500 milliards de masse solaire, soit
+cinq fois plus grande que la masse obtenue par la méthode basée sur la
+luminosité. Cela signifie donc que la majorité de la masse de la galaxie
+est en réalité composée de <strong>matière sombre</strong>, c’est-à-dire
+de la matière qui n’émet aucune lumière. Déterminer la nature de la
+matière sombre est un des grands défis de la physique actuelle. On sait
+que cette matière interagit par la force gravitationnelle, mais
+n’interagit d’aucune autre façon : êtes-vous déjà entré en collision
+avec de la matière sombre en marchant dans la rue? La matière sombre est
+environ 5 fois plus abondante que la matière ordinaire (celle de la vie
+de tout les jours, celle qui constitue les maisons, les fourmis et les
+étoiles), mais nous n’avons aucune idée de ce qui la compose ni de la
+façon de la détectée. Plusieurs expérience scientifiques complexes sont
+actuellement en cours pour essayer de détecter la matière sombre et de
+mesurer ses propriétés.</p>
 <figure>
 <div style="width: 720px;
               height: 400px;
@@ -95,8 +211,23 @@ Orbite d’étoiles proches du centre galactique (Cmglee <a href="https://creati
 Vue d’artiste de la matière sombre
 </figcaption>
 </figure>
-<h2 id="loi-de-hubble-et-expansion-de-lunivers">Loi de Hubble et expansion de l’Univers</h2>
-<p>Au début du XX<sup>e</sup> siècle, plusieurs scientifiques ont commencé à considérer l’hypothèse que l’Univers n’était pas statique. Alexander Friedmann, un physicien russe, Georges Lemaître, un prêtre et astronome belge, et Edwin Hubble, un astronome américain, ont été les premiers à élaborer un modèle cohérent. Peu importe où l’on regarde, on voit les galaxies s’éloigner de nous. Plus on regarde loin, plus les galaxies s’éloignent rapidement. L’analogie souvent utilisée est celle d’un pain au raisins. Si vous vivez dans un raisin dans le pain qui cuit au four, vous regardez autour de vous et voyez les autres raisins s’éloigner. Les raisins plus lointains s’éloignent plus vite parce qu’il y a plus de pâte entre eux et vous et que toute cette pâte gonfle. Les observations astronomiques des galaxies lointaines combinées avec des résultats obtenus à partir de la théorie de la relativité générale d’Einstein pointaient tous dans la même direction : l’Univers est en expansion.</p>
+<h2 id="loi-de-hubble-et-expansion-de-lunivers">Loi de Hubble et
+expansion de l’Univers</h2>
+<p>Au début du XX<sup>e</sup> siècle, plusieurs scientifiques ont
+commencé à considérer l’hypothèse que l’Univers n’était pas statique.
+Alexander Friedmann, un physicien russe, Georges Lemaître, un prêtre et
+astronome belge, et Edwin Hubble, un astronome américain, ont été les
+premiers à élaborer un modèle cohérent. Peu importe où l’on regarde, on
+voit les galaxies s’éloigner de nous. Plus on regarde loin, plus les
+galaxies s’éloignent rapidement. L’analogie souvent utilisée est celle
+d’un pain au raisins. Si vous vivez dans un raisin dans le pain qui cuit
+au four, vous regardez autour de vous et voyez les autres raisins
+s’éloigner. Les raisins plus lointains s’éloignent plus vite parce qu’il
+y a plus de pâte entre eux et vous et que toute cette pâte gonfle. Les
+observations astronomiques des galaxies lointaines combinées avec des
+résultats obtenus à partir de la théorie de la relativité générale
+d’Einstein pointaient tous dans la même direction : l’Univers est en
+expansion.</p>
 <figure>
 <img src="../images/hubble_law.gif"
     alt="Relation vélocité-distance dans l'article de Hubble de 1929"
@@ -105,19 +236,45 @@ Vue d’artiste de la matière sombre
 Relation vélocité-distance dans l’article de Edwin Hubble de 1929.
 </figcaption>
 </figure>
-<p>La relation entre la vitesse des galaxies et la distance à laquelle elles se trouvent est connue sous le nom de la <strong>loi de Hubble</strong>: plus les galaxie sont loin, plus elles s’éloignent rapidement.</p>
-<p>Beaucoup plus récemment, à la fin des années 1990, des observations ont bouleversé les modèles d’expansion de l’Univers qui avaient été construit au cours du XX<sup>e</sup> siècle. En observant des supernovas lointaines, les astronomes ont réalisé que l’expansion de l’Univers était de plus en plus rapide. Cette accélération de l’expansion de l’Univers semble étrange. Qu’est-ce qui peut bien «pousser» sur l’espace-temps dans toutes les directions pour le faire s’étendre de plus en plus rapidement? Cette force étrange a été attribuée à une <strong>énergie sombre</strong>, dont la nature exacte n’est pas encore connue. Les observations nous montrent néanmoins que l’énergie sombre doit constituer pas moins de 68% du contenu de l’Univers.</p>
-<p>Nous vivons donc dans un Univers constitué à 68% d’énergie sombre, 27% de matière sombre et seulement 5% de matière ordinaire. Tout ce qui nous entoure dans notre vie quotidienne, tout ce dont nous somme fait, ne constitue qu’une petite fraction de ce que l’Univers contient. Il reste encore beaucoup de questions pour les futures générations d’astronomes et beaucoup de mystères à élucider.</p>
+<p>La relation entre la vitesse des galaxies et la distance à laquelle
+elles se trouvent est connue sous le nom de la <strong>loi de
+Hubble</strong>: plus les galaxie sont loin, plus elles s’éloignent
+rapidement.</p>
+<p>Beaucoup plus récemment, à la fin des années 1990, des observations
+ont bouleversé les modèles d’expansion de l’Univers qui avaient été
+construit au cours du XX<sup>e</sup> siècle. En observant des supernovas
+lointaines, les astronomes ont réalisé que l’expansion de l’Univers
+était de plus en plus rapide. Cette accélération de l’expansion de
+l’Univers semble étrange. Qu’est-ce qui peut bien «pousser» sur
+l’espace-temps dans toutes les directions pour le faire s’étendre de
+plus en plus rapidement? Cette force étrange a été attribuée à une
+<strong>énergie sombre</strong>, dont la nature exacte n’est pas encore
+connue. Les observations nous montrent néanmoins que l’énergie sombre
+doit constituer pas moins de 68% du contenu de l’Univers.</p>
+<p>Nous vivons donc dans un Univers constitué à 68% d’énergie sombre,
+27% de matière sombre et seulement 5% de matière ordinaire. Tout ce qui
+nous entoure dans notre vie quotidienne, tout ce dont nous somme fait,
+ne constitue qu’une petite fraction de ce que l’Univers contient. Il
+reste encore beaucoup de questions pour les futures générations
+d’astronomes et beaucoup de mystères à élucider.</p>
 <h2 id="exercices">Exercices</h2>
 <ol type="1">
-<li><p>Énoncez les trois lois de Kepler en prenant soin de bien expliquer leur signification.</p></li>
-<li><p>Quelle est la forme du disque galactique dans une galaxie spirale? Quelle est la forme du halo?</p></li>
-<li><p>Que retrouve-t-on principalement dans le halo de la galaxie?</p></li>
+<li><p>Énoncez les trois lois de Kepler en prenant soin de bien
+expliquer leur signification.</p></li>
+<li><p>Quelle est la forme du disque galactique dans une galaxie
+spirale? Quelle est la forme du halo?</p></li>
+<li><p>Que retrouve-t-on principalement dans le halo de la
+galaxie?</p></li>
 <li><p>Définissez un amas globulaire.</p></li>
-<li><p>Qu’est-ce qui se trouve au centre de la galaxie? Comment a-t-on déduit sa présence?</p></li>
+<li><p>Qu’est-ce qui se trouve au centre de la galaxie? Comment a-t-on
+déduit sa présence?</p></li>
 <li><p>Comment a-t-on déduit l’existence de la matière sombre?</p></li>
-<li><p>La galaxie A se trouve à une distance de 30 millions d’années-lumière et la galaxie B se trouve à une distance de 20 millions d’années-lumière. Est-ce que ce ces galaxies s’éloignent ou s’approchent de nous? Laquelle va le plus vite?</p></li>
-<li><p>Qu’est-ce que l’énergie sombre explique dans les modèles cosmologiques modernes?</p></li>
+<li><p>La galaxie A se trouve à une distance de 30 millions
+d’années-lumière et la galaxie B se trouve à une distance de 20 millions
+d’années-lumière. Est-ce que ce ces galaxies s’éloignent ou s’approchent
+de nous? Laquelle va le plus vite?</p></li>
+<li><p>Qu’est-ce que l’énergie sombre explique dans les modèles
+cosmologiques modernes?</p></li>
 </ol>
   </div>
 </div>
