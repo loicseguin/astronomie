@@ -49,11 +49,11 @@ objet
 
 Les quatre planètes les plus près du Soleil ont des structures similaires à
 celle de la Terre et on les appelle donc les **planètes telluriques**. Elles
-sont principalement composées de roches et ont des densités d'environ 5\
-g/cm<sup>3</sup>.Les quatre planètes les plus éloignées du Soleil sont
-beaucoup plus grosse et sont gazeuses. Elles ont des densités entre 1 et 2\
-g/<sup>3</sup>. En raison de leur ressemblance à Jupiter, on les appelle les
-**planètes joviennes**.
+sont principalement composées de roches et ont des densités d'environ
+5\ g/cm<sup>3</sup>.Les quatre planètes les plus éloignées du Soleil sont
+beaucoup plus grosse et sont gazeuses. Elles ont des densités entre 1 et
+2\ g/cm<sup>3</sup>. En raison de leur ressemblance à Jupiter, on les appelle
+les **planètes joviennes**.
 
 Une **planète naine** est un objet sphérique en orbite autour du Soleil, mais
 qui n'a pas «nettoyé» son orbite, c'est-à-dire qu'il y a d'autres objets sur
