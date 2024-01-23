@@ -72,12 +72,13 @@ d'années. La Voie lactée, la galaxie d'Andromède et une cinquantaine de
 galaxies plus petites forment un regroupement qu'on appelle le **groupe
 local**.
 
-L'**Univers observable** est l'ensemble de l'espace autour de nous duquel de la
-lumière peut nous parvenir. L'Univers lui-même est peut-être plus grand, voire
-même infini, mais nous ne pourrons jamais voir au-delà des limites de l'Univers
-observable. Cela est dû au fait que la lumière voyage à une vitesse finie et
-qu'elle n'a eu le temps de parcourir qu'une certaine distance depuis le début
-de l'existence de l'Univers, il y a environ 13,8 milliards d'années.
+L&hairsp;'**Univers observable** est l'ensemble de l'espace autour de nous
+duquel de la lumière peut nous parvenir. L&hairsp;'Univers lui-même est
+peut-être plus grand, voire même infini, mais nous ne pourrons jamais voir
+au-delà des limites de l'Univers observable. Cela est dû au fait que la lumière
+voyage à une vitesse finie et qu'elle n'a eu le temps de parcourir qu'une
+certaine distance depuis le début de l'existence de l'Univers, il y a environ
+13,8 milliards d'années.
 
 
 ## Vers l'infiniment petit
@@ -115,9 +116,9 @@ sortes d'atomes qui sont répertoriés dans le fameux tableau périodique des
 plus abondants dans l'Univers. Ils ont été formés alors que l'Univers était agé
 de quelques minutes seulement. Les autres éléments ont été formés par des
 réactions de fusion nucléaire dans le cœur des étoiles ou lors d'explosions
-d'étoiles connues sous le nom de **supernova**. L'atome d'hydrogène a une
-taille d'environ 0,000\ 000\ 000\ 1\ m. Chaque atome possède un noyau formé de
-protons et de neutrons autour duquel se trouve un nuage d'électrons.
+d'étoiles connues sous le nom de **supernova**. L&hairsp;'atome d'hydrogène a
+une taille d'environ 0,000\ 000\ 000\ 1\ m. Chaque atome possède un noyau formé
+de protons et de neutrons autour duquel se trouve un nuage d'électrons.
 
 Il est possible d'explorer l'échelle des différents constituants de l'Univers
 dans l'application web
@@ -130,15 +131,15 @@ des différents constituants de notre Univers.
 
 Comme vous avez pu le constater dans les deux sections précédentes, les
 grandeurs avec lesquelles nous travaillerons en astronomie sont énormes.
-L'écriture des nombres correspondant devient rapidement confuse (que signifient
-tous ces zéros?) et il est très facile d'écrire un zéro de trop ou d'en oublier
-un. Pour pallier à ce problème, nous utiliserons souvent la notation
-scientifique et les puissances de 10 pour simplifier l'écriture des nombres.
-Lorsqu'on écrit 10<sup>5</sup>, on représente le nombre constitué du chiffre 1
-suivi de 5 zéros. Si l'exposant est négatif, comme pour 10<sup>-9</sup>, le
-nombre comporte 9 zéros, suivi d'un un, avec une virgule décimale après le
-premier zéro. Le tableau ci-dessous résume la signification des puissances de
-10.
+L&hairsp;'écriture des nombres correspondant devient rapidement confuse (que
+signifient tous ces zéros?) et il est très facile d'écrire un zéro de trop ou
+d'en oublier un. Pour pallier à ce problème, nous utiliserons souvent la
+notation scientifique et les puissances de 10 pour simplifier l'écriture des
+nombres. Lorsqu'on écrit 10<sup>5</sup>, on représente le nombre constitué du
+chiffre 1 suivi de 5 zéros. Si l'exposant est négatif, comme pour
+10<sup>-9</sup>, le nombre comporte 9 zéros, suivi d'un un, avec une virgule
+décimale après le premier zéro. Le tableau ci-dessous résume la signification
+des puissances de 10.
 
 Nombre                 Nom            Puissance de 10   Préfixe
 ---------------------  -------------  ----------------  ---------
@@ -168,18 +169,18 @@ que la lumière parcourt en un an soit environ 9,46\ ×\ 10<sup>15</sup>\ m.
 
 ## Démarche scientifique
 
-L'échelle du cosmos est difficile à appréhender. Ce qui est incroyable, c'est que
-nous soyons en mesure de comprendre, du moins en partie, cet Univers. Les
-galaxies les plus lointaines semblent être constituées des mêmes ingrédients
-fondamentaux que nos propres corps et obéir aux mêmes lois physiques que celles
-qui s'appliquent dans notre système solaire. La compréhension des interactions
-nucléaires dans les noyaux d'atomes que nous étudions dans nos laboratoires
-terrestres nous permet de savoir ce qui alimente les étoiles. Les ondes
-électromagnétiques que nous utilisons pour communiquer avec des téléphones
-cellulaires sont aussi émises par les étoiles et les gaz chauds dans les
-galaxies. Ces ondes qui se propagent dans l'Univers et nous arrivent de très
-loin ont débuté leur voyage il y a fort longtemps et nous arrivent avec de
-l'information sur l'histoire passée du cosmos.
+L&hairsp;'échelle du cosmos est difficile à appréhender. Ce qui est incroyable,
+c'est que nous soyons en mesure de comprendre, du moins en partie, cet Univers.
+Les galaxies les plus lointaines semblent être constituées des mêmes
+ingrédients fondamentaux que nos propres corps et obéir aux mêmes lois
+physiques que celles qui s'appliquent dans notre système solaire. La
+compréhension des interactions nucléaires dans les noyaux d'atomes que nous
+étudions dans nos laboratoires terrestres nous permet de savoir ce qui alimente
+les étoiles. Les ondes électromagnétiques que nous utilisons pour communiquer
+avec des téléphones cellulaires sont aussi émises par les étoiles et les gaz
+chauds dans les galaxies. Ces ondes qui se propagent dans l'Univers et nous
+arrivent de très loin ont débuté leur voyage il y a fort longtemps et nous
+arrivent avec de l'information sur l'histoire passée du cosmos.
 
 Dans ce cours, nous apprendrons beaucoup de choses sur l'Univers, mais aussi
 sur la façon dont nous faisons ces découvertes. Une simple observation comme le

@@ -404,7 +404,7 @@ système solaire, le **mont Olympus**, se trouve sur Mars. Avec une hauteur de
     style="max-width: 500px;">
   </a>
   <figcaption>
-  Mont Olympus sur Mars : la plus haute montagne du système solaire (NASA/JPL)
+  Mont Olympus sur Mars&nbsp;: la plus haute montagne du système solaire (NASA/JPL)
 </figcaption>
 </figure>
 
@@ -469,7 +469,7 @@ s'agit d'une tempête énorme qui fait rage depuis au moins 350 ans. Sa taille
 est environ deux fois le diamètre terrestre, mais on a observé une légère
 diminution dans les dernières années.
 
-Jupiter possède près de 80 satellites donc les quatre **lunes galiléennes** :
+Jupiter possède près de 80 satellites donc les quatre **lunes galiléennes**&nbsp;:
 Io, Ganymède, Europe et Callisto.
 
 
@@ -511,7 +511,7 @@ mélange de glace, de roches et de métaux.
 des autres planètes. L'axe de rotation d'Uranus est incliné à près de 90° par
 rapport à l'axe de révolution, c'est-à-dire que la planète tourne sur
 elle-même en étant «couchée» sur son orbite. Ceci fait d'Uranus la planète avec
-les saisons les plus étranges du système solaire : pendant l'hiver, la moitié
+les saisons les plus étranges du système solaire&nbsp;: pendant l'hiver, la moitié
 de la planète est plongée dans une nuit constante, alors que l'été, il fait
 toujours soleil.
 
@@ -545,7 +545,7 @@ gravitationnelle.
 La sonde New Horizons, après un voyage de près de 10 ans, a atteint Pluton, une
 planète naine située la plupart du temps au-delà de l'orbite de Neptune, en
 2015. Pluton est une planète naine rocheuse avec une surface étonnamment riche
-en structures de toutes sortes : plaines, cratères, montagnes. Les données
+en structures de toutes sortes&nbsp;: plaines, cratères, montagnes. Les données
 scientifiques provenant de la sonde New Horizons sont encore étudiées à l'heure
 actuelle.
 
@@ -556,7 +556,7 @@ actuelle.
 1. Expliquez la différence entre une planète naine et une planète.
 2. Expliquez la différence entre une planète naine et un astéroïde.
 3. Considérons une boîte de céréale représentant la masse totale du système
-   solaire. La masse de la Terre correspond à : a) les 3/4 de la boîte de
+   solaire. La masse de la Terre correspond à\ : a) les 3/4 de la boîte de
    céréales b) un peu moins du dixième de la boîte de céréales c) une céréale d) un tout petit morceau d'une céréale.
 4. Expliquez pourquoi on devrait s'attendre à ce que Mercure soit la planète la
    plus chaude du système solaire.

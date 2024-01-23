@@ -124,16 +124,16 @@ aient été capables de faire toutes ces observations.
 ## Les Grecs
 
 Les philosophes grecs ont poursuivi le travail des Mésopotamiens, mais en
-faisant des observations encore plus détaillées et en construisant des
-modèles qui leur permettaient de faire des prédictions beaucoup plus
-précises du mouvement des astres. Leur approche ressemblait beaucoup à la
-méthode scientifique moderne. À partir de leurs observations, ils formulaient
-des hypothèses quant à la nature des phénomènes et à leur fonctionnement. Puis,
-ils utilisaient ces hypothèses pour formuler des prédictions et ils vérifiaient
+faisant des observations encore plus détaillées et en construisant des modèles
+qui leur permettaient de faire des prédictions beaucoup plus précises du
+mouvement des astres. Leur approche ressemblait beaucoup à la méthode
+scientifique moderne. À partir de leurs observations, ils formulaient des
+hypothèses quant à la nature des phénomènes et à leur fonctionnement. Puis, ils
+utilisaient ces hypothèses pour formuler des prédictions et ils vérifiaient
 ensuite ces prédictions avec de nouvelles observations. Lorsque les prédictions
 étaient incohérentes avec les observations, le modèle était révisé.
-L'image ci-dessous montre une partie d'une machine qui était constituée de
-plusieurs engrenages et qui servait à prédire la position de la Lune et du
+L&hairsp;'image ci-dessous montre une partie d'une machine qui était constituée
+de plusieurs engrenages et qui servait à prédire la position de la Lune et du
 Soleil de même que les éclipses.
 
 <figure>
@@ -144,7 +144,7 @@ Soleil de même que les éclipses.
   </a>
   <figcaption>
     Machine d'Anticythère qui servait à prédire la position du Soleil
-    et de la Lune, 89 av. J.C. (Marsyas [CC BY-SA](http://creativecommons.org/licenses/by-sa/3.0/))
+    et de la Lune, 89 av. J.C. (Marsyas\ [CC\ BY&#8209;SA](http://creativecommons.org/licenses/by-sa/3.0/))
   </figcaption>
 </figure>
 
@@ -170,9 +170,9 @@ avec les observations de l'époque, il semblait très plausible.
 Aristote savait que la Terre était une **sphère** parce que trois observations
 simples et accessibles à l'époque l'indiquaient assez clairement. Premièrement,
 lorsqu'un bateau disparaît à l'horizon sur une mer calme, on voit la coque du
-navire disparaître avant son mat. L'image ci-dessous montre un bâtiment situé
-au Port de Sagunt, à environ 20\ km de Valencia, où la photo a été prise. Le
-bas des bâtiments n'est pas visible à cause de la courbure de la Terre.
+navire disparaître avant son mat. L&hairsp;'image ci-dessous montre un bâtiment
+situé au Port de Sagunt, à environ 20\ km de Valencia, où la photo a été prise.
+Le bas des bâtiments n'est pas visible à cause de la courbure de la Terre.
 
 <figure>
   <a href="https://commons.wikimedia.org/wiki/File:Horizon,_Valencia_(Spain).JPG">
@@ -193,7 +193,7 @@ la lumière solaire provient, l'ombre qu'elle projettera sera circulaire.
   <a href="https://www.jpl.nasa.gov/edu/news/2018/1/18/how-to-watch-a-total-lunar-eclipse-and-get-students-observing-the-moon/">
   <img src="../images/lunareclipse.gif" alt="Eclipse de Lune"></a>
   <figcaption>
-  L'ombre de la Terre sur la Lune lors d'une éclipse est circulaire (NASA Goddard Media Studios)
+  L&hairsp;'ombre de la Terre sur la Lune lors d'une éclipse est circulaire (NASA Goddard Media Studios)
   </figcaption>
 </figure>
 
@@ -201,9 +201,9 @@ Enfin, les Grecs avaient remarqué que les étoiles visibles dans le ciel
 n'étaient pas les mêmes selon l'endroit d'où on les observait sur Terre. En
 effet, si on se déplace vers le sud, les étoiles qui se trouvaient proche de
 l'horizon sud sont beaucoup plus haute dans le ciel et des étoiles qui
-n'étaient pas visible apparaissent au-dessus de l'horizon. L'image ci-dessous
-montre le ciel nocturne le 4 février 2020 tel que vu de Longueuil, Canada (à
-gauche) et de Santa Elena de Uairen, Vénézuela (à droite).
+n'étaient pas visible apparaissent au-dessus de l'horizon. L&hairsp;'image
+ci-dessous montre le ciel nocturne le 4 février 2020 tel que vu de Longueuil,
+Canada (à gauche) et de Santa Elena de Uairen, Vénézuela (à droite).
 
 <figure>
   <img alt="Ciel vu de Longueuil"
@@ -300,10 +300,10 @@ amélioration au modèle d'Hipparque pour expliquer la préférence zodiacale.
 Chaque planète se déplace sur un épicycle dont le centre se déplace sur un
 déférent. La planète tourne autour de l'épicycle à vitesse constante. Le
 déférent est **décentré** par rapport à la Terre et le point diamétralement
-opposé à la Terre est appelé **équant**. L'épicycle tourne sur le déférent à
-vitesse constante *tel que vu à partir de l'équant*. Ceci fait en sorte que, vu
-de la Terre, la planète ne se déplacera pas toujours à vitesse constante par
-rapport aux constellations du zodiaque.
+opposé à la Terre est appelé **équant**. L&hairsp;'épicycle tourne sur le
+déférent à vitesse constante *tel que vu à partir de l'équant*. Ceci fait en
+sorte que, vu de la Terre, la planète ne se déplacera pas toujours à vitesse
+constante par rapport aux constellations du zodiaque.
 
 <figure>
   <img src="../images/modele_ptolemee.png"

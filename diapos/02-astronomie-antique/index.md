@@ -1,9 +1,13 @@
 % Astronomie antique
 % CEA Explorer et comprendre l'Univers
-% 8 septembre 2020
+% 8 février 2024
 ---
 theme: night
-transition: none
+title-slide-attributes:
+    data-background-image: ../../images/52565304936_fc8852f1e9_k.jpg
+    data-background-size: contain
+    data-background-opacity: 0.7
+
 ---
 
 ## Les Mésopotamiens
@@ -381,3 +385,8 @@ style="
 * centre de l'épicycle des planètes inférieures sur l'axe Terre-Soleil
 * axe centre de l'épicycle-planète supérieure parallèle à l'axe
   Terre-Soleil
+
+---
+
+## {background-image="../../images/52565304936_fc8852f1e9_k.jpg"}
+

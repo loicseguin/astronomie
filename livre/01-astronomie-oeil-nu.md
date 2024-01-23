@@ -52,27 +52,28 @@ années, on s'aperçoit que les étoiles ne bougent pas les unes par rapport aux
 autres. Des cartes du ciel qui ont été dessinées il y a plusieurs siècles
 montrent les mêmes configurations d'étoiles que celles que nous observons
 aujourd'hui. Les étoiles ne sont donc pas des points lumineux disposés de
-façon aléatoire dans le ciel chaque soir : elles sont organisées, on peut
+façon aléatoire dans le ciel chaque soir&nbsp;: elles sont organisées, on peut
 les nommer et les cartographier.
 
-On remarque que les étoiles n'ont pas toutes la même couleur : certaines sont
-rouges, d'autres oranges, d'autres bleues ou blanches. Bételgeuse, l'épaule
-droite d'Orion, est orangée alors que Rigel, son pied gauche, est bleue. La
-couleur d'une étoile est reliée à son **type spectral**, une caractéristique
-intrinsèque de l'étoile qui dépend de sa température et de sa composition
-chimique. Les types spectraux ont été découverts au début du XIX<sup>e</sup>
-siècle et nous en reparlerons plus en détail au chapitre 7. Les étoiles n'ont
-pas toute la même **brillance** : certaines sont très brillantes, d'autres à
-peine visibles.  L'étoile la plus brillante dans le ciel nocturne est **Sirius
-A** qu'on arrive à voir sans difficulté, même en ville. Les astronomes
-utilisent un système de mesure de la brillance qui assigne à chaque étoile une
-**magnitude** comprise entre environ -27 et 20. Les objets les plus brillants
-ont la magnitude la plus petite. Par exemple, le Soleil a une magnitude de -27,
-alors que les étoiles tout juste visibles à l'œil nu ont une magnitude de 6.
-Grâce aux télescopes puissants d'aujourd'hui, nous pouvons observer des étoiles
-de magnitude allant jusqu'à 20. Ce système de classification basé sur la
-brillance a été inventé au II<sup>e</sup> siècle avant J.-C. par l'astronome
-grec Hipparque.
+On remarque que les étoiles n'ont pas toutes la même couleur&nbsp;: certaines
+sont rouges, d'autres oranges, d'autres bleues ou blanches. Bételgeuse,
+l'épaule droite d'Orion, est orangée alors que Rigel, son pied gauche, est
+bleue. La couleur d'une étoile est reliée à son **type spectral**, une
+caractéristique intrinsèque de l'étoile qui dépend de sa température et de sa
+composition chimique. Les types spectraux ont été découverts au début du
+XIX<sup>e</sup> siècle et nous en reparlerons plus en détail au
+[chapitre 7](07-lumiere-telescopes.html). Les étoiles n'ont pas toute la même
+**brillance**&nbsp;: certaines sont très brillantes, d'autres à peine visibles.
+L&hairsp;'étoile la plus brillante dans le ciel nocturne est **Sirius A** qu'on
+arrive à voir sans difficulté, même en ville. Les astronomes utilisent un
+système de mesure de la brillance qui assigne à chaque étoile une **magnitude**
+comprise entre environ -27 et 20. Les objets les plus brillants ont la
+magnitude la plus petite. Par exemple, le Soleil a une magnitude de -27, alors
+que les étoiles tout juste visibles à l'œil nu ont une magnitude de 6. Grâce
+aux télescopes puissants d'aujourd'hui, nous pouvons observer des étoiles de
+magnitude allant jusqu'à 20. Ce système de classification basé sur la brillance
+a été inventé au II<sup>e</sup> siècle avant J.-C. par l'astronome grec
+Hipparque.
 
 Évidemment, reconnaître les étoiles dans le ciel en se basant uniquement sur
 leur couleur et leur brillance est très difficile. C'est pour cela que les
@@ -125,18 +126,18 @@ l'équateur terrestre sur la sphère céleste définissent le **pôle Sud céles
 et l'**équateur céleste**, respectivement.  Tout comme nous utilisons la
 latitude et la longitude pour identifier des endroits sur Terre, nous pouvons
 utiliser des coordonnées semblables pour repérer les étoiles dans le ciel.
-L'analogue de la latitude, est la **déclinaison** : l'angle mesuré à partir de
-l'équateur céleste vers les pôles.  L'hémisphère Nord céleste a des valeurs de
-déclinaison positive allant de 0° à l'équateur jusqu'à 90° au pôle Nord
-céleste. La déclinaison dans l'hémisphère Sud est négative allant de 0° à
-l'équateur jusqu'à -90° au pôle Sud céleste.  L'analogue de la longitude est
+L&hairsp;’analogue de la latitude, est la **déclinaison**&nbsp;: l'angle mesuré à
+partir de l'équateur céleste vers les pôles.  L&hairsp;’hémisphère Nord céleste a des
+valeurs de déclinaison positive allant de 0° à l'équateur jusqu'à 90° au pôle
+Nord céleste. La déclinaison dans l'hémisphère Sud est négative allant de 0° à
+l'équateur jusqu'à -90° au pôle Sud céleste.  L&hairsp;’analogue de la longitude est
 l'**ascension droite**. Sur Terre, les longitudes sont mesurées par rapport au
 méridien Greenwhich, un choix arbitraire qui a été fait en 1851 par l'astronome
 britannique Sir George Airy.  Si l'empire britannique ne dominait pas le monde
 au XIX<sup>e</sup> siècle, les longitudes seraient sans doute mesurées par
 rapport à un méridien différent.  Pour mesurer l'ascension droite, il faut
-aussi un point de repère : le méridien où se trouve le Soleil à l'équinoxe de
-printemps.
+aussi un point de repère&nbsp;: le méridien où se trouve le Soleil à l'équinoxe
+de printemps.
 
 <figure>
   <a href="https://commons.wikimedia.org/wiki/File:Coordonnees_equatoriales.svg">
@@ -150,13 +151,13 @@ printemps.
 Le système de coordonnées formé de l'ascension droite et de la déclinaison est
 appelé le **système de coordonnées équatorial**. C'est un des plus utilisés par
 les astronomes. Par exemple, Spica, une étoile brillante dans la constellation
-du Lion, a comme coordonnées 13h25m11,53s\ /\ -11°09'41,5". Nous n'entrerons
+du Lion, a comme coordonnées 13h25m11,53s\ /\ -11°09&prime;41,5&Prime;. Nous n'entrerons
 pas dans le détail des raisons pour lesquelles l'ascension droite est donnée en
-heures et en minutes alors que la déclinaison est donnée en degrés. L'avantage
+heures et en minutes alors que la déclinaison est donnée en degrés. L&hairsp;'avantage
 du système de coordonnées équatorial est qu'il permet à des astronomes de
 partout dans le monde de communiquer facilement. Les coordonnées équatoriales
 d'un objet céleste sont les mêmes peu importe où l'observateur se trouve sur la
-Terre. L'inconvénient principal de ce système de coordonnées est la difficulté
+Terre. L&hairsp;'inconvénient principal de ce système de coordonnées est la difficulté
 de mesurer les angles par rapport à l'équateur céleste et au méridien de
 l'équinoxe du printemps (ces cercles imaginaires n'apparaissent nulle part dans
 le ciel).
@@ -169,7 +170,7 @@ le ciel).
 </figure>
 
 Un système de coordonnées alternatif qui est également couramment utilisé est
-le **système altitude-azimut**. L'altitude est l'angle au-dessus de l'horizon
+le **système altitude-azimut**. L&hairsp;'altitude est l'angle au-dessus de l'horizon
 et l'azimut est l'angle par rapport au nord. Ce système est plus simple à
 utiliser tant qu'on possède un compas et un rapporteur d'angle (ou un sextant).
 Malheureusement, les coordonnées d'altitude-azimut sont différentes à
@@ -190,8 +191,8 @@ rotation de la Terre.  On remarque que certaines étoiles proches de Polaris
 sont toujours visibles dans le ciel, elles ne se couchent jamais. La région du
 ciel où se trouvent ces étoiles est la **région circumpolaire**. Cette région
 est plus ou moins grande selon l'endroit où on se trouve sur Terre. Pour un
-observateur à l'équateur, il n'y a pas de région circumpolaire : toutes les
-étoiles se lèvent et se couchent. Il y a également une région de la sphère
+observateur à l'équateur, il n'y a pas de région circumpolaire&nbsp;: toutes
+les étoiles se lèvent et se couchent. Il y a également une région de la sphère
 céleste qui est invisible de l'hémisphère Nord. Cette région est proche du pôle
 Sud céleste et elle est invisible parce qu'elle se trouve de l'autre côté de la
 Terre, le sol bloque donc la vue.
@@ -219,24 +220,25 @@ l'année, le Soleil passe en face de 13 constellations. Douze de ces
 constellations sont celles du Zodiaque. La 13, le Serpentaire, n'en fait pas
 partie pour des raisons historiques.
 
-L'axe de rotation de la Terre n'est pas parallèle à son axe de révolution : la
-Terre est penchée de 23°. Par conséquent, l'angle que font les rayons du Soleil
-avec le sol varie au cours de l'année. Plus les rayons du Soleil arrivent
-perpendiculairement au sol, plus une grande quantité d'énergie est déposée par
-unité de surface et le sol se réchauffe. À cela s'ajoute le fait que lorsque
-les rayons arrivent plus perpendiculairement, la période ensoleillée de la
-journée est plus longue. Ceci est l'été. L'hiver, le contraire se produit.
+L&hairsp;'axe de rotation de la Terre n'est pas parallèle à son axe de
+révolution\ : la Terre est penchée de 23°. Par conséquent, l'angle que font
+les rayons du Soleil avec le sol varie au cours de l'année. Plus les rayons du
+Soleil arrivent perpendiculairement au sol, plus une grande quantité d'énergie
+est déposée par unité de surface et le sol se réchauffe. À cela s'ajoute le
+fait que lorsque les rayons arrivent plus perpendiculairement, la période
+ensoleillée de la journée est plus longue. Ceci est l'été. L&hairsp;'hiver, le
+contraire se produit.
 
 À deux moments dans l'année le jour est aussi long que la nuit. On appelle ces
-deux dates les **équinoxes**. L'équinoxe du printemps, ou **équinoxe vernal**, est
-utilisé pour définir la ligne de 0h dans le système de coordonnées équatorial
-décrit plus haut.
+deux dates les **équinoxes**. L&hairsp;'équinoxe du printemps, ou **équinoxe
+vernal**, est utilisé pour définir la ligne de 0h dans le système de
+coordonnées équatorial décrit plus haut.
 
 Il est intéressant de noter que le cycle des saisons n'est pas relié à la
 distance qui sépare la Terre du Soleil. En fait, la Terre est plus près du
-Soleil l'hiver que l'été (pour l'hémisphère Nord) : la distance Terre-Soleil
-est de 147\ 402 milliards de mètres l'hiver contre 152\ 090 milliards de mètres
-l'été.
+Soleil l'hiver que l'été (pour l'hémisphère Nord)\ : la distance
+Terre-Soleil est de 147\ 402 milliards de mètres l'hiver contre 152\ 090
+milliards de mètres l'été.
 
 Une année, soit le temps requis pour que la Terre fasse une révolution
 complète, dure environ 365,26 jours. Avec nos calendriers de 365 jours, nous
@@ -325,11 +327,12 @@ l'ombre de la Terre peut cacher la Lune, c'est une **éclipse de Lune**. Les
 En observant attentivement le ciel, on aperçoit des objets qui semblent être
 des étoiles, mais dont la position change par rapport aux autres étoiles. Ces
 astres errants sont des **planètes** de notre système solaire. Cinq planètes
-sont visibles à l'œil nu : Mercure, Vénus, Mars, Jupiter et Saturne. Elles sont
-très brillantes et on les distingue assez facilement avec un peu de pratique.
-Nos ancêtres avaient compris que ces objets étaient fondamentalement différents
-des étoiles et leur étude a permis de jeter les bases de notre compréhension
-actuelle du système solaire. Nous en parlerons en détail au chapitre 2.
+sont visibles à l'œil nu&nbsp;: Mercure, Vénus, Mars, Jupiter et Saturne. Elles
+sont très brillantes et on les distingue assez facilement avec un peu de
+pratique. Nos ancêtres avaient compris que ces objets étaient fondamentalement
+différents des étoiles et leur étude a permis de jeter les bases de notre
+compréhension actuelle du système solaire. Nous en parlerons en détail au
+[chapitre 2](02-astronomie-antique.html).
 
 
 ## Précession des équinoxes

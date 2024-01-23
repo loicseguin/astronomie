@@ -6,6 +6,8 @@ theme: night
 title-slide-attributes:
     data-background-image: ../../images/52565304936_fc8852f1e9_k.jpg
     data-background-size: contain
+    data-background-opacity: 0.7
+
 ---
 
 <figure>

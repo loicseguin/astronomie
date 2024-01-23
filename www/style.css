@@ -3,15 +3,48 @@
  * [bookdown](https://bookdown.org/)
  *
  * */
+
+@font-face {
+    font-family: charter;
+    font-style: normal;
+    font-weight: normal;
+    font-stretch: normal;
+    src: url('../fonts/Charter/charter_regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: charter;
+    font-style: italic;
+    font-weight: normal;
+    font-stretch: normal;
+    src: url('../fonts/Charter/charter_italic.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: charter;
+    font-style: normal;
+    font-weight: bold;
+    font-stretch: normal;
+    src: url('../fonts/Charter/charter_bold.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: charter;
+    font-style: italic;
+    font-weight: bold;
+    font-stretch: normal;
+    src: url('../fonts/Charter/charter_bold_italic.woff2') format('woff2');
+}
+
 body {
     color: #333;
     padding: 0 0 60px 0;
     margin: 0;
-    font-size: 100%;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    line-height: 1.7;
-    letter-spacing: 0.2px;
+    font-size: 20px;
+    font-family: Charter, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 1.4;
     text-rendering: optimizeLegibility;
+    font-feature-settings: "kern" 1, "liga" 1;
 }
 
 a {
@@ -33,13 +66,23 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-    font-size: 2em;
+    font-size: 1.5em;
     margin-top: 1.275em;
     margin-bottom: 0.85em;
 }
 
 h2 {
-    font-size: 1.75em;
+    font-size: 1.2em;
+    margin-top: 1.4em;
+    margin-bottom: 1.0em;
+    font-style: italic;
+}
+
+h3 {
+    font-size: 1.0em;
+    margin-top: 1.2em;
+    margin-bottom: 0.5em;
+    font-style: italic;
 }
 
 p {
@@ -60,7 +103,7 @@ p {
 .page-content {
     margin: 0 auto;
     padding: 0 20px;
-    max-width: 800px;
+    max-width: 740px;
 }
 
 .footer-content {
@@ -70,7 +113,7 @@ p {
     line-height: 1.2;
     margin: 60px auto 0;
     padding: 15px 20px;
-    max-width: 800px;
+    max-width: 740px;
 }
 
 .author, .date {
@@ -105,6 +148,15 @@ figure {
 
 .toc > li {
     margin-bottom: 0.8em;
+}
+
+.toc-chapnum {
+    margin-right: 12px;
+    font-weight: bold;
+}
+
+.diapoicon {
+    margin-right: 6px;
 }
 
 h1.title {
