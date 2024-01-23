@@ -41,8 +41,8 @@ body {
     padding: 0 0 60px 0;
     margin: 0;
     font-size: 20px;
-    font-family: Charter, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    line-height: 1.4;
+    font-family: Charter, Georgia, serif;
+    line-height: 1.35;
     text-rendering: optimizeLegibility;
     font-feature-settings: "kern" 1, "liga" 1;
 }
@@ -75,14 +75,18 @@ h2 {
     font-size: 1.2em;
     margin-top: 1.4em;
     margin-bottom: 1.0em;
-    font-style: italic;
+    font-variant: small-caps;
+    font-weight: bold;
+    letter-spacing: 0.05em;
 }
 
 h3 {
     font-size: 1.0em;
     margin-top: 1.2em;
     margin-bottom: 0.5em;
-    font-style: italic;
+    font-variant: small-caps;
+    font-weight: bold;
+    letter-spacing: 0.05em;
 }
 
 p {
@@ -229,8 +233,13 @@ table tbody {
     color: #364149;
 }
 
-.sidebar .divider {
+.sidebar .toc li {
+    margin-bottom: 0.4em;
+}
+
+.sidebar .toc .divider {
     border-bottom: 1px solid #d9d9d9;
+    margin-bottom: 1em;
 }
 
 @media only screen and (max-width: 800px) {
