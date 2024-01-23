@@ -50,7 +50,7 @@ objet
 Les quatre planètes les plus près du Soleil ont des structures similaires à
 celle de la Terre et on les appelle donc les **planètes telluriques**. Elles
 sont principalement composées de roches et ont des densités d'environ
-5\ g/cm<sup>3</sup>.Les quatre planètes les plus éloignées du Soleil sont
+5\ g/cm<sup>3</sup>. Les quatre planètes les plus éloignées du Soleil sont
 beaucoup plus grosse et sont gazeuses. Elles ont des densités entre 1 et
 2\ g/cm<sup>3</sup>. En raison de leur ressemblance à Jupiter, on les appelle
 les **planètes joviennes**.
@@ -123,10 +123,10 @@ et l'empêche de s'échapper.
 
 ## Soleil
 
-L'astre central dans le système solaire est évidemment le Soleil. Sa gravité
-est ce qui maintient la cohésion du système solaire. Nous étudierons les
-étoiles plus tard dans le cours, mais nous pouvons néanmoins décrire certaines
-caractéristiques de base de notre étoile.
+L&hairsp;'astre central dans le système solaire est évidemment le Soleil. Sa
+gravité est ce qui maintient la cohésion du système solaire. Nous étudierons
+les étoiles plus tard dans le cours, mais nous pouvons néanmoins décrire
+certaines caractéristiques de base de notre étoile.
 
 <figure>
   <a href="https://www.flickr.com/photos/gsfc/4923566097">
@@ -179,8 +179,8 @@ magnétique et sont en partie éjectées dans l'espace. Une éjection de masse
 coronale peut se produire à partir de filaments solaires qui peuvent atteindre
 plusieurs dizaines de fois le diamètre de la Terre en hauteur. Typiquement, une
 éjection de masse coronale envoie 10<sup>12</sup>\ kg de matière dans l'espace.
-C'est mille millions de tonnes! L'**activité solaire** varie sur une période de
-11 ans.
+C'est mille millions de tonnes! L&hairsp;'**activité solaire** varie sur une
+période de 11 ans.
 
 <figure>
   <a href="https://solarsystem.nasa.gov/resources/758/brief-outburst/?category=solar-system_sun">
@@ -469,7 +469,7 @@ s'agit d'une tempête énorme qui fait rage depuis au moins 350 ans. Sa taille
 est environ deux fois le diamètre terrestre, mais on a observé une légère
 diminution dans les dernières années.
 
-Jupiter possède près de 80 satellites donc les quatre **lunes galiléennes**&nbsp;:
+Jupiter possède près de 80 satellites donc les quatre **lunes galiléennes**\ :
 Io, Ganymède, Europe et Callisto.
 
 
@@ -508,12 +508,12 @@ l'ammoniac et de l'eau. Le centre de la planète est probablement constitué d'u
 mélange de glace, de roches et de métaux.
 
 À l'instar de Vénus, la rotation d'Uranus est dans le sens contraire de celui
-des autres planètes. L'axe de rotation d'Uranus est incliné à près de 90° par
-rapport à l'axe de révolution, c'est-à-dire que la planète tourne sur
+des autres planètes. L&hairsp;'axe de rotation d'Uranus est incliné à près de
+90° par rapport à l'axe de révolution, c'est-à-dire que la planète tourne sur
 elle-même en étant «couchée» sur son orbite. Ceci fait d'Uranus la planète avec
-les saisons les plus étranges du système solaire&nbsp;: pendant l'hiver, la moitié
-de la planète est plongée dans une nuit constante, alors que l'été, il fait
-toujours soleil.
+les saisons les plus étranges du système solaire&nbsp;: pendant l'hiver, la
+moitié de la planète est plongée dans une nuit constante, alors que l'été, il
+fait toujours soleil.
 
 
 ## Neptune
@@ -526,10 +526,10 @@ toujours soleil.
   </figcaption>
 </figure>
 
-Neptune a une composition interne semblable à Uranus. L'atmosphère de Neptune
-est cependant légèrement plus active que celle d'Uranus. On pense que c'est dû
-à une source d'énergie interne de la planète provenant de sa contraction
-gravitationnelle.
+Neptune a une composition interne semblable à Uranus. L&hairsp;'atmosphère de
+Neptune est cependant légèrement plus active que celle d'Uranus. On pense que
+c'est dû à une source d'énergie interne de la planète provenant de sa
+contraction gravitationnelle.
 
 
 ## Pluton
