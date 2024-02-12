@@ -173,7 +173,7 @@ autour de la Terre sans problème.  Avec son télescope, Galilée découvrit que
 Jupiter avait également des lunes. Les quatre plus grosses lunes de Jupiter,
 Io, Europe, Ganymède et Callisto sont aujourd'hui nommées les lunes galiléennes
 et l'honneur de cette découverte. Il put observer le mouvement de ces lunes
-autour de leur planète. L'image ci-dessous, prise avec un télescope moderne,
+autour de leur planète. L&hairsp;'image ci-dessous, prise avec un télescope moderne,
 montre les quatre lunes galiléennes.
 
 <figure>
@@ -188,7 +188,7 @@ montre les quatre lunes galiléennes.
 </figure>
 
 Dans le modèle de Copernic, les lunes sont simplement sur des orbites autour de
-leur planètes qui sont elles-mêmes en orbite autour du Soleil. L'idée selon
+leur planètes qui sont elles-mêmes en orbite autour du Soleil. L&hairsp;'idée selon
 laquelle une planète ne pouvait garder ses lunes si elle était en orbite était
 contredite par l'existence des lunes de Jupiter. La place particulière de la
 Terre était également ébranlée : d'autres planètes pouvaient aussi avoir des
@@ -244,11 +244,11 @@ bouger.
 ### Taches solaires
 
 Des taches plus sombres apparaissent et disparaissent de la surface du Soleil.
-Ces taches bougent à la surface. L'observation de ces taches par Galilée
+Ces taches bougent à la surface. L&hairsp;'observation de ces taches par Galilée
 montrait que le Soleil n'était pas un objet éternel et immuable : il changeait,
 tout comme les choses sur Terre. Cela remettait en question l'hypothèse selon
 laquelle tout ce qui se trouvait dans les cieux était figé à tout jamais.
-L'Univers semblait être beaucoup plus dynamique que ce qui était accepté avant
+L&hairsp;'Univers semblait être beaucoup plus dynamique que ce qui était accepté avant
 Galilée.
 
 <figure>
@@ -324,7 +324,7 @@ des planètes.
 Une ellipse ressemble à un cercle aplati. Le plus grand diamètre s'appelle le
 **grand axe**, ou axe majeur, et le plus petit le **petit axe**, ou axe mineur.
 Une ellipse a deux foyers qui peuvent être confondus (dans le cas d'un cercle)
-ou très éloignés dans le cas d'une ellipse très aplatie. L'**excentricité**
+ou très éloignés dans le cas d'une ellipse très aplatie. L&hairsp;'**excentricité**
 d'une ellipse mesure son aplatissement. Une ellipse avec une excentricité de
 zéro est un cercle, une ellipse avec une excentricité près de 1 est très plate.
 
