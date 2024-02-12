@@ -1,17 +1,19 @@
 % Astronomie à la Renaissance
 % CEA Explorer et comprendre l'Univers
-% 17 septembre 2020
+% 14 février 2024
 ---
-theme: beige
-transition: linear
+theme: night
+title-slide-attributes:
+    data-background-image: ../../images/52565304936_fc8852f1e9_k.jpg
+    data-background-size: contain
+    data-background-opacity: 0.7
+
 ---
 
 ## Signe astrologique
 
 Est-ce que votre signe astrologique correspondait bien à la position du Soleil
 le jour de votre naissance?
-
-[https://b.socrative.com/login/student/](https://b.socrative.com/login/student/) \ \ DCRDEWY
 
 ---
 
@@ -36,6 +38,7 @@ style="
     max-height: 400px;
     max-width: 1000px;
     padding: 15px;
+    background-color: antiquewhite;
 ">
 
 ---
@@ -93,7 +96,8 @@ style="
 [Public domain], via Wikimedia Commons"
 href="http://commons.wikimedia.org/wiki/File%3ACopernican_heliocentrism_theory_diagram.svg"><img
 width="512" alt="Copernican heliocentrism theory diagram"
-src="../../images/Copernican_heliocentrism_theory_diagram.png"/></a>
+src="../../images/Copernican_heliocentrism_theory_diagram.png"
+style="background-color: antiquewhite;" /></a>
 
 
 ---
@@ -121,10 +125,9 @@ apparaissent toujours proches du Soleil dans le ciel?
 
 <ol style="list-style-type: upper-alpha">
   <li>Elles sont plus petites que les autres planètes</li>
-  <li>Elles sont plus grandes que les autres planètes</li>
-  <li>Elles sont sur des orbites autour du Soleil plus petite que
+  <li>Elles sont sur des orbites autour du Soleil plus petites que
   celle de la Terre</li>
-  <li>Elles sont sur des orbites autour du Soleil plus grande que
+  <li>Elles sont sur des orbites autour du Soleil plus grandes que
   celle de la Terre</li>
   <li>Elles sont sur un épicycle qui est toujours centré sur l'axe Terre-Soleil</li>
 </ol>
@@ -258,14 +261,6 @@ style="
 
 ### Phases de Vénus
 
-<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
-        width="870" height="500">
-  <param name="movie" value="../../images/venusphases.swf" />
-  <!--[if !IE]>-->
-  <object type="application/x-shockwave-flash" data="../../images/venusphases.swf" width="870" height="500">
-  <!--<![endif]--><p>Animation des phases de Vénus</p>
-  <!--[if !IE]>--></object><!--<![endif]-->
-</object>
 
   <figcaption style="font-size: 0.4em; color: #666;">
   [UNL Astronomy](https://astro.unl.edu/classaction/animations/renaissance/venusphases.html)
@@ -342,7 +337,7 @@ src="//upload.wikimedia.org/wikipedia/commons/2/2b/Tycho_Brahe.JPG"/></a>
 
 ---
 
-<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d4513487.101112015!2d12.486592059157093!3d56.4703257817558!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465235606b16f931%3A0x7c2b7a040a52432d!2sUranienbourg!5e0!3m2!1sfr!2sca!4v1412805951948" width="600" height="450" frameborder="0" style="border:0"></iframe>
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6960672.152790297!2d6.55505173829551!3d55.12126368273628!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465235606b16f931%3A0x7c2b7a040a52432d!2sUranienbourg!5e0!3m2!1sfr!2sus!4v1707755217317!5m2!1sfr!2sus" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
 ---
 
@@ -360,7 +355,7 @@ src="//upload.wikimedia.org/wikipedia/commons/2/2b/Tycho_Brahe.JPG"/></a>
 <a title="See page for author [Public domain], via Wikimedia Commons"
 href="https://commons.wikimedia.org/wiki/File%3AJohannes_Kepler_1610.jpg"><img
 width="256" alt="Johannes Kepler 1610"
-src="//upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Johannes_Kepler_1610.jpg/256px-Johannes_Kepler_1610.jpg"/></a>
+src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Portrait_Confused_With_Johannes_Kepler_1610.jpg/558px-Portrait_Confused_With_Johannes_Kepler_1610.jpg"/></a>
 
 ---
 
@@ -450,4 +445,8 @@ $$T^2 = a^3$$
 
 - $T$ : **période sidérale** en années
 - $a$ : **demi-grand axe** en unités astronomiques
+
+---
+
+## {background-image="../../images/52565304936_fc8852f1e9_k.jpg"}
 
