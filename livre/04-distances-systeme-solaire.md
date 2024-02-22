@@ -36,9 +36,9 @@ Le Soleil et la Lune ont la même taille apparente dans le ciel terrestre soit
 une taille angulaire d'environ 0,5°. Cette observation ne permet cependant pas
 de savoir si le Soleil et la Lune ont la même taille et sont à la même distance
 de la Terre, ou si un des deux est plus grand, mais se trouve plus loin de la
-Terre.  Au III<sup>e</sup> siècle avant J.-C. L'astronome grec Aristarque de
+Terre.  Au III<sup>e</sup> siècle avant J.-C. L&hairsp;'astronome grec Aristarque de
 Samos a conçu une technique pour déterminer la distance relative de ces deux
-astres.  L'idée repose sur la **trigonométrie**, branche des mathématiques qui
+astres.  L&hairsp;'idée repose sur la **trigonométrie**, branche des mathématiques qui
 étudie les liens entre les grandeurs des côtés des triangles et les angles
 intérieurs de ces triangles.
 
@@ -55,7 +55,7 @@ intérieurs de ces triangles.
 
 Les rapports des côtés d'un **triangle rectangle**, c'est-à-dire un triangle
 ayant un angle de 90°, définissent les rapports trigonométriques sinus, cosinus
-et tangente.  L'image ci-dessous montre un triangle rectangle de côtés $a$, $b$
+et tangente.  L&hairsp;'image ci-dessous montre un triangle rectangle de côtés $a$, $b$
 et $c$, un des angles de ce triangle et les définitions du cosinus et du sinus
 de cet angle. Le lien qui relie les carrés des grandeurs de côtés est connu
 sous le nom du **théorème de Pythagore**.
@@ -81,7 +81,7 @@ le Soleil lorsque la Lune est en premier ou en dernier quartier, on peut
 obtenir le rapport de la distance Terre-Lune ($a$ dans le schéma ci-dessous)
 sur la distance Terre-Soleil ($b$ dans le schéma ci-dessous). Aristarque de
 Samos mesura un angle de 87°, ce qui lui permettait de conclure que le Soleil
-était environ 19 fois plus loin de la Terre que ne l'était la Lune. L'angle
+était environ 19 fois plus loin de la Terre que ne l'était la Lune. L&hairsp;'angle
 obtenu par Aristarque n'était pas tout à fait correct et on sait aujourd'hui
 que cet angle est en réalité de 89,85° ce qui signifie que le Soleil est
 environ 382 fois plus loin de la Terre que ne l'est la Lune.
@@ -161,12 +161,14 @@ petite et alors l'éclipse durerait moins longtemps. Un peu de géométrie permi
 à Hipparque de calculer que la distance entre la Terre et la Lune devait être
 d'environ 32 diamètres terrestres. Or, le diamètre de la Terre était connu
 depuis Ératosthène et donc la distance Terre-Lune pouvait être estimée. On
-savait donc que la Lune était à environ 32 &times; 42\ 000\ km =
-1\ 344\ 000\ km de la Terre.
+savait donc que la Lune était à environ 32 &times; (42\ 000\ km / &pi;) =
+427\ 800\ km de la Terre (la valeur moderne est 384\ 400\ km).
 
 En combinant ce résultat avec celui d'Aristarque, on pouvait estimer la
-distance Terre-Soleil à environ 19 &times; 1\ 344\ 000\ km =
-25\ 536\ 000\ km de la Terre.
+distance Terre-Soleil à environ 19 &times; 1\ 344\ 000\ km = 8\ 128\ 200\ km de
+la Terre. Avec la valeur moderne du rapport distance Terre-Soleil à distance
+Terre-Lune, on obtient plutôt 163\ 419\ 600\ km ce qui est très proche de la
+distance Terre-Soleil telle que mesurée aujourd'hui de 150\ 000\ 000\ km.
 
 Remarquez qu'il aurait été impossible pour Hipparque de déterminer la distance
 Terre-Lune sans connaître préalablement le diamètre de la Terre. Il n'aurait pu
@@ -180,13 +182,12 @@ distance plus grande qu'en grimpant d'abord sur le barreau correspondant à une
 distance plus petite.
 
 
-
 ## Distance des planètes
 
 Pour déterminer les distances des autres planètes du système solaire, il fallut
 attendre le modèle de Copernic. En effet, ce n'est qu'avec ce modèle correct
 d'un point de vue géométrique qu'il était possible de concevoir des méthodes
-pour mesurer les distances des planètes. L'approche pour les planètes
+pour mesurer les distances des planètes. L&hairsp;'approche pour les planètes
 inférieures est très similaire à celle utilisée pour déterminer la distance
 Terre-Lune. On considère le triangle formé par la Terre, le Soleil et la
 planète inférieure d'intérêt lorsque celle-ci se trouve en élongation maximale.
@@ -216,11 +217,10 @@ trigonométriques complexes pour prendre une pomme, votre cerveau s'en charge.
 Le problème c'est que l'effet s'estompe pour les objets plus lointains. Il
 faudrait que nos yeux soient plus éloignés l'un de l'autre pour que l'effet
 parallaxe nous permette de déterminer des distances au-delà d'environ deux
-mètres. Les planètes supérieures sont beaucoup plus loin que deux mètres.
-Pour utiliser l'effet parallaxe il faut
-observer un objet de deux points de vue différents entre lesquels on connait
-la distance et il faut que cette distance soit d'une taille comparable à la
-distance de l'objet qu'on veut mesurer.
+mètres. Les planètes supérieures sont beaucoup plus loin que deux mètres. Pour
+utiliser l'effet parallaxe il faut observer un objet de deux points de vue
+différents entre lesquels on connait la distance et il faut que cette distance
+soit d'une taille comparable à la distance de l'objet qu'on veut mesurer.
 
 Kepler proposa de mesurer la parallaxe d'une planète supérieure entre deux
 moments où elle se trouve au même point de son orbite. À ces deux moments, la
@@ -238,10 +238,10 @@ la distance (en unités astronomiques) puisqu'on sait combien de temps s'est
   </figcaption>
 </figure>
 
-Une modification de l'idée de la parallaxe a permis de déterminer la valeur de
-l'unité astronomique. Entre 1671 et 1673, un scientifique italien, Giovanni
-Domenico Cassini, et son étudiant français, Jean Richer, ont appliqué l'idée de
-la
+Une modification de l'idée de la parallaxe a permis de déterminer une valeur de
+l'unité astronomique beaucoup plus proche de la réalité que celle obtenue en
+Grèce antique. Entre 1671 et 1673, un scientifique italien, Giovanni Domenico
+Cassini, et son étudiant français, Jean Richer, ont appliqué l'idée de la
 parallaxe pour déterminer la valeur de l'unité astronomique. Ils ont mesuré la
 parallaxe de Mars depuis Paris et Cayenne, en Guyane française. Puisqu'ils
 connaissaient la distance entre ces deux endroits sur Terre, ils ont pu obtenir
