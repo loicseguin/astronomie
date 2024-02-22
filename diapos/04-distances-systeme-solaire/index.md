@@ -1,12 +1,22 @@
 % Distances dans le système solaire
 % CEA Explorer et comprendre l'Univers
-% 27 février 2020
+% 22 février 2024
 ---
-theme: beige
-transition: linear
+theme: night
+title-slide-attributes:
+    data-background-image: ../../images/52565304936_fc8852f1e9_k.jpg
+    data-background-size: contain
+    data-background-opacity: 0.7
+header-includes: |
+    <style>
+    #title-slide .title {
+      font-size: 2.5em;
+    }
+    </style>
+
 ---
 
-## Comment fait-on pour déterminer la taille des astres et les distances entre la Terre et les astres?
+Comment fait-on pour déterminer la taille des astres et les distances entre la Terre et les astres?
 
 ---
 
@@ -32,7 +42,7 @@ transition: linear
 
 <img src="../../images/triangle-rec.png"
     alt="Trigonométrie"
-    style="padding: 15px">
+    style="padding: 15px; background-color: antiquewhite">
 
 ---
 
@@ -45,7 +55,7 @@ transition: linear
 ---
 
 <img src="../../images/soleil-loin.png"
-  style="max-height: 500px; max-width: 800px; padding: 15px;">
+  style="max-height: 500px; max-width: 800px; padding: 15px; background-color: antiquewhite">
 
 >- $\theta = 89.85°$
 >- Le Soleil est 382 fois plus loin que la Lune
@@ -75,6 +85,15 @@ transition: linear
 
 ## Distance Terre-Lune
 
+**Méthode d'Hipparque**
+
+>- Observations durant une éclipse de Lune
+>- La Lune est à une distance de 32 diamètres terrestres
+
+---
+
+## Distance Terre-Lune
+
 **Méthode moderne**
 
 ---
@@ -89,22 +108,6 @@ width="512" alt="Apollo 11 Lunar Laser Ranging Experiment"
 src="//upload.wikimedia.org/wikipedia/commons/thumb/0/08/Apollo_11_Lunar_Laser_Ranging_Experiment.jpg/512px-Apollo_11_Lunar_Laser_Ranging_Experiment.jpg"/></a>
 
 **384 400 km**
-
----
-
-## Distance Terre-Soleil
-
-**Méthode parallaxe**
-
-La distance entre la Terre et le Soleil est appelée une **unité astronomique
-(UA)**
-
----
-
-<img src="parallaxe.png"
-  style="max-height: 400px; max-width: 600px; padding: 15px;">
-
->- **1 UA = 1.50 $\times$ 10<sup>11</sup> m = 150 000 000 km**
 
 ---
 
@@ -128,4 +131,24 @@ La distance entre la Terre et le Soleil est appelée une **unité astronomique
 <img src="../../images/kepler-distance-mars.png"
   style="max-height: 500px; max-width: 800px; padding: 15px;">
 
+---
+
+<img src="parallaxe.png"
+  style="max-height: 400px; max-width: 600px; padding: 15px; background-color: antiquewhite">
+
+
+---
+
+## Distance Terre-Soleil
+
+**Méthode parallaxe**
+
+La distance entre la Terre et le Soleil est appelée une **unité astronomique
+(UA)**
+
+>- **1 UA = 1.50 $\times$ 10<sup>11</sup> m = 150 000 000 km**
+
+---
+
+## {background-image="../../images/52565304936_fc8852f1e9_k.jpg"}
 

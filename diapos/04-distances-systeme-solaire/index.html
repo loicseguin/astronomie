@@ -29,23 +29,27 @@
       vertical-align: middle;
     }
   </style>
-  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^4//dist/theme/beige.css" id="theme">
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^4//dist/theme/night.css" id="theme">
+  <style>
+  #title-slide .title {
+    font-size: 2.5em;
+  }
+  </style>
 </head>
 <body>
   <div class="reveal">
     <div class="slides">
 
-<section id="title-slide">
+<section id="title-slide" data-background-image="../../images/52565304936_fc8852f1e9_k.jpg" data-background-opacity="0.7" data-background-size="contain">
   <h1 class="title">Distances dans le système solaire</h1>
   <p class="author">CEA Explorer et comprendre l’Univers</p>
-  <p class="date">27 février 2020</p>
+  <p class="date">22 février 2024</p>
 </section>
 
-<section
-id="comment-fait-on-pour-déterminer-la-taille-des-astres-et-les-distances-entre-la-terre-et-les-astres"
-class="slide level2">
-<h2>Comment fait-on pour déterminer la taille des astres et les
-distances entre la Terre et les astres?</h2>
+<section class="slide level2">
+
+<p>Comment fait-on pour déterminer la taille des astres et les distances
+entre la Terre et les astres?</p>
 </section>
 <section class="slide level2">
 
@@ -67,7 +71,7 @@ distances entre la Terre et les astres?</h2>
 <h2>Rappels de géométrie</h2>
 <p><img src="../../images/triangle-rec.png"
     alt="Trigonométrie"
-    style="padding: 15px"></p>
+    style="padding: 15px; background-color: antiquewhite"></p>
 </section>
 <section id="le-soleil-est-plus-loin-que-la-lune" class="slide level2">
 <h2>Le Soleil est plus loin que la Lune</h2>
@@ -78,7 +82,7 @@ data-src="https://upload.wikimedia.org/wikipedia/commons/2/2b/Aristarchus_workin
 <section class="slide level2">
 
 <p><img src="../../images/soleil-loin.png"
-  style="max-height: 500px; max-width: 800px; padding: 15px;"></p>
+  style="max-height: 500px; max-width: 800px; padding: 15px; background-color: antiquewhite"></p>
 <ul>
 <li class="fragment"><span class="math inline">\(\theta =
 89.85°\)</span></li>
@@ -106,6 +110,15 @@ href="https://creativecommons.org/licenses/by-sa/3.0/deed.fr">CC BY-SA
 </section>
 <section id="distance-terre-lune" class="slide level2">
 <h2>Distance Terre-Lune</h2>
+<p><strong>Méthode d’Hipparque</strong></p>
+<ul>
+<li class="fragment">Observations durant une éclipse de Lune</li>
+<li class="fragment">La Lune est à une distance de 32 diamètres
+terrestres</li>
+</ul>
+</section>
+<section id="distance-terre-lune-1" class="slide level2">
+<h2>Distance Terre-Lune</h2>
 <p><strong>Méthode moderne</strong></p>
 </section>
 <section class="slide level2">
@@ -120,22 +133,6 @@ href="https://commons.wikimedia.org/wiki/File%3AApollo_11_Lunar_Laser_Ranging_Ex
 width="512" alt="Apollo 11 Lunar Laser Ranging Experiment"
 src="//upload.wikimedia.org/wikipedia/commons/thumb/0/08/Apollo_11_Lunar_Laser_Ranging_Experiment.jpg/512px-Apollo_11_Lunar_Laser_Ranging_Experiment.jpg"/></a></p>
 <p><strong>384 400 km</strong></p>
-</section>
-<section id="distance-terre-soleil" class="slide level2">
-<h2>Distance Terre-Soleil</h2>
-<p><strong>Méthode parallaxe</strong></p>
-<p>La distance entre la Terre et le Soleil est appelée une <strong>unité
-astronomique (UA)</strong></p>
-</section>
-<section class="slide level2">
-
-<p><img src="parallaxe.png"
-  style="max-height: 400px; max-width: 600px; padding: 15px;"></p>
-<ul>
-<li class="fragment"><strong>1 UA = 1.50 <span
-class="math inline">\(\times\)</span> 10<sup>11</sup> m = 150 000 000
-km</strong></li>
-</ul>
 </section>
 <section id="distance-des-planètes-inférieures" class="slide level2">
 <h2>Distance des planètes inférieures</h2>
@@ -154,6 +151,27 @@ km</strong></li>
 
 <p><img src="../../images/kepler-distance-mars.png"
   style="max-height: 500px; max-width: 800px; padding: 15px;"></p>
+</section>
+<section class="slide level2">
+
+<p><img src="parallaxe.png"
+  style="max-height: 400px; max-width: 600px; padding: 15px; background-color: antiquewhite"></p>
+</section>
+<section id="distance-terre-soleil" class="slide level2">
+<h2>Distance Terre-Soleil</h2>
+<p><strong>Méthode parallaxe</strong></p>
+<p>La distance entre la Terre et le Soleil est appelée une <strong>unité
+astronomique (UA)</strong></p>
+<ul>
+<li class="fragment"><strong>1 UA = 1.50 <span
+class="math inline">\(\times\)</span> 10<sup>11</sup> m = 150 000 000
+km</strong></li>
+</ul>
+</section>
+<section id="section" class="slide level2"
+data-background-image="../../images/52565304936_fc8852f1e9_k.jpg">
+<h2
+data-background-image="../../images/52565304936_fc8852f1e9_k.jpg"></h2>
 </section>
     </div>
   </div>
@@ -294,7 +312,7 @@ km</strong></li>
         previewLinks: false,
 
         // Transition style (none/fade/slide/convex/concave/zoom)
-        transition: 'linear',
+        transition: 'slide',
 
         // Transition speed (default/fast/slow)
         transitionSpeed: 'default',
