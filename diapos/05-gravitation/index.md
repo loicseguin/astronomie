@@ -1,21 +1,56 @@
 % Gravitation
 % CEA Explorer et comprendre l'Univers
-% 12 octobre 2020
+% 7 mars 2024
 ---
-theme: beige
-transition: linear
+theme: night
+title-slide-attributes:
+    data-background-image: ../../images/52565304936_fc8852f1e9_k.jpg
+    data-background-size: contain
+    data-background-opacity: 0.6
+header-includes: |
+    <style>
+    body {
+        --r-main-color: #ccc;
+        --r-main-font-size: 32px;
+        --r-heading-color: #ccc;
+    }
+    .reveal .slides {
+        text-align: left;
+    }
+    #title-slide .title {
+      font-size: 2.5em;
+    }
+    </style>
+
 ---
 
-## Pourquoi les planètes du système solaire bougent-elles sur des orbites elliptiques?
+Pourquoi?
+
+<a title="By Hankwang (Own work) [GFDL (http://www.gnu.org/copyleft/fdl.html),
+CC-BY-SA-3.0 (http://creativecommons.org/licenses/by-sa/3.0/) or CC-BY-2.5
+(http://creativecommons.org/licenses/by/2.5)], via Wikimedia Commons"
+href="https://commons.wikimedia.org/wiki/File%3AKepler_laws_diagram.svg"><img
+width="400" alt="Kepler laws diagram" style="background-color: white;"
+src="//upload.wikimedia.org/wikipedia/commons/thumb/9/98/Kepler_laws_diagram.svg/512px-Kepler_laws_diagram.svg.png"/></a>
 
 ---
 
 ### Galilée
 *(1564 — 1642)*
 
-La gravité agit de la même façon sur tous les corps à la surface de la Terre.
+<a title="Justus Sustermans [Public domain], via Wikimedia Commons"
+href="http://commons.wikimedia.org/wiki/File%3AGalileo-sustermans.jpg">
+<img alt="Galileo-sustermans"
+src="../../images/Galileo-sustermans.jpg"
+style="
+    max-height: 300px;
+    max-width: 1000px;
+"></a>
+
 
 ---
+
+La gravité agit de la même façon sur tous les corps à la surface de la Terre.
 
 <figure>
   <a href="https://commons.wikimedia.org/wiki/File:Piazza_dei_Miracoli_-_The_Cathedral_and_the_Leaning_Tower_in_Pisa_(2).jpg">
@@ -52,14 +87,17 @@ La gravité agit de la même façon sur tous les corps à la surface de la Terre
 
 ---
 
-### Galilée (encore)
-
-**Principe d'inertie** (v. 1.0)
+#### Principe d'inertie (v. 1.0)
 
 *En l'absence de toute contrainte et de toute force, un objet en mouvement
 continuera sur sa lancée horizontale pour toujours.*
 
+
+<br />
+
+::: {.fragment}
 Les planètes continuent a parcourir leur orbite pour toujours.
+:::
 
 ---
 
@@ -81,16 +119,14 @@ Les planètes continuent a parcourir leur orbite pour toujours.
 
 ---
 
-### René Descartes
-
-**Principe d'inertie** (v. 2.0)
+#### Principe d'inertie (v. 2.0)
 
 *Les objets se déplacent en ligne droite à vitesse constante tant et aussi
 longtemps qu'aucune force n'agit sur eux.*
 
 ---
 
-### Il doit donc y avoir une force qui tire les planètes vers le Soleil
+Il doit donc y avoir une force qui tire les planètes vers le Soleil
 
 ---
 
@@ -112,13 +148,11 @@ href="https://commons.wikimedia.org/wiki/File%3AGodfreyKneller-IsaacNewton-1689.
 
 ---
 
-### Isaac Newton
-
-#### Quelle est la force qui tire continuellement les planètes vers le Soleil et les maintient sur leur orbite?
+Quelle est la force qui tire continuellement les planètes vers le Soleil et les maintient sur leur orbite?
 
 ---
 
-### Première loi de la mécanique
+#### Première loi de la mécanique
 
 **Principe d'inertie** (v. 2.0)
 
@@ -127,14 +161,14 @@ longtemps qu'aucune force n'agit sur eux.*
 
 ---
 
-### Deuxième loi de la mécanique
+#### Deuxième loi de la mécanique
 
 L'accélération subit par un corps est proportionnelle à la force nette
 appliquée à ce corps et inversement proportionnelle à la masse du corps.
 
 ---
 
-### Troisième loi de la mécanique
+#### Troisième loi de la mécanique
 
 Toute force exercée par un objet A sur un objet B est accompagnée d'une force
 exercée par l'objet B sur l'objet A qui a la même grandeur et est dans la
@@ -142,11 +176,7 @@ direction opposée.
 
 ---
 
-### La force qui maintient les planètes en orbite autour du Soleil est la même qui fait tomber les objets à la surface de la Terre
-
----
-
-### Interlude : Newton et la pomme
+#### Interlude : Newton et la pomme
 
 <figure>
   <a href="https://fr.wikipedia.org/wiki/Fichier:Newton%27s-apple.jpg">
@@ -164,7 +194,11 @@ direction opposée.
 
 ---
 
-### Loi de la gravitation universelle de Newton
+La force qui maintient les planètes en orbite autour du Soleil est la même qui fait tomber les objets à la surface de la Terre
+
+---
+
+#### Loi de la gravitation universelle de Newton
 
 $$F = \frac{G m_1 m_2}{r^2}$$
 
@@ -176,9 +210,8 @@ $$F = \frac{G m_1 m_2}{r^2}$$
 
 ---
 
-### Isaac Newton
 
-Publication de ses résultats dans les *Philosophiae Naturalis Principia
+Newton publie ses résultats dans les *Philosophiae Naturalis Principia
 Mathematica*
 
 ---
@@ -191,7 +224,7 @@ Prédit de nouveaux phénomènes
 
 ---
 
-### Prédiction de la trajectoire d'une comète par Edmund Halley
+#### Prédiction de la trajectoire d'une comète par Edmund Halley
 
 <a title="By NASA/W. Liller [Public domain], via Wikimedia Commons"
 href="https://commons.wikimedia.org/wiki/File%3ALspn_comet_halley.jpg"><img
@@ -200,7 +233,7 @@ src="//upload.wikimedia.org/wikipedia/commons/2/2a/Lspn_comet_halley.jpg"/></a>
 
 ---
 
-### Étude des systèmes binaires par Caroline et William Herschel
+#### Étude des systèmes binaires par Caroline et William Herschel
 
 <figure>
   <a href="https://wellcomecollection.org/works/dmbmc538">
@@ -216,19 +249,29 @@ src="//upload.wikimedia.org/wikipedia/commons/2/2a/Lspn_comet_halley.jpg"/></a>
   </figcaption>
 </figure>
 
+---
+
+#### Découverte de nouvelles planètes
+
+::: {.fragment}
+Découverte d'Uranus en 1781 par William Herschel
+:::
+
+::: {.fragment}
+L'orbite d'Uranus est bizarre...
+:::
+
+::: {.fragment}
+J. C. Adams et Urbain Le Verrier prédisent l'existence d'une autre planète
+:::
+
+::: {.fragment}
+Neptune découverte en 1846 par J. G. Galle à l'endroit prédit par Adams et Le Verrier
+:::
 
 ---
 
-### Découverte de nouvelles planètes
-
->- Découverte d'Uranus en 1781 par William Herschel
->- L'orbite d'Uranus est bizarre...
->- J. C. Adams et Urbain Le Verrier prédisent l'existence d'une autre planète
->- Neptune découverte en 1846 par J. G. Galle à l'endroit prédit par Adams et Le Verrier
-
----
-
-## Problème avec la théorie newtonienne
+### Problème avec la théorie newtonienne
 
 Perturbation dans l'orbite de Mercure qui ne s'explique d'aucune façon...
 
@@ -247,20 +290,19 @@ src="../../images/Albert_Einstein.jpg"/></a>
 
 ---
 
-### Albert Einstein
+Comment réconcilier le principe de relativité et l'électromagnétisme?
 
-- Essaie de réconcilier le principe de relativité galiléenne et
-  l'électrodynamisme
-- Essaie d'expliquer pourquoi toutes les mesures de la vitesse de la lumière
-  donnent la même valeur
+Pourquoi toutes les mesures de la vitesse de la lumière donnent la même valeur?
 
 <br />
 
->- Il ne tente pas d'expliquer l'orbite de Mercure
+::: {.fragment}
+Il ne tente pas d'expliquer l'orbite de Mercure
+:::
 
 ---
 
-### Relativité restreinte
+#### Relativité restreinte
 
 *(1905)*
 
@@ -271,24 +313,27 @@ Deux postulats
 
 ---
 
-### Relativité restreinte
+#### Relativité restreinte
 
-- Espace et temps ne sont plus absolus
-- Dilatation du temps et contraction des longueurs
-- Facteur de ralentissement du temps
+Espace et temps ne sont plus absolus
+
+Dilatation du temps et contraction des longueurs
+
+Facteur de ralentissement du temps
 $$\gamma = \frac{1}{\sqrt{1 - \frac{v^2}{c^2}}}$$
 
 ---
 
-### Relativité restreinte
+#### Relativité restreinte
 
-- Dilatation du temps et contraction des longueurs deviennent plus importante
-  lorsqu'on s'approche de la vitesse de la lumière
-- Les objets massifs ne peuvent jamais atteindre la vitesse de la lumière
+Dilatation du temps et contraction des longueurs deviennent plus importante
+lorsqu'on s'approche de la vitesse de la lumière
+
+Les objets massifs ne peuvent jamais atteindre la vitesse de la lumière
 
 ---
 
-### Relativité restreinte
+#### Relativité restreinte
 
 Équivalence masse-énergie
 
@@ -296,34 +341,43 @@ $$E = \gamma m c^2$$
 
 ---
 
-### Albert Einstein
+#### Albert Einstein
 
 La même année (1905), il publie 4 découvertes fondamentales :
 
-- L'effet photoélectrique
-- Le mouvement brownien
-- La relativité restreinte
-- L'équivalence masse-énergie
+- effet photoélectrique
+
+- mouvement brownien
+
+- relativité restreinte
+
+- équivalence masse-énergie
 
 <br />
 
+::: {.fragment}
 C'est l'*Annus Mirabilis*.
+:::
 
 ---
 
-### Relativité générale
+#### Relativité générale
 
 *(1916)*
 
-- Extension de la relativité restreinte à des référentiels accélérés
-- En plus des deux postulats de la relativité restreinte, Einstein ajoute le
-  **principe d'équivalence**
+Extension de la relativité restreinte à des référentiels accélérés
 
+En plus des deux postulats de la relativité restreinte, Einstein ajoute le
+**principe d'équivalence**
+
+
+::: {.fragment}
 *Il n'y a pas de différence entre la gravité et un référentiel accéléré.*
+:::
 
 ---
 
-### Principe d'équivalence
+#### Principe d'équivalence
 
 <figure>
   <img src="../../images/principe_equivalence.png"
@@ -337,26 +391,29 @@ C'est l'*Annus Mirabilis*.
 
 ---
 
-### Relativité générale
+#### Relativité générale
 
-- La masse déforme l'**espace-temps**
-- Ces déformations sont la cause de la gravitation
+La masse déforme l'**espace-temps**
 
----
-
-### Relativité générale
-
-- Près du Soleil, la courbure de l'espace est très importante
-- Mercure est près du Soleil!
-- Einstein prédit les perturbations de l'orbite de Mercure
+Ces déformations sont la cause de la gravitation
 
 ---
 
-## Autres succès de la relativité générale
+#### Relativité générale
+
+Près du Soleil, la courbure de l'espace est très importante
+
+Mercure est près du Soleil!
+
+Einstein prédit les perturbations de l'orbite de Mercure
 
 ---
 
-### Lentilles gravitationnelles
+### Autres succès de la relativité générale
+
+---
+
+#### Lentilles gravitationnelles
 
 <a href="https://hubblesite.org/contents/media/images/1990/20/22-Image.html?news=true">
 <img alt="Croix d'Einstein G2237+0305"
@@ -402,22 +459,14 @@ C'est l'*Annus Mirabilis*.
 
 ---
 
-### Trous noirs
-
-- La relativité générale ajoute un ralentissement du temps dû à la gravité.
-- Ce ralentissement dépend de la vitesse de libération
-- Si la vitesse de libération est celle de la lumière, ralentissement infini
-
----
-
-### Trous noirs
+#### Trous noirs
 
 Les objets pour lesquels la vitesse de libération est celle de la lumière sont
 appelés des **trous noirs**.
 
 ---
 
-### Trous noirs supermassifs
+#### Trous noirs supermassifs
 
 <a href="https://www.nasa.gov/multimedia/imagegallery/image_feature_2247.html">
   <img alt="Active Black Hole Squashes Star Formation"
@@ -466,19 +515,26 @@ appelés des **trous noirs**.
 
 ---
 
-## Le futur...
+### Le futur...
 
->- Pour expliquer la vitesse de rotation des galaxies, il manque de la masse!
-   C'est la **matière sombre** qui compose environ 27% de la masse dans
-   l'Univers.
->- L'expansion de l'Univers est trop rapide! Il faut de l'**énergie sombre**
-   pour l'expliquer. L'énergie sombre représente 68% de la masse dans
-   l'Univers.
+::: {.fragment}
+Pour expliquer la vitesse de rotation des galaxies, il manque de la masse!
+C'est la **matière sombre** qui compose environ 27% de la masse dans
+l'Univers.
+:::
+
+::: {.fragment}
+L'expansion de l'Univers est trop rapide! Il faut de l'**énergie sombre**
+pour l'expliquer. L'énergie sombre représente 68% de la masse dans
+l'Univers.
+:::
 
 ---
-
-## Le futur...
 
 On ne sait pas de quoi est composé 95% de l'Univers...
 
 Il reste beaucoup à faire!
+
+---
+
+## {background-image="../../images/52565304936_fc8852f1e9_k.jpg"}

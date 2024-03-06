@@ -11,7 +11,7 @@ title-prefix: Explorer et comprendre l'Univers
       width="100%">
   </a>
   <figcaption>
-    L'amas de galaxie en avant plan est suffisamment massif pour dévier la
+    L&hairsp;'amas de galaxie en avant plan est suffisamment massif pour dévier la
     lumière en provenance d'objets situés en arrière-plan (NASA/ESA).
   </figcaption>
 </figure>
@@ -128,7 +128,7 @@ d'altérer son mouvement. Par exemple, il est plus difficile d'arrêter un camio
 qui roule à 50\ km/h qu'une mouche qui va à la même vitesse. La seconde loi de
 Newton est la suivante\ :
 
-> L'accélération subit par un corps est proportionnelle à la force nette
+> L&hairsp;'accélération subit par un corps est proportionnelle à la force nette
 > appliquée à ce corps et inversement proportionnelle à la masse du corps.
 
 Enfin, Newton réalisa qu'une force sur un objet ne pouvait qu'être exercée par
@@ -182,14 +182,14 @@ Si la distance entre deux objets double, la force gravitationnelle diminue d'un
 facteur quatre.
 
 À partir des trois lois de la mécanique et de la loi de la gravitation
-universelle, Newton a été en mesure d'expliquer les lois de Kepler. L'orbite
+universelle, Newton a été en mesure d'expliquer les lois de Kepler. L&hairsp;'orbite
 elliptique des planètes était maintenant expliquée par les lois de Newton, de
 même que leur période de révolution. Pour arriver à prouver tout cela, Newton a
 dû inventer une nouvelle sorte de mathématiques qu'on appelle aujourd'hui le
 **calcul différentiel et intégral** (qui a été découvert simultanément par un
 mathématicien et physicien allemand du nom de Gottfried Wilhelm Leibniz).
 Newton est sans conteste un des plus grands génies de l'histoire de l'humanité.
-Newton a publié ses découvertes le livre *Philosophiae Naturalis Principia
+Newton a publié ses découvertes dans le livre *Philosophiae Naturalis Principia
 Mathematica* en 1687.
 
 
@@ -228,7 +228,7 @@ première femme a obtenir la médaille d'or de la *Royal Astronomical Society*.
 </figure>
 
 William Herschel dans ses nombreuses observations, découvrit une nouvelle
-planète qu'on connaît aujourd'hui sous le nom d'Uranus. L'astronome français
+planète qu'on connaît aujourd'hui sous le nom d'Uranus. L&hairsp;'astronome français
 Alexis Bouvard observa cette planète en détail et remarqua qu'elle se déplaçait
 bizarrement, déviant des prédictions de la théorie newtonienne. Une conclusion
 possible était que la théorie newtonienne était incorrecte. Bouvard, de même
@@ -262,7 +262,7 @@ qui auraient été impossibles si la théorie était incorrecte.
 
 ### Mauvaises nouvelles en provenance de Mercure
 
-L'histoire de la découverte de Neptune sembla se reproduire lorsque les
+L&hairsp;'histoire de la découverte de Neptune sembla se reproduire lorsque les
 astronomes observèrent en détail Mercure. Le Verrier, celui-là même qui avait
 calculé la position de Neptune, remarqua que la planète Mercure présentait une
 anomalie dans son orbite. Fort de son succès précédent, il fit l'hypothèse
@@ -282,7 +282,7 @@ Alors qu'il travaillait comme commis au bureau des brevets, Albert Einstein
 (1879-1955) réfléchissait à certains problèmes avec les théories physiques de
 l'époque. Une des choses qui le troublait était une incohérence entre la
 mécanique classique, en particulier le principe de relativité galiléen, et
-l'électrodynamisme, les lois qui régissent les champs électriques et
+l'électromagnétisme, les lois qui régissent les champs électriques et
 magnétiques. De certains points de vue, il semblait y avoir des champs
 électriques alors que de d'autres points de vue, il semblait y avoir des champs
 magnétiques. Or, les objets portant une charge électrique sont affectés
@@ -336,7 +336,7 @@ Ces découvertes étaient troublantes et remettaient en cause beaucoup d'éléme
 qui étaient pris pour acquis depuis des millénaires. Cependant, à l'instar de
 la mécanique newtonienne, la relativité restreinte a été vérifiée et
 contre vérifiée à de très nombreuses reprises. Les physiciens du début du
-XXI<sup>e</sup> siècle acceptèrent rapidement la proposition d'Einstein. Il est
+XX<sup>e</sup> siècle acceptèrent rapidement la proposition d'Einstein. Il est
 important de noter que la relativité restreinte ne rendait pas la mécanique
 newtonienne caduque. Les effets relativistes deviennent importants seulement
 lorsque les objets bougent à des vitesses proches de celle de la lumière. Dans
@@ -494,7 +494,7 @@ La théorie de la relativité générale prédit aussi l'existence d'**ondes
 gravitationnelles**, des vibrations dans le tissu même de l'espace-temps. Ce
 type d'onde est produit en grandes quantités lors d'événements extrêmes comme
 la collision de trous noirs ou d'étoiles à neutrons. Les ondes
-gravitationnalles ont été observées pour la première fois en 2016 par
+gravitationnelles ont été observées pour la première fois en 2016 par
 l'observatoire LIGO. Depuis, des dizaines d'observations ont été faites.
 Certains des chercheurs principaux ayant travaillé sur LIGO ont reçu le prix
 Nobel de physique en 2016.
