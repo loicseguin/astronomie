@@ -29,16 +29,29 @@
       vertical-align: middle;
     }
   </style>
-  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^4//dist/theme/beige.css" id="theme">
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^4//dist/theme/night.css" id="theme">
+  <style>
+  body {
+      --r-main-color: #ccc;
+      --r-main-font-size: 32px;
+      --r-heading-color: #ccc;
+  }
+  .reveal .slides {
+      text-align: left;
+  }
+  #title-slide .title {
+    font-size: 2.5em;
+  }
+  </style>
 </head>
 <body>
   <div class="reveal">
     <div class="slides">
 
-<section id="title-slide">
+<section id="title-slide" data-background-image="../../images/52565304936_fc8852f1e9_k.jpg" data-background-opacity="0.6" data-background-size="contain">
   <h1 class="title">Exploration du système solaire</h1>
   <p class="author">CEA Explorer et comprendre l’Univers</p>
-  <p class="date">26 octobre 2020</p>
+  <p class="date">21 mars 2024</p>
 </section>
 
 <section id="système-solaire" class="slide level2">
@@ -744,7 +757,9 @@ NASA/JPL/Cornell
 <h3 id="opportunity">Opportunity</h3>
 <p><strong>Preuve qu’il y a eu de l’eau sur Mars</strong>
 (<em>2004</em>)</p>
-<p><img alt="Opportunity tracks" height="450px" src="http://www.nasa.gov/sites/default/files/pia18604-main_pcam-sol3754b_l257atc_2.jpg" /></p>
+<p><img alt="Opportunity tracks"
+src="https://photojournal.jpl.nasa.gov/jpegMod/PIA18604_modest.jpg"
+/></p>
 <p><small>NASA/JPL-Caltech/Cornell Univ./Arizona State Univ.</small></p>
 </section>
 <section class="slide level2">
@@ -790,7 +805,7 @@ NASA
 <p><strong>Pourquoi Mars a perdu son atmosphère</strong>
 (<em>2014</em>)</p>
 <p><img alt="MAVEN spin test" height="450px"
-src="http://www.nasa.gov/sites/default/files/styles/1024x768_autoletterbox/public/2013-3701-m.jpg?itok=tE5JuzPf" /></p>
+src="https://images-assets.nasa.gov/image/KSC-2013-3701/KSC-2013-3701~medium.jpg" /></p>
 <figcaption style="font-size: 0.4em; color: #666;">
 NASA/Kim Shiflett
 </figcaption>
@@ -1238,6 +1253,11 @@ Research Institute/Alex Parker
 </figcaption>
 </figure>
 </section>
+<section id="section" class="slide level2"
+data-background-image="../../images/52565304936_fc8852f1e9_k.jpg">
+<h2
+data-background-image="../../images/52565304936_fc8852f1e9_k.jpg"></h2>
+</section>
     </div>
   </div>
 
@@ -1377,7 +1397,7 @@ Research Institute/Alex Parker
         previewLinks: false,
 
         // Transition style (none/fade/slide/convex/concave/zoom)
-        transition: 'none',
+        transition: 'slide',
 
         // Transition speed (default/fast/slow)
         transitionSpeed: 'default',

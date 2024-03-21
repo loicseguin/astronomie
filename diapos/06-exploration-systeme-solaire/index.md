@@ -1,9 +1,27 @@
 % Exploration du système solaire
 % CEA Explorer et comprendre l'Univers
-% 26 octobre 2020
+% 21 mars 2024
 ---
-theme: beige
-transition: none
+theme: night
+title-slide-attributes:
+    data-background-image: ../../images/52565304936_fc8852f1e9_k.jpg
+    data-background-size: contain
+    data-background-opacity: 0.6
+header-includes: |
+    <style>
+    body {
+        --r-main-color: #ccc;
+        --r-main-font-size: 32px;
+        --r-heading-color: #ccc;
+    }
+    .reveal .slides {
+        text-align: left;
+    }
+    #title-slide .title {
+      font-size: 2.5em;
+    }
+    </style>
+
 ---
 
 ## Système solaire
@@ -570,7 +588,9 @@ Température                            20°C, -140°C, -40°C
 
 **Preuve qu'il y a eu de l'eau sur Mars** (*2004*)
 
-<img alt="Opportunity tracks" height="450px" src="http://www.nasa.gov/sites/default/files/pia18604-main_pcam-sol3754b_l257atc_2.jpg" />
+<img alt="Opportunity tracks"
+src="https://photojournal.jpl.nasa.gov/jpegMod/PIA18604_modest.jpg"
+/>
 
 <small>NASA/JPL-Caltech/Cornell Univ./Arizona State Univ.</small>
 
@@ -624,7 +644,7 @@ Température                            20°C, -140°C, -40°C
 **Pourquoi Mars a perdu son atmosphère** (*2014*)
 
 <img alt="MAVEN spin test" height="450px"
-src="http://www.nasa.gov/sites/default/files/styles/1024x768_autoletterbox/public/2013-3701-m.jpg?itok=tE5JuzPf" />
+src="https://images-assets.nasa.gov/image/KSC-2013-3701/KSC-2013-3701~medium.jpg" />
 
 <figcaption style="font-size: 0.4em; color: #666;">
 NASA/Kim Shiflett
@@ -1015,3 +1035,6 @@ NASA/Johns Hopkins University Applied Physics Laboratory/Southwest Research Inst
 </figure>
 
 
+---
+
+## {background-image="../../images/52565304936_fc8852f1e9_k.jpg"}
