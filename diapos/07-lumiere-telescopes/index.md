@@ -1,9 +1,27 @@
 % Lumière et télescopes
 % CEA Explorer et comprendre l'Univers
-% 2 avril 2020
+% 28 mars 2024
 ---
 theme: night
-transition: none
+title-slide-attributes:
+    data-background-image: ../../images/52565304936_fc8852f1e9_k.jpg
+    data-background-size: contain
+    data-background-opacity: 0.6
+header-includes: |
+    <style>
+    body {
+        --r-main-color: #ccc;
+        --r-main-font-size: 32px;
+        --r-heading-color: #ccc;
+    }
+    .reveal .slides {
+        text-align: left;
+    }
+    #title-slide .title {
+      font-size: 2.5em;
+    }
+    </style>
+
 ---
 
 <figure>
@@ -528,3 +546,6 @@ Observation astronomique moderne
   </figcaption>
 </figure>
 
+---
+
+## {background-image="../../images/52565304936_fc8852f1e9_k.jpg"}
