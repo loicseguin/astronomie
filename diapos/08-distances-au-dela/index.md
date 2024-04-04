@@ -1,9 +1,27 @@
 % Distances au-delà du système solaire
 % CEA Explorer et comprendre l'Univers
-% 9 novembre 2020
+% 4 avril 2024
 ---
-theme: black
-transition: linear
+theme: night
+title-slide-attributes:
+    data-background-image: ../../images/52565304936_fc8852f1e9_k.jpg
+    data-background-size: contain
+    data-background-opacity: 0.6
+header-includes: |
+    <style>
+    body {
+        --r-main-color: #ccc;
+        --r-main-font-size: 32px;
+        --r-heading-color: #ccc;
+    }
+    .reveal .slides {
+        text-align: left;
+    }
+    #title-slide .title {
+      font-size: 2.5em;
+    }
+    </style>
+
 ---
 
 # {data-background-image="../../images/milky_way_schmidt.jpg"}
@@ -34,12 +52,14 @@ déterminer des distances :
 ### Radar
 
 <figure>
+  <a href="https://astro.unl.edu/naap/distance/radar.html">
   <img src="../../images/naap_labs_radar.png"
     alt="Méthode de la parallaxe"
     style="
         max-height: 500px;
         max-width: 1000px;
     ">
+    </a>
 </figure>
 <figcaption style="font-size: 0.4em; color: #666;">
   Astronomy Education at the University of Nebraska-Lincoln Web Site
@@ -201,9 +221,9 @@ ESA/Hubble & NASA, J. Greene
 
 # {data-background-image="../../images/potw2014a.jpg"}
 
-<h1 style="background-color: rgba(100, 100, 100, 0.4); padding: 20px;">
+<h2 style="background-color: rgba(100, 100, 100, 0.4); padding: 20px;">
 Parallaxe spectroscopique
-</h1>
+</h2>
 
 <br><br><br><br>
 <figcaption style="font-size: 0.4em; color: #aaa;">
@@ -253,9 +273,10 @@ On observe une ampoule de 100 W. Un capteur permet de déterminer que
 l'intensité de la lumière qui provient de l'ampoule est de
 0,08\ W/m<sup>2</sup>. À quelle distance est l'ampoule?
 
-. . .
 
+::: {.fragment}
 $$d = \sqrt{\frac{L}{4\pi I}} = 10\,\mathrm{m}$$
+:::
 
 ---
 
@@ -270,18 +291,17 @@ Luminosité : reliée à la **magnitude absolue**
 La galaxie M87 a une magnitude absolue d'environ -22. On voit donc cette
 galaxie briller très clairement dans le ciel nocturne.
 
-Vrai ou faux?
+<ol style="list-style-type: upper-alpha">
+  <li>Vrai</li>
+  <li>Faux</li>
+</ol>
 
-https://b.socrative.com/login/student/
-
-DCRDEWY
 
 ---
 
 Deneb a une magnitude apparente d'environ 1.25. Le Soleil a une magnitude
 apparente d'environ -26. Sélectionnez les énoncés vrais.
 
-<small>
 <ol style="list-style-type: upper-alpha">
 <li>Si on les mettait côte-à-côte, Deneb paraîtrait moins brillante que le Soleil.</li>
 <li>Deneb paraît moins brillante que le Soleil dans le ciel.</li>
@@ -290,7 +310,6 @@ qu'elle est en fait plus brillante que le Soleil.</li>
 <li>Le Soleil parait beaucoup plus brillant que Deneb parce qu'il est beaucoup
 plus proche.</li>
 </ol>
-</small>
 
 ---
 
@@ -306,16 +325,12 @@ On veut mesurer la distance de l'étoile A
 
 ---
 
-## Méthode des étoiles jumelles, exemple
+### Méthode des étoiles jumelles, exemple
 
 >- Étoile Smurf est jumelle de Spectl
-
 >- Spectl est à une distance de 100 al
-
 >- Smurf parait 16 fois moins intense que Spectl
-
 >- Smurf est donc 4 fois plus loin que Spectl
-
 >- Smurf est à 400 al
 
 ---
@@ -370,14 +385,16 @@ valeurs suivantes est une magnitude apparente possible pour Mesna?
 
 On disperse la lumière d'une étoile pour obtenir son **spectre**
 
-. . .
+::: {.fragment}
 
 OBAFGKMLT
 
-. . .
+:::
 
+::: {.fragment}
 Oh Be A Fine Girl/Guy Kiss Me Like This
 
+:::
 :::
 ::: {.column width="50%"}
 
@@ -428,15 +445,19 @@ Deux étoiles avec le même spectre et la même taille ont la même luminosité
 ## Type spectral
 
 <figure>
+  <a href="https://astro.unl.edu/naap/hr/hr_background1.html">
   <img src="../../images/naap_labs_spectral_classification.png"
     alt="Spectres stellaires"
     style="max-width: 400px;
            max-height: 600px;"
->
+  />
+  </a>
+
 <figcaption style="font-size: 0.4em; color: #666;">
   Astronomy Education at the University of Nebraska-Lincoln Web Site
   ([http://astro.unl.edu](http://astro.unl.edu))
 </figcaption>
+
 
 ---
 

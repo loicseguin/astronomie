@@ -29,16 +29,29 @@
       vertical-align: middle;
     }
   </style>
-  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^4//dist/theme/black.css" id="theme">
+  <link rel="stylesheet" href="https://unpkg.com/reveal.js@^4//dist/theme/night.css" id="theme">
+  <style>
+  body {
+      --r-main-color: #ccc;
+      --r-main-font-size: 32px;
+      --r-heading-color: #ccc;
+  }
+  .reveal .slides {
+      text-align: left;
+  }
+  #title-slide .title {
+    font-size: 2.5em;
+  }
+  </style>
 </head>
 <body>
   <div class="reveal">
     <div class="slides">
 
-<section id="title-slide">
+<section id="title-slide" data-background-image="../../images/52565304936_fc8852f1e9_k.jpg" data-background-opacity="0.6" data-background-size="contain">
   <h1 class="title">Distances au-delà du système solaire</h1>
   <p class="author">CEA Explorer et comprendre l’Univers</p>
-  <p class="date">9 novembre 2020</p>
+  <p class="date">4 avril 2024</p>
 </section>
 
 <section id="section" class="slide level1"
@@ -71,12 +84,13 @@ déterminer des distances :</p>
 
 <h3 id="radar">Radar</h3>
 <figure>
+<a href="https://astro.unl.edu/naap/distance/radar.html">
 <img src="../../images/naap_labs_radar.png"
     alt="Méthode de la parallaxe"
     style="
         max-height: 500px;
         max-width: 1000px;
-    ">
+    "> </a>
 </figure>
 <figcaption style="font-size: 0.4em; color: #666;">
 Astronomy Education at the University of Nebraska-Lincoln Web Site (<a
@@ -222,9 +236,9 @@ ESA/ATG medialab
 <section id="section-2" class="slide level1"
 data-background-image="../../images/potw2014a.jpg">
 <h1 data-background-image="../../images/potw2014a.jpg"></h1>
-<h1 style="background-color: rgba(100, 100, 100, 0.4); padding: 20px;">
+<h2 style="background-color: rgba(100, 100, 100, 0.4); padding: 20px;">
 Parallaxe spectroscopique
-</h1>
+</h2>
 <br><br><br><br>
 <figcaption style="font-size: 0.4em; color: #aaa;">
 ESA/Hubble &amp; NASA, J. Greene
@@ -276,9 +290,10 @@ distance</h2>
 <p>On observe une ampoule de 100 W. Un capteur permet de déterminer que
 l’intensité de la lumière qui provient de l’ampoule est de
 0,08 W/m<sup>2</sup>. À quelle distance est l’ampoule?</p>
-<p>. . .</p>
+<div class="fragment">
 <p><span class="math display">\[d = \sqrt{\frac{L}{4\pi I}} =
 10\,\mathrm{m}\]</span></p>
+</div>
 </section>
 <section class="slide level1">
 
@@ -290,15 +305,19 @@ l’intensité de la lumière qui provient de l’ampoule est de
 
 <p>La galaxie M87 a une magnitude absolue d’environ -22. On voit donc
 cette galaxie briller très clairement dans le ciel nocturne.</p>
-<p>Vrai ou faux?</p>
-<p>https://b.socrative.com/login/student/</p>
-<p>DCRDEWY</p>
+<ol style="list-style-type: upper-alpha">
+<li>
+Vrai
+</li>
+<li>
+Faux
+</li>
+</ol>
 </section>
 <section class="slide level1">
 
 <p>Deneb a une magnitude apparente d’environ 1.25. Le Soleil a une
 magnitude apparente d’environ -26. Sélectionnez les énoncés vrais.</p>
-<small>
 <ol style="list-style-type: upper-alpha">
 <li>
 Si on les mettait côte-à-côte, Deneb paraîtrait moins brillante que le
@@ -316,7 +335,6 @@ Le Soleil parait beaucoup plus brillant que Deneb parce qu’il est
 beaucoup plus proche.
 </li>
 </ol>
-<p></small></p>
 </section>
 <section class="slide level1">
 
@@ -332,21 +350,13 @@ la distance de A</li>
 </section>
 <section class="slide level1">
 
-<h2 id="méthode-des-étoiles-jumelles-exemple">Méthode des étoiles
-jumelles, exemple</h2>
+<h3 id="méthode-des-étoiles-jumelles-exemple">Méthode des étoiles
+jumelles, exemple</h3>
 <ul>
 <li class="fragment">Étoile Smurf est jumelle de Spectl</li>
-</ul>
-<ul>
 <li class="fragment">Spectl est à une distance de 100 al</li>
-</ul>
-<ul>
 <li class="fragment">Smurf parait 16 fois moins intense que Spectl</li>
-</ul>
-<ul>
 <li class="fragment">Smurf est donc 4 fois plus loin que Spectl</li>
-</ul>
-<ul>
 <li class="fragment">Smurf est à 400 al</li>
 </ul>
 </section>
@@ -420,10 +430,12 @@ la luminosité d’une étoile?</h3>
 <div class="column" style="width:50%;">
 <p>On disperse la lumière d’une étoile pour obtenir son
 <strong>spectre</strong></p>
-<p>. . .</p>
+<div class="fragment">
 <p>OBAFGKMLT</p>
-<p>. . .</p>
+</div>
+<div class="fragment">
 <p>Oh Be A Fine Girl/Guy Kiss Me Like This</p>
+</div>
 </div><div class="column" style="width:50%;">
 <figure>
 <img src="../../images/NIE_spectre.jpg"
@@ -463,11 +475,12 @@ luminosité</p>
 
 <h2 id="type-spectral-1">Type spectral</h2>
 <figure>
+<p><a href="https://astro.unl.edu/naap/hr/hr_background1.html">
 <img src="../../images/naap_labs_spectral_classification.png"
     alt="Spectres stellaires"
     style="max-width: 400px;
            max-height: 600px;"
->
+  /> </a></p>
 <figcaption style="font-size: 0.4em; color: #666;">
 Astronomy Education at the University of Nebraska-Lincoln Web Site (<a
 href="http://astro.unl.edu">http://astro.unl.edu</a>)
@@ -720,7 +733,7 @@ Soleil
         previewLinks: false,
 
         // Transition style (none/fade/slide/convex/concave/zoom)
-        transition: 'linear',
+        transition: 'slide',
 
         // Transition speed (default/fast/slow)
         transitionSpeed: 'default',
