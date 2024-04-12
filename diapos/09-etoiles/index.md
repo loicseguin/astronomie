@@ -1,9 +1,27 @@
 % Les Étoiles
 % CEA Explorer et comprendre l'Univers
-% 19 novembre 2020
+% 18 avril 2024
 ---
 theme: night
-transition: fade
+title-slide-attributes:
+    data-background-image: ../../images/52565304936_fc8852f1e9_k.jpg
+    data-background-size: contain
+    data-background-opacity: 0.6
+header-includes: |
+    <style>
+    body {
+        --r-main-color: #ccc;
+        --r-main-font-size: 32px;
+        --r-heading-color: #ccc;
+    }
+    .reveal .slides {
+        text-align: left;
+    }
+    #title-slide .title {
+      font-size: 2.5em;
+    }
+    </style>
+
 ---
 
 <figure>
@@ -112,9 +130,11 @@ href="https://commons.wikimedia.org/wiki/File%3AGodfreyKneller-IsaacNewton-1689.
 </a>
 </figure>
 
-. . .
+:::{.fragment}
 
 4000 ans, selon la Bible
+
+:::
 
 ---
 
@@ -137,13 +157,13 @@ href="https://commons.wikimedia.org/wiki/File%3AGodfreyKneller-IsaacNewton-1689.
     ">
 </figure>
 
-. . .
-
+:::{.fragment}
 Soleil en charbon : 5000 ans
 
-. . .
-
+:::
+:::{.fragment}
 Contraction gravitationnelle : 100 millions d'années
+:::
 
 ---
 
@@ -160,11 +180,12 @@ Contraction gravitationnelle : 100 millions d'années
     ">
 </figure>
 
-. . .
-
+:::{.fragment}
 - E = mc<sup>2</sup>
 - 4 Mt chaque seconde (4 $\times$ 10<sup>6</sup> t)
 - Le Soleil pourrait briller environ 10 Ga
+
+:::
 
 ---
 
@@ -183,7 +204,7 @@ Structure interne des étoiles
 
 ### Composition
 
-- Sphère de gaz
+- Sphère de gaz ionisé (**plasma**)
 - Surtout hydrogène et hélium
 - Jusqu'à des millions de fois plus massive que la Terre
 
@@ -225,7 +246,7 @@ Structure interne des étoiles
 
 ### Fusion nucléaire
 
-4 H $\rightarrow$ He + énergie
+4 H $\rightarrow$ He + énergie + ...
 
 6,17 $\times$ 10<sup>14</sup> J / kg
 
@@ -490,7 +511,7 @@ M                                      0,4
 
 ### Vieillesse
 
-- Phase **sous-géante** (100 Ma)
+- **Branche-horizontale** (100 Ma)
     - Fusion de l'hélium dans le cœur
     - Fusion de l'hydrogène en périphérie
     - Accumulation de carbone dans le cœur

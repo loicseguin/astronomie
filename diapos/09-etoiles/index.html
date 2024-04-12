@@ -30,15 +30,28 @@
     }
   </style>
   <link rel="stylesheet" href="https://unpkg.com/reveal.js@^4//dist/theme/night.css" id="theme">
+  <style>
+  body {
+      --r-main-color: #ccc;
+      --r-main-font-size: 32px;
+      --r-heading-color: #ccc;
+  }
+  .reveal .slides {
+      text-align: left;
+  }
+  #title-slide .title {
+    font-size: 2.5em;
+  }
+  </style>
 </head>
 <body>
   <div class="reveal">
     <div class="slides">
 
-<section id="title-slide">
+<section id="title-slide" data-background-image="../../images/52565304936_fc8852f1e9_k.jpg" data-background-opacity="0.6" data-background-size="contain">
   <h1 class="title">Les Étoiles</h1>
   <p class="author">CEA Explorer et comprendre l’Univers</p>
-  <p class="date">19 novembre 2020</p>
+  <p class="date">18 avril 2024</p>
 </section>
 
 <section class="slide level1">
@@ -141,8 +154,9 @@ href="https://commons.wikimedia.org/wiki/File%3AGodfreyKneller-IsaacNewton-1689.
         max-width: 1000px;
     "> </a>
 </figure>
-<p>. . .</p>
+<div class="fragment">
 <p>4000 ans, selon la Bible</p>
+</div>
 </section>
 <section class="slide level1">
 
@@ -161,10 +175,12 @@ href="https://commons.wikimedia.org/wiki/File%3AGodfreyKneller-IsaacNewton-1689.
         max-width: 1000px;
     ">
 </figure>
-<p>. . .</p>
+<div class="fragment">
 <p>Soleil en charbon : 5000 ans</p>
-<p>. . .</p>
+</div>
+<div class="fragment">
 <p>Contraction gravitationnelle : 100 millions d’années</p>
+</div>
 </section>
 <section class="slide level1">
 
@@ -178,13 +194,14 @@ href="https://commons.wikimedia.org/wiki/File%3AGodfreyKneller-IsaacNewton-1689.
         max-width: 1000px;
     ">
 </figure>
-<p>. . .</p>
+<div class="fragment">
 <ul>
 <li>E = mc<sup>2</sup></li>
 <li>4 Mt chaque seconde (4 <span class="math inline">\(\times\)</span>
 10<sup>6</sup> t)</li>
 <li>Le Soleil pourrait briller environ 10 Ga</li>
 </ul>
+</div>
 </section>
 <section id="section-1" class="slide level1"
 data-background-image="../../images/STSCI-H-p2016a-m-2000x1374.jpg">
@@ -202,7 +219,7 @@ NASA, ESA, STScI
 
 <h3 id="composition">Composition</h3>
 <ul>
-<li>Sphère de gaz</li>
+<li>Sphère de gaz ionisé (<strong>plasma</strong>)</li>
 <li>Surtout hydrogène et hélium</li>
 <li>Jusqu’à des millions de fois plus massive que la Terre</li>
 </ul>
@@ -244,7 +261,8 @@ BY-SA 3.0</a>
 <section class="slide level1">
 
 <h3 id="fusion-nucléaire">Fusion nucléaire</h3>
-<p>4 H <span class="math inline">\(\rightarrow\)</span> He + énergie</p>
+<p>4 H <span class="math inline">\(\rightarrow\)</span> He + énergie +
+…</p>
 <p>6,17 <span class="math inline">\(\times\)</span> 10<sup>14</sup> J /
 kg</p>
 </section>
@@ -556,7 +574,7 @@ BY-SA 4.0</a>)
 
 <h3 id="vieillesse-1">Vieillesse</h3>
 <ul>
-<li>Phase <strong>sous-géante</strong> (100 Ma)
+<li><strong>Branche-horizontale</strong> (100 Ma)
 <ul>
 <li>Fusion de l’hélium dans le cœur</li>
 <li>Fusion de l’hydrogène en périphérie</li>
@@ -799,7 +817,7 @@ the University of Nebraska-Lincoln</a>)
         previewLinks: false,
 
         // Transition style (none/fade/slide/convex/concave/zoom)
-        transition: 'fade',
+        transition: 'slide',
 
         // Transition speed (default/fast/slow)
         transitionSpeed: 'default',

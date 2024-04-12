@@ -297,26 +297,35 @@ calme.
 En quelques centaines de millions d'années, l'étoile change dramatiquement.
 L'hélium accumulé dans le noyau ne pouvant pas fusionner, le noyau se contracte
 et se réchauffe sous l'influence de la gravité. Cette augmentation de la
-température accélère la fusion de l'hydrogène en hélium, augmentant encore plus
-la quantité d'hélium dans le noyau. Cette boucle de rétroaction produit
-d'importantes quantités d'énergie et la migration de cette énergie vers la
-surface augmente la taille de l'étoile. La température dans le cœur de l'étoile
-augmente éventuellement assez pour que la fusion de l'hélium en carbone
-commence. L'étoile devient une **géante rouge**.
+température accélère la fusion de l'hydrogène en hélium dans la région
+entourant le noyau. Cet hélium coule vers le noyau augmentant encore plus la
+quantité d'hélium dans le noyau ce qui accélère sa contraction. Cette boucle de
+rétroaction produit d'importantes quantités d'énergie et la migration de cette
+énergie vers la surface augmente la taille de l'étoile et donc sa luminosité.
+Cependant, l'énergie n'arrive pas complètement à atteindre la surface de
+l'étoile qui se refroidit légèrement; l'étoile devient plus rouge.
+Éventuellement, l'expansion de l'étoile et la diminution de température de
+surface qui l'accompagne mènent à la formation d'une zone de convection dans
+l'étoile. La convection accélère le transport d'énergie du centre de l'étoile
+vers la surface et la luminostié augmente drastiquement. L'étoile devient une
+**géante rouge**.
 
-La fusion de l'hélium provoque une accumulation de carbone et d'oxygène dans le
-noyau. La température n'est pas suffisamment élevée pour que le carbone et
-l'oxygène puissent fusionner. Le noyau se contracte donc et sa température
-augmente provoquant une augmentation de la fusion d'hélium. La production
-d'énergie élevée dans le noyau fait augmenter la luminosité de l'étoile et la
-fait gonfler considérablement. L'étoile atteint la **branche asymptotique**
-dans le diagramme HR et devient une **supergéante rouge**. Cette phase est très
-rapide, quelques centaines de millions d'années seulement. L'étoile est
-tellement gonflée que les couches externes sont trop loin du noyau pour être
-retenues fermement par la gravité. La lumière émise pas le noyau pousse
-suffisamment sur les couches externes pour les éjecter de l'étoile. Un nuage de
-gaz et de poussière est projeté dans l'espace et forme ce qu'on appelle une
-**nébuleuse planétaire**.
+La température dans le cœur de l'étoile augmente éventuellement assez pour que
+la fusion de l'hélium en carbone commence. Le **flash de l'hélium** dure
+quelques secondes mais libère une quantité énorme d'énergie. La fusion de
+l'hélium provoque une accumulation de carbone et d'oxygène dans le noyau. La
+température n'est pas suffisamment élevée pour que le carbone et l'oxygène
+puissent fusionner. Le noyau se contracte donc et sa température augmente
+provoquant une augmentation de la fusion d'hélium. La production d'énergie
+élevée dans le noyau fait augmenter la luminosité de l'étoile et la fait
+gonfler considérablement. L'étoile atteint la **branche asymptotique** dans le
+diagramme HR et devient une **supergéante rouge**. Cette phase est très rapide,
+quelques centaines de millions d'années seulement. L'étoile est tellement
+gonflée que les couches externes sont trop loin du noyau pour être retenues
+fermement par la gravité. La lumière émise pas le noyau pousse suffisamment sur
+les couches externes pour les éjecter de l'étoile. Un nuage de gaz et de
+poussière est projeté dans l'espace et forme ce qu'on appelle une **nébuleuse
+planétaire**.
 
 <figure>
   <a href="https://apod.nasa.gov/apod/ap150517.html">
