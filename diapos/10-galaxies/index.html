@@ -30,15 +30,28 @@
     }
   </style>
   <link rel="stylesheet" href="https://unpkg.com/reveal.js@^4//dist/theme/night.css" id="theme">
+  <style>
+  body {
+      --r-main-color: #ccc;
+      --r-main-font-size: 32px;
+      --r-heading-color: #ccc;
+  }
+  .reveal .slides {
+      text-align: left;
+  }
+  #title-slide .title {
+    font-size: 2.5em;
+  }
+  </style>
 </head>
 <body>
   <div class="reveal">
     <div class="slides">
 
-<section id="title-slide">
+<section id="title-slide" data-background-image="../../images/52565304936_fc8852f1e9_k.jpg" data-background-opacity="0.6" data-background-size="contain">
   <h1 class="title">Les galaxies</h1>
   <p class="author">CEA Explorer et comprendre l’Univers</p>
-  <p class="date">26 novembre 2020</p>
+  <p class="date">1 mai 2024</p>
 </section>
 
 <section class="slide level1">
@@ -449,7 +462,7 @@ ESA and the Planck Collaboration
         previewLinks: false,
 
         // Transition style (none/fade/slide/convex/concave/zoom)
-        transition: 'fade',
+        transition: 'slide',
 
         // Transition speed (default/fast/slow)
         transitionSpeed: 'default',

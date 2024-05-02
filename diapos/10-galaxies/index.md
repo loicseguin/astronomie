@@ -1,9 +1,27 @@
 % Les galaxies
 % CEA Explorer et comprendre l'Univers
-% 26 novembre 2020
+% 1 mai 2024
 ---
 theme: night
-transition: fade
+title-slide-attributes:
+    data-background-image: ../../images/52565304936_fc8852f1e9_k.jpg
+    data-background-size: contain
+    data-background-opacity: 0.6
+header-includes: |
+    <style>
+    body {
+        --r-main-color: #ccc;
+        --r-main-font-size: 32px;
+        --r-heading-color: #ccc;
+    }
+    .reveal .slides {
+        text-align: left;
+    }
+    #title-slide .title {
+      font-size: 2.5em;
+    }
+    </style>
+
 ---
 
 <figure>
