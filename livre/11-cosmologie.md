@@ -91,7 +91,6 @@ Planck au début des années 2010. Les observations de Planck montre que le
 rayonnement fossile est présent partout dans l'Univers et qu'il a la même
 température partout. La carte ci-dessous montre que les variations dans la
 température du rayonnement sont de l'ordre de quelques 10 millièmes de degrés.
-Quand on regarde cette image, on voit le Big Bang.
 
 <figure>
   <a href="https://www.cosmos.esa.int/web/planck/picture-gallery">
@@ -110,7 +109,7 @@ Quand on regarde cette image, on voit le Big Bang.
 ## Une brève histoire de l'Univers
 
 Tout a commencé (probablement) par une singularité il y a 13.79 milliards
-d'années : l'Univers était tellement infiniment dense et chaud. La physique
+d'années\ : l'Univers était infiniment dense et chaud. La physique
 actuelle ne peut pas expliquer ce qui se passe dans une singularité. Pour une
 raison encore inconnue, l'Univers a commencé à prendre de l'expansion. Après
 10<sup>-43</sup> secondes, il a atteint une densité telle que la physique
@@ -222,15 +221,8 @@ sera de la chaleur, c'est-à-dire une forme complètement désorganisé d'énerg
 La température sera très proche du zéro absolu. À un certain point, l'Univers
 atteindra son état d'entropie maximal et le temps cessera d'avoir un sens.
 L'Univers sera alors mort à jamais, une mort thermique où tout se termine dans
-le froid et la noirceur.
-
-La mort thermique de l'Univers se déroulera sur une période d'environ
-10<sup>1000</sup> ans. Le vidéo [TIMELAPSE OF THE FUTURE: A Journey to the End
-of Time](https://www.youtube.com/watch?v=uD4izuDMUQA) de l'artiste John D.
-Boswell illustre le scénario de la mort thermique de l'Univers (évidemment, une
-grande liberté artistique est prise dans ce vidéo, il est donc à prendre avec
-un grain de sel). 
-
+le froid et la noirceur. La mort thermique de l'Univers se déroulera sur une
+période d'environ 10<sup>1000</sup> ans.
 
 ### Big Crunch
 
